@@ -3,7 +3,7 @@ require File.expand_path('../lib/biblesearch-api/client_version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Bryce Allison"]
-  gem.email         = ["bryceallison@gmail.com"]
+  gem.email         = ["support@bibles.org"]
   gem.description   = %q{Wrapper for the American Bible Society Bible Search API}
   gem.summary       = %q{Wrapper for the American Bible Society Bible Search API}
   gem.homepage      = "http://bibles.org"
