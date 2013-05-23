@@ -75,7 +75,17 @@ Singular calls (#version, #verse, etc) respond to #value with a mash.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Test against all supported rubies (`rake overtest`)
+3. Test against all supported rubies (`rake overtest` (see below))
 4. Commit your changes (`git commit -am 'Added some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
+
+### Supported Rubies
+
+As of this release, the following MRI versions are verified as supported:
+
+* 1.8.7
+* 1.9.2-p180
+* 1.9.3
+
+In order to test against all of them, an "overtest" rake task is supplied that uses RVM to test against each of the supported versions. You will, however, have to bundle against each of them independently.
