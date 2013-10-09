@@ -1,6 +1,12 @@
 require 'rubygems'
 require 'minitest/autorun'
+require 'minitest/reporters'
 require 'vcr'
+
+# Better reporters
+Minitest::Reporters.use! #for status bar
+# Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new #for understanding
+# Minitest::Reporters.use! Minitest::Reporters::RubyMineReporter.new #for IDE
 
 DUMMY_API_KEY = 'DUMMY_API_KEY'
 BIBLESEARCH_API_KEY = ENV.fetch('BIBLESEARCH_API_KEY', DUMMY_API_KEY)
@@ -19,7 +25,6 @@ VCR.configure do |c|
   else
     # we have an API key, might want to record
     c.default_cassette_options = {:record => :new_episodes}
-    # c.default_cassette_options = {:record => :none, erb: CASSETTE_VARS} #DEBUG_CLEANUP
   end
 
   #EXPUNGE SECRET KEYS

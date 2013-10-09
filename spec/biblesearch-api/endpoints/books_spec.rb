@@ -18,11 +18,11 @@ describe BibleSearch do
     end
 
     it %{accepts an optional testament id} do
-      all_cool = lambda { @biblesearch.books('GNT', 'OT') }
+      all_cool = lambda { @biblesearch.books('GNT', testament_id: 'OT') }
       (all_cool.call rescue $!).wont_be_kind_of ArgumentError
     end
 
-    describe %{when I make a valid request} do
+    describe %{when I make a valid request without chapters} do
       before do
         @books = @biblesearch.books('GNT')
       end
@@ -31,7 +31,7 @@ describe BibleSearch do
         @books.collection.must_be_kind_of(Array)
       end
 
-      it %{contains books} do
+      it %{contains books without chapters} do
         @books.collection.length.must_be :>, 0
         @books.collection.each do |book|
           book.must_respond_to(:version_id)
@@ -44,9 +44,40 @@ describe BibleSearch do
           book.must_respond_to(:osis_end)
           book.must_respond_to(:parent)
           book.must_respond_to(:copyright)
+          book.wont_respond_to(:chapters)
         end
       end
+
     end
+
+    describe %{when I make a valid request including chapters} do
+      before do
+        @books = @biblesearch.books('GNT', include_chapters: true)
+      end
+
+      it %{has a collection} do
+        @books.collection.must_be_kind_of(Array)
+      end
+
+      it %{contains books with chapters} do
+        @books.collection.length.must_be :>, 0
+        @books.collection.each do |book|
+          book.must_respond_to(:version_id)
+          book.must_respond_to(:name)
+          book.must_respond_to(:abbr)
+          book.must_respond_to(:ord)
+          book.must_respond_to(:book_group_id)
+          book.must_respond_to(:testament)
+          book.must_respond_to(:id)
+          book.must_respond_to(:osis_end)
+          book.must_respond_to(:parent)
+          book.must_respond_to(:copyright)
+          book.must_respond_to(:chapters)
+        end
+      end
+
+    end
+
 
     describe %{when I make a bad request} do
       before do

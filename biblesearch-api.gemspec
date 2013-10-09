@@ -23,4 +23,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'minitest', '= 3.3.0'
   gem.add_development_dependency 'rake', '= 0.9.2.2'
   gem.add_development_dependency 'minitest-reporters', '>= 0.5.0'
+  gem.add_development_dependency 'guard-minitest'
 end
