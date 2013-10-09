@@ -18,8 +18,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency "oj"
   gem.add_dependency "hashie"
   gem.add_dependency "httparty"
-  gem.add_development_dependency 'vcr'
-  gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'vcr', '= 2.6.0'
+  gem.add_development_dependency 'webmock' , '>= 1.8.0', '< 1.14'
   gem.add_development_dependency 'minitest', '= 3.3.0'
   gem.add_development_dependency 'rake', '= 0.9.2.2'
+  gem.add_development_dependency 'minitest-reporters', '>= 0.5.0'
 end
