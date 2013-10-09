@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/KJV:John.3/verses.js?end=17&start=16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:09 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '2575'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=Uwl0DupAZR996mHWTS2FELB0k%2F8EHfaJF%2FUj2taEiKWJx5N9tp3K2ptrBv711fcHijQpYFA3BqMHZAgYXx8lKuVvSLo22loIJz5vRXogTg2%2Fce0Amp2ZCQ%2BPHvenI8QOU7VmGtL0YIXTnthIcAth7TMIqw%2BSnqQaYWjBIR1xaxj9b6DW8lel1rpG1s8fx06xhuIAQcQ6SNt1XBtX%2F%2FswaXu04XdgjJvlYPaaQsRMZZhToRYImFZyYw6xtl%2BEFyaoaRdHTqXzep8xaT74X9HEmYlQgNNt3nJuu79ez97G2F2zKTg1rJV%2BsJSKo%2FJke%2BP7y%2BEPnenFTGiBXmrdYwgcfe8%2Bcn96PZ7iS2A8FXmBqg8a7uRzLDsx4ucUvr2Llln8;
+        expires=Sat, 07-Oct-2023 16:05:10 GMT; path=/; domain=.bibles.org
+      - abs_session=imHiK%2FkJ86jTl4lr33K4r6jVOuFtZZN0UQfdmS1aI76xJQaZZyAgZE9vCcFob842z6nVXC5lbQyC6GTkrGUC%2Fuv24z7sLi%2FiFCFOPJ43j5wcKfgFLRNruzgZ3eRtCVjKl%2FBqVsvwNszbGrsH3CNJEYRzc1OeqTIpzYs9ML9Klo%2FR0KkZEG3guj1dITNBXbHq%2BQWC7qUdtrmGZFSKuhBQBjoFoSnU7xVSvlKqcGuUtRDwgDAmcO4Egjq3aagg8E6lF8FEsednmjdGYc%2Bpar1%2Bg2aVIoQqnbdOeQwuYS0e%2BLI%3D;
+        expires=Sat, 07-Oct-2023 16:05:09 GMT; path=/; domain=.bibles.org
+      - abs_uid=62f1fc30d730fa109c2956f5311e641189e6ba1e; expires=Sat, 07-Oct-2023
+        16:05:10 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"verses":[{"auditid":"0","verse":"16","lastverse":"16","id":"KJV:John.3.16","osis_end":"KJV:John.3.16","label":"","reference":"John
+        3:16","text":"<span class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span>","parent":{"chapter":{"path":"\/chapters\/KJV:John.3","name":"John
+        3","id":"KJV:John.3"}},"next":{"verse":{"path":"\/verses\/KJV:John.3.17","name":"John
+        3:17","id":"KJV:John.3.17"}},"previous":{"verse":{"path":"\/verses\/KJV:John.3.15","name":"John
+        3:15","id":"KJV:John.3.15"}},"copyright":"King James Version 1611 (Authorized
+        Version). Copyright status: UK English with BFBS additions \u00a9 2011 British
+        and Foreign Bible Society; Crown Copyright in UK"},{"auditid":"0","verse":"17","lastverse":"17","id":"KJV:John.3.17","osis_end":"KJV:John.3.17","label":"","reference":"John
+        3:17","text":"<span class=\"para\"><span class=\"v43_3_17\"> <sup class=\"v43_3_17\">17<\/sup>
+        For God sent not his Son into the world to condemn the world; but that the
+        world through him might be saved.<\/span><\/span>","parent":{"chapter":{"path":"\/chapters\/KJV:John.3","name":"John
+        3","id":"KJV:John.3"}},"next":{"verse":{"path":"\/verses\/KJV:John.3.18","name":"John
+        3:18","id":"KJV:John.3.18"}},"previous":{"verse":{"path":"\/verses\/KJV:John.3.16","name":"John
+        3:16","id":"KJV:John.3.16"}},"copyright":"King James Version 1611 (Authorized
+        Version). Copyright status: UK English with BFBS additions \u00a9 2011 British
+        and Foreign Bible Society; Crown Copyright in UK"}],"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557eb5f13318.40268068'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb5f13318.40268068\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557eb5f13318.40268068","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557eb5f13318.40268068'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb5f13318.40268068\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:10 GMT
+recorded_with: VCR 2.6.0

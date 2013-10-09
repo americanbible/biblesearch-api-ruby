@@ -4,7 +4,7 @@ require 'biblesearch-api'
 describe BibleSearch do
   before do
     VCR.insert_cassette %{#{File.basename(__FILE__, '.rb')}-#{__name__}}
-    @biblesearch = BibleSearch.new('DUMMY_API_KEY')
+    @biblesearch = BibleSearch.new(BIBLESEARCH_API_KEY)
   end
 
   after do
@@ -13,8 +13,8 @@ describe BibleSearch do
 
   describe %{the Books endpoint} do
     it %{has real fums for all valid requests} do
-      @biblesearch.books('GNT').fums.wont_be_nil
-      @biblesearch.book('GNT:2Tim').fums.wont_be_nil
+      @biblesearch.books('eng-GNTD').fums.wont_be_nil
+      @biblesearch.book('eng-GNTD:2Tim').fums.wont_be_nil
     end
 
     it %{has nil fums for bad requests} do

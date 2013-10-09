@@ -12,9 +12,10 @@ lib/bundler/man
 pkg
 rdoc
 spec/reports
-spec/cassettes
+#spec/cassettes
 test/tmp
 test/version_tmp
 tmp
 *~
 *.swp
+.idea

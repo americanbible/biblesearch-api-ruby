@@ -1,0 +1,191 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/search.js?query=john%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:06 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=5bpEL5mqp%2FZAOKjpHLHDQf3b7CwS0%2F04enfUUlzc7xY2yIl9mbsJouc0%2BBOM8Zhw1hsSW%2FWGH7NPgYY6fXPb2X4V7FObG%2F9Txpx7qaxcS5Y0ywFw4oaDUbYVMTOPuyxQRd%2FI6NSwAOJtv3rJnKfs5tBn7VCl7QXPFx3ATcpeVwYpMG4eFpOSfK4U1%2BtaILbN158DrMzCT2Z6XJo9IgF064MXEHOGg3H0bGZq4wvy8M7ASBAa9NLbkarZAhPtZ6NojaGkBXQLOXz2mV%2ByucZn%2FxVuxCJYHqesweKH7CUiu4U%3D;
+        expires=Sat, 07-Oct-2023 16:04:57 GMT; path=/; domain=.bibles.org
+      - abs_session=6akD7pJQ4V%2BG%2BrbgcCNucbNROKZKRWKEKYmwrAhHeFupnH%2BNDDzIxc1R5jAl0nWRPpqfri29PTmaQXQKangxVtsBpieIOJP96xJkeXMSg2v81tC%2B3U%2B3%2F8BCtMG%2BpEpYf3Z0Z0bS%2FZsgv9kkqQhzPETyRY0%2BHMBKUuhkM7wXfTHrQI7zG7JDHF%2FrsHunlo2ke3dpKzAKHnsUiwNyEBtHXkq75BCKcOJU9iYz7W6ZfKCE%2F6GOH8VOInRl2kcyO0OG7aK4yYmDr2iXxrJ9%2BYg3jLluuhZkHnU2N6tr6toQZam2g5Nvz7qj4R%2BiJkwFUC8jWCq4FUQlWqO%2BPsXBRiWa88ekKmBx9kVP7ov9maE%2BtTK9JSv%2F4NY9J3FWtgCrx%2BZaJ7jlQJ%2BRJoEf3jyFxA%2B%2FeWZqU66SlHyfvYcXmjvp6lyQqM1cRXEqMZHOlizc5eA9ao2Pqd7YSOjXC0x83nXAg0uoqwWsDI12jEzPaeUOfxJ%2BQg5lc51lvsdKWxba9SmK;
+        expires=Sat, 07-Oct-2023 16:05:06 GMT; path=/; domain=.bibles.org
+      - abs_session=E32o02THyf1tkDZtW19QfNbyJZx8uMilzBmc7huvmqBxRRl%2BHcUC0aCCH09c2Re5FUzLK%2BlRSK3oMEjT2XPf10UVPEIj248qFK%2BImxcGzqFFV1dsYVPVZx3Gpm%2FfEmICEy9adsoymma7B9rkt7y4OfQkMonYrzfyQUSe2JYZg0wI4a88chQyUK9m%2FpvnB6AVEWZiDx8cMPK5bjZ8BYVjiOuQPkcp%2FrqVB724Fu8SaEoMSh%2BDFyyuiOCLkEgjaphYHDIFxI%2BWlQsXbaaV5l2eBbEIs%2BDIguGPqBuJB6M7G%2B7Dqo1B4x2HLQOjmXnFkCojCmwKxzBUaYFgt74RR6G0SbzuBBOObJhAL3pASUDUDxQCBzJQealTjugdzUBl4PxwRjSZ%2BB3OjtGYhL2H%2BJc07ahDYNv7JLE3Lg03vf2iya4eDC73p7B%2Fa8CAFfxqZI7feWzmzXLriv8sDgSoUWSWT5ep6ANLx3ttm8hB8gzZkcNEG%2B5xjp3xyUb0R%2Bj4HfuuWX0Ib07370nxwgq5EjEaFZg9%2BSfXSCjdVQDrUlBWIHf1Ex2zyczK96IxIVuuB3ddAstFyEMsjT1g8pO70wJlCW7vxO7sUEnF3GpLsVUMuWkUg4ITJEI13jLD7Q6eUPgKcUdPnfsi6VM5x5P%2FlKU2xhMW3KB3irlmLuwrJHC4qnY3oU2IYLUsNSLT90ECnoikdvO0iZ%2BDasczk1YCi33I3zoU9cc5Vp3gjmITFdKpgO8TpeBohUaC6M5ZKpU7u1cd%2F0tb9m0FGqRc1AJNfmze0gcZ90NX3q5gPOFUQfzUJFX0CnN2SQ1GS76P02JtrTOVDHiT8edqPk4T0Hqq%2B9LizUc8WkgerjcTjRnXx0%2BqhpCT248tcLg7IR4%2FKgw5mlIMwK6HNDngjWLBGDMjKGdv%2F1nClhGem8YNIwLoJudgtt4PeTigJ2EfQqfZ3hzN0udd5%2BuqXTh0%2B%2Bhdp1jL3QATeBGcMDGg42HVqUMd1YcqffuXlg20Il1vWuWieC5Wm0Ii559K4s6V7AXi%2FAg1jBzHlw2t3WZup%2F2GH4OdW01%2B8DNvypuZooPi4lbEizQm2nWIUHLJ848OeIRBAdmVU0CZmQ%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:06 GMT; path=/; domain=.bibles.org
+      - abs_session=S%2Fzvuex3MpNZkfP0nYPREwiZXDbvlCLVCVwoFrKuvfMhae1Hcd9EmYDi1IV67lGNr2ohOjcCCuLTrvHpsbkMM%2Bv65tZyUOcdD7oZjYOJjG%2BLRiN%2FiXFpzN0l29jfQUXHBo%2B7yhUCKYTB%2BQiQ4S1oZiowJfcSzjcPxxbA%2FfPs3Hs0lvTmNF9GTW5PQYTiNk4XuQw0WgT0%2B7ejXbHoaMQONhMmv76G6Vzzk1zqPFOalLLfz53tVxSBJQJWGMeVfQTcN%2F5ulU%2Fm13IXGkTuh9r%2FxT6Epvyte%2FxACFnYGjCq8FH0OyxTBiaAnSWYrRIEdqIBE4AbBMLuD0WHUhtZhLrsplS7R701X5%2F8ATNRtb15D0PwArwQ4SAS3Vcy0foTy4vMJnZagXDAoF41oywWHU1Hs2GEJC7fhCH8BZcMmxHMu%2FyIkets%2FaE5PugRSRHNmFa%2F9TBiKze2egwBY4ynGW%2FlwQ%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:06 GMT; path=/; domain=.bibles.org
+      - abs_session=e6e%2BulIx1Wco1Fy525rx0uEoQ4HxKdop3uPkJ2ZIlSC%2B7bXvLNM5JW%2Fd31Z2GJezb91bBza7yX4DvezC1F7HabVTXxRLtcPF0kELtUqhJ21OvDQlwNMr5PPKHTRb9sj%2FnvwYDsUU65pDdvBCjEeJvV2CLcgk5yQNJYFtm9MaVJMg3QPwCcQCpWapiE76rLXBFPoHoHZV7rPMg1LpWRSi4jMz89Gcs%2BPTA0SasvG6pdCTvNVR6mDQzca8qr8cFn4XcOgbNeUqAKhuZYl%2By1qr9IWXkvJzTuREeEngIycPYlEqMqyL%2F9Iu5VDorJ0F5XjvAIV0qOsGRuAm%2BUYgj6o3lO99GmD4wBbhYP7jaPdmp05N9noIejVHc9QkPiqmrDi6nhoWgapYCnnKatOGdhoKEzEr%2BAORe2B5pk45J7NwZPs%3D;
+        expires=Sat, 07-Oct-2023 16:05:06 GMT; path=/; domain=.bibles.org
+      - abs_session=geFElf933ai%2F9qou0X10C0BSdSyDPQC0tNG%2BFPrKd0st1S1npH%2FRsxoO8Iw01WQ%2F47qShy9e10xXCBHgCKxBet%2BRzaCEN6i%2FgtPe0XQWS%2F2Q4VYZgqd9Fas1D5wGN81rwRMMGx0k5qmGeVU0kxPMrnnJR82qY9%2FBtRbffA18%2FR9SpUJW2dAooJta1kMVYrwQ2ADARlHCO6VX4LuurPImWvFcf0iY9VRhARUlS4C6iuwzphTOll85s%2B9XEU1txDPkIzEXA9v4ywCZ1fgoufVWkx6CP7jndesSr7%2FJnxNllmAfmStHAHapbIz61HhUyHe%2B9g7iI3A1aUe0nrpUqiWWzkl04sHDahfc%2Fu1dmUD04FXvEaSkafTC5gJZSYfh3%2Ft6jSkd4Pgi%2BfnMA7yuFLOr8JFPC7ie5o8Tbww79EB0w085ALSuguMH9CZ6wKFFXSnp2OKyvIQNNAXgb6BnsR5zug%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:06 GMT; path=/; domain=.bibles.org
+      - abs_session=gw5CyI%2FI%2FAJrOlYO6b6QOa%2FOBD5UEzYTMFXf41%2B%2BvRtLm3avc06vbqM1tfBJD8BFB20FhF0Ksu9y9M6V%2BJBFEOFAVjcoKBsuSYYQv3YiAkCR9qVwDnUplqKbT5Y%2Bz6euUVPMz3P%2BqUlLTqwwhic%2Fw7VY7lJFCeO7xpZS7nqPJLghGKiawTUDOSnM6r%2B96RrUn2yOz8OGHlZQU%2FHoSboZfCgPaJobyPhrD%2Fblxfqr4pNe%2FLo%2BzPM49rR15z3jkCKA1oIQRZSN1MPgCoQMIzwnv2dTKSD7biFWjKii0PP298Zcidke3VO1GxVnNQ1mIWBT0V0x4rbb7y1MJFZXKqFnaLZ8JzEqxyw9EwiSgXttgVL%2FaNUy54SwWZspOgSXcFFy28gb2GZn8wA7RKZGzuvDJ%2BQyov%2F88sPaoAmUaFgPKmcOVLN2mp%2BDPv98GdxeEe3a8YXxYXqGxht%2B2giCOc6Bd9iPNNgkAMJBeYyN0%2FURi5m0QWtwDJL4iQjs7KPdSJE3Byw9YyKnmY45prL76a93VC1YLOWutupgdLmPlqB2fwM%3D;
+        expires=Sat, 07-Oct-2023 16:05:06 GMT; path=/; domain=.bibles.org
+      - abs_session=v7odTD%2BRQHEtJf85GSrJYHB51i6zXHLtsAMcrr0OZNOV%2B5x7WY29T3Hda81UvKc7ylniHXSvqVNHl%2BW3dqoVuhwcBueCoEfOka%2FjC5NhYuxQ5uaIABM55ZxYh55Etfc3aAvbD6boyUXei1LKNaydHX6SV2pwM%2F4gMcX0cmGjq%2Fko9uVzFCUFFwtwTO92mR5yIZC746R%2BD8ZRHGuM19p5KzyJFXwtWmMM636NTV59QymvavFgbZ5pafTOkIIiDuQ7cuQ1RYpgTMVHADzhOjthhu3hn0VX6CFctMGA5rDAnAo%2F3HNgWYWeagfVTtRZ3pn%2BA5914MxGluyE%2F8V2ANS4MnlE8Zc1tcjVQjWsjucsbZZAP8jEKxcCj8Q7EXDvq%2BVa;
+        expires=Sat, 07-Oct-2023 16:04:57 GMT; path=/; domain=.bibles.org
+      - abs_uid=699e2864fd912a6dc581e6ff3841fe15338ce4f9; expires=Sat, 07-Oct-2023
+        16:04:57 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/ALL/passages.js?q[]=john+3%3A16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:06 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/ALL/passages.js?q%5B0%5D=john%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=5bpEL5mqp%2FZAOKjpHLHDQf3b7CwS0%2F04enfUUlzc7xY2yIl9mbsJouc0%2BBOM8Zhw1hsSW%2FWGH7NPgYY6fXPb2X4V7FObG%2F9Txpx7qaxcS5Y0ywFw4oaDUbYVMTOPuyxQRd%2FI6NSwAOJtv3rJnKfs5tBn7VCl7QXPFx3ATcpeVwYpMG4eFpOSfK4U1%2BtaILbN158DrMzCT2Z6XJo9IgF064MXEHOGg3H0bGZq4wvy8M7ASBAa9NLbkarZAhPtZ6NojaGkBXQLOXz2mV%2ByucZn%2FxVuxCJYHqesweKH7CUiu4U%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:07 GMT
+      Content-Type:
+      - application/javascript
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=JuzabwjhvvenbrISrTSOf4YgCdXKai3MVUaYu2QaOBiAGwD2vOFdKlrSptP4a5ImeXjMNTig4JkS7oTMDpe6o4hobFlgv8pjJD77TgAJ8oLrUDzhVAFe2B1l6l7oUyrSDPiTEXImCMuJDBr%2BsUfb4K11mZoVMTonPNQ0MJJMJB1dvaVee1U19Rh65zyjTorgFGD0VoIXfQkc4RYUhoX2658TZ85VlL7SzgXBwrtMUprixJQts%2Bp5TBKB8qllV30QZuehvi8Php2oWnzbV3th947RDir7dUWNdVDuY98yWOanb5Rx89SqTGdz76aA0UO5n1f1Ch74Hri62iKqqYHcbRXkRD%2BZdm45I8qyN5TojaKPFbZfjAOfx0%2BXlSn9VYlI;
+        expires=Sat, 07-Oct-2023 16:05:07 GMT; path=/; domain=.bibles.org
+      - abs_uid=2f563521086d4ee791fedfbc8e7706e04bb4a6a3; expires=Sat, 07-Oct-2023
+        16:05:07 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"eng-MSG","version_abbreviation":"MSG","path":"\/chapters\/eng-MSG:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-MSG:John.3.16","end_verse_id":"eng-MSG:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16-John.3.18\" class=\"v\">16-18<\/sup>\"This
+        is how much God loved the world: He gave his Son, his one and only Son. And
+        this is why: so that no one need be destroyed; by believing in him, anyone
+        can have a whole and lasting life. God didn''t go to all the trouble of sending
+        his Son merely to point an accusing finger, telling the world how bad it was.
+        He came to help, to put the world right again. Anyone who trusts in him is
+        acquitted; anyone who refuses to trust him has long since been under the death
+        sentence without knowing it. And why? Because of that person''s failure to
+        believe in the one-of-a-kind Son of God when introduced to him.<\/p>","copyright":null},{"display":"John
+        3:16","version":"eng-CEVUK","version_abbreviation":"CEVUK","path":"\/chapters\/eng-CEVUK:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-CEVUK:John.3.16","end_verse_id":"eng-CEVUK:John.3.16","text":"<p
+        class=\"pi\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>God loved the people
+        of this world so much that he gave his only Son, so that everyone who has
+        faith in him will have eternal life and never really die.<\/p>","copyright":"<p>Contemporary
+        English Version. Copyright &#169; 1995 British &amp; Foreign Bible Society.
+        Used by permission.<\/p>"},{"display":"John 3:16","version":"eng-GNTD","version_abbreviation":"GNTD","path":"\/chapters\/eng-GNTD:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-GNTD:John.3.16","end_verse_id":"eng-GNTD:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>For God loved the world
+        so much that he gave his only Son, so that everyone who believes in him may
+        not die but have eternal life.<\/p>","copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"display":"John 3:16","version":"eng-CEV","version_abbreviation":"CEV","path":"\/chapters\/eng-CEV:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-CEV:John.3.16","end_verse_id":"eng-CEV:John.3.16","text":"<p
+        class=\"pi\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>God loved the people
+        of this world so much that he gave his only Son, so that everyone who has
+        faith in him will have eternal life and never really die.<\/p>","copyright":"<p>Contemporary
+        English Version\u00ae \u00a9 1995 American Bible Society.  All rights reserved.<\/p>\n<p>Bible
+        text from the Contemporary English Version (CEV) is not to be reproduced in
+        copies or otherwise by any means except as permitted in writing by American
+        Bible Society, 1865 Broadway, New York, NY 10023 (<a href=\"http:\/\/www.americanbible.org\/\">www.americanbible.org<\/a>).<\/p>"},{"display":"John
+        3:16","version":"eng-GNBDC","version_abbreviation":"GNBDC","path":"\/chapters\/eng-GNBDC:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-GNBDC:John.3.16","end_verse_id":"eng-GNBDC:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup><span class=\"wj\">For
+        God loved the world so much that he gave his only Son, so that everyone who
+        believes in him may not die but have eternal life.<\/span><\/p>","copyright":"<p>Good
+        News Bible with Deuterocanonicals\/Apocrypha. Scripture taken from the Good
+        News Bible (r) (Today''s English Version Second Edition, UK\/British Edition).
+        Copyright \u00a9 1992 British &amp; Foreign Bible Society. Used by permission.<\/p>\n\n<p>Good
+        News Bible. Scripture taken from the Good News Bible (r) (Today''s English
+        Version Second Edition, UK\/British Edition). Copyright \u00a9 1992 British
+        &amp; Foreign Bible Society. Used by permission.<\/p>"},{"display":"John 3:16","version":"eng-NASB","version_abbreviation":"NASB","path":"\/chapters\/eng-NASB:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-NASB:John.3.16","end_verse_id":"eng-NASB:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup><span class=\"wj\">\u201cFor
+        God so loved the world, that He gave His only begotten Son, that whoever believes
+        in Him shall not perish, but have eternal life.<\/span><\/p>","copyright":"\n      New
+        American Standard Bible, Copyright  1960,1962,1963,1968,1971,1972,1973,1975,1977,1995
+        by The Lockman Foundation.  Used by permission.\n    "},{"display":"John 3:16","version":"eng-ESV","version_abbreviation":"ESV","path":"\/chapters\/eng-ESV:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-ESV:John.3.16","end_verse_id":"eng-ESV:John.3.16","text":"<h3
+        class=\"s1\">For God So Loved the World<\/h3>\n<p class=\"p\"><sup id=\"John.3.16\"
+        class=\"v\">16<\/sup><span class=\"wj\">\u201cFor <\/span><span class=\"wj\">God
+        so loved <\/span><span class=\"wj\">the world,<\/span><span class=\"wj\">that
+        he gave his only Son, that whoever believes in him should not <\/span><span
+        class=\"wj\">perish but have eternal life.<\/span><\/p>","copyright":"<p>Scripture
+        quotations marked (ESV) are from The Holy Bible, English Standard Version\u00ae,
+        copyright \u00a9 2001 by Crossway Bibles, a publishing ministry of Good News
+        Publishers. Used by permission. All rights reserved.<\/p>"},{"display":"John
+        3:16","version":"eng-KJVA","version_abbreviation":"KJVA","path":"\/chapters\/eng-KJVA:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-KJVA:John.3.16","end_verse_id":"eng-KJVA:John.3.16","text":"<h3
+        class=\"s1\">God So Loved the World<\/h3>\n<p class=\"p\"><sup id=\"John.3.16\"
+        class=\"v\">16<\/sup>For God so loved the world, that he gave his only begotten
+        Son, that whosoever believeth in him should not perish, but have everlasting
+        life.<\/p>","copyright":"<p>King James Version 1611, spelling, punctuation
+        and text formatting modernized by ABS in 1962; typesetting \u00a9 2010 American
+        Bible Society.<\/p>"},{"display":"John 3:16","version":"eng-AMP","version_abbreviation":"AMP","path":"\/chapters\/eng-AMP:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-AMP:John.3.16","end_verse_id":"eng-AMP:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>For God so greatly
+        loved <span class=\"it\">and<\/span> dearly prized the world that He [even]
+        gave up His only begotten (unique) Son, so that whoever believes in (trusts
+        in, clings to, relies on) Him shall not perish (come to destruction, be lost)
+        but have eternal (everlasting) life.<\/p>","copyright":"\n1954, 1958, 1962,
+        1964, 1965, 1987 by The Lockman Foundation\n      "},{"display":"John 3:16","version":"eng-KJV","version_abbreviation":"KJV","path":"\/chapters\/eng-KJV:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-KJV:John.3.16","end_verse_id":"eng-KJV:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>For God so loved the
+        world, that he gave his only begotten Son, that whosoever believeth in him
+        should not perish, but have everlasting life.<\/p>","copyright":""},{"display":"Ioan
+        3:16","version":"cym-BNET","version_abbreviation":"BNET","path":"\/chapters\/cym-BNET:John.3\/verses.js?start=16&end=16","start_verse_id":"cym-BNET:John.3.16","end_verse_id":"cym-BNET:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>\u201cYdy, mae Duw
+        wedi caru''r byd cymaint nes iddo roi ei unig Fab, er mwyn i bwy bynnag sy''n
+        credu ynddo beidio mynd i ddistryw ond cael bywyd tragwyddol.<\/p>","copyright":"<p>beibl.net
+        - hawlfraint \u00a9 2013 Gobaith i Gymru, copyright \u00a9 2013 Gobaith i
+        Gymru (Hope for Wales)<\/p>"},{"display":"Ioan 3:16","version":"cym-BCN","version_abbreviation":"BCN","path":"\/chapters\/cym-BCN:John.3\/verses.js?start=16&end=16","start_verse_id":"cym-BCN:John.3.16","end_verse_id":"cym-BCN:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>Do, carodd Duw y byd
+        gymaint nes iddo roi ei unig Fab, er mwyn i bob un sy''n credu ynddo ef beidio
+        \u00e2 mynd i ddistryw ond cael bywyd tragwyddol.<\/p>","copyright":"<p>\u00a9
+        Cymdeithas y Beibl<\/p>\n<p>\u00a9 British &amp; Foreign Bible Society<\/p>"},{"display":"Jo\u00e3o
+        3:16","version":"por-NTLH","version_abbreviation":"NTLH","path":"\/chapters\/por-NTLH:John.3\/verses.js?start=16&end=16","start_verse_id":"por-NTLH:John.3.16","end_verse_id":"por-NTLH:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>Porque Deus amou o
+        mundo tanto, que deu o seu \u00fanico Filho, para que todo aquele que nele
+        crer n\u00e3o morra, mas tenha a vida eterna.<\/p>","copyright":"<p>Nova Tradu&#231;&#227;o
+        na Linguagem de Hoje, &#169; 2000 Sociedade B&#237;blica do Brasil. Todos
+        os direitos reservados.<\/p>\n      <p>Idioma: Portugu&#234;s<\/p>\n      <p>Ano:
+        2000<\/p>"},{"display":"S.Juan 3:16","version":"spa-RVR60","version_abbreviation":"RVR60","path":"\/chapters\/spa-RVR60:John.3\/verses.js?start=16&end=16","start_verse_id":"spa-RVR60:John.3.16","end_verse_id":"spa-RVR60:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>Porque de tal manera
+        am\u00f3 Dios al mundo, que ha dado a su Hijo unig\u00e9nito, para que todo
+        aquel que en \u00e9l cree, no se pierda, mas tenga vida eterna.<\/p>","copyright":"<p>El
+        texto b\u00edblico ha sido tomado de la versi\u00f3n Reina-Valera \u00a9 1960
+        Sociedades B\u00edblicas en Am\u00e9rica Latina; \u00a9 renovado 1988 Sociedades
+        B\u00edblicas Unidas.  Utilizado con permiso.<\/p>\n<p>Reina-Valera 1960\u00ae
+        es una marca registrada de American Bible Society, y se puede usar solamente
+        bajo licencia.<\/p>"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557eb30611e6.82285917'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb30611e6.82285917\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557eb30611e6.82285917","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557eb30611e6.82285917'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb30611e6.82285917\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:07 GMT
+recorded_with: VCR 2.6.0

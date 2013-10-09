@@ -1,0 +1,362 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/versions.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:14 GMT
+      Content-Type:
+      - application/javascript
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=Y6Kv95lKVp8JylfsmK3C3q9Zd7k9hdiaJCLcJ2LJP8x9hQ98RD6EZ0A%2FZf3e0Q%2BRjtKFDiSkrIs88z%2FtmD12gbzZ%2F8o8Ll5uplDgZA0bMw6XUfhoe42PJ59v5haJDGyn5CvYa%2FCO7BrCTxBHs72%2Fw3xfvpUuCAOJM2UMZppOZb%2BZ1pz7Bw5FJrxt6ow%2BVMQX2kCCdEt50DUV4%2B4DSUEHHL%2FCt77j5YHgSyOSxE52NSYDJLHcscIhcymIhjmMgbgcrM0yPtZH1SUxLCqsy%2Flp561McpCQG1R9YERH9UQj3v9Gdk21HSNf6fWxTO9Fq6BOCYRSZ9K6MM7n0PqnpJo2hgxcTmThzd3TDpGjFO14ndHdWw84WG5ecfdYqb%2FfyjD6;
+        expires=Sat, 07-Oct-2023 16:05:14 GMT; path=/; domain=.bibles.org
+      - abs_session=c5PZWnYbfh5oDGPoX8mi9VVREAnHGuoz9Hty%2FYrgU3gvK87y1JKMEn8T7XSCfX3b93Wx24QBLi7q7VarXXPXZ9Ux%2B8YfaCLVw5MzVyglgyXvPLMhZKPVY1ixc3KnHm5SARDPZePdt7p0718ZwHkRAoNdT22DNGweKsXKirF%2BlavoPNfuWSa%2F0BsQrkYtV16ybvuPSkHZgC98uMdfFvuCB0gyGiu1lf%2BCuXc4%2FeHtTWt1zbe9glCVdyqUvKo3vtasyWc8wt%2BA4f0VnwCI6cBW%2FaByxtu8O5tYEYr4V539AvI%3D;
+        expires=Sat, 07-Oct-2023 16:05:14 GMT; path=/; domain=.bibles.org
+      - abs_uid=6128bbff7c03e4829e020b5beac0a2a1ac2489ae; expires=Sat, 07-Oct-2023
+        16:05:14 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"versions":[{"id":"cym-BCN","name":"Beibl Cymraeg Newydd","lang":"cym","lang_code":"ISO
+        639-3","contact_url":"http:\/\/www.biblesociety.org.uk\/","audio":"NONE","copyright":"<p>\u00a9
+        Cymdeithas y Beibl<\/p>\n<p>\u00a9 British &amp; Foreign Bible Society<\/p>","info":"<h1>Beibl
+        Cymraeg Newydd<\/h1>\n<p>Y Beibl Cymraeg Newydd (Diwygiedig) yw''r cyfieithiad
+        safonol o''r Beibl ar gyfer siaradwyr Cymraeg a dysgwyr yn yr unfed ganrif
+        ar hugain. Y mae''r holl enwadau Cymraeg wedi cefnogi''r cyfieithiad cyfoes
+        hwn a dyma''r cyfieithiad a ddefnyddir mewn cynulleidfaoedd ac ysgolion ar
+        draws Cymru. Defnyddiwyd testun y BCN (Diwygiedig) ar Y Llais, sef fersiwn
+        y Testament Newydd ar lafar a gyhoeddwyd yn 2005.<\/p>\n<p>Cafodd y BCN (Diwygiedig)
+        ei gyhoeddi gyntaf yn 2004 a cheir nifer sylweddol o ddiwygiadau ar destun
+        y BCN a gyhoeddwyd yn 1988. Y mae''n olynydd teilwng i Feibl William Morgan
+        (1588) cyfrol sydd yn ei thro''n cael ei ystyried fel y llyfr mwyaf dylanwadol
+        a gyhoeddwyd yn y Gymraeg. Y mae''r BCN ( Diwygiedig) yn cadw cywirdeb ac
+        urddas Beibl William Morgan wrth egluro''i ystyr i genhedlaeth newydd o ddarllenwyr
+        Cymraeg.<\/p>\n\n<h1>Revised New Welsh Bible<\/h1>\n<p>This translation, published
+        by the British &amp; Foreign Bible Society, was published in 1988.<\/p>\n<p>If
+        you are interested in obtaining a printed copy, please contact the British
+        &amp; Foreign Bible Society at <a href=\"http:\/\/www.biblesociety.org.uk\/\">www.biblesociety.org.uk.<\/a><\/p>","lang_name":"Cymraeg","lang_name_eng":"Welsh","abbreviation":"BCN","updated_at":"2013-04-30T22:30:06-05:00"},{"id":"cym-BNET","name":"beibl.net","lang":"cym","lang_code":"ISO
+        639-3","contact_url":"www.gobaith.org","audio":"NONE","copyright":"<p>beibl.net
+        - hawlfraint \u00a9 2013 Gobaith i Gymru, copyright \u00a9 2013 Gobaith i
+        Gymru (Hope for Wales)<\/p>","info":"<h1>beibl.net<\/h1>\n<p>Cyfieithiad poblogaidd
+        o\u2019r Beibl mewn Cymraeg llafar syml. Mae beibl.net yn gyfieithiad cwbl
+        wreiddiol.  Dydy o ddim yn ddiwygiad o unrhyw fersiwn arall Cymraeg, nac yn
+        seiliedig ar unrhyw fersiwn Saesneg. Dechreuodd y gwaith fel ymdrech i fynegi
+        neges y Testament Newydd mewn iaith lafar syml, ond yn fuan iawn roedd galw
+        am fersiwn tebyg o lyfrau\u2019r Hen Destament. Mae dau gr\u0175p o ddarllenwyr
+        yn bennaf mewn golwg - pobl ifanc (yn arbennig y rhai hynny heb gefndir capel
+        neu eglwys) a dysgwyr y Gymraeg.<\/p>\n<p>Cafodd y Testament Newydd ei gyhoeddi
+        gyntaf ar www.beibl.net yn 2002, a lansiwyd y Beibl cyfan ar y Wefan ar Fawrth
+        1af, 2013.<\/p>\n<h1>beibl.net<\/h1>\n<p>This is a popular translation of
+        the Bible in simple colloquial Welsh. It\u2019s a completely original translation.
+        It''s not an adaptation of any other Welsh version, neither is it based on
+        any English version. The work began as an attempt to express the message of
+        the New Testament in simple spoken Welsh, but very soon there was a call for
+        a similar version of the Old Testament. There were two target groups of readers
+        in mind \u2013 young people (especially those without a church background)
+        and people that have learnt Welsh as a second language.<p>\n<p>The New Testament
+        was first published on www.beibl.net in 2002, and the entire Bible was launched
+        on the website on March 1st, 2013.<\/p>\n\n<h3>Copyright<\/h3>\n<p>beibl.net
+        - hawlfraint \u00a9 2013 Gobaith i Gymru.<\/p>\n<p>Gellir cael gwybodaeth
+        ynghylch caniat\u00e2d i ddefnyddio\u2019r  testun yn: <a href=\"http:\/\/www.biblesociety.org.uk\/copyright-and-permissions\/\">www.biblesociety.org.uk\/copyright-and-permissions\/<\/a>.<\/p>\n<p>beibl.net
+        - copyright \u00a9 2013 Gobaith i Gymru (Hope for Wales).<\/p>\n<p>Information
+        regarding permission for use of the text can be found at: <a href=\"http:\/\/www.biblesociety.org.uk\/copyright-and-permissions\/\">www.biblesociety.org.uk\/copyright-and-permissions\/<\/a>.<\/p>","lang_name":"Cymraeg","lang_name_eng":"Welsh","abbreviation":"BNET","updated_at":"2013-05-24T18:09:31-05:00"},{"id":"eng-AMP","name":"Amplified
+        Bible","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.lockman.org","audio":"NONE","copyright":"\n1954,
+        1958, 1962, 1964, 1965, 1987 by The Lockman Foundation\n      ","info":"\n        <h3>About
+        this Title<\/h3> <p>The Amplified Bible was the first Bible project of The
+        Lockman Foundation. It attempts to take both word meaning and context into
+        account in order to accurately translate the original text from one language
+        into another. The Amplified Bible does this through the use of explanatory
+        alternate readings and amplifications to assist the reader in understanding
+        what Scripture really says. Multiple English word equivalents to each key
+        Hebrew and Greek word clarify and amplify meanings that may otherwise have
+        been concealed by the traditional translation method.<\/p> <h3>Copyright Information<\/h3>
+        <p>All rights reserved. For Permission To Quote information visit <a href=\"http:\/\/www.lockman.org\/\"
+        target=\"_blank\">www.lockman.org<\/a>.<\/p> <p>The \"Amplified\" trademark
+        is registered in the United States Patent and Trademark Office by The Lockman
+        Foundation. Use of this trademark requires the permission of The Lockman Foundation.<\/p>     ","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"AMP","updated_at":"2013-05-22T10:39:36-05:00"},{"id":"eng-CEV","name":"Contemporary
+        English Version (US Version)","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.americanbible.org\/","audio":"NONE","copyright":"<p>Contemporary
+        English Version\u00ae \u00a9 1995 American Bible Society.  All rights reserved.<\/p>\n<p>Bible
+        text from the Contemporary English Version (CEV) is not to be reproduced in
+        copies or otherwise by any means except as permitted in writing by American
+        Bible Society, 1865 Broadway, New York, NY 10023 (<a href=\"http:\/\/www.americanbible.org\/\">www.americanbible.org<\/a>).<\/p>","info":"<h1>Contemporary
+        English Version (US Version)<\/h1>\n<p>Uncompromising simplicity marked the
+        American Bible Society''s translation of the Contemporary English Version
+        that was first published in 1995. The text is easily read by grade schoolers,
+        second language readers, and those who prefer the more contemporized form.
+        The CEV is not a paraphrase; it is an accurate and faithful translation of
+        the original manuscripts.<\/p>\n<p>After almost 200 years of ongoing ministry,
+        American Bible Society invites people to experience the life-changing message
+        of the Bible. Offering an increasing range of innovative ministries to address
+        core life questions and struggles, the Bible Society partners with Christian
+        churches and national Bible societies to share God\u2019s Word both in the
+        United States and around the globe.<\/p>\n<p>For more information, visit <a
+        href=\"http:\/\/www.americanbible.org\/\">www.americanbible.org<\/a>.<\/p>
+        \n<p>To purchase a copy of this translation, visit <a href=\"http:\/\/www.bibles.com\/\">www.bibles.com<\/a>.<\/p>","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"CEV","updated_at":""},{"id":"eng-CEVUK","name":"Contemporary
+        English Version (Anglicised Version)","lang":"eng-GB","lang_code":"ISO 639-3","contact_url":"http:\/\/www.biblesociety.org.uk\/","audio":"NONE","copyright":"<p>Contemporary
+        English Version. Copyright &#169; 1995 British &amp; Foreign Bible Society.
+        Used by permission.<\/p>","info":"<h1>Contemporary English Version (Anglicised
+        Version)<\/h1>\n<p>This translation, published by the British &amp; Foreign
+        Bible Society, was first published in 1995.<\/p>\n<p>If you are interested
+        in obtaining a printed copy, please contact the British &amp; Foreign Bible
+        Society at <a href=\" http:\/\/shop.biblesociety.org.uk\/\"> http:\/\/shop.biblesociety.org.uk<\/a>.<\/p>.","lang_name":"English
+        (British)","lang_name_eng":"English","abbreviation":"CEVUK","updated_at":"2013-04-16T16:41:27-05:00"},{"id":"eng-ESV","name":"English
+        Standard Version","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.crossway.org","audio":"NONE","copyright":"<p>Scripture
+        quotations marked (ESV) are from The Holy Bible, English Standard Version\u00ae,
+        copyright \u00a9 2001 by Crossway Bibles, a publishing ministry of Good News
+        Publishers. Used by permission. All rights reserved.<\/p>","info":"<h1>English
+        Standard Version<\/h1>\n<h3>Version Information<\/h3>\n<p>Published in 2001,
+        the English Standard Version stands firmly in the King James tradition and
+        is based directly on the 1971 Revised Standard Version (RSV).<\/p>","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"ESV","updated_at":"2013-07-13T09:40:39-05:00"},{"id":"eng-GNBDC","name":"Good
+        News Bible (Interconfessional Edition with Deuterocanonical books\/Apocrypha)","lang":"eng-GB","lang_code":"ISO
+        639-3","contact_url":"http:\/\/www.biblesociety.org.uk\/","audio":"NONE","copyright":"<p>Good
+        News Bible with Deuterocanonicals\/Apocrypha. Scripture taken from the Good
+        News Bible (r) (Today''s English Version Second Edition, UK\/British Edition).
+        Copyright \u00a9 1992 British &amp; Foreign Bible Society. Used by permission.<\/p>\n\n<p>Good
+        News Bible. Scripture taken from the Good News Bible (r) (Today''s English
+        Version Second Edition, UK\/British Edition). Copyright \u00a9 1992 British
+        &amp; Foreign Bible Society. Used by permission.<\/p>","info":"<h1>Good News
+        Bible (Anglicised Version)<\/h1>\n<p>This translation, published by the British
+        &amp; Foreign Bible Society, was first published in 1992.<\/p>\n<p>If you
+        are interested in obtaining a printed copy, please contact the British &amp;
+        Foreign Bible Society at <a href=\" http:\/\/shop.biblesociety.org.uk\/\">
+        http:\/\/shop.biblesociety.org.uk<\/a>.<\/p>","lang_name":"English (British)","lang_name_eng":"English","abbreviation":"GNBDC","updated_at":"2013-04-16T16:53:07-05:00"},{"id":"eng-GNTD","name":"Good
+        News Translation (US Version)","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.americanbible.org\/","audio":"NT","copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>","info":"<p>Good News Translation
+        with Deuterocanonicals\/Apocrypha. Scripture taken from the Good News Translation
+        (r) (Today''s English Version, Second Edition). Copyright (c) 1992 American
+        Bible Society. Used by permission.<\/p>","lang_name":"English (US)","lang_name_eng":"English","abbreviation":"GNTD","updated_at":"2013-08-06T12:38:47-05:00"},{"id":"eng-KJV","name":"King
+        James Version","lang":"eng-GB","lang_code":"ISO 639-3","contact_url":"http:\/\/www.biblesociety.org.uk\/","audio":"NONE","copyright":"","info":"","lang_name":"English
+        (British)","lang_name_eng":"English","abbreviation":"KJV","updated_at":"2013-05-29T02:28:58-05:00"},{"id":"eng-KJVA","name":"King
+        James Version with Deuterocanon, American Edition","lang":"eng-US","lang_code":"ISO
+        639-3","contact_url":"http:\/\/www.americanbible.org\/","audio":"NONE","copyright":"<p>King
+        James Version 1611, spelling, punctuation and text formatting modernized by
+        ABS in 1962; typesetting \u00a9 2010 American Bible Society.<\/p>","info":"<h1>King
+        James Version (ABS typesetting)<\/h1>\n<p>King James Version 1611, spelling,
+        punctuation and text formatting modernized by ABS in 1962; typesetting \u00a9
+        2010 American Bible Society.<\/p>\n<p>If you are interested in obtaining a
+        printed copy, please visit the American Bible Society at <a href=\"http:\/\/www.bibles.com\/\">www.bibles.com<\/a>.<\/p>","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"KJVA","updated_at":"2013-04-16T16:37:05-05:00"},{"id":"eng-MSG","name":"The
+        Message","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.messagebible.com\/","audio":"NONE","copyright":null,"info":"\n      <p>Why
+        was <em>The Message<\/em> written? The best answer to that question comes
+        from Eugene Peterson himself: \"While I was teaching a class on Galatians,
+        I began to realize that the adults in my class weren''t feeling the vitality
+        and directness that I sensed as I read and studied the New Testament in its
+        original Greek. Writing straight from the original text, I began to attempt
+        to bring into English the rhythms and idioms of the original language. I knew
+        that the early readers of the New Testament were captured and engaged by these
+        writings and I wanted my congregation to be impacted in the same way. I hoped
+        to bring the New Testament to life for two different types of people: those
+        who hadn''t read the Bible because it seemed too distant and irrelevant and
+        those who had read the Bible so much that it had become ''old hat.''\" <\/p>\n\n      <p>Peterson''s
+        parishioners simply weren''t connecting with the real meaning of the words
+        and the relevance of the New Testament for their own lives. So he began to
+        bring into English the rhythms and idioms of the original ancient Greek&#151;writing
+        straight out of the Greek text without looking at other English translations.
+        As he shared his version of Galatians with them, they quit stirring their
+        coffee and started catching Paul''s passion and excitement as he wrote to
+        a group of Christians whom he was guiding in the ways of Jesus Christ. For
+        more than two years, Peterson devoted all his efforts to <em>The Message New
+        Testament<\/em>. His primary goal was to capture the tone of the text and
+        the original conversational feel of the Greek, in contemporary English.<\/p>\n\n      <p>Language
+        changes. New words are formed. Old words take on new meaning. There is a need
+        in every generation to keep the language of the gospel message current, fresh,
+        and understandable&#151;the way it was for its very first readers. That is
+        what <em>The Message<\/em> seeks to accomplish for contemporary readers. It
+        is a version for our time&#151;designed to be read by contemporary people
+        in the same way as the original <em> koine<\/em> Greek and Hebrew manuscripts
+        were savored by people thousands of years ago. <\/p>\n\n      <p>That''s why
+        NavPress felt the time was right for a new version. When we hear something
+        over and over again in the same way, we can become so familiar with it that
+        the text loses its impact. The Message strives to help readers hear the living
+        Word of God&#151;the Bible&#151;in a way that engages and intrigues us right
+        where we are. <br><br>\n\n      <p>Some people like to read the Bible in Elizabethan
+        English. Others want to read a version that gives a close word-for-word correspondence
+        between the original languages and English. Eugene Peterson recognized that
+        the original sentence structure is very different from that of contemporary
+        English. He decided to strive for the spirit of the original manuscripts&#151;to
+        express the rhythm of the voices, the flavor of the idiomatic expressions,
+        the subtle connotations of meaning that are often lost in English translations.<\/p>\n\n      <p>The
+        goal of <em>The Message<\/em> is to engage people in the reading process and
+        help them understand what they read. This is not a study Bible, but rather
+        \"a reading Bible.\" The verse numbers, which are not in the original documents,
+        have been left out of the print version to facilitate easy and enjoyable reading.
+        The original books of the Bible were not written in formal language. <em>The
+        Message<\/em> tries to recapture the Word in the words we use today. <\/p>\n    ","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"MSG","updated_at":"2013-05-30T02:49:44-05:00"},{"id":"eng-NASB","name":"New
+        American Standard Bible","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.lockman.org","audio":"NONE","copyright":"\n      New
+        American Standard Bible, Copyright  1960,1962,1963,1968,1971,1972,1973,1975,1977,1995
+        by The Lockman Foundation.  Used by permission.\n    ","info":"\n      <h1>New
+        American Standard Bible&#xAE;<\/h1>\n      <h2>SCRIPTURE PROMISE<\/h2>\n      <p><\/p>\n      <p>\n        <em>\"The
+        grass withers, the flower fades,<\/em>\n      <\/p>\n      <p>\n        <em>but
+        the word of our God stands forever.\"<\/em>\n      <\/p>\n      <p>ISAIAH
+        40:8<\/p>\n      <p><\/p>\n      <p>The New American Standard Bible&#xAE;
+        has been produced with the conviction that the words of Scripture as originally
+        penned in the Hebrew, Aramaic, and Greek were inspired by God.  Since they
+        are the eternal Word of God, the Holy Scriptures speak with fresh power to
+        each generation, to give wisdom that leads to salvation, that men may serve
+        Christ to the glory of God.<\/p>\n      <p>The purpose of the Editorial Board
+        in making this translation was to adhere as closely as possible to the original
+        languages of the Holy Scriptures, and to make the translation in a fluent
+        and readable style according to current English usage.<\/p>\n      <p><\/p>\n      <p><\/p>\n      <h2>THE
+        FOURFOLD AIM OF THE LOCKMAN FOUNDATION<\/h2>\n      <p><\/p>\n      <p>1.
+        These publications shall be true to the original Hebrew, Aramaic, and Greek.<\/p>\n      <p>2.
+        They shall be grammatically correct.<\/p>\n      <p>3. They shall be understandable.<\/p>\n      <p>4.
+        They shall give the Lord Jesus Christ His proper place, the place which the
+        Word gives Him; therefore, no work will ever be personalized.<\/p>\n\n      <h2>Copyright
+        Information<\/h2>\n      <h3>New American Standard Bible&#xAE;<\/h3>\n      <p>Copyright
+        &#xA9; 1960,1962,1963,1968,1971,1972,1973,1975,1977,1995 by<\/p>\n      <p>THE
+        LOCKMAN FOUNDATION<\/p>\n      <p>A Corporation Not for Profit<\/p>\n      <p>LA
+        HABRA, CA<\/p>\n      <p>All Rights Reserved<\/p>\n      <p>http:\/\/www.lockman.org<\/p>\n      <p><\/p>\n      <p>The
+        \"NASB,\" \"NAS,\" \"New American Standard Bible,\" and \"New American Standard\"
+        trademarks are registered in the United States Patent and Trademark Office
+        by The Lockman Foundation.  Use of these trademarks requires the permission
+        of The Lockman Foundation.<\/p>\n      <p><\/p>\n      <h2>PERMISSION TO QUOTE<\/h2>\n      <p>The
+        text of the New American Standard Bible&#xAE; may be quoted and\/or reprinted
+        up to and inclusive of five hundred (500) verses without express written permission
+        of The Lockman Foundation, providing the verses do not amount to a complete
+        book of the Bible nor do the verses quoted account for more than 25% of the
+        total work in which they are quoted.<\/p>\n      <p><\/p>\n      <p>Notice
+        of copyright must appear on the title or copyright page of the work as follows:<\/p>\n      <p><\/p>\n      <p>\"Scripture
+        taken from the NEW AMERICAN STANDARD BIBLE&#xAE;, Copyright &#xA9; 1960,1962,1963,1968,1971,1972,1973,1975,1977,1995
+        by The Lockman Foundation.  Used by permission.\"<\/p>\n      <p><\/p>\n      <p>When
+        quotations from the NASB&#xAE; text are used in not-for-sale media, such as
+        church bulletins, orders of service, posters, transparencies or similar media,
+        the abbreviation (NASB) may be used at the end of the quotation.<\/p>\n      <p><\/p>\n      <p>This
+        permission to quote is limited to material which is wholly manufactured in
+        compliance with the provisions of the copyright laws of the United States
+        of America.  The Lockman Foundation may terminate this permission at any time.<\/p>\n      <p><\/p>\n      <p>Quotations
+        and\/or reprints in excess of the above limitations, or other permission requests,
+        must be directed to and approved in writing by The Lockman Foundation, PO
+        Box 2279, La Habra, CA 90632-2279 (714)879-3055.<\/p>\n      <p>http:\/\/www.lockman.org<\/p>\n    ","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"NASB","updated_at":"2013-08-14T09:20:41-05:00"},{"id":"por-NTLH","name":"Nova
+        Tradu\u00e7\u00e3o na Linguagem de Hoje","lang":"por","lang_code":"ISO 639-3","contact_url":"http:\/\/www.sbb.org.br\/","audio":"NONE","copyright":"<p>Nova
+        Tradu&#231;&#227;o na Linguagem de Hoje, &#169; 2000 Sociedade B&#237;blica
+        do Brasil. Todos os direitos reservados.<\/p>\n      <p>Idioma: Portugu&#234;s<\/p>\n      <p>Ano:
+        2000<\/p>","info":"<p>Nova Tradu&#231;&#227;o na Linguagem de Hoje (NTLH):
+        Esta tradu&#231;&#227;o, preparada pela Sociedade B&#237;blica do Brasil (2000),
+        segue os princ&#237;pios da tradu&#231;&#227;o de equival&#234;ncia din&#226;mica,
+        sendo fiel aos textos originais (em hebraico, aramaico e grego). O sentido
+        do texto &#233; dado em palavras e formas do portugu&#234;s falado no Brasil.
+        Foi feito todo o esfor&#231;o para que a linguagem fosse simples, clara, natural
+        e sem ambiguidades. A Nova Tradu&#231;&#227;o na Linguagem de Hoje (NTLH)
+        foi lan&#231;ada em 2000, e a SBB continuou a acolher as sugest&#245;es que
+        lhe foram encaminhadas. Em 2005, quando foi publicada a B&#237;blia de Estudo
+        NTLH, o texto b&#237;blico sofreu pequenas altera&#231;&#245;es e ajustes
+        em poucos vers&#237;culos. Agora, novas mudan&#231;as foram feitas no texto
+        b&#237;blico, incorporando as altera&#231;&#245;es previstas na reforma ortogr&#225;fica
+        da L&#237;ngua Portuguesa.<\/p>\n      <p>Nova Tradu&#231;&#227;o na Linguagem
+        de Hoje (NTLH) (Nueva Traducci&#243;n en el Lenguaje de Hoy): Esta traducci&#243;n,
+        preparada por la Sociedad B&#237;blica de Brasil (2000), sigue los principios
+        de la traducci&#243;n de equivalencia din&#225;mica, siendo fiel a los textos
+        originales (en hebreo, arameo y griego). El significado del texto se da a
+        conocer a trav&#233;s de formas y palabras del portugu&#233;s hablado en Brasil.
+        Se ha hecho todo lo posible para que el lenguaje fuera sencillo, claro, natural
+        y sin doble sentido.<\/p>\n      <p>Nova Tradu&#231;&#227;o na Linguagem de
+        Hoje (NTLH) (New Translation in Today&#8217;s Language): This translation,
+        prepared by the Bible Society of Brazil (2000), follows the dynamic equivalence&#8217;s
+        principles of translation, nonetheless being faithful to the original text
+        (written in Hebrew, Aramaic and Greek). The meaning of the text is given in
+        words and forms of the Brazilian spoken Portuguese. Every effort was taken
+        to make sure that the language would be simple, clear, natural and exempt
+        of ambiguities.<\/p>","lang_name":"Portugu\u00eas","lang_name_eng":"Portuguese","abbreviation":"NTLH","updated_at":"2013-04-25T13:10:11-05:00"},{"id":"spa-RVR60","name":"Biblia
+        Reina Valera 1960","lang":"spa","lang_code":"ISO 639-3","contact_url":"http:\/\/www.americanbible.org\/","audio":"NONE","copyright":"<p>El
+        texto b\u00edblico ha sido tomado de la versi\u00f3n Reina-Valera \u00a9 1960
+        Sociedades B\u00edblicas en Am\u00e9rica Latina; \u00a9 renovado 1988 Sociedades
+        B\u00edblicas Unidas.  Utilizado con permiso.<\/p>\n<p>Reina-Valera 1960\u00ae
+        es una marca registrada de American Bible Society, y se puede usar solamente
+        bajo licencia.<\/p>","info":"<h1>Biblia Reina Valera 1960<\/h1>\n<p>La revisi\u00f3n
+        Reina-Valera ha sido el texto m\u00e1s utilizado por la iglesia evang\u00e9lica
+        hispanoamericana durante varias gereraciones. Su lenguaje forma parte del
+        habla de los cristianos eveng\u00e9licos, quienes han memorizado frases, vers\u00edculos
+        y pasajes enteros, en los que siempre encuentran consuelo e inspiraci\u00f3n
+        divina.<\/p>\n<p>En 1960 la American Bible Society public\u00f3 esta revisi\u00f3n
+        de la Biblia, luego de un arduo trabajo por parte de un excelente equipo de
+        estudiosos, que adecu\u00f3 el antiguo texto a la ortograf\u00eda de la \u00e9poca,
+        mejor\u00f3 su construcci\u00f3n gramatical y le a\u00f1adi\u00f3 claridad
+        a palabras y pasajes.<\/p>\n<p>The Reina-Valera 1960 has been the basic text
+        most used by the evangelical Spanish-speaking church. It is the most beloved
+        translation of Spanish-speaking Christians because it retains the traditional
+        style of the Spanish language.<\/p>\n<p>After almost 200 years of ongoing
+        ministry, American Bible Society invites people to experience the life-changing
+        message of the Bible. Offering an increasing range of innovative ministries
+        to address core life questions and struggles, the Bible Society partners with
+        Christian churches and national Bible societies to share God\u2019s Word both
+        in the United States and around the globe.<\/p>\n<p>For more information,
+        visit <a href=\"http:\/\/www.americanbible.org\/\">www.americanbible.org<\/a><\/p>\n<p>To
+        purchase a copy of this translation, visit <a href=\"http:\/\/www.bibles.com\/\">www.bibles.com<\/a><\/p>","lang_name":"Espa\u00f1ol","lang_name_eng":"Spanish","abbreviation":"RVR60","updated_at":"2013-04-24T17:30:10-05:00"}],"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557eba8c0479.10755561'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eba8c0479.10755561\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557eba8c0479.10755561","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557eba8c0479.10755561'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eba8c0479.10755561\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:14 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/versions.js?language=klingon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:14 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '947'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=PHu0F30D67ROMWpF%2FjKKsZsv2wLnYCHWQqU253xMmoUZrehWjNW8O6AhtHsiVExNYUXfFwmwdz77EpttvoZvfdzu0CSqlfMLgz6jk9%2FUk620wee1OhIIUNnnXio1ecuvog7Y3Ivs2D%2BfWgNuyxIj%2BLXGyTHu%2F09B8bJqOyfIT9JrRxmD7%2BTLT4HyQfZ5Sarh8ClcPJwdSwrfNOdain7Axl8X4HftgG78B8gzhjl40WGkVO%2BQfxR35ywgHilHblBAVnxvXVXYclbkqoyK6HUUa3O%2FPEehSruO19deR%2BHRGwmwOIfLItqLAjuzVO0e%2BCowpZymTuEpF1fCAs5wYQVemhYUxUMpEdfjOQnlO3mlII4Y3%2FDY6%2BT%2B%2FbPja6xNgg6r;
+        expires=Sat, 07-Oct-2023 16:05:14 GMT; path=/; domain=.bibles.org
+      - abs_session=ad5jKulIfwtpm%2FN8%2BLsQl4HcEHiE4cySXFLXXxfvgp5dGQrDFQmg8pyR5pvPxIryttBzfR28USNE7TksBpcs9UBXz44PWSz%2B5%2BwzQwjD4eL%2FAmwgCTbO8RExX9tQY4W9OobFsIvcUKSsmcdtItApnBDCSNjUBUa%2Be2WSb49LrSKSHUxGsHpLjCKIzIFDCLiS45ov%2BxGmTmlEc%2Bp0FhEugZ3VYr1pmuSQHltjPBUUbcT2icVlgmrMGHIxn4aNCmR8Qy%2BzxDEMTGTNdXIKyzdyLfd69Wajaxxs8ET6KX5qKFk%3D;
+        expires=Sat, 07-Oct-2023 16:05:14 GMT; path=/; domain=.bibles.org
+      - abs_uid=caff1fe28c9e3d9e3b59c803c9715db7fe240b52; expires=Sat, 07-Oct-2023
+        16:05:14 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"versions":[],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557ebac93c60.25856966'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ebac93c60.25856966\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557ebac93c60.25856966","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557ebac93c60.25856966'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ebac93c60.25856966\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:15 GMT
+recorded_with: VCR 2.6.0

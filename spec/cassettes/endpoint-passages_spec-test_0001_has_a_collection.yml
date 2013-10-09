@@ -1,0 +1,541 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=John%203:16&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:04:31 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=5xb%2FB3rkLuJhvWfokSvI43jQLJJhWv%2FHH6CsvOtx4z8%2BV0ltDEXrlMI3%2FP7NeutaMWKCNQ7VbMz1gqABnKWBLZnUi%2Bbth5FZrWCrIueIvJSewpNJpEKd%2FrJrefOZ4%2BL%2BKWiWa5902pD5OezORSVeY836qVu6Oc%2F7g7rfGRSKCUbaQtwTrglWkSR4hZu4ciCC6wKQXNaFLk%2ByAqAdTMRx6wxf%2FajdGscOmJsfSSpKt%2BTL5fRDZ6aEBahuR1oXKlNeHdkNL3HNPuUj3S3I1Py1vzY%2BxXrSgsQP6Yys%2FnuaUOA%3D;
+        expires=Sat, 07-Oct-2023 16:04:31 GMT; path=/; domain=.bibles.org
+      - abs_session=I0AaAMIyOhzu5CINuMjf%2FpkUcbXVALiqB8PXdtagVIMapC%2BHjNsE4ozEWHFIlWn8HhFHU21Ot2C5MLPac7jeq81%2F0mONBq4XOIeYBb7e9HcccK89RdE1N5EFvYR%2FT2FpncvxmL5%2BpKwc9fs19D1bmkz%2BfPhsQEwgzpf%2FTz83gH2HEg%2Fwo2XRHRtZOys2JQkVgM%2FsD%2BF2ZGm2ahEKqII%2FWjEgYEZH98lhqDH7TvIWP3tQSFfF37KYdtbR3ZFw5JaJLEHEEGW3g19I1I4m5XCHNQn8QXLUinBlBvkUD84CTvkVVfr6N1YCX6a33msvTNPjsggCNLEtAKexieDQiyecJufijRKu6Jc7iLzxLlh6GHNsofOKujVnysS4jDxBcsVD;
+        expires=Sat, 07-Oct-2023 16:04:31 GMT; path=/; domain=.bibles.org
+      - abs_uid=7aaa4a19d11dca65b5bb54ae1ab3ca4301ff2bf4; expires=Sat, 07-Oct-2023
+        16:04:31 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:04:31 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?q%5B0%5D=John%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=5xb%2FB3rkLuJhvWfokSvI43jQLJJhWv%2FHH6CsvOtx4z8%2BV0ltDEXrlMI3%2FP7NeutaMWKCNQ7VbMz1gqABnKWBLZnUi%2Bbth5FZrWCrIueIvJSewpNJpEKd%2FrJrefOZ4%2BL%2BKWiWa5902pD5OezORSVeY836qVu6Oc%2F7g7rfGRSKCUbaQtwTrglWkSR4hZu4ciCC6wKQXNaFLk%2ByAqAdTMRx6wxf%2FajdGscOmJsfSSpKt%2BTL5fRDZ6aEBahuR1oXKlNeHdkNL3HNPuUj3S3I1Py1vzY%2BxXrSgsQP6Yys%2FnuaUOA%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:04:31 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1604'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=URkw%2FLaftGOODqv6w48FkbFEuAFjJjZOO3xqvag6zLUf7KXPk0iDub0%2BVAGQfgsSiKUzDUwMFoFnMIRsenJ29cku9HkmJ28PfUmhol43N8TL4CRbjW5%2BKKaaHHoiDXph2KXPSLHffYpVgnf6Knz37hjTSklundmIR2zL6loaIaKkxZH00%2B0zt6dXuv7pUydMQoAs%2FvAL9UEDDMGgvg9X4ER06ys0b%2B6l%2FTJzPdHcivnMZjzz4MAbCNSMV%2BeI7hs0NMFTS%2F1ntUvEVTYqy3DTgWdN5uWmccL%2FBhqSf6bi7uQNDJ8eRuxuR1YRigFkCL9Tc4fcybqXm%2BDv%2BcaoRTRr3hbsHGsk2x9997XR5eGLuDoUJxh4%2BAOJniy9lym36Noz;
+        expires=Sat, 07-Oct-2023 16:04:31 GMT; path=/; domain=.bibles.org
+      - abs_uid=d5cbb01694b14b684c34e9abfcbdd5d23f69696e; expires=Sat, 07-Oct-2023
+        16:04:31 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"KJV","version_abbreviation":"KJV","path":"\/chapters\/KJV:John.3\/verses.js?start=16&end=16","start_verse_id":"KJV:John.3.16","end_verse_id":"KJV:John.3.16","text":"<span
+        class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span>","copyright":"King
+        James Version 1611 (Authorized Version). Copyright status: UK English with
+        BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
+        in UK"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557e8fe68444.35395984'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e8fe68444.35395984\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557e8fe68444.35395984","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557e8fe68444.35395984'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e8fe68444.35395984\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:04:32 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:04:32 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=7EglKOpkxP56I2PGueabjGhOx6bJ90KvRu7e6cjeKiNPWY0CVfYx17gyhalVVa5Sgl2ZWfU34mBrREHN%2FUo0OgCQqmMo1uyW0TrfKrNSZl%2FR3hmRy1gTSIyrgAVxKtq3RnOAF1vGXGVqdke9yasnTDuMfoUea%2F%2FaAwfss5%2B9XPWEc1nfbSpncKnpkgj9Lxdgi%2FTyo6Vsxm9GILIBKpn0Swq1vMI0NXIP%2FGlvzT%2BQc2IcbdKI2kILdu9mThcHx4Ko1eexGUXWTCkmfeWOkHY%2Bmx9PmUQ2US9RuHuQcBhJIyc%3D;
+        expires=Sat, 07-Oct-2023 16:04:32 GMT; path=/; domain=.bibles.org
+      - abs_session=nywFD6vrIuM2TVQ7CJQQcjuLEK9cIRcbwIQHR3GB8%2B%2Bvgbmqm5cwpqZsJGpfgLXPhjCXLorpksoaV5VvlhDRh5vr%2FGVOEcfQUpOAjIZtg0sIo0NhIx5PJDLojSo%2BzMAx3T9U87F7orjK6ZMIjzUzL4FuNCdZC7vhXmctQ6gRJzDwHBQ0%2F6ZWIhs1ZBojukapgL4XMxDGzqv6Tv5GDizJT0Qxm4gBJrMctXpb3fYeTu8KQWbQwqn4za1vu7sTWUp2tZBD%2F0jXFxqfOM3cBtKzGtLLAATAvtzmWOBxg6cyWTSRDVuBtAvZ8rlxrbB%2BkxdinRdUR0pc7VpWphCnnMfAg1ztLsAEJ%2BBo41B10PswydpssnDxe4Vroc0lTAFCNpFj;
+        expires=Sat, 07-Oct-2023 16:04:32 GMT; path=/; domain=.bibles.org
+      - abs_uid=ca4b1ac64dad91307dce3ba35547d5363d13aa6b; expires=Sat, 07-Oct-2023
+        16:04:32 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/ALL/passages.js?q[]=
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:04:32 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/ALL/passages.js?q%5B0%5D=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=7EglKOpkxP56I2PGueabjGhOx6bJ90KvRu7e6cjeKiNPWY0CVfYx17gyhalVVa5Sgl2ZWfU34mBrREHN%2FUo0OgCQqmMo1uyW0TrfKrNSZl%2FR3hmRy1gTSIyrgAVxKtq3RnOAF1vGXGVqdke9yasnTDuMfoUea%2F%2FaAwfss5%2B9XPWEc1nfbSpncKnpkgj9Lxdgi%2FTyo6Vsxm9GILIBKpn0Swq1vMI0NXIP%2FGlvzT%2BQc2IcbdKI2kILdu9mThcHx4Ko1eexGUXWTCkmfeWOkHY%2Bmx9PmUQ2US9RuHuQcBhJIyc%3D
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:04:32 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=BsEPQPD52sKV3uKzZXmRc9wXkeRngan1ncZ%2BCGgGRyXMd%2FhLw1VTN0peb3n5LFzjZvK9gKSkwroSHKjVpr92TfJgZWZs6YAmmY7m%2BijJgUjYObXD%2BnZgzkA0rkuIPoi08yNO0X0WEs8EvghQRH90qATa3qmLAp88CwB2%2BZZndeQ%2BuxxDGXO%2Fg%2B8wFHdeQQeLW%2FTiO1WjZFuELqZfUugfKZ1SXRTFtW1VfyY27C9LkEyhKrIcnR0EIMNck%2BvLme7lt2pO89pdfCcSvM2KfpQF7tR4xR7PDbsDrC%2FCkIIlJHabQ3ln29E9k5UyM4xQDibk2YI6pOCbsVtU7aegoZPKzSKiWYKP1gHgxa%2Fv6Di5E7o6WKPzaXnUyTAXJtgu1OtTXEb0xyE%2BtsIXUmiB1rbAVs1kQufqCrjvjApjlbLJspypsjPx7HpQfLqk%2BkWqYU4Nt0NsAS4NfoSOEC3i4mvE5g%3D%3D;
+        expires=Sat, 07-Oct-2023 16:04:32 GMT; path=/; domain=.bibles.org
+      - abs_session=O0Sej5mMFOSvzFoh%2Ftsb9%2BhxbNhMR6TKkuBLq%2F425wzco05jRwV9emJWR67Hr2ruslxleIG7HDrFaI%2FaQApmsO97CfG2wNTF2fqeTWECDMDmw0f5dNRV8230vtRy%2FqquS%2B6dtLsPAzduzzxICnL9mTTxqqmqXW7NaXX0bzbZ%2B%2BARcqzphELKsVCGVRJKTH6WsifRZZ31QK1GuBZMEt8NM36Qz%2FjGs4CMfUnUq%2B1MOmQ93VDUJcmhhgwWqpCW7%2B0KML98ROojAPxsgaX4tXe2qFh0nF%2BM1glv1txjhIsj6T7iTHntBRV8d%2BgXbmdmjVas8CrmKGLafV%2FY%2B5PeavhOI8LKS9yLOotI71y%2FBmYSYIVHT9z%2FB%2BEWc%2Fg7zplcqVVs;
+        expires=Sat, 07-Oct-2023 16:04:32 GMT; path=/; domain=.bibles.org
+      - abs_uid=d7ffe11422c76957d0c4299865dd5de57a2a7daa; expires=Sat, 07-Oct-2023
+        16:04:32 GMT; path=/; domain=.bibles.org
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIiB4bWw6bGFuZz0iZW4i
+        IHhtbG5zOmZiPSJodHRwOi8vb2dwLm1lL25zL2ZiIyI+CjxoZWFkPgogICAg
+        PG1ldGEgY2hhcnNldD0idXRmLTgiLz4KICAgIDxtZXRhIGh0dHAtZXF1aXY9
+        IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0
+        Zi04IiAvPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9Indp
+        ZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiLz4KICAgICAg
+        ICAgICAgICAgIDxtZXRhIHByb3BlcnR5PSJmYjphcHBfaWQiIGNvbnRlbnQ9
+        IjIwMTYxNjIyNjUzNjIwNiIgLz4KICAgICAgICA8bWV0YSBwcm9wZXJ0eT0i
+        ZmI6YWRtaW5faWQiIGNvbnRlbnQ9IjUzMzk1MjQwNywxMDAwMDEwOTMyMDk4
+        MjksMTAwMDAwMTkwOTk5ODM0Ii8+CiAgICAgICAgPHRpdGxlPkJpYmxlIFNl
+        YXJjaDwvdGl0bGU+CiAgICA8bWV0YSBuYW1lPSJyb2JvdHMiIGNvbnRlbnQ9
+        ImluZGV4LGZvbGxvdyIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPG1l
+        dGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwOi8vYmlibGVz
+        Lm9yZy9pbWFnZXMvbWFnZ2xhc3NfaWNvbl9zaGFyZXRodW1ibmFpbC5wbmci
+        IC8+CiAgICAgICAgPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50
+        PSJodHRwOi8vYmlibGVzLm9yZy9pbWFnZXMvb2dfaW1hZ2VfMS5qcGciIC8+
+        CiAgICA8bWV0YSBwcm9wZXJ0eT0ib2c6aW1hZ2UiIGNvbnRlbnQ9Imh0dHA6
+        Ly9iaWJsZXMub3JnL2ltYWdlcy9vZ19pbWFnZV8yLmpwZyIgLz4KICAgIDxt
+        ZXRhIHByb3BlcnR5PSJvZzppbWFnZSIgY29udGVudD0iaHR0cDovL2JpYmxl
+        cy5vcmcvaW1hZ2VzL29nX2ltYWdlXzMuanBnIiAvPgogICAgPG1ldGEgcHJv
+        cGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwOi8vYmlibGVzLm9yZy9p
+        bWFnZXMvb2dfaW1hZ2VfNC5qcGciIC8+CiAgICA8bWV0YSBwcm9wZXJ0eT0i
+        b2c6aW1hZ2UiIGNvbnRlbnQ9Imh0dHA6Ly9iaWJsZXMub3JnL2ltYWdlcy9v
+        Z19pbWFnZV81LmpwZyIgLz4KICAgIDxtZXRhIHByb3BlcnR5PSJvZzppbWFn
+        ZSIgY29udGVudD0iaHR0cDovL2JpYmxlcy5vcmcvaW1hZ2VzL29nX2ltYWdl
+        XzYuanBnIiAvPgogICAgPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250
+        ZW50PSJodHRwOi8vYmlibGVzLm9yZy9pbWFnZXMvb2dfaW1hZ2VfNy5qcGci
+        IC8+CiAgICA8bGluayByZWw9ImltYWdlX3NyYyIgaHJlZj0iaHR0cDovL2Jp
+        Ymxlcy5vcmcvaW1hZ2VzL21hZ2dsYXNzX2ljb25fc2hhcmV0aHVtYm5haWwu
+        cG5nIiAvPgogICAgICAgICAgICAgIDxtZXRhIG5hbWU9ImRlc2NyaXB0aW9u
+        IiBjb250ZW50PSJTZWFyY2ggYnkga2V5d29yZCBvciB2ZXJzZS4gRW5nYWdl
+        IHRocm91Z2ggdGhlIG5vdGVib29rIGFuZCBlYXNpbHkgY29tcGFyZSBhY3Jv
+        c3MgbXVsdGlwbGUgdHJhbnNsYXRpb25zLiIgLz4KICAgICAgICAgICAgICAg
+        IDxsaW5rIHJlbD0ic2hvcnRjdXQgaWNvbiIgaHJlZj0iL2ltYWdlcy9ic2Vh
+        cmNoX2Zhdi5wbmciCiAgICAgICAgICB0eXBlPSJpbWFnZS9wbmciLz4KICAg
+        ICAgICAgICAgICAgICAgPGxpbmsgaHJlZj0iL2Nzcy9mb250cy5jc3MiIHJl
+        bD0ic3R5bGVzaGVldCIgLz4KICAgIDxsaW5rIGhyZWY9Ii9jc3MvMTE0MC5j
+        c3MiIHJlbD0ic3R5bGVzaGVldCIgLz4KICAgIDxsaW5rIGhyZWY9Ii9jc3Mv
+        dHlwZWltZy5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4KICAgIDxsaW5rIGhy
+        ZWY9Ii9jc3MvbGF5b3V0LmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPgogICAg
+        PGxpbmsgaHJlZj0iL2Nzcy9iYXNlLmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAv
+        PgogICAgICAgICAgICAgICAgICAgICAgICAgIDwhLS1baWYgbHRlIElFIDld
+        PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2Nzcy9pZS5jc3MiIG1l
+        ZGlhPSJzY3JlZW4iIC8+PCFbZW5kaWZdLS0+CiAgICA8IS0tW2lmIGx0ZSBJ
+        RSA3XT48bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii9jc3MvaWU3LmNz
+        cyIgbWVkaWE9InNjcmVlbiIgLz48IVtlbmRpZl0tLT4KICAgIDxsaW5rIHJl
+        bD0ic3R5bGVzaGVldCIgaHJlZj0iL2phdmFzY3JpcHRzL2xpYnJhcmllcy9m
+        YW5jeWJveC9qcXVlcnkuZmFuY3lib3gtMS4zLjQuY3NzIiAvPgogICAgPGxp
+        bmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIvamF2YXNjcmlwdHMvbGlicmFy
+        aWVzL21lZGlhZWxlbWVudC9tZWRpYWVsZW1lbnRwbGF5ZXIubWluLmNzcyIg
+        Lz4KICAgIDxzY3JpcHQgc3JjPSIvaTE4bi1pbmNsdWRlL3Vpc3RyaW5ncy1p
+        MThuLWVuLTEzMTY1Mjg2NTYuanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBz
+        cmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJpZXMvbW9kZXJuaXpyLTEuNy5taW4u
+        anMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9s
+        aWJyYXJpZXMvdW5kZXJzY29yZS1taW4uanMiPjwvc2NyaXB0PgogICAgPHNj
+        cmlwdCBzcmM9Ii8vYWpheC5nb29nbGVhcGlzLmNvbS9hamF4L2xpYnMvanF1
+        ZXJ5LzEuNS4yL2pxdWVyeS5taW4uanMiPjwvc2NyaXB0PgogICAgPHNjcmlw
+        dCBzcmM9Ii9qYXZhc2NyaXB0cy9BQlMuY29tbW9uLmpzIj48L3NjcmlwdD4K
+        ICAgICAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmluZSBzZXBhcmF0b3IgLS0g
+        PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL3BhZ2VkYXRhLmpzP3Q9MTM4
+        MTMzNDY3MyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmlu
+        ZSBzZXBhcmF0b3IgLS0gPC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2ph
+        dmFzY3JpcHRzL2xpYnJhcmllcy9qc29uMi5qcyI+PC9zY3JpcHQ+CiAgICA8
+        c2NyaXB0IHNyYz0iLy9kMnVlNDlxMG11bTg2eC5jbG91ZGZyb250Lm5ldC9p
+        bmNsdWRlL3NhLmMuanMiPjwvc2NyaXB0PiA8IS0tIEFCUyBzY3JpcHR1cmUg
+        YW5hbHl0aWNzIC0tPgogICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9s
+        aWJyYXJpZXMvanF1ZXJ5LXVpLTEuOC4yMC5lZGl0ZWQuY3VzdG9tLm1pbi5q
+        cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRzL2xp
+        YnJhcmllcy9iYWNrYm9uZS1taW4uanMiPjwvc2NyaXB0PgogICAgPHNjcmlw
+        dCBzcmM9Ii9qYXZhc2NyaXB0cy9idWlsZC9zaXRlZGF0YS5qcyI+PC9zY3Jp
+        cHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRzL0FCUy5Nb2RlbC5q
+        cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRzL0FC
+        Uy5Db2xsZWN0aW9uLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIv
+        amF2YXNjcmlwdHMvQUJTLlZpZXcuanMiPjwvc2NyaXB0PgogICAgPHNjcmlw
+        dCBzcmM9Ii9qYXZhc2NyaXB0cy9BQlMuUm91dGVyLmpzIj48L3NjcmlwdD4K
+        ICAgIDxzY3JpcHQgc3JjPSIvamF2YXNjcmlwdHMvQUJTLmJpYmxlc2VhcmNo
+        LmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIvamF2YXNjcmlwdHMv
+        QUJTLnZlcnNlU2VsZWN0b3IuanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBz
+        cmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJpZXMvanF1ZXJ5LmhpbnQuanMiPjwv
+        c2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJp
+        ZXMvanF1ZXJ5LnNjcm9sbFRvLTEuNC40LW1pbi5qcyI+PC9zY3JpcHQ+CiAg
+        ICAgICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJpZXMvanF1
+        ZXJ5LmZvcm0uanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZh
+        c2NyaXB0cy9saWJyYXJpZXMvZmFuY3lib3gvanF1ZXJ5LmZhbmN5Ym94LTEu
+        My40LnBhY2suanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZh
+        c2NyaXB0cy9saWJyYXJpZXMvZmFuY3lib3gvanF1ZXJ5LmVhc2luZy0xLjMu
+        cGFjay5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3Jp
+        cHRzL2xpYnJhcmllcy9tZWRpYWVsZW1lbnQvbWVkaWFlbGVtZW50LWFuZC1w
+        bGF5ZXIubWluLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIvamF2
+        YXNjcmlwdHMvbGlicmFyaWVzL3NwaW4ubWluLmpzIj48L3NjcmlwdD4KICAg
+        IDxzY3JpcHQgc3JjPSIvamF2YXNjcmlwdHMvbGlicmFyaWVzL2pxdWVyeS5z
+        cGluLmpzIj48L3NjcmlwdD4KICAgICAgICAgICAgCjwhLS0gdGhpcmQtcGFy
+        dHkgYXN5bmMgc2NyaXB0cyAtLT4KCjwhLS0gR29vZ2xlIEFuYWx5dGljcyBU
+        cmFja2luZyBDb2RlIC0tPgo8c2NyaXB0PgogIHZhciBfZ2FxID0gX2dhcSB8
+        fCBbXTsKICBfZ2FxLnB1c2goWydfc2V0QWNjb3VudCcsICdVQS0yMzQyMTQw
+        LTM0J10pOwogIF9nYXEucHVzaChbJ19zZXRBbGxvd0xpbmtlcicsIHRydWVd
+        KTsKICBfZ2FxLnB1c2goWydfc2V0QWxsb3dIYXNoJywgZmFsc2VdKTsKICBf
+        Z2FxLnB1c2goWydfdHJhY2tQYWdldmlldyddKTsKICBfZ2FxLnB1c2goWydf
+        dHJhY2tQYWdlTG9hZFRpbWUnXSk7CgogIF9nYXEucHVzaChbJ3QyLl9zZXRB
+        Y2NvdW50JywgJ1VBLTIzNDIxNDAtMTQnXSk7CiAgX2dhcS5wdXNoKFsndDIu
+        X3NldERvbWFpbk5hbWUnLCAnbm9uZSddKTsKICBfZ2FxLnB1c2goWyd0Mi5f
+        c2V0QWxsb3dMaW5rZXInLCB0cnVlXSk7CiAgX2dhcS5wdXNoKFsndDIuX3Nl
+        dEFsbG93SGFzaCcsIGZhbHNlXSk7CiAgX2dhcS5wdXNoKFsndDIuX3RyYWNr
+        UGFnZXZpZXcnXSk7CiAgX2dhcS5wdXNoKFsndDIuX3RyYWNrUGFnZUxvYWRU
+        aW1lJ10pOwoKICBfZ2FxLnB1c2goWyd0My5fc2V0QWNjb3VudCcsICdVQS0y
+        MzQyMTQwLTE3J10pOwogIF9nYXEucHVzaChbJ3QzLl9zZXREb21haW5OYW1l
+        JywgJ25vbmUnXSk7CiAgX2dhcS5wdXNoKFsndDMuX3NldEFsbG93TGlua2Vy
+        JywgdHJ1ZV0pOwogIF9nYXEucHVzaChbJ3QzLl9zZXRBbGxvd0hhc2gnLCBm
+        YWxzZV0pOwogIF9nYXEucHVzaChbJ3QzLl90cmFja1BhZ2V2aWV3J10pOwog
+        IF9nYXEucHVzaChbJ3QzLl90cmFja1BhZ2VMb2FkVGltZSddKTsKCiAgKGZ1
+        bmN0aW9uKCkgewogICAgdmFyIGdhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVu
+        dCgnc2NyaXB0Jyk7IGdhLnR5cGUgPSAndGV4dC9qYXZhc2NyaXB0JzsgZ2Eu
+        YXN5bmMgPSB0cnVlOwogICAgZ2Euc3JjID0gKCdodHRwczonID09IGRvY3Vt
+        ZW50LmxvY2F0aW9uLnByb3RvY29sID8gJ2h0dHBzOi8vc3NsJyA6ICdodHRw
+        Oi8vd3d3JykgKyAnLmdvb2dsZS1hbmFseXRpY3MuY29tL2dhLmpzJzsKICAg
+        IHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3Njcmlw
+        dCcpWzBdOyBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGdhLCBzKTsKICB9
+        KSgpOwo8L3NjcmlwdD4KCjwhLS0gR29vZ2xlIEFuYWx5dGljcyBTb2NpYWwg
+        QnV0dG9uIFRyYWNraW5nIC0tPgo8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRz
+        L2xpYnJhcmllcy9nYV9zb2NpYWxfdHJhY2tpbmcuanMiPjwvc2NyaXB0PgoK
+        CjwhLS1TVkcgU3VwcG9ydC0tPgo8c2NyaXB0PgppZighTW9kZXJuaXpyLnN2
+        ZykgewogICAgJCgnaW1nW3NyYyo9InN2ZyJdJykuYXR0cignc3JjJywgZnVu
+        Y3Rpb24oKSB7CiAgICAgICAgcmV0dXJuICQodGhpcykuYXR0cignc3JjJyku
+        cmVwbGFjZSgnLnN2ZycsICcucG5nJyk7CiAgICB9KTsKfQo8L3NjcmlwdD4K
+        CjxsaW5rIGhyZWY9Imh0dHA6Ly9hc3NldDAuemVuZGVzay5jb20vZXh0ZXJu
+        YWwvemVuYm94L3YyLjEvemVuYm94LmNzcyIgbWVkaWE9InNjcmVlbiwgcHJv
+        amVjdGlvbiIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyI+Cjxz
+        Y3JpcHQ+Ci8vIGxvYWQgemVuYm94IGFzeW5jaHJvbm91c2x5IHdpdGggalF1
+        ZXJ5LCB0aGVuIGF0dGFjaCB0aGUgaW5pdCB0byBET00gcmVhZHkgaW4gY2Fz
+        ZSB6ZW5ib3ggbG9hZHMgYmVmb3JlIERPTSBkb2VzLgpqUXVlcnkuZ2V0U2Ny
+        aXB0KCcvL2Fzc2V0MC56ZW5kZXNrLmNvbS9leHRlcm5hbC96ZW5ib3gvdjIu
+        MS96ZW5ib3guanMnLCBmdW5jdGlvbiAoKSB7CiAgaWYgKHR5cGVvZihaZW5i
+        b3gpICE9PSAndW5kZWZpbmVkJykgewogICAgalF1ZXJ5KGZ1bmN0aW9uICgk
+        KSB7CiAgICAgIFplbmJveC5pbml0KHsiZHJvcGJveElEIjoiMjAwMzA5NzIi
+        LCJ0YWJJRCI6InN1cHBvcnQiLCJoaWRlX3RhYiI6dHJ1ZSwidXJsIjoiaHR0
+        cHM6XC9cL2JpYmxlc2VhcmNoLnplbmRlc2suY29tIiwidGFiQ29sb3IiOiIj
+        M0QzQzNDIiwidGFiUG9zaXRpb24iOiJMZWZ0In0pOwogICAgICAkKCcuY29u
+        dGFjdHVzX3plbmJveCcpLmVhY2goZnVuY3Rpb24gKCkgewogICAgICAgICQo
+        dGhpcykuYXR0cignaHJlZicsICcjJykuY2xpY2soZnVuY3Rpb24gKGUpIHsK
+        ICAgICAgICAgIGUucHJldmVudERlZmF1bHQoKTsgWmVuYm94LnNob3coKTsg
+        cmV0dXJuIGZhbHNlOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwog
+        IH0KfSk7Cjwvc2NyaXB0PgoKPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3Jp
+        cHQiIHNyYz0iLy91c2UudHlwZWtpdC5uZXQvc2dnNWx3aC5qcyI+PC9zY3Jp
+        cHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij50cnl7VHlwZWtp
+        dC5sb2FkKCk7fWNhdGNoKGUpe308L3NjcmlwdD4KCjwvaGVhZD4KPGJvZHkg
+        aWQ9InBnVjJBbGxQYXNzYWdlc0pzIiBjbGFzcz0iZW4tVVMiPgoKPGRpdiBp
+        ZD0iZmItcm9vdCI+PC9kaXY+CjxzY3JpcHQ+CiAgd2luZG93LmZiQXN5bmNJ
+        bml0ID0gZnVuY3Rpb24oKSB7CiAgICBGQi5pbml0KHsKICAgICAgYXBwSWQg
+        IDogJzIwMTYxNjIyNjUzNjIwNicsCiAgICAgIHN0YXR1cyA6IHRydWUsIC8v
+        IGNoZWNrIGxvZ2luIHN0YXR1cwogICAgICBjb29raWUgOiB0cnVlLCAvLyBl
+        bmFibGUgY29va2llcyB0byBhbGxvdyB0aGUgc2VydmVyIHRvIGFjY2VzcyB0
+        aGUgc2Vzc2lvbgogICAgICB4ZmJtbCAgOiB0cnVlICAvLyBwYXJzZSBYRkJN
+        TAogICAgfSk7CiAgIGlmICgndW5kZWZpbmVkJyAhPT0gdHlwZW9mIF9nYSkg
+        eyBfZ2EudHJhY2tGYWNlYm9vaygpOyB9CiAgfTsKCiAgLy8gTG9hZCB0aGUg
+        RmFjZWJvb2sgU0RLIEFzeW5jaHJvbm91c2x5CiAgKGZ1bmN0aW9uKGQpewog
+        ICAgIHZhciBqcywgaWQgPSAnZmFjZWJvb2stanNzZGsnLCByZWYgPSBkLmdl
+        dEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgICBpZiAoZC5n
+        ZXRFbGVtZW50QnlJZChpZCkpIHtyZXR1cm47fQogICAgIGpzID0gZC5jcmVh
+        dGVFbGVtZW50KCdzY3JpcHQnKTsganMuaWQgPSBpZDsganMuYXN5bmMgPSB0
+        cnVlOwogICAgIGpzLnNyYyA9ICIvL2Nvbm5lY3QuZmFjZWJvb2submV0L2Vu
+        X1VTL2FsbC5qcyI7CiAgICAgcmVmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3Jl
+        KGpzLCByZWYpOwogIH0oZG9jdW1lbnQpKTsKPC9zY3JpcHQ+CiAgPGEgaHJl
+        Zj0iI2NvbnRlbnQiIGNsYXNzPSJza2lwIiB0YWJpbmRleD0iMCIgYWNjZXNz
+        a2V5PSJTIj5Ta2lwIHRvIGNvbnRlbnQ8L2E+CgogIDxkaXYgY2xhc3M9ImNv
+        bnRhaW5lciI+CgogICAgPGRpdiBjbGFzcz0ibmF2YmFyIj4KICAgIDxkaXYg
+        Y2xhc3M9InRvb2xzIj4KICAgIAogICAgPHVsPgogICAgICA8bGkgY2xhc3M9
+        Imxhbmctc3dpdGNoZXIiPjxhIHRhYmluZGV4PSIwIiBocmVmPSIjIj5MYW5n
+        dWFnZTogRW5nbGlzaDwvYT4KICAgICAgPHVsPgogICAgICAgICAgICAgICAg
+        ICAgIDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL2Vz
+        LmJpYmxlcy5vcmcvdjIvQUxML3Bhc3NhZ2VzLmpzP3FbXT0iPkVzcGHDsW9s
+        IChTcGFuaXNoKTwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaT48
+        YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL2ZyLmJpYmxlcy5v
+        cmcvdjIvQUxML3Bhc3NhZ2VzLmpzP3FbXT0iPkZyYW7Dp2FpcyAoRnJlbmNo
+        KTwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0i
+        bGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL2VsLmJpYmxlcy5vcmcvdjIvQUxM
+        L3Bhc3NhZ2VzLmpzP3FbXT0iPs6VzrvOu863zr3Ouc66zqwgKEdyZWVrOiBN
+        b2Rlcm4pPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGNs
+        YXNzPSJsYW5nU3dpdGNoIiBocmVmPSJodHRwOi8vYWYuYmlibGVzLm9yZy92
+        Mi9BTEwvcGFzc2FnZXMuanM/cVtdPSI+QWZyaWthYW5zPC9hPjwvbGk+CiAg
+        ICAgICAgICAgICAgICAgICAgPGxpPjxhIGNsYXNzPSJsYW5nU3dpdGNoIiBo
+        cmVmPSJodHRwOi8vY3kuYmlibGVzLm9yZy92Mi9BTEwvcGFzc2FnZXMuanM/
+        cVtdPSI+Q3ltcmFlZyAoV2Vsc2gpPC9hPjwvbGk+CiAgICAgICAgICAgICAg
+        ICAgICAgPGxpPjxhIGNsYXNzPSJsYW5nU3dpdGNoIiBocmVmPSJodHRwOi8v
+        Z2EuYmlibGVzLm9yZy92Mi9BTEwvcGFzc2FnZXMuanM/cVtdPSI+R2FlaWxn
+        ZSAoSXJpc2gpPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgPGxpPjxh
+        IGNsYXNzPSJsYW5nU3dpdGNoIiBocmVmPSJodHRwOi8va28uYmlibGVzLm9y
+        Zy92Mi9BTEwvcGFzc2FnZXMuanM/cVtdPSI+7ZWc6rWt7Ja0IChLb3JlYW4p
+        PC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGNsYXNzPSJs
+        YW5nU3dpdGNoIiBocmVmPSJodHRwOi8vcHQuYmlibGVzLm9yZy92Mi9BTEwv
+        cGFzc2FnZXMuanM/cVtdPSI+UG9ydHVndcOqcyAoUG9ydHVndWVzZSk8L2E+
+        PC9saT4KICAgICAgICAgICAgICAgICAgICA8bGk+PGEgY2xhc3M9ImxhbmdT
+        d2l0Y2giIGhyZWY9Imh0dHA6Ly9zay5iaWJsZXMub3JnL3YyL0FMTC9wYXNz
+        YWdlcy5qcz9xW109Ij5TbG92ZW7EjWluYSAoU2xvdmFrKTwvYT48L2xpPgog
+        ICAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIg
+        aHJlZj0iaHR0cDovL3ZpLmJpYmxlcy5vcmcvdjIvQUxML3Bhc3NhZ2VzLmpz
+        P3FbXT0iPlRp4bq/bmcgVmnhu4d0IChWaWV0bmFtZXNlKTwvYT48L2xpPgog
+        ICAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIg
+        aHJlZj0iaHR0cDovL3NxLmJpYmxlcy5vcmcvdjIvQUxML3Bhc3NhZ2VzLmpz
+        P3FbXT0iPlNocWlwIChBbGJhbmlhbik8L2E+PC9saT4KICAgICAgICAgICAg
+        ICAgICAgICA8bGk+PGEgY2xhc3M9ImxhbmdTd2l0Y2giIGhyZWY9Imh0dHA6
+        Ly9wdC1ici5iaWJsZXMub3JnL3YyL0FMTC9wYXNzYWdlcy5qcz9xW109Ij5w
+        b3J0dWd1w6pzIGJyYXNpbGVpcm8gKEJyYXppbGlhbiBQb3J0dWd1ZXNlKTwv
+        YT48L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibGFu
+        Z1N3aXRjaCIgaHJlZj0iaHR0cDovL21uLmJpYmxlcy5vcmcvdjIvQUxML3Bh
+        c3NhZ2VzLmpzP3FbXT0iPtCc0L7QvdCz0L7QuyAoTW9uZ29saWFuKTwvYT48
+        L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iYWRkLXlvdXIt
+        bGFuZyI+PGEgaHJlZj0iL3BhZ2VzL2FkZC15b3VyLWxhbmd1YWdlIiB0YXJn
+        ZXQ9ImJpYmxlcy1leHRyYSI+QWRkIFlvdXIgTGFuZ3VhZ2U8L2E+PC9saT4K
+        ICAgICAgPC91bD4KICAgICAgPC9saT4KICAgICAgPGxpPjxhIGhyZWY9Im1h
+        aWx0bzpzdXBwb3J0QGJpYmxlcy5vcmciIGNsYXNzPSJjb250YWN0dXNfemVu
+        Ym94Ij5Db250YWN0IFVzPC9hPjwvbGk+CiAgICAgICAgICAgIDxsaT48YSB0
+        YXJnZXQ9ImJpYmxlcy1leHRyYSIgaHJlZj0iaHR0cDovL3N1cHBvcnQuYmli
+        bGVzLm9yZy9mb3J1bXMiIHRhYmluZGV4PSIwIj5Db21tdW5pdHkgU3VwcG9y
+        dDwvYT48L2xpPgogICAgICAgICAgICA8bGk+PGEgdGFyZ2V0PSJfYmxhbmsi
+        ICBocmVmPSJodHRwOi8vdG9vbHMuYmlibGVzLm9yZy8iIHRhYmluZGV4PSIw
+        Ij5Ub29sczwvYT48L2xpPgogICAgICAgICAgICA8bGkgY2xhc3M9InNlc3Np
+        b24tbGlua3MiPjx1bD4KICAgICAgICAgICAgICAgICAgPGxpPjxhIGNsYXNz
+        PSJsb2dpbi1saW5rIiB0YWJpbmRleD0iMCIgaHJlZj0iaHR0cDovL2JpYmxl
+        cy5vcmcvYWNjb3VudC9sb2dpbiI+TG9naW48L2E+PC9saT4KICAgICAgICAg
+        ICAgICA8L3VsPjwvbGk+CiAgICA8L3VsPgoKICAgIDxwIGNsYXNzPSJtb2Jp
+        bGUtc3dpdGNoZXIiPjxhIGhyZWY9Imh0dHA6Ly9iaWJsZXMub3JnL3N3YXA/
+        c2VuZFRvPSIgdGl0bGU9IlN3aXRjaCB0byBtb2JpbGUgdmVyc2lvbiI+U3dp
+        dGNoIHRvIG1vYmlsZSB2ZXJzaW9uPC9hPjwvcD4KCiAgPC9kaXY+CjwvZGl2
+        PgoKCiAgICA8ZGl2IGlkPSJsb2dvLXNlYXJjaC1oZWFkZXIiIGNsYXNzPSJk
+        aXZoZWFkZXIiPgogICAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgIDxk
+        aXYgY2xhc3M9ImJyYW5kaW5nIj4KICAgICAgICAgIDxhIGhyZWY9Ii8iIHRh
+        cmdldD0iYmlibGVzLWhvbWUiIHRhYmluZGV4PSIwIiBjbGFzcz0ibG9nby1s
+        aW5rIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibG9nbyI+CiAgICAgICAg
+        ICAgICAgICA8aW1nIHNyYz0iL2ltYWdlcy9iaWJsZXNlYXJjaF9sb2dvLnN2
+        ZyIgY2xhc3M9ImxvZ28taW1nIiAvPgogICAgICAgICAgICAgICAgPHNwYW4g
+        Y2xhc3M9InRhZ2xpbmUiPmZpbmQgaXQuIHNoYXJlIGl0LiBsaXZlIGl0Ljwv
+        c3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2E+CiAgICAg
+        ICAgPC9kaXY+PCEtLSByb3cgLS0+CgogICAgICAgIDxkaXYgaWQ9InNlYXJj
+        aC1mb3JtLWhvbGRlciI+CiAgICAgICAgICAgICAgICAgICAgPCEtLSBzZWFy
+        Y2ggZm9ybSAtLT4KICAgICAgICAgIDxmb3JtIGFjdGlvbj0iL3NlYXJjaCIg
+        Y2xhc3M9InNlYXJjaC1mb3JtIj4KICAgICAgICAgICAgPGZpZWxkc2V0Pgog
+        ICAgICAgICAgICAgIDxsZWdlbmQ+U2VhcmNoIGZvcm08L2xlZ2VuZD4KICAg
+        ICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dC1ob2xkZXIiPgogICAgICAg
+        ICAgICAgICAgPGRpdiBjbGFzcz0iaW5wdXQtZnJhbWUiPgogICAgICAgICAg
+        ICAgICAgICA8aW5wdXQgdHlwZT0idGV4dCIgdGl0bGU9IlBhc3NhZ2UgJiBr
+        ZXl3b3JkIHNlYXJjaCIgdGFiaW5kZXg9IjAiIGFjY2Vzc2tleT0iNCIgbmFt
+        ZT0icXVlcnkiIHZhbHVlPSIiPgogICAgICAgICAgICAgICAgPC9kaXY+CiAg
+        ICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGlucHV0IHR5cGU9
+        ImhpZGRlbiIgbmFtZT0idmVyc2lvbiIgdmFsdWU9ImVuZy1OTFQsZW5nLU1T
+        RyxlbmctR05URCxlbmctQ0VWLGVuZy1SU1YsZW5nLU5SU1YsZW5nLU5BU0Is
+        ZW5nLUVTVixlbmctS0pWQSxlbmctTklWLGVuZy1BTVAiPgogICAgICAgICAg
+        ICAgIDxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJTZWFyY2giIGNsYXNz
+        PSJidG4tc2VhcmNoIiB0YWJpbmRleD0iMCI+CiAgICAgICAgICAgIDwvZmll
+        bGRzZXQ+CiAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgICAKICAgICAgICA8
+        L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPGRp
+        diBjbGFzcz0iY29udGFpbmVyIHNlY29uZGFyeSIgaWQ9ImNvbnRlbnQiPgog
+        ICAgICAgIDxkaXYgY2xhc3M9InByaW50LWJ1dHRvbi1jb250YWluZXIiPgog
+        ICAgICA8YnV0dG9uIGNsYXNzPSJidG4gZGFyayIgb25DbGljaz0id2luZG93
+        LnByaW50KCk7Ij4KICAgICAgICA8YSBocmVmPSIjIj5QcmludDwvYT4KICAg
+        ICAgPC9idXR0b24+CiAgICA8L2Rpdj4KICAgIAogICAgPGRpdiBjbGFzcz0i
+        cm93Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZGl2c2VjdGlvbiB2aWV3
+        c2VjdGlvbiI+CiAgICAgICAgPGRpdiBpZD0icHJpbWFyeS1jb250ZW50LWhv
+        bGRlciIgY2xhc3M9Im5vanNvbmx5IHBhcmFsbGVsLWNsb3NlZCI+CiAgICAg
+        IAo8ZGl2IGNsYXNzPSJub3RGb3VuZCI+CiAgPGgxPlBhZ2Ugbm90IGZvdW5k
+        PC9oMT4KICA8cD5UaGUgcGFnZSB5b3Ugd2VyZSBsb29raW5nIGZvciBkb2Vz
+        IG5vdCBleGlzdC48L3A+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjbGVhciI+PC9k
+        aXY+CiAgICAgICAgPC9kaXY+IDwhLS0gZW5kIG9mIC50ZW5jb2wgLS0+CiAg
+        ICAgICAgPGRpdiBjbGFzcz0ib25lY29sIG5vanNvbmx5IGxhc3QiPiZuYnNw
+        OzwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PiA8IS0tIGVuZCBvZiAu
+        cm93IC0tPgogIDwvZGl2PiA8IS0tIGVuZCBvZiAjY29udGVudC5jb250YWlu
+        ZXIgLS0+CiAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgPGRpdiBj
+        bGFzcz0icm93Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBpZD0icGFnZWZv
+        b3RlciIgY2xhc3M9ImRpdmZvb3RlciI+CiAgICAgICAgPHVsPgogICAgICAg
+        ICAgPGxpPjxhIHRhYmluZGV4PSIwIiBocmVmPSJodHRwOi8vYW1lcmljYW5i
+        aWJsZS5vcmcvIiB0YXJnZXQ9Il9ibGFuayIgPiZjb3B5OyAyMDEzIEFtZXJp
+        Y2FuIEJpYmxlIFNvY2lldHk8L2E+PC9saT4KICAgICAgICAgIDxsaT48YSB0
+        YWJpbmRleD0iMCIgaHJlZj0iaHR0cDovL2JpYmxlcy5vcmcvcGFnZXMvbGVn
+        YWwjcHJpdmFjeSIgdGFyZ2V0PSJiaWJsZXMtZXh0cmEiPlByaXZhY3kgUG9s
+        aWN5PC9hPjwvbGk+CiAgICAgICAgICA8bGk+PGEgdGFiaW5kZXg9IjAiIGhy
+        ZWY9Imh0dHA6Ly9iaWJsZXMub3JnL3BhZ2VzL2xlZ2FsI2NvcHlyaWdodCIg
+        dGFyZ2V0PSJiaWJsZXMtZXh0cmEiPkNvcHlyaWdodHM8L2E+PC9saT4KICAg
+        ICAgICAgIDxsaT48YSB0YWJpbmRleD0iMCIgaHJlZj0iaHR0cDovL2JpYmxl
+        cy5vcmcvcGFnZXMvbGVnYWwjdGVybXMiIHRhcmdldD0iYmlibGVzLWV4dHJh
+        Ij5UZXJtcyBhbmQgQ29uZGl0aW9uczwvYT48L2xpPgogICAgICAgIDwvdWw+
+        CiAgICAgIDwvZGl2PgogICAgICA8L2Rpdj48IS0tIGVuZCBvZiAucm93IC0t
+        PgogIDwvZGl2PjwhLS0gZW5kIG9mIC5jb250YWluZXIgLS0+CiAgPC9ib2R5
+        PjwvaHRtbD4K
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:04:33 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=Batman%201:1-16&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:04:34 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=NylQkuUnHLkD3NZfSOJzKl5OApZ4GQR6SGxC%2FTPM%2BgbaVldw0J%2FThk03txemanAkd8KP68yqlxWbs3SRr9lDnVwEigjN5uGTv4rMbrG9HN7comcIBKgM0%2FGkicvbbwpCAQ2TVfVR5PS%2BYsaS4prS%2FuFe3JGOWTbqUJGDEc4Ros7P1dpIQD%2F0DLyiYN0e%2FEEWF%2F1eoXBtUw5V1ihrvIRXJOpaKu2hwxgXFcUSjgqJh9ZFkaauehct%2BdvudXgFgVS3RxmaUt7iV5hZjGAa5kWC%2FuQQYNqx%2B0W2M%2BjeHf7%2FfIVC1Cb431ud%2FB3k5loSMhBGy2WNcw%2BQG4jbH7WvJcc6MpNzCWSTGVqOmy%2BwY7HbPufBAzWnJwuSf2XQxDmErzMk;
+        expires=Sat, 07-Oct-2023 16:04:34 GMT; path=/; domain=.bibles.org
+      - abs_session=rliujlnPGKfJViNN5YZjxw9IwmU5%2FGWBbN6NlVHWuIG5krJrP1R2SDpDU%2FTjYJBzkpCGwDF0Cnyd51iRDRF0hlIsgJgVmIA3jWUyhK%2FCBuuZspw3WamGC%2BbOq3ZC%2FBM3yWf67bDsZXbHWBHkFFFW1KmXxASjgI5asI90n6sEuXOak9NVny%2BkXGBId0V4R%2FZ8HpQHN0wGAVq1ouwMMPmbAMPC65Lk7HpGMU5tScVAAuYjm4nqMVTMpix7QQrzSe7eKu4iscl8wWbHtxvaSuKTlMYDNrHSAM88TtAvpBc%2FQBI%3D;
+        expires=Sat, 07-Oct-2023 16:04:34 GMT; path=/; domain=.bibles.org
+      - abs_uid=775699fa0eb3f447cd7565ee18ff89ec0e097255; expires=Sat, 07-Oct-2023
+        16:04:34 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=Batman+1%3A1-16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:04:34 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?q%5B0%5D=Batman%201:1-16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=rliujlnPGKfJViNN5YZjxw9IwmU5%2FGWBbN6NlVHWuIG5krJrP1R2SDpDU%2FTjYJBzkpCGwDF0Cnyd51iRDRF0hlIsgJgVmIA3jWUyhK%2FCBuuZspw3WamGC%2BbOq3ZC%2FBM3yWf67bDsZXbHWBHkFFFW1KmXxASjgI5asI90n6sEuXOak9NVny%2BkXGBId0V4R%2FZ8HpQHN0wGAVq1ouwMMPmbAMPC65Lk7HpGMU5tScVAAuYjm4nqMVTMpix7QQrzSe7eKu4iscl8wWbHtxvaSuKTlMYDNrHSAM88TtAvpBc%2FQBI%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:04:34 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '987'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=mw1tBcafu5apGx6g8Rbil5ItATmmnVd3GZ2vBeAZyfYKS%2FbBc84JjOCxEAAAobDaKvVzaswWpNQtXBeh3tdRi96arozZoD3QUvjreqcwxYI%2Fpb5lGGfJ0%2FipDM5oyrWd%2BNLcHa3%2BykBdDVXcvtvmQbLkTekaZ6D4%2FsEZIRBBH13OxeGkZC2iWjLbOTahT8VTry0I7%2B7HQ82fpMoDnlRXFKNi9S27uekJYdGbUcB1f8KN0dIJEJ7ckk859UcMZaq2sCX11DszNW3OCu%2BAdV91GKN%2BkL9%2FHmHsEuioJBKtKv%2Bta4Xx%2FOedIYDxJJf5Tij3xkEAfpIKw389arDe6RdusU0uWMQTMmUHfS1NC4HDahJZl1ZfvgDD3Ul1XfWf1R%2FE;
+        expires=Sat, 07-Oct-2023 16:04:34 GMT; path=/; domain=.bibles.org
+      - abs_uid=f3f671c981b44b8e45aeeafa204845f883f4764b; expires=Sat, 07-Oct-2023
+        16:04:34 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[]}},"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557e92d39995.48537700'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e92d39995.48537700\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557e92d39995.48537700","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557e92d39995.48537700'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e92d39995.48537700\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:04:35 GMT
+recorded_with: VCR 2.6.0

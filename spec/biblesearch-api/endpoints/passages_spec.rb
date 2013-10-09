@@ -4,7 +4,7 @@ require 'biblesearch-api'
 describe BibleSearch do
   before do
     VCR.insert_cassette %{endpoint-#{File.basename(__FILE__, '.rb')}-#{__name__}}
-    @biblesearch = BibleSearch.new('DUMMY_API_KEY')
+    @biblesearch = BibleSearch.new(BIBLESEARCH_API_KEY)
   end
 
   after do

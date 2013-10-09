@@ -4,7 +4,7 @@ require 'biblesearch-api'
 describe BibleSearch do
   before do
     VCR.insert_cassette %{endpoint-#{File.basename(__FILE__, '.rb')}-#{__name__}}
-    @biblesearch = BibleSearch.new('DUMMY_API_KEY')
+    @biblesearch = BibleSearch.new(BIBLESEARCH_API_KEY)
   end
 
   after do
@@ -25,7 +25,7 @@ describe BibleSearch do
         @verses.collection.size.must_equal 0
       end
     end
-    
+
     describe %{when returning one verse} do
       before do
         @verses = @biblesearch.verses('KJV:John.3', '16', '16')
