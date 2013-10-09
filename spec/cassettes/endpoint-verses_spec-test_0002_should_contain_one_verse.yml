@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/KJV:John.3/verses.js?end=16&start=16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:12 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1776'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=%2FpDDUZ47i1829Z4BhcpRFINEphdYInxmpeX%2FlnOwOQyVPz5nqOfP54JtQuDpiZKbDiUHYMlLN20QIgLN1vY8sw5vuVutSIpDnDFqGs3iYGrZ8QK05UtxHMHqBBKDlw%2B62ycF59zeCCm4l6W02hQYisK11Z%2BAtMSp%2BPtyCJCFnt5emP%2B32B0Zmkg9ECQWTn0C0zeJRiAHsGyugdA5Do2Cfd0UxafXNkwgeysrKCEEdZ4SzeRxNQf2DwkJEAhgKkd0%2B4JlVWnmGZM%2FzO6Mb5ng9xSasF1C3pvBJOxsU3fhexxcLCPSlit5Lf9UKeaV9E5BWpuvouMRmQpvmAplwUvQzQhmsmtuD1LGZlsiU3d4EerWCYkyzWmXGit%2B63M4hdou;
+        expires=Sat, 07-Oct-2023 16:05:12 GMT; path=/; domain=.bibles.org
+      - abs_session=XLX%2FoDsk9jemNumfqG2oayXky1jk%2BpNEprjnzoa3bhwOSSELR%2F15PcSsEfdIYnw0yn8R6pcdddXPNsqs0OlKabSzU%2FphCm0DzZFPgXa1fdjrcvqvwY1KOfNw4LvX3OIOAe62gfmFxX02ASF3EzgshyU5FpWfH5x0cD7pGhXgqPq93bJrOucBRvNS46NRHLHPvNJ73vfKsz8ggSlPAdfqMo8VvSqbU%2Bbx9fYWPPbavDxMu47CNdqlTnOZNm8bLx788GzbvbTSw0dYpb047FwJlAd8GP7IAyMcGHg9gNaSKWc%3D;
+        expires=Sat, 07-Oct-2023 16:05:12 GMT; path=/; domain=.bibles.org
+      - abs_uid=3bf8d8f682fe9809f31c6fd12932f8a93b5cc397; expires=Sat, 07-Oct-2023
+        16:05:12 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"verses":[{"auditid":"0","verse":"16","lastverse":"16","id":"KJV:John.3.16","osis_end":"KJV:John.3.16","label":"","reference":"John
+        3:16","text":"<span class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span>","parent":{"chapter":{"path":"\/chapters\/KJV:John.3","name":"John
+        3","id":"KJV:John.3"}},"next":{"verse":{"path":"\/verses\/KJV:John.3.17","name":"John
+        3:17","id":"KJV:John.3.17"}},"previous":{"verse":{"path":"\/verses\/KJV:John.3.15","name":"John
+        3:15","id":"KJV:John.3.15"}},"copyright":"King James Version 1611 (Authorized
+        Version). Copyright status: UK English with BFBS additions \u00a9 2011 British
+        and Foreign Bible Society; Crown Copyright in UK"}],"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557eb8bfeda7.75640534'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb8bfeda7.75640534\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557eb8bfeda7.75640534","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557eb8bfeda7.75640534'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb8bfeda7.75640534\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:13 GMT
+recorded_with: VCR 2.6.0

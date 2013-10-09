@@ -1,0 +1,479 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=John%203:16&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:25 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=Puurk8UZpV2ZTTBeeWTKj7bmGWEw72iMYtpGAowPYQvdaeIQBuZq4wsE1voSCTIzD2iCte0BuJ6ZfyermUWWOnPbd1CNwhmuneGld7I1R6ScxlC7QWQrsGtbJe6PpkrZPjIEQSCPNcRhs1PNhFcqCnWk03nrRJVFkRfTZNEle9uDWt22sG9BTgGqUYhVrSnO8jz5uic1YB8C%2FGQozl9rY2RLcpG4wPtVFrUe7Niismv933BDOE9j4cdf%2ByYgAUtruDNIehndqLFf8WqAV3sL%2FO8xFsz%2FdvDKrz4te82HKl8%3D;
+        expires=Sat, 07-Oct-2023 16:05:25 GMT; path=/; domain=.bibles.org
+      - abs_session=lPJeSB2i1ewSS3y36JK%2FuXu8Keo%2BowBD2nYIhUaXyKyrXYT29H9pb8XaKSBqY%2Bx2jsvDBHE%2BisSQH9%2FtAsjNSBeRk1fKtSdXBw%2BKIQ%2F9FNlamTpuUrzcrjH7rkSP%2FsXFLYiDsfY%2FNyQZTsa3ojBWOS7JLVcjNRl25JkzKyiRWxiy8y6nkmy2jrfppifbXQ0EdPQKmQIM5%2BKLGEzZpOuFUr%2F2b5E5mDCtqkokOhhxKo1QSEbMzW3uJ5IVQW4iDAKsVCZE7SdJZb6tlSBCCdLrCNepbHrVnkttcVNSuNFHabL1Wvv0mvfotAv8frs4dHIT%2FEeMyrQED0nAtUPk2zPK2tYio%2Bc5roSvlHlzCcvxhnCakyKWU6qiXvYZeRzP%2FBpy;
+        expires=Sat, 07-Oct-2023 16:05:25 GMT; path=/; domain=.bibles.org
+      - abs_uid=aa7c0f5104a6b27131afc4702eea50afc137ed3c; expires=Sat, 07-Oct-2023
+        16:05:25 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:25 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?q%5B0%5D=John%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=Puurk8UZpV2ZTTBeeWTKj7bmGWEw72iMYtpGAowPYQvdaeIQBuZq4wsE1voSCTIzD2iCte0BuJ6ZfyermUWWOnPbd1CNwhmuneGld7I1R6ScxlC7QWQrsGtbJe6PpkrZPjIEQSCPNcRhs1PNhFcqCnWk03nrRJVFkRfTZNEle9uDWt22sG9BTgGqUYhVrSnO8jz5uic1YB8C%2FGQozl9rY2RLcpG4wPtVFrUe7Niismv933BDOE9j4cdf%2ByYgAUtruDNIehndqLFf8WqAV3sL%2FO8xFsz%2FdvDKrz4te82HKl8%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:25 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1604'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=5fjPZilfXcD4MX3%2FFsKPbIa9am8QfJHFSkUwmIIXMeBEqkxgVgzw5GcS9Z8QG71RLoogRK52bQZmK0UVzdj6T8vG%2BSdf3%2FUx2Bv9FXpxiUg1D3amMKUVpIKqKEyiAJsebMrr3KjlyB0iCdIWadZkBSyYS4BAZGF3KnIgsxXepr9SbK6y%2B4dz%2FNV2CTVReabZnlqO9zzA3QyIVxWOkSR2WmJE0OO227uOqSq7tvsZNqlxsanrvEN34doeMi15Hxt1UUxBGwnpXCy0yJu0MFPtnv5itK8d9Nk5hMJdNWH%2BwdUjUVGCmhSJ37jq3xfA8X4bT92KzNmFazyxqNKEBz0TtnaNsEL4Nxz3RqPhR%2FxObpdnyqjfOq5ZUr7ea4f6%2FL0Y;
+        expires=Sat, 07-Oct-2023 16:05:25 GMT; path=/; domain=.bibles.org
+      - abs_uid=209ab3e919fec8b23246d9f3a236bc9c4cbbfb90; expires=Sat, 07-Oct-2023
+        16:05:25 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"KJV","version_abbreviation":"KJV","path":"\/chapters\/KJV:John.3\/verses.js?start=16&end=16","start_verse_id":"KJV:John.3.16","end_verse_id":"KJV:John.3.16","text":"<span
+        class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span>","copyright":"King
+        James Version 1611 (Authorized Version). Copyright status: UK English with
+        BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
+        in UK"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557ec5d16d04.19315170'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ec5d16d04.19315170\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557ec5d16d04.19315170","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557ec5d16d04.19315170'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ec5d16d04.19315170\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:26 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=Batman%2013:17&version=DCU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:25 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=dx0ljTID6Ni%2F1RM768HvRVWWEtG3mCb9zVjhTiu2X0rq4LQayJyqPEU1m1LP6qcLDuoR6qqlC6fYPv87dnuQG9SNSS2xYhaHRIZl6M4HhnUX8H416ZMRRvGr0zhGjUm6oJoe0HSGXnIUcytnfxGgqgngN1z2B2vM31ujzcmd%2Bo4wR5rJs4ECfFgLxyo8VWQoBNZDPoF1KLRl6wZqphVlcELH6JnhdeIS%2Bxq%2B4S6Cuvq65WUVnSgPyHZm9N7QcoRZy%2BJoBG%2BWdjbL4BDxnQ2co3cBYy3LecJ2LBp6oJZTLTI%3D;
+        expires=Sat, 07-Oct-2023 16:05:26 GMT; path=/; domain=.bibles.org
+      - abs_session=tujf8dvwA7Dzj%2F0cBYtC%2BQDhRLrEDthYvqVf9wtwoCWrVig6eB84h94wESMKynwr09EpJ2ehCaguF5%2FFjfRfbFRs4JRYjb3lOVQ0Rx9j%2BY1SF7cqojZemlU5B8%2FfD%2FJ3yY%2FKFTNkNI5ICCO%2FzjpPDfC86jglPhLBR%2Ff%2FaqZdK2jDoqnhLf%2BYYkZIjslg%2BzjlSKEDJfYes0gzT%2F1Au%2BdLr4H9rlYEKayI0YxLnz4Yw569GEyhNnuCYZ6FRtnXvb4Pahioxm15U%2FKX8wQnTm9VRAHpwXRgn5pFHnxi3I1%2FkIbnZSx1Y18IcdyLqDl24UPQJjsBfp%2FdzDShQxC7eeJzz8dMctZsr3Gi0KuE2ZCu2qrENAoP3NXbK2bF4hKBfFao;
+        expires=Sat, 07-Oct-2023 16:05:26 GMT; path=/; domain=.bibles.org
+      - abs_uid=b95d04c509db039ac56efa1d22b3793366c02a27; expires=Sat, 07-Oct-2023
+        16:05:26 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/eng-MSG,cym-BNET,eng-CEVUK,eng-GNTD,por-NTLH,eng-CEV,cym-BCN,eng-GNBDC,spa-RVR60,eng-NASB,eng-ESV,eng-KJVA,eng-AMP,eng-KJV/passages.js?q[]=Batman+13%3A17
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:26 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/eng-MSG,cym-BNET,eng-CEVUK,eng-GNTD,por-NTLH,eng-CEV,cym-BCN,eng-GNBDC,spa-RVR60,eng-NASB,eng-ESV,eng-KJVA,eng-AMP,eng-KJV/passages.js?q%5B0%5D=Batman%2013:17
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=dx0ljTID6Ni%2F1RM768HvRVWWEtG3mCb9zVjhTiu2X0rq4LQayJyqPEU1m1LP6qcLDuoR6qqlC6fYPv87dnuQG9SNSS2xYhaHRIZl6M4HhnUX8H416ZMRRvGr0zhGjUm6oJoe0HSGXnIUcytnfxGgqgngN1z2B2vM31ujzcmd%2Bo4wR5rJs4ECfFgLxyo8VWQoBNZDPoF1KLRl6wZqphVlcELH6JnhdeIS%2Bxq%2B4S6Cuvq65WUVnSgPyHZm9N7QcoRZy%2BJoBG%2BWdjbL4BDxnQ2co3cBYy3LecJ2LBp6oJZTLTI%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:25 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '987'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=aWdRsH7bTjFG%2B7bxXM0Yg17DyqenDrfP2UdymsYWRhj5ZAEAlihogjVpOkkEopP5eGAcFSk1dOUC9uaKFRyU6StKvIB5Sh2MnmvMK%2FvWs%2F5mM5pNJO%2FP%2Bgd4pPUH%2FCzgJ3Gwq%2BNbuUvGyqeQ6NcrPVByESQ3ztK2WnjJ7Yt8vhqPWnG2SUQCdGMhscKrCnP69Gy9YY8GV9ATvemozsUKDjmJe62s1g93HCdgzkYNNRY77mPVqp7eyCxFGDzN2qHkZzStUeNP5nCHaFhMegQlxX4co5rE7EtB%2BQPIvLhU2WD2uX4KUDsiqJq2Rttv2rYhwtWnFbeOLXZS12JjA26JKb2z5z40%2Fu3U10cxWMyD%2FOV5ncnghOZyhcCAReRNptlS;
+        expires=Sat, 07-Oct-2023 16:05:26 GMT; path=/; domain=.bibles.org
+      - abs_uid=f9baf82b3595fc573b49c1945c699642fefb4f4e; expires=Sat, 07-Oct-2023
+        16:05:26 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[]}},"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557ec655d8e3.50458451'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ec655d8e3.50458451\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557ec655d8e3.50458451","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557ec655d8e3.50458451'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ec655d8e3.50458451\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:26 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/search.js?query=john%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:36 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=8xRDXX0pKrp3PQtSU5%2FlIyPxJnB6PO5dVyPgn%2FJr3vWdSlBw9uzG6olqKgqY5BzZPPTXidiYNNlQ0HlGNtf1QwBqrkUToJ50QzH30Tr0fVCkMwwxr%2BprxPCDEu44f1EblK2g0S%2FZLI8GuzlVceAgBt%2Fe7WOly8fChxjYqmcLgWi3P0IN%2FvVfJsRKdrfJWEXC6cOgLRbHZN7E1gbtrPgVqPzSdrjWB414e7nlnBkSGvpUMV4aTgFTRMTGJxRrVqPE8afYAVcPSWaQ6Go%2Fe3%2BC8TBq0%2BtWmp4QlA6MccQvZLspiUTCP4jrg7E0FW%2BIyYHFAD6NopRFL5SoSE8N%2B4Q3GspLwUGUjvDO4VZdXCjq6eiDTOBWzzvSpU4J3v6%2FejiZqvIV%2BFXLc99ZkvolmzoYQqRk6Qe2szuvythBz0vq3lu5q0S9IIhlT7L63%2BnLLAQBQyV7FrYuwZcMB0nl8mCsYVaLMIt5sr%2Bb%2F0tbjfUwUclrGWAf3vN0hK87DTzPLIVP;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_session=9QOjMa%2BVl9PfeFUMdLpdduc2ImQlSl%2Fg620ukz5TxSTs4fUeWnRG1NyZVawIZjtyA0czK96bzZdFiFx7gsYNWpoP05v2%2FapsjOwIaK8Yh%2FsgHTKcuzYwmNE2JnhJPSq4sJE6SEj4CknF5r2TzWh9Iy6jj7vlbMBkHdx9ZHTo2ryZEGSTrMmc1R6Rf0dWRBLewHBSlPBqTgel3EuA3GKMgW2gjxnoqssabj1Pwy4URcEkueb%2FsZQmro2olZWBGToSbdg%2BlYEfQ1e5H8Ex4vU3x6hSDZW7YIsuWkMhOI7PTxKpeg4OUvSJIZsyqKjtA4djE8ZRl4xBYlRF%2FZxHCMNJYJ65QnmifE%2FIeUfXPd9XtH9ktzOLlUPu0OdQ0DE07f1jEwdoKY9ElGP443ZomGREbSPR%2FyUwL9z99gA%2Bb8owWhg%3D;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_session=AUhsJOh95CYf0KRf3FY3s69LsYNLL6vuY91LZZ3J6jzVqIZMuFtEOFi1P1ByScBZ6X3zkih5btAuF1XWA03XRj%2FxSOCNe8XQMG5%2FvOmGfGNCPNyv0txCd6sdoGI79ouvSGbLfF6jRFX7d9EEcBZakqNKw4aPi%2FmSOBohyISRRbnhDUXRzWD5pllfVQMmLzIgI0FANA8e63t1iuPlHQhdJ43uLGDlxLZpIfmSuMWg8ZgJXI3qv6oYvqyQw%2BvbIrNsPMAEiNdw1%2F62DqnVa%2FsGcVCyJi%2BGCNRqDKa7840cRbn3TDl%2BXQQGJDFRnm96gcBdf7XPgKk4YtCGGjcHzqiTtujbKW77H5tJ8%2FGyitJ4NDuc1BkyhnLJnepxPfIsH5oIH7C1Flickr4kINDoL5VBQD5UMiXOo8nNQ7UNIQUioQhVDYWpnjkoxlCuX8h60thsnpozgfBgyQKBfRGZeOl04Q%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_session=X1bquD7D1H0rLZtedYK8b6kcR49GglHCsdj7uEJH1Qdj944danzG1c2%2FiscyIbTBMk9WX5KSizTH4fQE%2Fup%2FdmqRHZ0Fr89exyhC%2BXiE8pPEOtmi1D4Y3SfBgtZe9%2Fk7ExTWUtnW19SfULnvo%2BB4eNM%2BdCs8kgrsMG87pXXK1%2BXYyZl1gDM1E8NCzBRAEGq74DG9VdU2Bc5i7B0%2Fg65d1omY2Z0eVIyyJGxLbay1bVlBc0twBIqdxdZNZQxi5k4lfYPXKjCZcsemo1NhAl3Z4Y4I3tzznDkVOsyMsV6KXD4cUAkaZgAtBJ%2BfKKLbujbTkNRHTsOlpLbI3eMzVL2NDVDwSw9JS2H%2BilgnOpyjXiWhfQ8PVjgyf9OfWogxqZL137dv3uj8w2BAJMQfgfCRmltQD3Kr9EuY8qVZfhx28xOtflQT3iaxiXpKFDIG9ysU6x0VxI3dKhPT47XpUGUnrPsqQ1HbC7xl0VzztskY72gw9gP9daBTgUzEZzSmozYHUmvAtfdphXo3taa4PUBrcFmWLmdw16lVH1BYlG5RoiFhCVTnYD%2BoVDQqzywpDY0iDpoZ2w8ZJU0DfMUCP5wNk2x4sMTMTuCnDP1wvPxPRJaUcIYFYINGqMacRxt0Zvg0mUesLQ0A5L%2FRW4QlMALN0HElJAFPADttQnf18zaQvINuD7u302hYBIXeG36lAVAtC9ptl7yrr8kPgaZwVQcijKtRPlFmZp8T%2BmA79EiL6kP9sQMUphR67pyap2IZ9UBJFEtlJI28dyIlBz4KnQzkKrMavFsiOuXJouwMK1OKkYr2OhD84Xuy8sv%2F9PhN3Y7x%2BgPIDqwW4S3x7bDsGY4KR5NVvPmdvMhpEPTu83HSeX6mqoXagPbeYSoTb4nwOIuBaEC4oBSTBHqu5vuZhscJ%2BehxN%2FkjiFWzwSHuQpZjh7%2BUG43q2t%2B0GVfImEWTKTrNLOr3ENdDgxEJjG9WnvaxMpGETc2ET%2FgVx9QlegljP2CIz6ewfOHz0gmOqkL4X1HIpCpiBOHsnvqTnzAUrq5Q%2BkYdGV%2B2P8veCROi8cKbS6R2FRkoZ7koS77fU2R1It0YpfZumC867XTPSmX8FBNO%2Fg%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_session=g1YbIcw1Fs%2Ftfdo2OwBiGA4kbuo53fMuyhxuoviyS8GY%2FZUy4a1%2BxxCN%2BLDYn3gHqtZq0k3Fc%2FiE3RwyL4kNz7YMq6adxprjjOMexhopBeh2jOjburl9k8Bo8QFvxmbkr7QdGfBH3lNM0IGjdJs1BEwOMI8NCfj0hBj9xRWKGEw18%2Fo6O1RfFyX7OqpH7QXymZSp0%2FH99YSb%2BkNK%2BXLDNsSk4F8bfKV5DSd%2BPabWUOdttAuNlbEbhNhNQEA8dUeZDnTKSHInKx89raAt5q4h0hs1YKzXEHrJcGdXS00IlWhXhxH98wCA9PwbAvGULQU4coMpaYrnfbNpjTHnh8kBxk%2FiL%2BvTaqAi9XREd4XoaUeZP7IVpcaq6%2FEW5xiPe6Xpghi7Vr1Q51kl%2B68Zy7wb8g%2B1pKZx8cRrB3S6Tw%2FvcfWXgs5QKa2K%2Bu3ois3kqMjmUw8VRau7ho0PGp9cp1m%2Byq8QPN9fsrtQhIrTGK2XypI7jasX0opVuMBJmDY5Ag19vwKpxixdyu%2B7mSgjj6ZQgriPAZDqMfL8j%2B0IcUDp7Oo%3D;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_session=u1PCeKlEIw7%2Bwtjhn7WInas%2F%2FJ5b%2F2QWrwNaTjWSgaTvM2YTXNl0Y88PJmrO4zFvaMYtuWWPfD%2BTIjyer6CcyzMCvvOW3AymS7fQ1nnJIdKVGxrA3gR7UWiuuda3LrBNhQXxURiFXsw7XJGZEtmM%2FA64E0mmaCmw0hVed0w3seEPsKDlICOQWEi92sgXm%2BoGTYGy3o7dAsgCf0GVx6eDUh3EKSOnRjaDY%2BP889Ayj0iHgFktBkPdakVbM%2BfDmGSqLPaDaoN21X8Cht6n91dZQQ5Lt2C0v8hky9hKm%2Fn9yKU%3D;
+        expires=Sat, 07-Oct-2023 16:05:26 GMT; path=/; domain=.bibles.org
+      - abs_session=vzzSPOuus9U5%2FuctNYiNg0k4NavGVt6OYUNXgsi9suJIUHXdEwgQ5myZS%2F1y60vFSE%2FB%2B5oopIkbkZNccWB%2BQQexLYkz3y5I11TF90FnSKAU6fYbiLIJSX8mmUZKzx0eIPl4U9%2FBuQIDwS8sWsPcoBle6WxFVU8jby5nY9WjR%2FhH4Qc5AiuTiqS80JrwI5WSxGhknqQBICL6g7eQ9vLk8muoS8GORoIWamyFPzpAYI5qg%2Bdl5WC3YvrnjjsO0Nghp%2FPNW7jK8B1%2B09kQVUuHgK8RSHnOfpqXwCxegx7vGhXq3kcEfJVjKphk0r9Q9IkAoBHl1gIhjRE1FcdkAQT1Hp7xKdNEjEMcSQADu%2F172u3Xz9urTRXxm%2Fx5r1Js4QYv;
+        expires=Sat, 07-Oct-2023 16:05:26 GMT; path=/; domain=.bibles.org
+      - abs_session=yh15IpKjuMIpsmFZCEw8KzniCMMyMdA1c%2BoEyTMAJAdr%2FHlGpEv7FlZDqzeRz9OMfus2PRXN32nsYEZVpMrMB7utEVioiOqP7X03SKb5R%2BorjiMfQHQbi3YjEyV6o%2FYIMyixfJpQL5NoZloaELgE%2BvXKbLTCgFBER%2FeZS%2BvrXj6S%2Bqgr%2BLKzWsBLY3djE6KKzXsaV0%2FXyiEaRStQUAMKIdPzJOX6558267pOXVH3lMBCuvHYjaqotgozldIpDwHQQLbi8SM6K49W3CSXLK4FTetPGLf9hecibDUiP%2FWKyMai4ajr5piI4ZXhB88GAY8d5A3IkG0Hmjd0updtuG1bMm5jRlQHveGdoA4gDA%2BjyPpW9Vp4VCb9RbZt2caFlPxR0hbZUTAK2bB8MaMqn9YNxR%2FnMxZ37DpIea0vDIYpLGpbuiM2LdJlCyLwongbS5P7h9eTu3Nx4%2ByFzDMpRrbX6w%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_uid=305869f75dfb5bf190f6be49023cf784c1ab3b00; expires=Sat, 07-Oct-2023
+        16:05:26 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/ALL/passages.js?q[]=john+3%3A16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:37 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/ALL/passages.js?q%5B0%5D=john%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=u1PCeKlEIw7%2Bwtjhn7WInas%2F%2FJ5b%2F2QWrwNaTjWSgaTvM2YTXNl0Y88PJmrO4zFvaMYtuWWPfD%2BTIjyer6CcyzMCvvOW3AymS7fQ1nnJIdKVGxrA3gR7UWiuuda3LrBNhQXxURiFXsw7XJGZEtmM%2FA64E0mmaCmw0hVed0w3seEPsKDlICOQWEi92sgXm%2BoGTYGy3o7dAsgCf0GVx6eDUh3EKSOnRjaDY%2BP889Ayj0iHgFktBkPdakVbM%2BfDmGSqLPaDaoN21X8Cht6n91dZQQ5Lt2C0v8hky9hKm%2Fn9yKU%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:37 GMT
+      Content-Type:
+      - application/javascript
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=yUS47S1NtT6fIiH%2FlA4hQ3Qq2Z14wE%2FolX33JbK%2B%2Bzx%2BKPIuIdX47OUUW2c7DGyHF0pxPb0%2B64CXjrYxXvgn3OvyDGjeyY%2Byb8gPy737EEtVAhdNWBR4gq%2BzvuR2cstLK44eH3mJLnkaxnkjN0Dv57G8h86eTcm8AKqS0VSxlYZRpGrlvX7pzIS0eT4SuKhSWyBPT9qw8J%2FAwJHOz4aa%2FqnaGIMtitLqwa%2F0rMxICSI8qMYxvQYA3JyCy0nZ3juBeb2siO7LDKS7gX72FJ2aF0B7nKoabiY9FqDQazkX63Vrw1nrrYB1%2FdFwWjI7T4yVorSR9tS7a6yqQ78wCvv3DTuj91A1xyNia1nxTh%2BynvioQgOPOezAqXAFCkZAyxZm;
+        expires=Sat, 07-Oct-2023 16:05:37 GMT; path=/; domain=.bibles.org
+      - abs_uid=d0b5f53ad08f139efec47e0b8d74229097b4f67a; expires=Sat, 07-Oct-2023
+        16:05:37 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"eng-MSG","version_abbreviation":"MSG","path":"\/chapters\/eng-MSG:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-MSG:John.3.16","end_verse_id":"eng-MSG:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16-John.3.18\" class=\"v\">16-18<\/sup>\"This
+        is how much God loved the world: He gave his Son, his one and only Son. And
+        this is why: so that no one need be destroyed; by believing in him, anyone
+        can have a whole and lasting life. God didn''t go to all the trouble of sending
+        his Son merely to point an accusing finger, telling the world how bad it was.
+        He came to help, to put the world right again. Anyone who trusts in him is
+        acquitted; anyone who refuses to trust him has long since been under the death
+        sentence without knowing it. And why? Because of that person''s failure to
+        believe in the one-of-a-kind Son of God when introduced to him.<\/p>","copyright":null},{"display":"John
+        3:16","version":"eng-CEVUK","version_abbreviation":"CEVUK","path":"\/chapters\/eng-CEVUK:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-CEVUK:John.3.16","end_verse_id":"eng-CEVUK:John.3.16","text":"<p
+        class=\"pi\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>God loved the people
+        of this world so much that he gave his only Son, so that everyone who has
+        faith in him will have eternal life and never really die.<\/p>","copyright":"<p>Contemporary
+        English Version. Copyright &#169; 1995 British &amp; Foreign Bible Society.
+        Used by permission.<\/p>"},{"display":"John 3:16","version":"eng-GNTD","version_abbreviation":"GNTD","path":"\/chapters\/eng-GNTD:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-GNTD:John.3.16","end_verse_id":"eng-GNTD:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>For God loved the world
+        so much that he gave his only Son, so that everyone who believes in him may
+        not die but have eternal life.<\/p>","copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"display":"John 3:16","version":"eng-CEV","version_abbreviation":"CEV","path":"\/chapters\/eng-CEV:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-CEV:John.3.16","end_verse_id":"eng-CEV:John.3.16","text":"<p
+        class=\"pi\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>God loved the people
+        of this world so much that he gave his only Son, so that everyone who has
+        faith in him will have eternal life and never really die.<\/p>","copyright":"<p>Contemporary
+        English Version\u00ae \u00a9 1995 American Bible Society.  All rights reserved.<\/p>\n<p>Bible
+        text from the Contemporary English Version (CEV) is not to be reproduced in
+        copies or otherwise by any means except as permitted in writing by American
+        Bible Society, 1865 Broadway, New York, NY 10023 (<a href=\"http:\/\/www.americanbible.org\/\">www.americanbible.org<\/a>).<\/p>"},{"display":"John
+        3:16","version":"eng-GNBDC","version_abbreviation":"GNBDC","path":"\/chapters\/eng-GNBDC:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-GNBDC:John.3.16","end_verse_id":"eng-GNBDC:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup><span class=\"wj\">For
+        God loved the world so much that he gave his only Son, so that everyone who
+        believes in him may not die but have eternal life.<\/span><\/p>","copyright":"<p>Good
+        News Bible with Deuterocanonicals\/Apocrypha. Scripture taken from the Good
+        News Bible (r) (Today''s English Version Second Edition, UK\/British Edition).
+        Copyright \u00a9 1992 British &amp; Foreign Bible Society. Used by permission.<\/p>\n\n<p>Good
+        News Bible. Scripture taken from the Good News Bible (r) (Today''s English
+        Version Second Edition, UK\/British Edition). Copyright \u00a9 1992 British
+        &amp; Foreign Bible Society. Used by permission.<\/p>"},{"display":"John 3:16","version":"eng-NASB","version_abbreviation":"NASB","path":"\/chapters\/eng-NASB:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-NASB:John.3.16","end_verse_id":"eng-NASB:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup><span class=\"wj\">\u201cFor
+        God so loved the world, that He gave His only begotten Son, that whoever believes
+        in Him shall not perish, but have eternal life.<\/span><\/p>","copyright":"\n      New
+        American Standard Bible, Copyright  1960,1962,1963,1968,1971,1972,1973,1975,1977,1995
+        by The Lockman Foundation.  Used by permission.\n    "},{"display":"John 3:16","version":"eng-ESV","version_abbreviation":"ESV","path":"\/chapters\/eng-ESV:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-ESV:John.3.16","end_verse_id":"eng-ESV:John.3.16","text":"<h3
+        class=\"s1\">For God So Loved the World<\/h3>\n<p class=\"p\"><sup id=\"John.3.16\"
+        class=\"v\">16<\/sup><span class=\"wj\">\u201cFor <\/span><span class=\"wj\">God
+        so loved <\/span><span class=\"wj\">the world,<\/span><span class=\"wj\">that
+        he gave his only Son, that whoever believes in him should not <\/span><span
+        class=\"wj\">perish but have eternal life.<\/span><\/p>","copyright":"<p>Scripture
+        quotations marked (ESV) are from The Holy Bible, English Standard Version\u00ae,
+        copyright \u00a9 2001 by Crossway Bibles, a publishing ministry of Good News
+        Publishers. Used by permission. All rights reserved.<\/p>"},{"display":"John
+        3:16","version":"eng-KJVA","version_abbreviation":"KJVA","path":"\/chapters\/eng-KJVA:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-KJVA:John.3.16","end_verse_id":"eng-KJVA:John.3.16","text":"<h3
+        class=\"s1\">God So Loved the World<\/h3>\n<p class=\"p\"><sup id=\"John.3.16\"
+        class=\"v\">16<\/sup>For God so loved the world, that he gave his only begotten
+        Son, that whosoever believeth in him should not perish, but have everlasting
+        life.<\/p>","copyright":"<p>King James Version 1611, spelling, punctuation
+        and text formatting modernized by ABS in 1962; typesetting \u00a9 2010 American
+        Bible Society.<\/p>"},{"display":"John 3:16","version":"eng-AMP","version_abbreviation":"AMP","path":"\/chapters\/eng-AMP:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-AMP:John.3.16","end_verse_id":"eng-AMP:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>For God so greatly
+        loved <span class=\"it\">and<\/span> dearly prized the world that He [even]
+        gave up His only begotten (unique) Son, so that whoever believes in (trusts
+        in, clings to, relies on) Him shall not perish (come to destruction, be lost)
+        but have eternal (everlasting) life.<\/p>","copyright":"\n1954, 1958, 1962,
+        1964, 1965, 1987 by The Lockman Foundation\n      "},{"display":"John 3:16","version":"eng-KJV","version_abbreviation":"KJV","path":"\/chapters\/eng-KJV:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-KJV:John.3.16","end_verse_id":"eng-KJV:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>For God so loved the
+        world, that he gave his only begotten Son, that whosoever believeth in him
+        should not perish, but have everlasting life.<\/p>","copyright":""},{"display":"Ioan
+        3:16","version":"cym-BNET","version_abbreviation":"BNET","path":"\/chapters\/cym-BNET:John.3\/verses.js?start=16&end=16","start_verse_id":"cym-BNET:John.3.16","end_verse_id":"cym-BNET:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>\u201cYdy, mae Duw
+        wedi caru''r byd cymaint nes iddo roi ei unig Fab, er mwyn i bwy bynnag sy''n
+        credu ynddo beidio mynd i ddistryw ond cael bywyd tragwyddol.<\/p>","copyright":"<p>beibl.net
+        - hawlfraint \u00a9 2013 Gobaith i Gymru, copyright \u00a9 2013 Gobaith i
+        Gymru (Hope for Wales)<\/p>"},{"display":"Ioan 3:16","version":"cym-BCN","version_abbreviation":"BCN","path":"\/chapters\/cym-BCN:John.3\/verses.js?start=16&end=16","start_verse_id":"cym-BCN:John.3.16","end_verse_id":"cym-BCN:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>Do, carodd Duw y byd
+        gymaint nes iddo roi ei unig Fab, er mwyn i bob un sy''n credu ynddo ef beidio
+        \u00e2 mynd i ddistryw ond cael bywyd tragwyddol.<\/p>","copyright":"<p>\u00a9
+        Cymdeithas y Beibl<\/p>\n<p>\u00a9 British &amp; Foreign Bible Society<\/p>"},{"display":"Jo\u00e3o
+        3:16","version":"por-NTLH","version_abbreviation":"NTLH","path":"\/chapters\/por-NTLH:John.3\/verses.js?start=16&end=16","start_verse_id":"por-NTLH:John.3.16","end_verse_id":"por-NTLH:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>Porque Deus amou o
+        mundo tanto, que deu o seu \u00fanico Filho, para que todo aquele que nele
+        crer n\u00e3o morra, mas tenha a vida eterna.<\/p>","copyright":"<p>Nova Tradu&#231;&#227;o
+        na Linguagem de Hoje, &#169; 2000 Sociedade B&#237;blica do Brasil. Todos
+        os direitos reservados.<\/p>\n      <p>Idioma: Portugu&#234;s<\/p>\n      <p>Ano:
+        2000<\/p>"},{"display":"S.Juan 3:16","version":"spa-RVR60","version_abbreviation":"RVR60","path":"\/chapters\/spa-RVR60:John.3\/verses.js?start=16&end=16","start_verse_id":"spa-RVR60:John.3.16","end_verse_id":"spa-RVR60:John.3.16","text":"<p
+        class=\"p\"><sup id=\"John.3.16\" class=\"v\">16<\/sup>Porque de tal manera
+        am\u00f3 Dios al mundo, que ha dado a su Hijo unig\u00e9nito, para que todo
+        aquel que en \u00e9l cree, no se pierda, mas tenga vida eterna.<\/p>","copyright":"<p>El
+        texto b\u00edblico ha sido tomado de la versi\u00f3n Reina-Valera \u00a9 1960
+        Sociedades B\u00edblicas en Am\u00e9rica Latina; \u00a9 renovado 1988 Sociedades
+        B\u00edblicas Unidas.  Utilizado con permiso.<\/p>\n<p>Reina-Valera 1960\u00ae
+        es una marca registrada de American Bible Society, y se puede usar solamente
+        bajo licencia.<\/p>"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557ed130c7f7.77878178'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ed130c7f7.77878178\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557ed130c7f7.77878178","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557ed130c7f7.77878178'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ed130c7f7.77878178\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:38 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/search.js?query=batman%2013:17
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:38 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=6TX95DdKvidrVkfrHbk1bw8obdd%2BTrSmXxExFgZ0UGZSI7W3BO1c%2FYDgwMjbGtCzAU9sG9w0UNlVa17LtX1tL6yKFCkjIYzCoRKyy9MFiX7dSiHDV5fKVWX3BCKLGNFTQXZmsL9bn%2FNiW7mwRwN%2FbYLtQup5UGfwrUbS0IaMaBKTXPbPZeP8M2vmhUXneJCIp1ACYzDw8khr1AcCZ3rmPbo3enVFD10XSyDIOe8yn5tmRLQI9ANs9Rm29jYN0slIyZDUVvmXyQSPnxcvHGDIXe7K%2Fuk5e6dG5QakjKrnK9SBbAd0X7odUBaqRFc1FPSB1BqaEUapk7lx3xkNJ4R%2B7byRrZ1ObDCrijHyfJfxnMtGTBI%2BnSbelTpqcSWDgB7Rqf9btpubxyt4iKt8WpZ5iRtuNqv6VieZZicdyX%2FksbfGTjQZxI%2FZQP%2FGs0Pmbj4oiq0iMaz6FajnKk4xK1U48G%2F4ALPGjaCROOCz1Gl4abVt%2FEx3AfHiQhZ4HymWQsjqrkykJd8XrskmjHVxC0LdutGrejxxNFD7Tddu6NRwU5M%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=CaAkKF8OUBVi2AcoL%2FPSyo8PPVjYHFXCHQYnXd44JUBWa%2FV6gWwkmFEVe5%2BbEWX4HEC0krvg8zEQMYB16IAzBYmp3y2ruXVKIWHL1FFjf%2F8N6lXvpChD0oR4XGzT8DJa9gk1Tnjqvl3TcGPL2GYMa%2BUMCFi8Do29PNbXJcDQerNbw5zJ%2B6FVBqg6BDUBkD5zVFmofRShdZS5fcZHQR3BggB2IwyINMvy37scQ9PhrmeOg7nO0YjG7BxbKfPJLqcx3jkVRmYfcOHLsQOzAdCADidPcJl%2FoxU%2BOsUbW8wRGb6pRd%2F6wpLhRW2xyUe0qFMqzfPYdn8kVZ3iISwj%2BbghhcFzJMDTKPVgBpGWopVwHXuTYIvue9yLgU09ttdwcgW0nQoPq0xC6BBV6AZHFjzkmHfK1XfxlGQiBa9ZQRsVWtuZvynBxbr2EYNcGRyXM9CnnQd0hZIkuQjTwK1Dynydw09ixpfzdUJEs4FHVAkHQG42Z1FvFmw8s4xT3iZnMNL8;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=CtDcjdRy%2FF2Nyn%2F3Posg0cpnfmNAqSi2s%2Bow%2FJHPId3V3uN1mdCj7fRWEpElM5eG3BHwpOUc6%2FPPygddHRrQQQVKea2iMqCOw%2BaSE0hU2%2F%2BmyV8IrMywITtNywdYihPQuAXC8ya3hbcKi7bEUErfUWY0FOAIZGWeiq%2FkOgDe2xcmsl3AvU2xPVKXN0ZhTNPkQetcVZbfcSoERZ0sm2eXpfhUGfjKQ%2FcqN7t1ArDCjo8EOSWDoBrHqrFECVjNCAXrpqLrPj17uZs1RKMFQbNSvmRCBT92QDS%2FQ66POsOBWSteX5vQ1pL2WR%2Bd2WblMySGQDw1iY3sklmmDw8WaBNsgwT%2BSZ1ssX4jBTq5B9mayipOPf9f2mn4ILqpVXRfsVskGVGThBii8sumAsn8VLY4WuePLrKlB%2FG8n4kzwa6kiBlaiEGwQSNJMkgerQfbzD0hgtvFjWGVIKUokd1ONLWBqknAmPRjOSpsYwE0fcyKedEec5AqhYL4qqrEk3a22kRAcAuqh3UXBiYwVFi0Vd%2BsuF7AflfDGFJyrbTD5%2BE%2BXooS7yvqkYQeAev5u46BADpHy0l72xdNgH%2F8rOfvKDuPnuQlo625dC57nLJMjlumYaAgalqrTKYapQA2d9hDq4ozv%2FUrDYBeYReUWLXeFlYBzMgyaxiiDQSZKag36YXHE9PPm5VnJzoqOBbhz9gBb6Wlx7wk%2FJhWA6fJFwHlhJCybg%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=L%2BYv4%2BtOpZs8XUZpyDkWvTRNEp9PPzxHlq0YtOp6X6w3e27UjSloHS%2Fa1ZgOhPIIkJKFUwd0KmEjhGN%2FRkMFHE2zu6Ws1bhn92kDy0ajKItd%2BP6dpZq9tAOfqmEkO7B6E088ElmcPPFjkH2q4PVw2gZO5QSbPpDWg8JvpXe0GgS1OdDGyPdhDQBE93JouykoW8cEtC0ttTxxfjJerHGhPMIumywqFTaSTSWVoN92%2F4lU2GuNMY4wncl6DzqZ8d7hSk9u1eXUFKQBF3gxpr9kcghPHjHkolJzBH%2FxEpNHubuXdTf%2FCYMb4k5yvvm4%2B02BJstkeX0Njbjav7GXbaTHwPIxRhs4UyrXe9neNZqX%2BLdvVXEnYVZLJAlMXxdmZbgW;
+        expires=Sat, 07-Oct-2023 16:05:38 GMT; path=/; domain=.bibles.org
+      - abs_session=NpaS9L21yJMZ49kE7B4dpWOszDsw311sGxUsTp8EJ6J5%2FK%2FF9mOydKzCfnGw%2Bg%2BDPKak7TXaez6X8MB3ZIOIG0fzJoOpvEUWFri540O2bpfBhRXdefxoO5g6vT0hztSyrdPkLtQimdxxZ6P9DkAw1irdoDVmaFhjYQDUDlPr%2FCYnF3ngheGdPL6y08gC%2FsTqwmyyRu1yZlnTyxsCpu%2FLUjUKkIotHysnY4G4Pf7E%2B7ZervHYIiln%2BFauiYMO2HO%2FpruQi3SNhY0EwWhXYYjgUoC0EY%2BQXpyk9ytl0MlBZSZebTr7geY9De8iY86bWc5YQQJc3KZ0PDGCEH10i33bL1asfHdDUL2huGNZR6U4RN93Rotagl3%2BoK4P1kuVaYnHlkGWHyCrmpVn%2FVllxxSquyXKtktlPA1xR6DWfkRb3uJtwSYEaI0R0cM13M%2FT7JK5KguxHEZfPdzOAuVbx5zGLUaNinMKAdnj1%2FtlLwjA8tfQwQ4tN9aNXadyxefkdJMFrEm4zVaB7JuxjUzQJGqYefc04PtIyfdwwIDrEugI%2FyM%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=Q3BbdKujfSntvrlUt79HflhwoZtztLg6zN4ru3vnLC%2F5%2Fkfr0Umz9ZqExIrpUDlZP3JZKeuz8ER0KgnduquYa9GGUOzhn5uZ9AOl4GlOov0bhH5ZxMiIZ1HZps2dBueds6kHL7O3lX8Uzge2yTBP3aWqW2EgnsyUXWjQqha%2BVKi60ExoKgoZtqFiJ6k%2FaViA1ut8Mty%2Bet2seH21qBeIUxp%2FjAgyQKeaOl%2B3p5pWPG4Ubxc2qo3alGX6idVghvo6iZ5WF%2FnO80oETnKoHEBZ%2FFgWcAHKaZHn1khU%2BzGJSr2jkm1ft9QQ2G2dohLa17itewST0eoDDpf47gAXnS64eWGkutketbQ228ohO0cZQnrOAikZV5xxVmsfHKyqme%2BIEsdgWP3Pr9cJVeXpl%2FDuAx%2Be1ia3KRObiOsSyiL6%2BLw%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=Qwpji9B17xcrHh53G9MSJ7NMDSsrrGwEqZCwZvRPnhkk2%2BeUZWiKNySoIj6Uj5nGB8UM5zuU%2FsVktG8DPJl9mhbgJgGoWIMJHL73yqujK9%2BpTlQyF4Cs0SxDGibXWzCieKTETlOcmauFLdH8snKlFTlxFeYrfQ86ZMWJgakMLmCWjIAFG%2FDdN8bO3qShP%2Fgidca0c8GsgdUjikjx3h7FLS%2F4hSsbGkNIgWZe24g%2FtN2vshKWHuOp5PU7tEySZGEVqCPZFZKJdjew%2FymAxZIPTueRfOCrnsnR4lVIRlH6q9vudjNaCTJ9B0%2BRNgpoqM2RZWzzAcyOleY64ZduAQuzlvoYMmmEMe%2B%2Fjl7ejfGkxYLNu1heAseurqOEhSUPwb8n55hqNt6UgklyVR03xYAilMZK7JJT9SzD%2BudW9sLacw8V4CgwI59N4VHqhuTqeIUkRt7yYfLlxT9x%2FzVPkDNE%2FRhwERQUTHXl3saPreHiGF%2BgREpqZeVwPBSoECCSl9f%2FFp6HpTa0wT5NplX%2FQJdh6c6EyEyDIet3QVEx9zyNhsg%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=Z5nJ2BnCEpfBVw6cIhuNZl80a%2B9eorLsjMllHJy8de700ccAhISVjEkPWpHUERkYiYgodpzaRhPX7FR%2F2Y6hZrgT6Cs1cycSfyI9kou0LQlvuRE5xZvR5djMJwyrSrfaOQ6gIwcVTwLwtbcG4FuxDPMHmCz0N25HzYjZmmLCXSO%2BceLVJA8f%2B4fJzrbbHGZFBayF3Wc3n6Uosj%2FH8oBIxhXghaQb3naDSBCPgXnd%2Fk398AyS8C1FCRJxJHRMMiIsPcWVIdzNxzOx%2Fju6fQir6YgB7L7TVOMPjQoWUlsWXPlgzUOvmK4wz0cnJAxlksD7IQ0wXcyZYTyg9GTfEaxj45Mcak2UOACNVZ6l0dkIFv08%2FqRuBG28gWrqNzo5lImwsBUHCd1u3vUqrs%2BE4SjejTBUgfvxAT3GVULJPe24RF%2FGzHcdUrKM8w0ByVCj8ajzdrV%2B2Ouln%2F%2BZ9IPTDk0j1q2LqvFE893IdpYykZuoVWUYHPpO%2BwJfkgrV3w5lRFY78nA%2BFmXutNVaLim%2BLppAtsmW0n%2BuOgx%2FmD6W906aRCQ%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=Zg92sUjXi9XKcIo7ZSrklTY0lG0P8l0Y9QbepkeElxWzgWGTc4JZ%2BoUuNb5YmthjulZ%2BE3LGEwxdhJFQ8HsnX4iPaVQZnIZBNznBloMBx4KNh6wv%2BvtWttGvqsaYypQbqB1K%2BtPiZraHO3ZFRRi%2BQB1DFK2XGwHJPmFM4UwvHt8vZMJPxJ%2F3rHEB339n5CKrdm%2BaQWSbRzJbIh%2FL8eJhkqN4Q7UZQkAgaX%2FobrbeUFopsUoN0q7w%2Ff7Wd7aAV06uWgWoHRLS3pTkjuc3useGSWdndULrKOZh96rxQZx7twU%3D;
+        expires=Sat, 07-Oct-2023 16:05:38 GMT; path=/; domain=.bibles.org
+      - abs_session=aeFecBT2FoFv8O7dC249N%2BOAUz5VB6KAPiZPCT6jaFgKiqUoyB848AogzZnKnxpy4GqC6AsBJok9Mg9RnmP2g6R9C2TG45iA1IhV1xkqz4T6ShRjE4BdbnPP%2B403fNuVD5vJ3G04KD7uY%2BP7ndUJEDOgzssxaVZA3GYKgscXce76Ij25VzTYMEH0Dk0Y5ZC2yqRqcgTw10mBQwRPi7Oi%2F7g0bXrm10MeZEjHSYy%2F5F6Ip%2FF6pBrihv%2FiaWn7m7GZDhs3Y4ma1sf56KBfVlZlRqei3mSdIEJBMgX4j2DASw%2F7Vip2SY74j3nsnE4xtXdpFRZfnBH1MVcFTYdv76ocV6v9woFk%2FifZcQ6trtCPLw9Omhgrj8vVMTFKowY%2FAacmPRrG%2Ft6i1B%2Feq1c33y4Asp8D%2BFDza80zHFFOM9N0Xg77Y9GfcrZhl2x1mebaCK62IbylSLagG%2B9UVgjxdY05qPDF5%2F%2BDYmuJsD65hJfETOnDcBODayfyDryU04PXlo5QDsk1mu781GEYvw6tIXQByIMOOyECRDDW4NU6LMGn%2FvU%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=pB3TGn9gLbc3r5wjgSdUh1jB741rQYF6z8lRQ960purrXHkekQA%2BJ6kWngiST4BoZvtuGylD59%2B0%2BH7tg8Xm24%2FGmDUDoK%2F2l7ctJ9lQggX8eIzdi2D32x6dX9EmjxatwNNcbTBDO%2FNK1rCo2mQGwplxYwQ6hgA8g1Xkog3z2jW%2B05Mwx3PdJuw6L6fauEUrbxQiDn9AMEj8dgShEvy%2FKQI5rpeTyOuGMzRocXXS%2FlEiDhnL2UOHf%2BfoXJMpjWL5pmCdpXWGKPy7vFKYK5dwYVdDp%2FmCIAn1VjaAi1OVhYm6N6y7Ne%2BS%2BScvKu8D0oQ1yALOqNjm4p8z6rQ1RlIBvmPODxOcx0SDp8MmbFtL9%2FG2O1RXojfEWiI2gr1pU0fgRsX52VFcACHYJzOsx89jOlm7lu6pwU0KTRz%2FYR%2BI1a0KxD5IrZXSczkwiX%2Frtv7fbym6tYqnyE3wy7mM8KfhbIXtBTnAU9RfQ0F4CdT7iSjr9LgmuM47q8SQFzyHUrmei5Bm5uFpv5BSWLrhYjH%2FNer9g%2Bi1jaj%2BL%2F42nMhE76I%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=rEQRquAHRD3dd4%2BUxiPIN2%2BBMn1ms8j3WlbBBcAVkGKLs5EKZ6IL%2B9mIkXiK%2BnBI1LbuRbsNsnrY7q8BHp00IXp5CvONU%2FA3mMEaJs%2F2jE%2BPe38YEvzTnOG%2FzpgzpyJfr0tFCAfPg5ngXYUjMqoQo3UesOUvCAIYHuFrsDv%2FA2w2sS9fSkMn%2F%2BUvzD0dKVJf3Jbs0aDqW2U2XJpiKhbRNaj4lQiUKMWzvnJLgdmamarJSMKakUaRRbax%2Bp%2BsBEMxzTghR98wg2klwxEMP34Sot%2BYrhI7HkEsEe7nlFIdJ0zLALVP3KvQpIeTG%2BZnUBT6FhBhlpMTMPKcAASEYSJiCNVlPPLEro%2FUJGDWC4zggj7XcQbtqRa6ulX22mRiGN3OpK%2Fag10dEaR%2B88sExdrDbk4TsTYsb%2B4CoaLgbc9W77MsETInu7nMuowVe2TlHxxcMclfxI96CBSvYAt2LWHnPg%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=zTieBV9b4kzmzgO%2FFqk%2B8VLg5NS%2F1WSLyhQAxnuLJCjVv3t9sAM64Z4jBTA9uKMRVSt7dwm478d4RJSh4tcMOpQQqcY8AR3R6XSp8RakgEs7o6Ug3qFu7y7o04yP74Dg45PCX9FjAA%2Ba8X3cWy5N1osfQ%2B8GiAlmWlKJvx2vbh3YBRxpR3Z51q%2BO7Dzs3ujB2CylWDPRfa1KfIwtuz%2FNsTR6iTQn7sDunwt6kzzAF%2Fzqk0fekWu7Rr0SGZiDTPHBLCCLUUl%2BntT6j0QPWZrGTFoanUThq9tgfyJQbliZaRUtbgByFOiOL3UcYX2T3PKnXwjRoi%2F4Hxi1cDOYNSQ9OQSnaOnUdnNj7o88iKYE9hHAeJOWjKwitA3OjQk1SCWMpcvEUynViBCoA558EFYQ51QcDpreyWdCuKvOks9h%2BxAkAC9%2FsPV1NtBiEq5No5DXFJjr1QCwr%2FD%2Bw71YXNCYYg%3D%3D;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_uid=50e0565ed3490d5568234144f2cb398eb55e1eef; expires=Sat, 07-Oct-2023
+        16:05:38 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/verses.js?keyword=batman+13%3A17&version=ALL
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:39 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/verses.js?keyword=batman%2013:17&version=ALL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=Zg92sUjXi9XKcIo7ZSrklTY0lG0P8l0Y9QbepkeElxWzgWGTc4JZ%2BoUuNb5YmthjulZ%2BE3LGEwxdhJFQ8HsnX4iPaVQZnIZBNznBloMBx4KNh6wv%2BvtWttGvqsaYypQbqB1K%2BtPiZraHO3ZFRRi%2BQB1DFK2XGwHJPmFM4UwvHt8vZMJPxJ%2F3rHEB339n5CKrdm%2BaQWSbRzJbIh%2FL8eJhkqN4Q7UZQkAgaX%2FobrbeUFopsUoN0q7w%2Ff7Wd7aAV06uWgWoHRLS3pTkjuc3useGSWdndULrKOZh96rxQZx7twU%3D
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Wed, 09 Oct 2013 16:05:38 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1262'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=RRPSGyXRb%2FdQGkOfjGVhZL8xAe1NJPUeVjMpUy8ga4vrH8I0TloK0gALPLgOKG0f8wKPHfvfhLkUgwqaSy8GlYwyHr3LXB79PfYDh6uTyiC5J%2F%2B5f4byS6hMO9xpIUulQKdW0wLDXYLQCt89n8IcGvou8V2augFSWaFjOGw4XJQA2Vcy81ZYSWvYtEnSMBDQteuHRm0%2FluusKW6HFymJPcQP%2B8EYGgvT2sPd1dkykIGKZBuQcWKM%2Bwj4cgvzTtJ7S%2BqB2ujMGK52LMv0TYRgVrZWGN2P7Me95tCPPat4dToNe5Diyic497OJzmszVf4XxpOTeufwyCoMF2Ro7jfOVcWc7DFE0UVZHwQTWF3LqMCUBu83lHYAKoZtvjG3a16r;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=SpK9zrfXNP3m8sPw1gvmZ%2BHjQH1dbqvVieoNoMZBAdzKQgHNM6s4oyFyNN2g53%2FjBjsqKhx349p6640PncxFpi%2Fiii5kW1bwjYKAq%2F73G%2Fwvx54hHxabEqzbjQQ%2Bk05oDoN9I647cAoQGTx5uZLxMha%2B6D%2FOmc%2FWPf8ODGDYL%2B7UnFocemhM5m6JHbwM3ObKwQj3HuD5XVtG7EwoFxENU64c%2FKhsJweJeKBEzBhAMTm4PN9w5wZbXqOAJl7cip3SY91Npf06EExPjC5gd3knHP%2FcJrhT4AViZwtmRa0kWjIXJZTsS%2F3sMm1eQcWIhQLRG9U%2FL7M6QpvSETGdxsk1%2B6edtRM7rI32gOZ8UHdZIfIO%2FLjvFr51kEBbpSyK9%2BOz;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_session=Vy7kkLXj6rTEQXZYBpGc0B09KJQ1JSI6N3FyDPtvBiiL7c3zwxUQoVGBJ598SxiKs%2B9HNZfKILkoiZWyaxWEDNcVRfMbhAjpeIdos7RZ4I7qZPsRyvge4dyHQS9lBrad9sy7OVri9POHt9RWbSCXPmWjUX5M9nYUl4dd5trui2U92pwVLOyZ1VwYTiv48v7HyUOwA8S5KNTP4lWedG2YtT1ZJBuVywFL0GOhMgxRw%2BrWOYi0Opx0s5Cu74TpQwp9fah7yO7GgTd%2BRfgq4PYp2vvngdKtCrAyO7%2FXU7YT4A95%2F31kwNoU7JQ1UXlwPJQMY%2BLH3wP1fm00OxQjthh0Opl9uGB1bA9de8wQn5txPZR%2Fc9Kwi14StDVYjAd5D10H;
+        expires=Sat, 07-Oct-2023 16:05:39 GMT; path=/; domain=.bibles.org
+      - abs_uid=ede7c5103d583bd9fbd17eac98983a1a965ce6bf; expires=Sat, 07-Oct-2023
+        16:05:39 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"verses","summary":{"query":"batman
+        13:17","start":1,"total":null,"rpp":"15","sort":"relevance","versions":["eng-MSG","cym-BNET","eng-CEVUK","eng-GNTD","por-NTLH","eng-CEV","cym-BCN","eng-GNBDC","spa-RVR60","eng-NASB","eng-ESV","eng-KJVA","eng-AMP","eng-KJV"],"testaments":["OT","NT"]},"spelling":[]}},"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557ed33d8fe3.86934328'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ed33d8fe3.86934328\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"52557ed33d8fe3.86934328","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557ed33d8fe3.86934328'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ed33d8fe3.86934328\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 16:05:39 GMT
+recorded_with: VCR 2.6.0
