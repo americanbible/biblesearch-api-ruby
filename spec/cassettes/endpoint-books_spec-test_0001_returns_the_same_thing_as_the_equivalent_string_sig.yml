@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/books/GNT:2Tim.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/books/eng-GNTD:2Tim.js
     body:
       encoding: US-ASCII
       string: ''
@@ -15,43 +15,42 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 20:19:58 GMT
+      - Fri, 11 Oct 2013 18:43:55 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '1511'
+      - '1542'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=TFTufpTqX6WM%2BvJ%2B0%2B1tlfPEHwlLCl7%2BjBFnkkz2ji%2BwMo%2Fkwo5I7hPPsZ46aywgflpaoQ0ticFoNG3wA9M1GeVaC5KWjL%2BfnJQcBOHsE%2Bcp0hMI984PCA1hHEUj83M4NxWN%2F37imUnU%2Fu2uPdLYCZ81RmXN2VtYVMCNQWnLn%2FGmd%2FZXhSMrOYovYX5HCVnixZZVA5M837yaB7%2BKVtqRys1YSpYMdRq8u0wEMHZ15Qa%2BhApvpHiZrflxy5jmdVqI25rxbQS3yCMxz0oLhvF%2FMfhvEbYiczsEwncXtyRIsSE%3D;
-        expires=Sat, 07-Oct-2023 20:19:59 GMT; path=/; domain=.bibles.org
-      - abs_session=qfwM7RnmN%2F2H29PkhDwqNsqeAjTjn0Y%2Fu58P80dmFhypWa9cULHBz%2Be6M6LYYZ2eTmsxkIEFdQAAp%2B2sStITsJh4CVNTKt7zDj5E16o6aF9fNRc6%2Ffexs0HZuUuJdBb0oOcux3ZdkRxnt%2FMImI9KWh1N1F05nIPUHqhQ9voAA1EqxP8XzQq3N%2F%2FrVhi636Mz4arEt%2FKXTCTIbxdYmi%2FDFimfT8zTEoXvxPeludqRnAPjFiJz21oxbjoE1ePUDdkyth0WOa422F8mqrWSuOGn3QiF7EECMld7T9OEkuQ79nZ3a4QUzkZgO2K1M5SkVnCtHLShRn4XVzbgRwWzIuDRMV%2BYgun7yZaTQ%2FgoPuShPjLwH%2BzWv3e3vtP5NH57xon6;
-        expires=Sat, 07-Oct-2023 20:19:59 GMT; path=/; domain=.bibles.org
-      - abs_uid=d52e79bcd3d3225da75abc31bc58ad8fef2f814e; expires=Sat, 07-Oct-2023
-        20:19:59 GMT; path=/; domain=.bibles.org
+      - abs_session=VZeD1Wu2f1gQbKiV%2Bo5gc162O4embqLjfijwTHGqy%2BFNXuFy8x9X8VNndhK8%2FlBvn7lAGvrN7%2F6cex0IJKX9dZqAh8Pk8K77lhs97f0mHwXUEjgsb1FDy7lfh8RfbrCQzCmBjojUVkzGFp9j7eBeYrbJ33KWlx3xIa8Pr3jF9CqkHNPYljaxKnIU7z6mflKyyRKGv953nvJ%2BGKhryduM99Hr94OziZSWdpFXgz5PEqg2XdWt9HELVAktKo4t5PfdOYJReyY%2Bf9eyuTQiEcx4jck8ZS3W0PNZCL0jhVih3vtOWWAm89EKgCf1aZ8DOjOBEZ6mQi04RUCw0yaio4oWhgfmEgu5l7PMPBWq6V2%2B6Pz22zI81AbB11cvFqBNlAsm;
+        expires=Mon, 09-Oct-2023 18:43:56 GMT; path=/; domain=.bibles.org
+      - abs_session=l%2FuOdNui5X2nfm22kApz10csFClX3SBo664L90cCtINkvgVbUIEbs3WmAJJtYz8fP2gk4TEqdZOISqw1%2FNT0qwo3KWDMz6Y4Mh%2BtGVTxPbaEM0CiKF3NTUcZ61NIr6IHw5%2FDRsiBjBUlVheMPHA1OVziVjeo%2FrwnBcJSYgKJS%2BJZzz%2FfVh7Ysgg7%2BblqjVlwqlnfqYlr3%2FGQD%2F0zwHS%2FAL39vp3N%2F%2BCoET%2F4CiJWSlpgTxMwfg1HM4qVcADIQ8mF7Jykv72RPb9nH1v2vwvYDxk78W6XAz7s%2F0XKz%2FvOJ4M%3D;
+        expires=Mon, 09-Oct-2023 18:43:56 GMT; path=/; domain=.bibles.org
+      - abs_uid=28ad479054b0c17f7fb4d8910d850c7c81d4c2fb; expires=Mon, 09-Oct-2023
+        18:43:56 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"books":[{"version_id":"1","name":"2 Timothy","abbr":"2Tim","ord":"55","book_group_id":"7","testament":"NT","id":"GNT:2Tim","osis_end":"GNT:2Tim.4.22","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Titus","name":"Titus","id":"GNT:Titus"}},"previous":{"book":{"path":"\/books\/GNT:1Tim","name":"1
-        Timothy","id":"GNT:1Tim"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''5255ba6f5c9496.77906998'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=5255ba6f5c9496.77906998\"
+      string: ! '{"response":{"books":[{"version_id":"135","name":"2 Timothy","abbr":"2Tim","ord":"67","book_group_id":"0","testament":"NT","id":"eng-GNTD:2Tim","osis_end":"eng-GNTD:2Tim.4.22","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Titus","name":"Titus","id":"eng-GNTD:Titus"}},"previous":{"book":{"path":"\/books\/eng-GNTD:1Tim","name":"1
+        Timothy","id":"eng-GNTD:1Tim"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525846ecc87a94.72283040'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525846ecc87a94.72283040\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"5255ba6f5c9496.77906998","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''5255ba6f5c9496.77906998'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=5255ba6f5c9496.77906998\"
+        \/><\/noscript>","fums_tid":"525846ecc87a94.72283040","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525846ecc87a94.72283040'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525846ecc87a94.72283040\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 20:19:59 GMT
+  recorded_at: Fri, 11 Oct 2013 18:43:56 GMT
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/books/GNT:2Tim.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/books/eng-GNTD:2Tim.js
     body:
       encoding: US-ASCII
       string: ''
@@ -64,38 +63,37 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 20:19:58 GMT
+      - Fri, 11 Oct 2013 18:43:55 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '1511'
+      - '1542'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=GyK%2ByVdEj5IK%2BL37gV8UxnH9r6o4TEsLqOz1jlLNfrMeMvti%2Be3iiQkkUxMOrRe1cSGvTRigRbow8wgzJrIH8a%2BetgkYCBgXenK9WqpSOgn7bIHlXkwq%2BlMgCuw8WmN7QSoIQkTLf21dB9fcAuaD%2FLycztxKKO773%2Be1x7qStpGfQV%2FQ1oYP72E8TFu2oUR%2BC49Prbu3ZSYcy428Wr5Ueafws7fZ6yclw%2F02T9EPzrHq8N1KX9Hi2AYjTWYh%2FwQFpq8xWWelz%2B0mU2GXsOBb3KaleQaw3y%2B7mublFgEH5YM%3D;
-        expires=Sat, 07-Oct-2023 20:19:59 GMT; path=/; domain=.bibles.org
-      - abs_session=nsyAIhqLnLNp51nZEcRVRaVXa90ezV7b%2FXe%2BJwI5vNy7oI3OAmZhxES4AqMFbVJiGabNdGuNPkNbxKPRT6OBAhlwkn%2FNdA%2B347MIB%2BE6Repxy%2FZKugOQGkeRKywOtqlv%2F7s9UgO7IoNe8XJg%2BODxOBg2nYwnfpEOTsXWioRohnXfIevEjUoR07WLlDY3OMB%2BG9EAH4K%2FVpHGwmSQ0WRV9hYZeqqN3Od93gd%2Fes%2BiJkMHkXqplg8vZ2ZabQDK7FCM%2FA24p%2FGbEUYxX7H4w6dhaD2GJb%2BrUdRgo4FAUaje5%2Bjp8r1cd5C%2BOoKFLy9NyjltPqV57sVtgF%2BMcv5IRB86OyY2crz8ySG8LMTqPCPYAroli03%2F3C9rZI%2BZ71lAGokS;
-        expires=Sat, 07-Oct-2023 20:19:59 GMT; path=/; domain=.bibles.org
-      - abs_uid=1d283746e0d6cbab4e0489eda4c52036e6f31535; expires=Sat, 07-Oct-2023
-        20:19:59 GMT; path=/; domain=.bibles.org
+      - abs_session=LiGZckQ7bfuY958FAVNYtgrbRKyHLa5OEdFleltIbh2r%2BggZQ5ygWM8nZ7PaaI48YSaak%2FzLcVmMOcIdH%2BqRudWW%2FiI%2B%2F%2FfSm83MFyhXIntDoxmrYslPrfpa%2BEtsOPT%2Bf1Bqkk1NsXjFF%2BMc%2BkHcDLN2tZgh477eZuESnrwQhiMHAxEwG26NbVsuyf5Ucoru8rw4y81EGGquIyxSfTOK0D7xziXy7HDmQQnxLccz400%2FE6uIqJOwqHUGxteIzbhfyMDYaLnF%2Bik9BIHrU7ZJ9Hh1UA%2FH422qxeewRwsXcmTlrJkkMRhxpaAuXqvReTLD3gux%2B%2F0Gs7kjkhplYicctXZ7XQK6ctOdECCZjr7seo4b8Mn3vDP0xhkHnYkt3AIQ;
+        expires=Mon, 09-Oct-2023 18:43:57 GMT; path=/; domain=.bibles.org
+      - abs_session=R4s9qtgEkpQqr%2BZ7qt6tXo12LZ%2BEQhbNqYSXpjQVP%2F5lPT7Dg0wklas2rh3wA7VM4LXF2H%2F8sJQM4LkHeDxHbBOaOUH31tvfI7u2vhWXvNCV%2BabY0DXECC33Q799KnqkUjG8wEE8K30cjIkjRzSJ3rtFZj2EOdz%2Bl8%2FJkDiJ7B8cZDzG7%2Blbeddg47j1YAOdHx%2BTuZNpE9%2Bi5C%2Fu4F5Nz9yzdHtVrGR3lEr0oxWphGoCfSqdcvtwYagDqwypjC6vwkBh71mRRK%2Fy9pTyTn1Yl%2BeDpW%2B1G8gRiQCuGh3OZZ8%3D;
+        expires=Mon, 09-Oct-2023 18:43:57 GMT; path=/; domain=.bibles.org
+      - abs_uid=59555cb1660b796d75d9f574adde1ff6704ee23a; expires=Mon, 09-Oct-2023
+        18:43:57 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"books":[{"version_id":"1","name":"2 Timothy","abbr":"2Tim","ord":"55","book_group_id":"7","testament":"NT","id":"GNT:2Tim","osis_end":"GNT:2Tim.4.22","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Titus","name":"Titus","id":"GNT:Titus"}},"previous":{"book":{"path":"\/books\/GNT:1Tim","name":"1
-        Timothy","id":"GNT:1Tim"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''5255ba6f9095b1.13342943'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=5255ba6f9095b1.13342943\"
+      string: ! '{"response":{"books":[{"version_id":"135","name":"2 Timothy","abbr":"2Tim","ord":"67","book_group_id":"0","testament":"NT","id":"eng-GNTD:2Tim","osis_end":"eng-GNTD:2Tim.4.22","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Titus","name":"Titus","id":"eng-GNTD:Titus"}},"previous":{"book":{"path":"\/books\/eng-GNTD:1Tim","name":"1
+        Timothy","id":"eng-GNTD:1Tim"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525846ed027299.77080419'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525846ed027299.77080419\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"5255ba6f9095b1.13342943","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''5255ba6f9095b1.13342943'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=5255ba6f9095b1.13342943\"
+        \/><\/noscript>","fums_tid":"525846ed027299.77080419","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525846ed027299.77080419'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525846ed027299.77080419\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 20:19:59 GMT
+  recorded_at: Fri, 11 Oct 2013 18:43:57 GMT
 recorded_with: VCR 2.6.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/versions/GNT.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/versions/ENG-GNTD.js
     body:
       encoding: US-ASCII
       string: ''
@@ -15,109 +15,40 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 16:05:12 GMT
+      - Fri, 11 Oct 2013 18:43:53 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '7084'
+      - '1606'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=bB6bJw91k3%2BcG1jdKN9k1%2B6QbI%2BpYXxVKuHmlvB9C6QIdog5CuO9cSBIpCWaVC1yurSwRNkXf%2FFHsOIUB6jAIfulHiXHWbBqc%2BbF2kp1Jk8Mdmb%2BmOTDFlohI3AeaAXIM5eM8tqn3oRiO5dBJlvw9EbiZX3lcmN67oJqAq%2FhqK6Iqz7cAuLETg1EaXNKvreSTOn7LawkI1p6iDt2tYycawVUIayKtr14n3rqkixgDAbhP9gQQRtFHSeWJSVNtjE0KHYEpgh4tWF0I3WbiIz6NRJUaRYS12T0O57duJ%2BV%2FBWcQGOT3xpPwpx7UJGADqyRym9X712TCZy5mMqvw6AVC7G2HEnTi97ZkmSSSnOyzXvIOp2rcPgI6u3MX2dwaqAq;
-        expires=Sat, 07-Oct-2023 16:05:13 GMT; path=/; domain=.bibles.org
-      - abs_session=elXN8g0GXMEo3LKBUjSlXx9rQ7me%2F5zLI9IUtTfqN%2Bg0BNIn1GzZDxJwJhRORK5VUBr1RdksBdDoW7ovBF3%2BDVQXMdWL7dvAmeo90bjuEeIbFsTIsTjhY7NuKfvpa2lAP37peuz7HqpEP1JagxXMLGcGrNXUV36zf0ygMgKyFRtJG%2Fw4o4YOn5uyXiTw1gG3eBJqUP%2FwJ4rT1r%2FK8u%2FgGcEBu0Wk4EAUAhWJUZ1HS2NpkoGiqH%2FGKyvpoTgI0GCYgh%2BfKC0hPGGAQ0KBCC09DsCpyM1pmYzCrScLv3QJC3I%3D;
-        expires=Sat, 07-Oct-2023 16:05:13 GMT; path=/; domain=.bibles.org
-      - abs_uid=a06fb1b241f36dd78f55fe75ca6cdc548f611c9d; expires=Sat, 07-Oct-2023
-        16:05:13 GMT; path=/; domain=.bibles.org
+      - abs_session=5u1uNYFKXdMtLTz%2F5f5tdJlQF74lDSWMGDylXA9VmBFAXwK1FmidiK053mBXGRXC45zh0jtfNDrC2RDSt5RKXUIoXqAafqIxtAogwKicL1ZsPjKGe2FSJBcRYiI9qE%2FbmfpjoZ%2BAP8tHqpYVeiNC3TWUgONpf8fklet8SgSGkKqmb9fYizPjEihHnoEmPlOFUDuB%2FYCcPfzYyRZcBQJdKeekZDVXKCL%2FBCwD%2F6KRhENfKFeGSD7Qz%2FEI5v1b0PVhlp0Q81zpxtht4bzR4wtWW8wT115nDy08U8pDkT0II2s%3D;
+        expires=Mon, 09-Oct-2023 18:43:54 GMT; path=/; domain=.bibles.org
+      - abs_session=X0vEGs4F5Pq6KdPoMAjlYYVHLhDnPiiQf3%2BYKZnDD6Z2X5KTVYAsi%2B6erwwqO1NUgGV4YTtE6yMbAVT3xdk0KXUy8r8qzigW7wsDo6IpVL4Ma8PuAXZ9OMQ03WkZIQ%2BHFdPMCsaooasNikt9p2bHhflTXHl%2FWK%2B0OSBGASxbNtXAETh3zmGu3GUHQ2p%2B4K9bYGI29jk1W1Xsi204hggwK22%2BX1PhSS2JCNJF5vMdtPaRtNt5l0ndWmCse4ACJRhFssFD5ObdbUbCR6S0F2EPRzz4RvZJAmonMEw2klROadXlpukGP4D8d4ZtbEbNhftgY8e7%2Blnd0Yekko1tQPnyjkxTRtG5UfCRKTjDyFNBJaTL2NOEXWMGCZYzwMAeHVKo;
+        expires=Mon, 09-Oct-2023 18:43:54 GMT; path=/; domain=.bibles.org
+      - abs_uid=1d02dedb30c3ff67855302d134514b109145f3ce; expires=Mon, 09-Oct-2023
+        18:43:54 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"versions":[{"id":"GNT","name":"Good News Translation","lang":"eng-US","lang_code":"ISO
-        639-3","contact_url":"http:\/\/www.americanbible.org\/about\/contact","audio":"NONE","copyright":"<p>RIGHTS
-        & PERMISSIONS GUIDELINES<\/p><ol class=\"ol-copyright\"><li>Policy for use
-        of the Good News Translation (GNT)<ol><li><u>General Statement<\/u><br \/>The
-        GNT text may be quoted in any form (written, visual, electronic or audio)
-        up to and inclusive of five hundred (500) verses without written permission,
-        providing the verses quoted do not amount to 50% of a complete book of the
-        Bible nor do the verses account for twenty-five percent (25%) or more of the
-        total text of the work in which they are quoted.  This permission is contingent
-        upon an appropriate copyright acknowledgment - (see below).<\/li><li><u>Use
-        of the GNT beyond above limits requires written permission.<\/u><ol>                <li><i>Commercial
-        Use:<\/i> Commercial use means use in any product offered for sale, lease,
-        rental or barter on any level.  Rights and permissions requests for the GNT
-        in media intended for commercial use should be addressed to The American Bible
-        Society, 1865 Broadway, New York, NY  10023, USA .  Request shall contain
-        the following information:  (1) exact portions to be quoted, (2) the medium
-        in which those portions will be quoted, (3) estimated percentage of the total
-        text of the work made up of the GNT text, (4) any additional material to be
-        included in the work, such as additional text, illustrations, photos, etc.,
-        (5) the purpose, number of copies or reproductions, and distribution of the
-        use in which the GNT is quoted, and (6) the sale or lease price of the work,
-        or other income to be received.  For commercial use outside of North America,
-        please send your requests as detailed above to the American Bible Society.  If
-        the GNT is used as the lyrics for a song, you must obtain permission prior
-        to production of the same.<\/li>                <li><i>Non-Commercial use
-        (Ministry, Church, educational, etc.):<\/i> Non-commercial use is any use
-        other than commercial use as defined above and generally means free provision
-        of the medium in which the GNT is quoted.  Most usages by local churches would
-        fall into this category.  Rights and Permissions requests for the GNT in media
-        intended for non-commercial use should be addressed to the American Bible
-        Society, 1865 Broadway, New York, 10023 and the request should contain the
-        above requested information.  If the GNT text is used as the lyrics for a
-        song, you must obtain permission from the American Bible Society prior to
-        the production of the same.<\/li>              <\/ol>            <\/li>          <\/ol>        <li>Acknowledgement
-        and copyright notice<br \/>          Any quotation from the GNT text must
-        include copyright notice and acknowledgement.  The form the acknowledgment
-        takes will depend, in part, upon the medium in which the quotation is used.          <ol>            <li><u>Written
-        use<\/u>:  Use whichever of the following notices is most appropriate:              <ol>                <li>The
-        following notice for the GNT may be used on each page where material quoted
-        from the GNT appears:<br \/><br >                  <b>Scripture taken from
-        the Good News Translation in Today''s English Version- Second Edition Copyright
-        \u00a9 1992 by American Bible Society. Used by Permission.<\/b><br \/><\/li>                <li>When
-        the GNT is identified at the end of each Scripture quotation from the GNT,
-        the following notice may be used on the title page or verso thereof of each
-        copy:<br \/><br \/>                  <b>Scripture quotations marked (GNT)
-        are from the Good News Translation in Today''s English Version- Second Edition
-        Copyright \u00a9 1992 by American Bible Society. Used by Permission.<\/b><br
-        \/><\/li> <li>If appropriate, the following notice may be used on the title
-        page or verso thereof of each copy:<br \/><br \/>                  <b>All
-        scripture quotations in this publication are from the Good News Translation
-        in Today''s English Version- Second Edition Copyright \u00a9 1992 by American
-        Bible Society. Used by Permission.<\/b><br \/><br \/><\/li>              <\/ol>            <li>Visual
-        and electronic use: \"Visual\" use includes videos, films, slides and overhead
-        transparencies.  \"Electronic\" use denotes the use of an interactive computer.  Quotations
-        from the GNT text in visual and electronic media must include the appropriate
-        copyright notice from section II-A on (1) the product (medium itself), and
-        (2) the product''s wrapper or packing, and (3) in an acknowledgement section,
-        if one exists.<\/li>            <li>Audio Use: This category includes cassettes,
-        compact discs, and similar media.  Quotations from the GNT in audio form must
-        include the appropriate copyright notice from section on (1) the product (the
-        medium itself), and (2) the product''s wrapper or packaging.  If the GNT is
-        used as the lyrics for a song, you must obtain permission from the American
-        Bible Society prior to production of the same.<\/li>            <li>Church
-        use:  Any use of the GNT by a local church in or on non-commercial media such
-        as bulletins, orders of service, bulletin boards, posters, overhead transparencies,
-        recordings of worship services (for which a small fee may be charged), or
-        similar materials used in the course of religious instruction or services
-        at a place of worship or other religious assembly requires the following notices
-        at the end of each quotation:  (GNT) Audiocassettes may include (GNT) acknowledgement
-        on label only.  Contacting ABS for permission noted herein is not required.<\/li>          <\/ol>        <\/li>      <\/ol>","info":"<p>The
-        <i>Good News Translation,<\/i> formerly called the <i>Good News Bible<\/i>
-        or <i>Today''s English Version<\/i> was first published as a full Bible in
-        1976 by the American Bible Society as a \"common language\" Bible.  It is
-        a clear and simple modern translation that is faithful to the original Hebrew,
-        Koine Greek and Aramaic texts. The <i>GNT<\/i> is a highly-trusted version.<\/p>","lang_name":"English
-        (US)","lang_name_eng":"English","abbreviation":"GNT","updated_at":""}],"meta":{"fums":"<script>\nvar
+      string: ! '{"response":{"versions":[{"id":"eng-GNTD","name":"Good News Translation
+        (US Version)","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.americanbible.org\/","audio":"NT","copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>","info":"<p>Good News Translation
+        with Deuterocanonicals\/Apocrypha. Scripture taken from the Good News Translation
+        (r) (Today''s English Version, Second Edition). Copyright (c) 1992 American
+        Bible Society. Used by permission.<\/p>","lang_name":"English (US)","lang_name_eng":"English","abbreviation":"GNTD","updated_at":"2013-08-06T12:38:47-05:00"}],"meta":{"fums":"<script>\nvar
         _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557eb931d0f6.20595788'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb931d0f6.20595788\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525846ea2568a6.90146840'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525846ea2568a6.90146840\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"52557eb931d0f6.20595788","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557eb931d0f6.20595788'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557eb931d0f6.20595788\"
+        \/><\/noscript>","fums_tid":"525846ea2568a6.90146840","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525846ea2568a6.90146840'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525846ea2568a6.90146840\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 16:05:13 GMT
+  recorded_at: Fri, 11 Oct 2013 18:43:54 GMT
 recorded_with: VCR 2.6.0
