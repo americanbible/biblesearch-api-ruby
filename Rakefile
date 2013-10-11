@@ -3,10 +3,11 @@ require 'bundler'
 Bundler::GemHelper.install_tasks
 require "bundler/gem_tasks"
 require 'rake/testtask'
+require 'rake/clean'
 
 # one way to remove cassette files
 # require 'rake/clean'
-# CLOBBER.include('spec/cassettes/*.yaml')
+CLOBBER.include('spec/cassettes/*.yml')
 
 RUBY_TEST_VERSIONS = [
   '1.8.7',
@@ -26,7 +27,7 @@ namespace "test" do
   desc 'Focus on a particular test file (hardcoded for now).'
   Rake::TestTask.new(:focus) do |t|
     t.libs.push "spec"
-    t.pattern = 'spec/**/fumsify*_spec.rb'
+    t.pattern = 'spec/**/chapters_spec.rb'
     t.verbose = true
   end
 

@@ -14,17 +14,17 @@ describe BibleSearch do
   describe %{books} do
     it %{requires a version id} do
       lambda { @biblesearch.books }.must_raise ArgumentError
-      (lambda { @biblesearch.books('GNT') }.call rescue $!).wont_be_kind_of ArgumentError
+      (lambda { @biblesearch.books('eng-GNTD') }.call rescue $!).wont_be_kind_of ArgumentError
     end
 
     it %{accepts an optional testament id} do
-      all_cool = lambda { @biblesearch.books('GNT', testament_id: 'OT') }
+      all_cool = lambda { @biblesearch.books('eng-GNTD', testament_id: 'OT') }
       (all_cool.call rescue $!).wont_be_kind_of ArgumentError
     end
 
     describe %{when I make a valid request without chapters} do
       before do
-        @books = @biblesearch.books('GNT')
+        @books = @biblesearch.books('eng-GNTD')
       end
 
       it %{has a collection} do
@@ -52,7 +52,7 @@ describe BibleSearch do
 
     describe %{when I make a valid request including chapters} do
       before do
-        @books = @biblesearch.books('GNT', include_chapters: true)
+        @books = @biblesearch.books('eng-GNTD', include_chapters: true)
       end
 
       it %{has a collection} do
@@ -81,7 +81,7 @@ describe BibleSearch do
 
     describe %{when I make a bad request} do
       before do
-        @books = @biblesearch.books('SupDawg')
+        @books = @biblesearch.books('UnknownVersion')
       end
 
       it %{has a collection} do
@@ -99,7 +99,7 @@ describe BibleSearch do
     describe %{given a book signature} do
       describe %{as a string} do
         it %{raises an argument error for bad input} do
-          bad_book_string = lambda { @biblesearch.book('SupDawg') }
+          bad_book_string = lambda { @biblesearch.book('UnknownVersion') }
           bad_book_string.must_raise ArgumentError
           (bad_book_string.call rescue $!).message.must_equal 'Book signature must be in the form "VERSION_ID:BOOK_ID"'
         end
@@ -108,7 +108,7 @@ describe BibleSearch do
       describe %{as a hash} do
         before do
           @options = {
-            :version_id => 'GNT',
+            :version_id => 'eng-GNTD',
             :book_id => '2Tim'
           }
         end
@@ -127,14 +127,14 @@ describe BibleSearch do
 
         describe %{with a complete hash} do
           it %{returns the same thing as the equivalent string sig} do
-            @biblesearch.book(@options).value.must_equal @biblesearch.book('GNT:2Tim').value
+            @biblesearch.book(@options).value.must_equal @biblesearch.book('eng-GNTD:2Tim').value
           end
         end
       end
 
       describe %{when I make a valid request} do
         it %{has a book value} do
-          @biblesearch.book('GNT:2Tim').value.tap do |book|
+          @biblesearch.book('eng-GNTD:2Tim').value.tap do |book|
             book.must_respond_to(:version_id)
             book.must_respond_to(:name)
             book.must_respond_to(:abbr)
@@ -151,7 +151,7 @@ describe BibleSearch do
 
       describe %{when I request an invalid book} do
         it %{returns nil} do
-          @biblesearch.book('GNT:Batman').value.must_be_nil
+          @biblesearch.book('eng-GNTD:NonexistentBook').value.must_be_nil
         end
       end
     end

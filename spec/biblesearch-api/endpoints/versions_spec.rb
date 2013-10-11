@@ -68,7 +68,7 @@ describe BibleSearch do
 
     describe %{with a valid version id} do
       it %{has a version value} do
-        result = @biblesearch.version('GNT').value
+        result = @biblesearch.version('eng-GNTD').value
         result.must_be_instance_of Hashie::Mash
         result.must_respond_to(:id)
         result.must_respond_to(:name)

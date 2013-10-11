@@ -28,3 +28,5 @@ If you're working on a set of tests and want them to always hit the API, put thi
 
 ### Guard
 
+`bundle exec guard`
+

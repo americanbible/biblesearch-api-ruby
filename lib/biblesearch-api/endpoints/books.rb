@@ -1,4 +1,23 @@
 class BibleSearch
+
+  # accept a hash or string book signature, validate it, and return a string
+  def valid_book(book_sig)
+    # if it's a hash, convert it to a string
+    if book_sig.is_a?(Hash)
+      begin
+        book_sig = "#{book_sig.fetch(:version_id)}:#{book_sig.fetch(:book_id)}"
+      rescue
+        raise ArgumentError.new('Book signature hash must include :version_id and :book_id')
+      end
+    end
+
+    # then check
+    unless book_sig.match(@book_re)
+      raise ArgumentError.new('Book signature must be in the form "VERSION_ID:BOOK_ID"')
+    end
+    book_sig
+  end
+
   module Books
     def books(version_id, options={})
       defaults = {testament_id: nil, include_chapters: false}
@@ -21,16 +40,7 @@ class BibleSearch
     end
 
     def book(book_sig)
-      if book_sig.is_a?(Hash)
-        unless required_keys_present?(book_sig, [:version_id, :book_id])
-          raise ArgumentError.new('Book signature hash must include :version_id and :book_id')
-        end
-        return book("#{book_sig[:version_id]}:#{book_sig[:book_id]}")
-      end
-
-      unless book_sig.match(/([A-Za-z0-9]+-)?[A-Za-z0-9]+:[A-Za-z0-9]+/)
-        raise ArgumentError.new('Book signature must be in the form "VERSION_ID:BOOK_ID"')
-      end
+      book_sig = valid_book(book_sig)
 
       book = nil
       api_result = get_mash("/books/#{book_sig}.js")
@@ -40,5 +50,7 @@ class BibleSearch
 
       fumsify(api_result, book)
     end
+
+
   end
 end

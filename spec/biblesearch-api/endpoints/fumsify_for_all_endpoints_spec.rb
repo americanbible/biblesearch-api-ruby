@@ -19,18 +19,18 @@ describe BibleSearch do
 
     it %{has nil fums for bad requests} do
       @biblesearch.books('Gotham').fums.must_be_nil
-      @biblesearch.book('Gotham:Batman').fums.must_be_nil
+      @biblesearch.book('Gotham:NonexistentBook').fums.must_be_nil
     end
   end
 
   describe %{the Chapters endpoint} do
     it %{has real fums for all valid requests} do
-      @biblesearch.chapters('GNT:2Tim').fums.wont_be_nil
-      @biblesearch.chapter('GNT:2Tim.1').fums.wont_be_nil
+      @biblesearch.chapters('eng-GNTD:2Tim').fums.wont_be_nil
+      @biblesearch.chapter('eng-GNTD:2Tim.1').fums.wont_be_nil
     end
 
     it %{has nil fums for bad requests} do
-      @biblesearch.chapters('Gotham:Batman').fums.must_be_nil
+      @biblesearch.chapters('Gotham:NonexistentBook').fums.must_be_nil
       @biblesearch.chapter('Gotham:Bataman.1').fums.must_be_nil
     end
   end
@@ -38,25 +38,25 @@ describe BibleSearch do
   describe %{the Passages endpoint} do
     it %{has real fums for all requests} do
       @biblesearch.passages('John 3:16', :version => 'KJV').fums.wont_be_nil
-      @biblesearch.passages('Batman 13:17', :version => 'DCU').fums.wont_be_nil
+      @biblesearch.passages('NonexistentBook 13:17', :version => 'DCU').fums.wont_be_nil
     end
   end
 
   describe %{the Search endpoint} do
     it %{has real fums for all requests} do
       @biblesearch.search('john 3:16').fums.wont_be_nil
-      @biblesearch.search('batman 13:17').fums.wont_be_nil
+      @biblesearch.search('NonexistentBook 13:17').fums.wont_be_nil
     end
   end
 
   describe %{the Verses endpoint} do
     it %{has real fums for all valid requests} do
       @biblesearch.verses('KJV:John.3', '16', '16').fums.wont_be_nil
-      @biblesearch.verse('GNT:Acts.8.34').fums.wont_be_nil
+      @biblesearch.verse('eng-GNTD:Acts.8.34').fums.wont_be_nil
     end
 
     it %{has nil fums for bad requests} do
-      @biblesearch.verses('Gotham:Batman', '13', '17').fums.must_be_nil
+      @biblesearch.verses('Gotham:NonexistentBook', '13', '17').fums.must_be_nil
       @biblesearch.verses('Metropolis:Superman.1.2').fums.must_be_nil
     end
   end
@@ -64,7 +64,7 @@ describe BibleSearch do
   describe %{the Versions endpoint} do
     it %{has real fums for all valid requests} do
       @biblesearch.versions.fums.wont_be_nil
-      @biblesearch.version('GNT').fums.wont_be_nil
+      @biblesearch.version('eng-GNTD').fums.wont_be_nil
     end
 
     it %{has nil fums for bad requests} do
