@@ -9,6 +9,7 @@ require 'biblesearch-api/endpoints/versions'
 
 require 'hashie'
 require 'httparty'
+require 'multi_json'
 
 directory = File.expand_path(File.dirname(__FILE__))
 
@@ -57,14 +58,23 @@ class BibleSearch
   end
 
   def get_mash(*args)
-    api_response = self.class.get(*args)
-    result = {}
-    result['meta'] = {}
     begin
+      api_response = self.class.get(*args)
+      result = {}
+      result['meta'] = {}
       result['meta'] = api_response['response'].delete('meta')
       result['response'] = api_response['response']
     rescue MultiJson::LoadError
       result['meta']['message'] = api_response.body
+    rescue Exception => e
+      # MultiJson's tries to make peace between everybody's favorite JSON parsers
+      # but sometimes the exceptions slip by 
+      if api_response.respond_to?(:body)
+        result['meta']['message'] = api_response.body
+      else
+        result['meta']['message'] = e.message
+      end   
+        
     ensure
       result['meta']['http_code'] = api_response.code
       return mashup(result)
