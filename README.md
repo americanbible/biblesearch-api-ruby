@@ -1,6 +1,7 @@
 # BibleSearch::API
 
-[![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png)](https://travis-ci.org/americanbible/biblesearch-api-ruby)
+Version Current Stable: [![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png?branch=master)](https://travis-ci.org/americanbible/biblesearch-api-ruby)
+Version 1.1.0: [![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png?branch=1.1.0)](https://travis-ci.org/americanbible/biblesearch-api-ruby)
 
 
 Ruby wrapper for BibleSearch API (bibles.org)
