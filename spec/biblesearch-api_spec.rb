@@ -66,7 +66,7 @@ describe BibleSearch do
 
       it %{has a message in the metadata} do
         result = @api_result.meta
-        puts "\nOFFENDING metadata #{result.keys}"
+        puts "\nOFFENDING metadata #{result.keys}, \nhttp_code=#{result.http_code}."
         result.message.wont_be_nil
       end
 
