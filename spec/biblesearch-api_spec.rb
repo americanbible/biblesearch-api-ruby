@@ -65,7 +65,9 @@ describe BibleSearch do
       end
 
       it %{has a message in the metadata} do
-        @api_result.meta.message.wont_be_nil
+        result = @api_result.meta
+        puts "\nOFFENDING metadata #{result.keys}"
+        result.message.wont_be_nil
       end
 
       it %{has a nil response} do
