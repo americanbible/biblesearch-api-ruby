@@ -65,6 +65,7 @@ describe BibleSearch do
       end
 
       it %{has a message in the metadata} do
+        skip "Check if VCR work right without this test."
         result = @api_result.meta
         puts "\nOFFENDING metadata #{result.keys}, \nhttp_code=#{result.http_code}."
         result.message.wont_be_nil
