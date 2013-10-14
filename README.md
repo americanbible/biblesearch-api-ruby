@@ -1,5 +1,8 @@
 # BibleSearch::API
 
+[![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png)](https://travis-ci.org/americanbible/biblesearch-api-ruby)
+
+
 Ruby wrapper for BibleSearch API (bibles.org)
 
 ## Installation
