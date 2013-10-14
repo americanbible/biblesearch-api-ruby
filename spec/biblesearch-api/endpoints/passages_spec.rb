@@ -21,7 +21,7 @@ describe BibleSearch do
       end
 
       it %{should contain no passages} do
-        @passages.collection.length.must_equal 0
+        @passages.collection.must_be_empty
       end
     end
 

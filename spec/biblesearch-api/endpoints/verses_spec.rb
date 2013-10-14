@@ -22,7 +22,7 @@ describe BibleSearch do
       end
 
       it %{should contain no verses} do
-        @verses.collection.size.must_equal 0
+        @verses.collection.must_be_empty
       end
     end
 
