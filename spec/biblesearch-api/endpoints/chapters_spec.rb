@@ -46,7 +46,9 @@ describe BibleSearch do
 
         describe %{with a complete hash} do
           it %{returns the same thing as the equivalent string sig} do
-            @biblesearch.chapters(@signature).collection.must_equal @biblesearch.chapters('eng-GNTD:2Tim').collection
+            result = @biblesearch.chapters(@signature).collection
+            result.wont_be_empty
+            result.must_equal @biblesearch.chapters('eng-GNTD:2Tim').collection
           end
         end
       end
@@ -62,7 +64,7 @@ describe BibleSearch do
       end
 
       it %{should contain chapters} do
-        @chapters.collection.length.must_be :>, 0
+        @chapters.collection.wont_be_empty
         @chapters.collection.each do |chapter|
           chapter.must_respond_to(:auditid)
           chapter.must_respond_to(:label)
@@ -125,20 +127,19 @@ describe BibleSearch do
 
         describe %{with a complete hash} do
           it %{returns the same thing as the equivalent string sig} do
-            @biblesearch.chapter(@signature).value.must_equal @biblesearch.chapter('eng-GNTD:2Tim.1').value
+            result = @biblesearch.chapter(@signature).value
+            result.wont_be_empty
+            result.must_equal @biblesearch.chapter('eng-GNTD:2Tim.1').value
           end
           it %{has verses} do
             @biblesearch.chapter(@signature).value.text.must_match /including Phygelus and Hermogenes/
           end
           it %{can be requested without marginalia} do
             result = @biblesearch.chapter(@signature)
+            result.wont_be_empty
             result.value.wont_include("footnotes")
           end
           it %{can be requested with marginalia} do
-            # @signature.must_equal @options_with_marginalia
-            # @options_with_marginalia.must_include :book_id
-            # @options_with_marginalia.must_include :chapter
-            # @options_with_marginalia.must_include :version_id
             result = @biblesearch.chapter(@signature, include_marginalia: true)
             result.value.must_include("footnotes")
           end
@@ -148,7 +149,7 @@ describe BibleSearch do
 
     describe %{when I make a valid request} do
       it %{has a chapter value} do
-        @biblesearch.chapter('eng-GNTD:2Tim.1').value.tap do |chapter|
+        result = @biblesearch.chapter('eng-GNTD:2Tim.1').value.tap do |chapter|
           chapter.must_respond_to(:auditid)
           chapter.must_respond_to(:label)
           chapter.must_respond_to(:chapter)
