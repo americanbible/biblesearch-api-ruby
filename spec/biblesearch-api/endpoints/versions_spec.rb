@@ -83,9 +83,16 @@ describe BibleSearch do
     end
 
     describe %{with an invalid version id} do
-      it %{has a nil value} do
-        @biblesearch.version('JIMBOB').value.must_be_nil
+      it %{a nonsense versions raises an ArgumentError} do
+        lambda {@biblesearch.version('JIMBOB')}.must_raise ArgumentError
       end
+      it %{a nonsense version with a language code returns a nil value} do
+        @biblesearch.version('eng-JIMBOB').value.must_be_nil
+      end
+      it %{a real version without a language code raises an ArgumentError} do
+        lambda {@biblesearch.version('CEV')}.must_raise ArgumentError
+      end
+
     end
   end
 end
