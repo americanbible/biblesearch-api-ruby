@@ -49,7 +49,7 @@ describe BibleSearch do
       end
 
       it %{can include marginalia} do
-        @passages = @biblesearch.passages('NonexistentBook 1:1-16', version: 'KJV', include_marginalia: true)
+        @passages = @biblesearch.passages('John 3:16', version: 'KJV', include_marginalia: true)
         @passages.collection.each do |passage|
           passage.must_include "footnotes"
           passage.must_include "crossreferences"
