@@ -58,23 +58,18 @@ class BibleSearch
   end
 
   def get_mash(*args)
+    api_response = self.class.get(*args)
+    result = {}
+    result['meta'] = {}
     begin
-      api_response = self.class.get(*args)
-      result = {}
-      result['meta'] = {}
       result['meta'] = api_response['response'].delete('meta')
       result['response'] = api_response['response']
-    rescue MultiJson::LoadError
+    rescue MultiJson::LoadError, JSON::JSONError
       result['meta']['message'] = api_response.body
-    rescue Exception => e
-      # MultiJson's tries to make peace between everybody's favorite JSON parsers
-      # but sometimes the exceptions slip by 
-      if api_response.respond_to?(:body)
-        result['meta']['message'] = api_response.body
-      else
-        result['meta']['message'] = e.message
-      end   
-        
+    #rescue Exception
+    #  # MultiJSON can sometimes fail to recast loading/parsing exceptions
+    #  # Inspecting here can reveal what's going on.
+    #  raise
     ensure
       result['meta']['http_code'] = api_response.code
       return mashup(result)
