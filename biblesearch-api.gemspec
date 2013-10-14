@@ -18,7 +18,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "oj"
   gem.add_dependency "hashie"
   gem.add_dependency "httparty"
-  gem.add_dependency "multi_json"
   gem.add_development_dependency 'vcr', '= 2.6.0'
   gem.add_development_dependency 'webmock' , '>= 1.8.0', '< 1.14'
   gem.add_development_dependency 'minitest', '= 3.3.0'

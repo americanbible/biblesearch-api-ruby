@@ -9,7 +9,6 @@ require 'biblesearch-api/endpoints/versions'
 
 require 'hashie'
 require 'httparty'
-require 'multi_json'
 
 directory = File.expand_path(File.dirname(__FILE__))
 
@@ -64,12 +63,8 @@ class BibleSearch
     begin
       result['meta'] = api_response['response'].delete('meta')
       result['response'] = api_response['response']
-    rescue MultiJson::LoadError, JSON::JSONError
+    rescue JSON::JSONError #MultiJSON dropped from httpparty 14JUN2013
       result['meta']['message'] = api_response.body
-    #rescue Exception
-    #  # MultiJSON can sometimes fail to recast loading/parsing exceptions
-    #  # Inspecting here can reveal what's going on.
-    #  raise
     ensure
       result['meta']['http_code'] = api_response.code
       return mashup(result)
