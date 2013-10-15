@@ -18,8 +18,8 @@ describe BibleSearch do
     end
 
     it %{raises ArgumentError for bad requests} do
-      lambda {@biblesearch.books('Gotham')}.must_raise ArgumentError
-      lambda {@biblesearch.book('Gotham:NonexistentBook')}.must_raise ArgumentError
+      lambda {@biblesearch.books('CEV')}.must_raise ArgumentError
+      lambda {@biblesearch.book('CEV:NonexistentBook')}.must_raise ArgumentError
     end
   end
 
@@ -30,8 +30,8 @@ describe BibleSearch do
     end
 
     it %{raises ArgumentError for bad requests} do
-      lambda {@biblesearch.chapters('Gotham:NonexistentBook')}.must_raise ArgumentError
-      lambda {@biblesearch.chapter('Gotham:Bataman.1')}.must_raise ArgumentError
+      lambda {@biblesearch.chapters('CEV:NonexistentBook')}.must_raise ArgumentError
+      lambda {@biblesearch.chapter('CEV:NonexistentBook.1')}.must_raise ArgumentError
     end
   end
 
@@ -56,8 +56,8 @@ describe BibleSearch do
     end
 
     it %{raises ArgumentError for bad requests} do
-      lambda {@biblesearch.verses('Gotham:NonexistentBook', '13', '17')}.must_raise ArgumentError
-      lambda {@biblesearch.verses('Metropolis:Superman.1.2')}.must_raise ArgumentError
+      lambda {@biblesearch.verses('CEV:NonexistentBook', '13', '17')}.must_raise ArgumentError
+      lambda {@biblesearch.verses('KJVA:NonexistentBook.1.2')}.must_raise ArgumentError
     end
   end
 
@@ -68,7 +68,7 @@ describe BibleSearch do
     end
 
     it %{raises ArgumentError for bad requests} do
-      lambda {@biblesearch.version('Gotham')}.must_raise ArgumentError
+      lambda {@biblesearch.version('CEV')}.must_raise ArgumentError
     end
   end
 
