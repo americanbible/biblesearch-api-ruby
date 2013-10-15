@@ -37,7 +37,7 @@ describe BibleSearch do
 
   describe %{the Passages endpoint} do
     it %{has real fums for all requests} do
-      @biblesearch.passages('John 3:16', :version => 'KJV').fums.wont_be_nil
+      @biblesearch.passages('John 3:16', :version => 'eng-KJVA').fums.wont_be_nil
       @biblesearch.passages('NonexistentBook 13:17', :version => 'DCU').fums.wont_be_nil
     end
   end

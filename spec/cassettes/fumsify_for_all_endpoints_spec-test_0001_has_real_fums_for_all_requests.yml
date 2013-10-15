@@ -497,4 +497,91 @@ http_interactions:
         \/>"}}}'
     http_version: 
   recorded_at: Fri, 11 Oct 2013 20:57:31 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=John%203:16&version=eng-KJVA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 15:44:58 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=JeRPOR4uC%2BfINO4%2BC3QxJkG4ZumfpaE2MPhBWGi4ykyN6jZn%2FitFU8ccNOwAba1Q%2Fw%2BeYR5fXpc08uwcSbfnksI3rI9GlgfbE0liDbsKDOpc4PCj3RnWl%2Bl7fPA118nRZyfdsCko3oxW51Jk7XG3ThEObs6dOXqjRaoGcBB4b6BGw%2BVivyFGIxJTAvoz5RZ6bQx3172yEXPJv5oZDZc%2BzbE2VhQwixvrlbXSljmO1UNF4CjhN0dxIZgAaURhdBBOghCbFupxhVHcrgalbf5PCza%2BQz9eSqs8ZKBcV%2FTH6cnQz%2BcgM9GCFqPgPDhCbhDd30zP0X7xgEWxHOQ%2FIF0vpKieMyecGOFiZU38XgvmcqtCmW6so%2FJGNMmwPmwO34Gv;
+        expires=Fri, 13-Oct-2023 15:44:59 GMT; path=/; domain=.bibles.org
+      - abs_session=ME9nmJxmLo1e3kQUlNv7WFAgeM%2FbDSEPw%2FEYhLuuRvk5zoub0TVoPOAKrcM0wP4AVAxsS2FdnXFljakjghWe%2B%2FSEazUqk561Q3up2X2ne0Z0X4uq4iEgDWUQ59Qs6YsiTrW4Q8r6Cm8PAT5UnLiyFXkjz39QNcOtCIUIyHWOWTTBxvqh0y4hf%2FMKuqJzm9GuTQZDbds5gV56XSEIDuYumRaDr3vKBgntRQHhfRkHww8PMU7l8bomsKaghyPJJxF9piUqHdqeMLqaPjNpeOvPNH1ryyO5F8NhX4ozjLj9EFA%3D;
+        expires=Fri, 13-Oct-2023 15:44:59 GMT; path=/; domain=.bibles.org
+      - abs_uid=0e5da8d4c35e2521e75da72de6f215be5dcc4a3f; expires=Fri, 13-Oct-2023
+        15:44:59 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/eng-KJVA/passages.js?q[]=John+3%3A16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 15:44:59 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/eng-KJVA/passages.js?q%5B0%5D=John%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=JeRPOR4uC%2BfINO4%2BC3QxJkG4ZumfpaE2MPhBWGi4ykyN6jZn%2FitFU8ccNOwAba1Q%2Fw%2BeYR5fXpc08uwcSbfnksI3rI9GlgfbE0liDbsKDOpc4PCj3RnWl%2Bl7fPA118nRZyfdsCko3oxW51Jk7XG3ThEObs6dOXqjRaoGcBB4b6BGw%2BVivyFGIxJTAvoz5RZ6bQx3172yEXPJv5oZDZc%2BzbE2VhQwixvrlbXSljmO1UNF4CjhN0dxIZgAaURhdBBOghCbFupxhVHcrgalbf5PCza%2BQz9eSqs8ZKBcV%2FTH6cnQz%2BcgM9GCFqPgPDhCbhDd30zP0X7xgEWxHOQ%2FIF0vpKieMyecGOFiZU38XgvmcqtCmW6so%2FJGNMmwPmwO34Gv;
+        abs_uid=0e5da8d4c35e2521e75da72de6f215be5dcc4a3f
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 15:44:58 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1624'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"eng-KJVA","version_abbreviation":"KJVA","path":"\/chapters\/eng-KJVA:John.3\/verses.js?start=16&end=16","start_verse_id":"eng-KJVA:John.3.16","end_verse_id":"eng-KJVA:John.3.16","text":"<h3
+        class=\"s1\">God So Loved the World<\/h3>\n<p class=\"p\"><sup id=\"John.3.16\"
+        class=\"v\">16<\/sup>For God so loved the world, that he gave his only begotten
+        Son, that whosoever believeth in him should not perish, but have everlasting
+        life.<\/p>","copyright":"<p>King James Version 1611, spelling, punctuation
+        and text formatting modernized by ABS in 1962; typesetting \u00a9 2010 American
+        Bible Society.<\/p>"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d62fb7e25d3.00532592'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d62fb7e25d3.00532592\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525d62fb7e25d3.00532592","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d62fb7e25d3.00532592'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d62fb7e25d3.00532592\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 15:44:59 GMT
 recorded_with: VCR 2.6.0
