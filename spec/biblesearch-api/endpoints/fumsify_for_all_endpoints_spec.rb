@@ -17,9 +17,9 @@ describe BibleSearch do
       @biblesearch.book('eng-GNTD:2Tim').fums.wont_be_nil
     end
 
-    it %{has nil fums for bad requests} do
-      @biblesearch.books('Gotham').fums.must_be_nil
-      @biblesearch.book('Gotham:NonexistentBook').fums.must_be_nil
+    it %{raises ArgumentError for bad requests} do
+      lambda {@biblesearch.books('Gotham')}.must_raise ArgumentError
+      lambda {@biblesearch.book('Gotham:NonexistentBook')}.must_raise ArgumentError
     end
   end
 
@@ -29,9 +29,9 @@ describe BibleSearch do
       @biblesearch.chapter('eng-GNTD:2Tim.1').fums.wont_be_nil
     end
 
-    it %{has nil fums for bad requests} do
-      @biblesearch.chapters('Gotham:NonexistentBook').fums.must_be_nil
-      @biblesearch.chapter('Gotham:Bataman.1').fums.must_be_nil
+    it %{raises ArgumentError for bad requests} do
+      lambda {@biblesearch.chapters('Gotham:NonexistentBook')}.must_raise ArgumentError
+      lambda {@biblesearch.chapter('Gotham:Bataman.1')}.must_raise ArgumentError
     end
   end
 
@@ -55,9 +55,9 @@ describe BibleSearch do
       @biblesearch.verse('eng-GNTD:Acts.8.34').fums.wont_be_nil
     end
 
-    it %{has nil fums for bad requests} do
-      @biblesearch.verses('Gotham:NonexistentBook', '13', '17').fums.must_be_nil
-      @biblesearch.verses('Metropolis:Superman.1.2').fums.must_be_nil
+    it %{raises ArgumentError for bad requests} do
+      lambda {@biblesearch.verses('Gotham:NonexistentBook', '13', '17')}.must_raise ArgumentError
+      lambda {@biblesearch.verses('Metropolis:Superman.1.2')}.must_raise ArgumentError
     end
   end
 
@@ -67,8 +67,8 @@ describe BibleSearch do
       @biblesearch.version('eng-GNTD').fums.wont_be_nil
     end
 
-    it %{has nil fums for bad requests} do
-      @biblesearch.version('Gotham').fums.must_be_nil
+    it %{raises ArgumentError for bad requests} do
+      lambda {@biblesearch.version('Gotham')}.must_raise ArgumentError
     end
   end
 

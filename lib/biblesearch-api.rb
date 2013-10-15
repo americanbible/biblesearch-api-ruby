@@ -41,8 +41,9 @@ class BibleSearch
   def initialize(api_key, base_uri = 'bibles.org/v2')
     self.class.base_uri base_uri
     self.class.basic_auth(@api_key = api_key, 'X')
-    @book_re =    /([A-Za-z0-9]+-)?[A-Za-z0-9]+:[A-Za-z0-9]+/
-    @verse_re =   /([A-Za-z0-9]+-)?[A-Za-z0-9]+:[A-Za-z0-9]+\.[0-9]+\.[0-9]+/
+    @version_re =    /[A-Za-z0-9]{3}+-[A-Za-z0-9]+/
+    @book_re =       /[A-Za-z0-9]{3}+-[A-Za-z0-9]+:[A-Za-z0-9]+/
+    @verse_re =      /[A-Za-z0-9]{3}+-[A-Za-z0-9]+:[A-Za-z0-9]+\.[0-9]+\.[0-9]+/
   end
 
   private
