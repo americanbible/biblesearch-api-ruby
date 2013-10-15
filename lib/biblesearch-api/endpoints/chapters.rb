@@ -43,7 +43,7 @@ class BibleSearch
         chapter = api_result.response.chapters.first
         fumsify(api_result, chapter)
       else
-        raise ArgumentError.new("Unrecognized chapter signature.")
+        nil
       end
 
     end

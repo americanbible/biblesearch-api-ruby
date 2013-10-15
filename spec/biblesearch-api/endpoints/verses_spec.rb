@@ -18,6 +18,12 @@ describe BibleSearch do
       end
     end
 
+    describe %{when requesting a chapter designated by a letter} do
+      it %{doesn't raise an ArgumentError} do
+        @biblesearch.verses('eng-GNTD:GEN.h', '5', '5').must_equal []
+      end
+    end
+
     describe %{when returning one verse} do
       before do
         @verses = @biblesearch.verses('eng-KJVA:John.3', '16', '16')
