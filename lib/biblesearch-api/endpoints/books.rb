@@ -48,13 +48,15 @@ class BibleSearch
     def book(book_sig)
       book_sig = valid_book(book_sig)
 
-      book = nil
       api_result = get_mash("/books/#{book_sig}.js")
       if api_result.meta.http_code == 200
+        book = nil
         book = api_result.response.books.first
+        fumsify(api_result, book)
+      else
+        raise ArgumentError.new("Unrecognized book signature.")
       end
 
-      fumsify(api_result, book)
     end
 
 
