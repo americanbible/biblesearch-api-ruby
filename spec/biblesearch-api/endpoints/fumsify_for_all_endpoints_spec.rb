@@ -51,7 +51,7 @@ describe BibleSearch do
 
   describe %{the Verses endpoint} do
     it %{has real fums for all valid requests} do
-      @biblesearch.verses('KJV:John.3', '16', '16').fums.wont_be_nil
+      @biblesearch.verses('eng-KJVA:John.3', '16', '16').fums.wont_be_nil
       @biblesearch.verse('eng-GNTD:Acts.8.34').fums.wont_be_nil
     end
 
