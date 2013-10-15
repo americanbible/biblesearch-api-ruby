@@ -80,16 +80,10 @@ describe BibleSearch do
 
 
     describe %{when I make a bad request} do
-      before do
-        @books = @biblesearch.books('UnknownVersion')
-      end
-
-      it %{has a collection} do
-        @books.collection.must_be_instance_of Array
-      end
-
-      it %{contains no items} do
-        @books.collection.length.must_equal 0
+      it %{rasies an ArgumentError} do
+        ["UnknownVersion","CEV"].each do |version_id|
+          lambda {@biblesearch.books(version_id)}.must_raise ArgumentError
+        end
       end
     end
 
@@ -101,7 +95,7 @@ describe BibleSearch do
         it %{raises an argument error for bad input} do
           bad_book_string = lambda { @biblesearch.book('UnknownVersion') }
           bad_book_string.must_raise ArgumentError
-          (bad_book_string.call rescue $!).message.must_equal 'Book signature must be in the form "VERSION_ID:BOOK_ID"'
+          (bad_book_string.call rescue $!).message.must_match /^Book signature must be in the form/
         end
       end
 
@@ -150,8 +144,8 @@ describe BibleSearch do
       end
 
       describe %{when I request an invalid book} do
-        it %{returns nil} do
-          @biblesearch.book('eng-GNTD:NonexistentBook').value.must_be_nil
+        it %{raises an ArgumentError} do
+          lambda {@biblesearch.book('eng-GNTD:NonexistentBook')}.must_raise ArgumentError
         end
       end
     end

@@ -13,7 +13,7 @@ class BibleSearch
 
     # then check
     unless book_sig.match(@book_re)
-      raise ArgumentError.new('Book signature must be in the form "VERSION_ID:BOOK_ID"')
+      raise ArgumentError.new('Book signature must be in the form "LANGUAGE_ID-VERSION_ID:BOOK_ID"')
     end
     book_sig
   end
@@ -29,14 +29,20 @@ class BibleSearch
       api_endpoint += "?testament=#{testament_id}" unless testament_id.nil?
       api_endpoint += "?include_chapters=true" if include_chapters
 
-      api_result = get_mash(api_endpoint)
-
-      books = []
-      if api_result.meta.http_code == 200
-        books = pluralize_result(api_result.response.books)
+      unless @version_re.match(version_id)
+        raise ArgumentError.new('version_id must be in the form "LANGUAGE_CODE-VERSION_ID:BOOK_ID"')
       end
 
-      fumsify(api_result, books)
+      api_result = get_mash(api_endpoint)
+
+      if api_result.meta.http_code == 200
+        books = []
+        books = pluralize_result(api_result.response.books)
+        fumsify(api_result, books)
+      else
+        raise ArgumentError.new("Unrecognized version_id.")
+      end
+
     end
 
     def book(book_sig)
