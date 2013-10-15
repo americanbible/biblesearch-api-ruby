@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/versions/ENG-NONEXISTENTVERSION.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 19:53:01 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=9AqcHjw2dvqgiAp7S26ll5gTW3RV4AVOAj6WLwButTXHe%2Bz9Asui1Qr7QHiKTcPFnzVdosNWS%2FupQcJCPEKAwruM5mfLGn4IMV4Uust2LPpbq8Av3ImCjo7ORX48HG8B8cBogeeG%2FyOdl1EcFkC83U6xPZbNpFJgQBed28uMSSNllPYxPoiNjlOt8EJRJC%2FtRd4c0LwfN4zDYUJ4%2Fgpnvh6AXW%2F4Qt4QPtyYe%2B8btU4jLGqPkJozYJ%2Bg%2Fu8gzFe5iAjg3i9OZuURhI8GGlFjEnzS59BpsSUa8TEyW0kYdsHdvcpm7l0rxOM6MhuZepY8bkbd%2BaLupPYzPGd3wMw1bSh2gjZ%2Fzn8TPR8okDlpKFNpntlqHhX1fO%2FEUe6IwDBO;
+        expires=Fri, 13-Oct-2023 19:53:02 GMT; path=/; domain=.bibles.org
+      - abs_session=OZPho8x9JCdyAA3jN%2FN2I%2FfanmxFK%2BYIcpEFM2dUtfdSr1iryVWquYydhan0unU0u%2F1DUl%2BJ1yTmjNoHaPyOqI2PTy0x6zUBu%2F%2B92C4ZOIPwTH8XA92ak5XXqDC3BoP%2BN%2Bl2PFhO8VI7KT%2FpTTPSvAWasGMUSPeSWYeJBMyQB4%2Fscepe5QovCBWVYOi9mhbusg1Ih2UOd%2B2xXGeGYSZ82KXug%2F3BYXtVUaHlx0NYgDWC6PNibSk%2FuKAtdVCfqp4XwoYyx%2Blk5JEwRoWoC%2F3rSyY7jgo%2BZNJxoJ5tUyRzCXQ%3D;
+        expires=Fri, 13-Oct-2023 19:53:02 GMT; path=/; domain=.bibles.org
+      - abs_uid=3ce7a27a4629c3b3b8e7d261e9c98a9929bcf457; expires=Fri, 13-Oct-2023
+        19:53:02 GMT; path=/; domain=.bibles.org
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 19:53:02 GMT
+recorded_with: VCR 2.6.0

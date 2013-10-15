@@ -25,7 +25,7 @@ class BibleSearch
         version = api_result.response.versions.first
         fumsify(api_result, version)
       else
-        raise ArgumentError.new("Unrecognized version_id")
+        nil
       end
 
     end
