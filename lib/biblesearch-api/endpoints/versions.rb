@@ -17,12 +17,17 @@ class BibleSearch
 
     def version(version_id)
       version = nil
+      unless @version_re.match(version_id)
+        raise ArgumentError.new('version_id must be in the form "LANGUAGE_CODE-VERSION_ID:BOOK_ID"')
+      end
       api_result = get_mash("/versions/#{version_id.upcase}.js")
       if api_result.meta.http_code == 200
         version = api_result.response.versions.first
+        fumsify(api_result, version)
+      else
+        raise ArgumentError.new("Unrecognized version_id")
       end
-    
-      fumsify(api_result, version)
+
     end
   end
 end
