@@ -12,14 +12,10 @@ describe BibleSearch do
   end
 
   describe %{#verses} do
-    describe %{with bad arguments} do
-      it %{raises an ArgumentError} do
-        [ ['eng-KJVA:NonexistentBook.1', '1', '16']
-        ].each do |verses|
-          lambda {@biblesearch.verses(*verses)}.must_raise ArgumentError
-        end
+    describe %{referencing a non-existent book} do
+      it %{returns an empty array} do
+        @biblesearch.verses('eng-KJVA:NonexistentBook.1', '1', '16').must_equal []
       end
-
     end
 
     describe %{when returning one verse} do
@@ -169,8 +165,8 @@ describe BibleSearch do
     end
 
     describe %{when requesting an invalid verse} do
-      it %{raises an ArgumentError} do
-        lambda {@biblesearch.verse('eng-KJVA:NonexistentBook.1.1')}.must_raise ArgumentError
+      it %{returns nil} do
+        @biblesearch.verse('eng-KJVA:NonexistentBook.1.1').must_be_nil
       end
     end
   end
