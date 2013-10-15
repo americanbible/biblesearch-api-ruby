@@ -1,0 +1,122 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/versions/CEV.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 13:48:36 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '7026'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=%2BmbbJmgBnHeL5u014hOFGVyYl%2Fi2WFGJPt2aacL16jMrefIbzP1d3oubJC7IqY9VGFs2xxIrdtdtwJOzX5bqDZ3j38f27X5paYxcQVaF%2Bm58ro0Yl4JoLE5sOHQyvRm%2FcYdMqQAWTYR8sGuViWfDC8UI7SHWfoCwk8sEZiWkDr4KSMrjZJouw1I%2BIxC6lC2RIx2Ei4RvLvpm8kxH1278fO1INsM6q5DbmN%2Bf1eigAzs5v6I%2BkQZJmKFQebBiL9r87L38dqIIShl9qSsZmYGvD7iZ5Eu%2BYnKrP3IfT5OgklBxyTh5sJp%2FsixAuDCN4s%2B8EXv1CBnYug1CZQDxqTa5svDB8wlkgy6tLyFs8m3tumkjLd4gzdvMC3K8IDWjb9cv;
+        expires=Fri, 13-Oct-2023 13:48:37 GMT; path=/; domain=.bibles.org
+      - abs_session=aAjCUqxEvlk5Pef3F069ZBqg15OA1xwMTQ0I9sAV0XbfY%2BUyfzS2jttcXL6cZ0yIkWlXMdyN1%2BF3GXt4nA%2F1z7VzMxDmlLM1q4IOxMVpXnOiKmg5psBJnEi2OIwLUSIaea%2BILc4SOgsKUsoHdynTyUXJKJdsMOruBvjuXyBr91ih6%2FBUBDbmegrw04CWk9mSqzc48yf4mzCSXRbiY%2B0fJkEjeSXiEfHzIT%2B0MqaR%2BHoURdtQjH%2FWsetHjzLYK%2BGQRIN4naar3jaC9yheuIuWdzIN2D8zKqCEm4u%2BUu8q19o%3D;
+        expires=Fri, 13-Oct-2023 13:48:37 GMT; path=/; domain=.bibles.org
+      - abs_uid=807fd41a7f5a020e7fb79c77dd04c74ef0908b3a; expires=Fri, 13-Oct-2023
+        13:48:37 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"versions":[{"id":"CEV","name":"Contemporary English
+        Version","lang":"eng-US","lang_code":"ISO 639-3","contact_url":"http:\/\/www.americanbible.org\/about\/contact","audio":"NONE","copyright":"<p>RIGHTS
+        & PERMISSIONS GUIDELINES<\/p>  <ol class=\"ol-copyright\">    <li>Policy for
+        use of the Contemporary English Version (CEV):      <ol>        <li><u>General
+        Statement.<\/u><br \/>      The CEV text may be quoted in any form (written,
+        visual, electronic or audio) up to and inclusive of five hundred (500) verses
+        without written permission, providing the verses quoted do not amount to 50%
+        of a complete book of the Bible nor do the verses account for twenty-five
+        percent (25%) or more of the total text of the work in which they are quoted.  This
+        permission is contingent upon an appropriate copyright acknowledgment (see
+        below).<\/li>        <li><u>Use of the CEV beyond above limits requires written
+        permission.<\/u>          <ol>            <li><i>Commercial Use:<\/i>  Commercial
+        use means use in any product offered for sale, lease, rental or barter on
+        any level.  Rights and permissions requests for the CEV in media intended
+        for commercial use should be addressed to The American Bible Society, 1865
+        Broadway, New York, NY  10023, USA .  Request shall contain the following
+        information:  (1) exact portions to be quoted, (2) the medium in which those
+        portions will be quoted, (3) estimated percentage of the total text of the
+        work made up of the CEV text, (4) any additional material to be included in
+        the work, such as additional text, illustrations, photos, etc., (5) the purpose,
+        number of copies or reproductions, and distribution of the use in which the
+        CEV is quoted, and (6) the sale or lease price of the work, or other income
+        to be received.  For commercial use outside of North America , please send
+        your requests as detailed above to the American Bible Society.  If the CEV
+        is used as the lyrics for a song, you must obtain permission prior to production
+        of the same.<\/li>            <li><i>Non-Commercial use (Ministry, Church,
+        educational, etc.):<\/i> Non-commercial use is any use other than commercial
+        use as defined above and generally means free provision of the medium in which
+        the CEV is quoted.  Most usages by local churches would fall into this category.  Rights
+        and Permissions requests for the CEV in media intended for non-commercial
+        use should be addressed to the American Bible Society, 1865 Broadway, New
+        York, 10023 and the request should contain the above requested information.  If
+        the CEV text is used as the lyrics for a song, you must obtain permission
+        from the American Bible Society prior to the production of the same.<\/li>          <\/ol>        <\/li>    <\/ol>    <\/li>    <li>Acknowledgment
+        and copyright notice<br \/><br \/>      Any quotation from the CEV text must
+        include copyright notice and acknowledgement.  The form the acknowledgment
+        takes will depend, in part, upon the medium in which the quotation is used.      <ol>        <li><u>Written
+        use<\/u>:  Use whichever of the following notices is most appropriate:           <ol>            <li>The
+        following notice for the CEV may be used on each page where material quoted
+        from the CEV appears:<br \/><br \/><b>Scripture taken from the Contemporary
+        English Version \u00a9 1991, 1992, 1995 by American Bible Society, Used by
+        Permission.<\/b><br \/><\/li>            <li>When the CEV is identified at
+        the end of each Scripture quotation from the CEV, the following notice may
+        be used on the title page or verse thereof of each copy:<br \/><br \/>              <b>Scripture
+        quotations marked (CEV) are from the Contemporary English Version Copyright
+        \u00a9 1991, 1992, 1995 by American Bible Society, Used by Permission.<\/b><br
+        \/><\/li>            <li>If appropriate, the following notice may be used
+        on the title page or verso thereof of each copy:<br \/><br \/>              <b>All
+        scripture quotations in this publication are from the Contemporary English
+        Version Copyright \u00a9 1991, 1992, 1995 by American Bible Society, Used
+        by Permission.<\/b><br \/><\/li>                  <\/li>      <\/ol>      <li><u>Visual
+        and electronic use<\/u>:  \"Visual\" use includes videos, films, slides and
+        overhead transparencies.  \"Electronic\" use denotes the use of an interactive
+        computer.  Quotations from the CEV text in visual and electronic media must
+        include the appropriate copyright notice from section II-A on (1) the product
+        (medium itself), and (2) the product''s wrapper or packing, and (3) in an
+        acknowledgment section, if one exists.<\/li>        <li><u>Audio Use<\/u>:  This
+        category includes cassettes, compact discs, and similar media.  Quotations
+        from the CEV in audio form must include the appropriate copyright notice from
+        section on (1) the product (the medium itself), and (2) the product''s wrapper
+        or packaging.  If the CEV is used as the lyrics for song, you must obtain
+        permission from the American Bible Society prior to production of the same.<\/li>        <li><u>Church
+        use<\/u>:  Any use of the CEV by a local church in or on non-commercial media
+        such as bulletins, orders of service, bulletin boards, posters, overhead transparencies,
+        recordings of worship services (for which a small fee may be charged), or
+        similar materials used in the course of religious instruction or services
+        at a place of worship or other religious assembly requires the following notice
+        at the end of each quotation:  (CEV): Audiocassettes may include (CEV) acknowledgement
+        of label only.  Contacting ABS for permission noted herein is not required.<\/li>      <\/ol>    <\/li>  <\/ol>","info":"<p>Uncompromising
+        simplicity marked the American Bible Society''s translation of the <i>Contemporary
+        English Version Bible<\/i> that was first published in 1995. The text is easily
+        read by grade schoolers, second language readers, and those who prefer the
+        more contemporized form. The <i>CEV<\/i> is not a paraphrase; it is an accurate
+        and faithful translation of the original manuscripts.<\/p>","lang_name":"English
+        (US)","lang_name_eng":"English","abbreviation":"CEV","updated_at":""}],"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d47b50d83c5.50118808'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d47b50d83c5.50118808\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525d47b50d83c5.50118808","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d47b50d83c5.50118808'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d47b50d83c5.50118808\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 13:48:37 GMT
+recorded_with: VCR 2.6.0
