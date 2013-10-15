@@ -44,7 +44,7 @@ class BibleSearch
     @version_re =    /[A-Za-z0-9]{3}+-[A-Za-z0-9]+/
     @book_re =       /[A-Za-z0-9]{3}+-[A-Za-z0-9]+:[A-Za-z0-9]+/
     @chapter_re =    /[A-Za-z0-9]{3}+-[A-Za-z0-9]+:[A-Za-z0-9]+\.[A-Za-z0-9]+/
-    @verse_re =      /[A-Za-z0-9]{3}+-[A-Za-z0-9]+:[A-Za-z0-9]+\.[0-9]+\.[0-9]+/
+    @verse_re =      /[A-Za-z0-9]{3}+-[A-Za-z0-9]+:[A-Za-z0-9]+\.[A-Za-z0-9]+\.[A-Za-z0-9]+/
   end
 
   private

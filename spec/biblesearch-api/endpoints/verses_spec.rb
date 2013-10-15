@@ -170,6 +170,13 @@ describe BibleSearch do
 
     end
 
+    describe %{when requesting a verse designated by a letter} do
+      it %{doesn't raise an ArgumentError} do
+        #surprisingly, the API returns data for this verse
+        @biblesearch.verse('eng-GNTD:GEN.6.z').wont_be_nil
+      end
+    end
+
     describe %{when requesting an invalid verse} do
       it %{returns nil} do
         @biblesearch.verse('eng-KJVA:NonexistentBook.1.1').must_be_nil
