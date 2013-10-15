@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 16:02:13 GMT
+      - Tue, 15 Oct 2013 20:56:38 GMT
       Content-Type:
       - text/html
       Transfer-Encoding:
@@ -25,16 +25,16 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=%2Bcw2tkZO6Zg60uLSnSpa6JIMiGX2dtRsxg5OjW9JKqRROnvZ1sc0QbK%2BYpil4Rja5YVXn37G58%2FHU8dQ6A3ySRRng2nhij%2F1qc3EVWiLElDVLd6AYOqztGUbl3ituCYDMLz9E0XXUf1x%2Fktw24yVWPdLbPrbEplVWI%2BWK9jWWuvle6PRw3rfvt65DPl4JitwKImpHS5HvntjWnxvaHB%2BsyN%2B9AffJLYy3AiaVGfk2cvZS2eCs%2Fxq3Lt5puql2s4%2BJP3Z9Kj0qJwq%2FDG0hqYiwOi8tQEYFcrXEUM%2Fwoc%2BRKY%3D;
-        expires=Fri, 13-Oct-2023 16:02:13 GMT; path=/; domain=.bibles.org
-      - abs_session=0VK3oJ9U%2Btcfr36SBJ1g%2BwzCqa34cL4AQnusimxGsJL5yqE2b9JIkqFkiQJwXxOBcFadg5Udp6C3frmdM15UgI2INHJkgPfsadXt%2FZ1SevJwYPvHvAySSluK2cIpqS%2BZkdUNMbzLTjmALrMxd%2FSDAmtAyglpJ5g36FAGp3DmBk27rWNq2DHLXo6VKFWzFwq8anIJG22%2Bj1f2HGsGo0YqYoB1zVSxyoJxuzbPY6gwe56xo6VstoRkt3Y%2FfZe%2FF9Le;
-        expires=Fri, 13-Oct-2023 16:02:13 GMT; path=/; domain=.bibles.org
-      - abs_session=HZHdKGrajo%2FgRGs48v%2BNXgKaH16Up4LvQs5kQ1xSFFSLZQcvI%2FAXhmxHwlBYHnRGVE9nBGcdRMnEcx4eywXBdkkbkjUuJEUe2fa7F0JGKRfOHOyG5NFhGUbtfBBBAU7bhf7yyuWIleYGOYdoVAgsxThr2yo8huIrgbBMwZlnfgovrB03Ui%2FwaPMs5tf6zHxoWVHy79%2B3orC13K9xsbecnVC%2BMKy%2B8hjnm2Xi0on1gECIR5QKRElFU3sJSnQ3jrrQ;
-        expires=Fri, 13-Oct-2023 16:02:13 GMT; path=/; domain=.bibles.org
-      - abs_session=kTLSPC%2FZWquHzuLDX1V5oz3YDArMF7k1pXm4cPUW47TFtc3Gj%2B3kK2tiLmYKZLcb7%2B9jaRe7eGTRL40C0rZFRxGR1hoUHNwy6JO3umBhauK5pYHTbtbcrc4hXaTsNBDDY0bPhOpe0NKDEvBdrEZGt7LK%2FZlc%2BvkWaLJlYqsD4dX9xiqJqd5V6jfC%2FHO%2BvSG7FQJ94Bx8lkVWA%2FEfKnJ9ly2qL1RuxF0Hhp11Qb4tAVrUk5RvVpxovAQNgQZFQ%2FYr;
-        expires=Fri, 13-Oct-2023 16:02:13 GMT; path=/; domain=.bibles.org
-      - abs_uid=54a58d2aa45a93aa6dd2599ec3439eea98a0fb5f; expires=Fri, 13-Oct-2023
-        16:02:13 GMT; path=/; domain=.bibles.org
+      - abs_session=NlJOmw5ub3y4CsR0cWYqXPdmDtA7ZO7P03P39pp%2F%2B%2Fws%2Bb6OuXtHDTT7VKL%2F7FNnWVbEvaUqAv9Du2VNwixtQwSavy57BzW2Y7vx%2FK0r2b3n5uJVBIjVticG5mviCDMTAvKGqqTxHW3pM52VyHokPY%2BDY1B6lRyo1a42iB8vTI7UEk7WQ4ASLeJNOBnd2lqKouXDSzORfkB0%2Bo0xHWFp7xMd4gNRaAfl4cE5BH5WdD7d3dpFa1ilu9bmrGFtBMuI;
+        expires=Fri, 13-Oct-2023 20:56:39 GMT; path=/; domain=.bibles.org
+      - abs_session=Tkug10YNjrT%2FRWa15KaKQIl%2B4DIqSODjcFJ84Csv9ddlfabMUTi8AhLajEmpRoqo5aTiX3bnSGf%2BYhwYNFDDNOf7VaIHxec32QRx9kYo4uuiIDYBrVa6GIzdM7YhL%2B05J9sMBNYxTjx42PGLh%2BXTbFVLnHG73K3ZGk7YGoEVd1e5%2F1A49K7PYtSDTd92dxgsYr2ntY8mcWlIcoLyDLevkquMRO8M7N3exVEeqGXANHZT8VgVHd2ba41AudZ2bPskEg%2BmtKcR1%2F57tc9s1UagFoL%2Fy%2BVCu2gFmv5z7RrcV1k%3D;
+        expires=Fri, 13-Oct-2023 20:56:39 GMT; path=/; domain=.bibles.org
+      - abs_session=rg9l9Orz7UbPwoFEzyaHJmILEdL33wQSC%2BGFBgMe9xpMmaNnYHT0RXyMZb%2BhtetISBv5Bg2eV59yZ6D6nhR4vkvvutBkBijSuNUBYroFSH02C%2FftaCsOlqgxp%2BxBagn2GcyEjkDmY5gMir7ymfqPBcbY1s2pzm3067hFUNG65OxCDbDPl333oRMZfMqSAkSPnwTIkg0Lhh0kGyD75UXxTbyMmDnMb6drHPPyizSvWujXBwptkUUmLwE17ooQ8GHw;
+        expires=Fri, 13-Oct-2023 20:56:39 GMT; path=/; domain=.bibles.org
+      - abs_session=s0uaKX52EkSdNAkisWOXbFKTfPbUdhdqoxipCnienupbf1JHOL3ld%2BhAEzkwTMjOI2sQ6zonDmpqIvjd29R9XXkZVWEh4xmdzLB%2FU%2B%2BKSR%2Bsf8pSJAA%2BAS85qEjy9O2j67e3atqxwdCEdO2KptfFQe2gQ%2FEu%2F8mJ9%2Fe99BsQw7JbLr8LUCo267xzWqQ5o%2BKm0Bil5dNGXxc2mBpKEgovmZ76lkIxu2Foazo2q7y%2FRAxkxJ0TiC2QXS97fcvTNlXx;
+        expires=Fri, 13-Oct-2023 20:56:39 GMT; path=/; domain=.bibles.org
+      - abs_uid=df5c915c9720de4f05baa62bf000e85fdf9719bd; expires=Fri, 13-Oct-2023
+        20:56:39 GMT; path=/; domain=.bibles.org
       Vary:
       - Accept-Encoding
     body:
@@ -100,7 +100,7 @@ http_interactions:
         dCBzcmM9Ii9qYXZhc2NyaXB0cy9BQlMuY29tbW9uLmpzIj48L3NjcmlwdD4K
         ICAgICAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmluZSBzZXBhcmF0b3IgLS0g
         PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL3BhZ2VkYXRhLmpzP3Q9MTM4
-        MTg1MjkzNCI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmlu
+        MTg3MDU5OSI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmlu
         ZSBzZXBhcmF0b3IgLS0gPC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2ph
         dmFzY3JpcHRzL2xpYnJhcmllcy9qc29uMi5qcyI+PC9zY3JpcHQ+CiAgICA8
         c2NyaXB0IHNyYz0iLy9kMnVlNDlxMG11bTg2eC5jbG91ZGZyb250Lm5ldC9p
@@ -325,5 +325,5 @@ http_interactions:
         b3cgLS0+CiAgPC9kaXY+PCEtLSBlbmQgb2YgLmNvbnRhaW5lciAtLT4KICA8
         L2JvZHk+PC9odG1sPgo=
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 16:02:14 GMT
+  recorded_at: Tue, 15 Oct 2013 20:56:39 GMT
 recorded_with: VCR 2.6.0

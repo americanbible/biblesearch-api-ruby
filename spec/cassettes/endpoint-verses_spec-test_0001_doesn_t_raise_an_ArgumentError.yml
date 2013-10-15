@@ -2,6 +2,58 @@
 http_interactions:
 - request:
     method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:GEN.6.z.js?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:57:33 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1719'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=q%2BJ%2BeIfnF0R8mL65%2ByycP%2FMNBL4GrN65KuqejPuW9ZQ7KO9wPFK%2B0mttfdHctZZy6DpgE%2Bv%2B%2BKwVo0lGnkDBN9HMPRGEBKiIjUeGBR3s%2Fy9MVNfjeaH9WTGSq7j8n%2FA2wIgIm73vPoWodwJfq4%2BVTzC59wP0FuyOmFQSvbto6203VsaziR1K8W9GDtJfV5VtcJeTGbjya56ALHOYG6jEFoiT5YTC9xoRcpGjnYnZ9w7DO6GTl4mr2KqfECBmyrVT0e3W%2F1ECKJ97FxhXv9khjCkIBVdK1eZtERXpBJlhxdM%3D;
+        expires=Fri, 13-Oct-2023 20:57:34 GMT; path=/; domain=.bibles.org
+      - abs_session=q5JT%2BFKgsztNW1kLFCOFioq6J0r%2Benam2y71WDd0RBIAfSknGtJIzLZvF53MjEbV3wzX3tJ5dFjhL9ct%2FIjlguoctuc%2BxwM0kEW8gyJJkN9Nj3tLzbYUDgKizVoJdx%2BIc41sWdRb3tqGUBND8dLqs8D64we%2F%2Bw9F46CLj%2FIdDZrvP%2F1EwM6DwosyPf4sEiInOvTHvNUBwWyOMLg0nqHPX24wEOY9%2Bu5RlEbExu6qoUu3JCMWcuuKeXPaw0kYBppuSguzooMaYqVM4aFuS5jkigZz6FNfR1Do9y3g%2BkPIHeXx8niNNjfC1RRCVQ1xFwb4%2BksExk7RBmJX%2FskSjMkyJwfWdY6PwIWwTJOgDG%2BxTyLbGCpOnVf8v3VFg1ZQZ14M;
+        expires=Fri, 13-Oct-2023 20:57:34 GMT; path=/; domain=.bibles.org
+      - abs_uid=01662f3ef0880a9ecd4acb9b8b76b565452fa105; expires=Fri, 13-Oct-2023
+        20:57:34 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"verses":[{"auditid":"0","verse":"1","lastverse":"1","id":"eng-GNTD:Gen.6.1","osis_end":"eng-GNTD:Gen.6.1","label":"","reference":"Genesis
+        6:1","text":"<h3 class=\"s\">Human Wickedness<\/h3>\n<p class=\"p\"><sup id=\"Gen.6.1\"
+        class=\"v\">1<\/sup> When people had spread all over the world, and daughters
+        were being born,<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.6","name":"Genesis
+        6","id":"eng-GNTD:Gen.6"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Gen.6.2","name":"Genesis
+        6:2","id":"eng-GNTD:Gen.6.2"}},"previous":{"verse":{"path":"\/verses\/eng-GNTD:Gen.5.32","name":"Genesis
+        5:32","id":"eng-GNTD:Gen.5.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac3e62ba10.42887756'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3e62ba10.42887756\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac3e62ba10.42887756","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac3e62ba10.42887756'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3e62ba10.42887756\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:57:34 GMT
+- request:
+    method: get
     uri: http://<%= api_key %>:X@bibles.org/v2/chapters/eng-GNTD:GEN.h/verses.js?end=5&start=5
     body:
       encoding: US-ASCII
@@ -15,7 +67,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 20:23:34 GMT
+      - Tue, 15 Oct 2013 20:57:36 GMT
       Content-Type:
       - text/html
       Transfer-Encoding:
@@ -25,14 +77,14 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=B8zDAccY36FB6gsbadYv%2BY5ATrR%2FHDcKa30m4jnuf2fCdNFERm8k3NmbGUyApr1U4eFV9Zkr%2Fkac2ouz1KXtBEt9pqFIWb%2FDQeISIrgrXOR4WNGl2EwFjOTZsC30h7syApwboEqRtGdiytkI%2F5ZgpTYTjpk3FNUbR9INtZFZENeD0AFpfZVuAAGi9n2Gl08T7mchu5foUfgFA5u4CjwN8XT6RnKPBoDaPeQT2d%2BrgPmgpkuSeXx1vs%2BbLYffoYr73qWNblLh6kq39FdUf0AFy9m3T8rQCCnkAx%2FLmbryJR9wmJJfhbzlnoRpKq4wYJUxlN51UsVcusteYaY5grSSET4vI4Rjlda5jZrO8KBFadIk4u04MaMnLEjce3qVDvAJ;
-        expires=Fri, 13-Oct-2023 20:23:34 GMT; path=/; domain=.bibles.org
-      - abs_session=b9hZiAuFyii3mSOfqVHm2PqRrtoYHhC%2FeKHtO7LZbUZsVoNxkjiMF4X653dkCRpDsflktjVw%2FJKDo7QiApDdOTERpHByotP1o2t8vUkwGeZJiRahoVhuF%2BMjppYcVctzIphN%2BPa2IRH2Ej5UQv9SEIQV%2F48qveRPbJsrPnlOb5Qb9G7bQvz8KRQgOpWiHmJLiDg6qew1lPCXaxpwtPN4yZag%2Bi%2Fo7NydnmEXBm6b8%2Ff1CHMyFYXLIfZfytnSJzRmnj4YWAhTQ3BShcbm3W%2FKdv7OCfmX6GrrWgyTHlxUa9E%3D;
-        expires=Fri, 13-Oct-2023 20:23:34 GMT; path=/; domain=.bibles.org
-      - abs_session=dNnm8jxIaJu23%2FAX0mpE5mHP8Gh5D0sr%2BJMhI1sNh%2BEnFUqd9lGuRgLDDu4WhAxXIg%2Bj6BQOP8UK8DvgIJYD3R77X2cTWrvSn%2BwNXaJGBH3JvjIZKLGvxmIYFYezRw70XWyPPuPvMFkzPq3dVR2nu25XFd2ejP8lswQ7Ykr7edWgtKMKiJmF%2FhlgLEkFjEvICw14%2BpDfsNUhXRMjb7ww5rNbXRlS0btk6pT4OwPIWpQDaxztQfuKxRyiLkXXPyxudoa%2F%2Fz%2FAA2kPvWB08mFA%2FdAxEkB80qb4FEhjcoRB86Mto6WolwYZLLQz%2BBwO%2Fy6UsYeARGuhB17ynyWSmmjh%2FKEdLp9fLKCoS%2Fcl5I0c3%2B1gpFeNdMIYJbnyE25d1T%2FTtpLwzNiq0ddZlKocgAl0IDjJ8PsaAryaI%2F00lzuSan%2FReO3YusLd742v4LVrHuz58jjTFy5MqLy5H8KyrGaqctf36VWDfMEHKYFvPA%2FbUdYDs5ZqVp3PPt52B3j6BzUJ;
-        expires=Fri, 13-Oct-2023 20:23:34 GMT; path=/; domain=.bibles.org
-      - abs_uid=048a61ca5a0d3b9c981a439af6f55e6cd6262e33; expires=Fri, 13-Oct-2023
-        20:23:34 GMT; path=/; domain=.bibles.org
+      - abs_session=Z5gTmGPFbm6oJurHM8q8Ppu9RDi3E%2F1Sh8nTQfx3pS%2FN7ubqmaNoBntLc%2F213ogq17ncqLewebMShvsH2CPVeZDbl1TYGXzmI9O2Cwpf9Glyg3EFJFIBHavrHL5q7GUJJWd1E6ZUDVuaACSUGSkBJDtgvPsciHhVXZn6GCxIXOl2KZYm1mwzGMpd3WBp%2FmglnOmCluemA5FAfCcUnKiYSG3aUORz5oNB5gR2zJs%2B2ua3VHvmrHnUBoY4SEfpEA%2BojNF1BQLED0wHcG3ccJPQ40cml5UiaZVm7C62iZD6HBSD7htPsA1OhqpkN5Znydz0V4qon50r9miYLlZD2PmgfoX%2F9Yc3%2FlKdQlRN%2Fl3pY%2FGZ29VB9vZRtZix4bjbdTdB;
+        expires=Fri, 13-Oct-2023 20:57:36 GMT; path=/; domain=.bibles.org
+      - abs_session=goi1iotLrlQdeRqyBVj%2FboeX7EgzjzVhP4WRIzAv21jHvTIWtWCgedPYFatHbXiWSiwk5jCYh32z9qHW8C%2FJCb1LpSyZpX3ESOVCaDvdkxYvQy%2FVkRLpGfe%2BcmT1vQwHvHgH24TnxTZlvm1YveEQ64n%2FIo4DOfjzHRDVaGwBVcimjujEnAJUFQPQ1tmafTIJmuziJ3P%2Bp802vzCAEbpOLomkacrxmpqZNc99uH0QDIHFCDifR7tpDJ5Pj7jg7QHoAnFKB7IKiyaMw426HmOD2bkL%2BufAgQX5N%2Fpg8EiRpXi%2Fe2qa%2FUTuOPF93psS4Rx8SH3Ymurx5cP5DF9lPXViPsSKlPk3jJCOgZwvcqidjt9NwkbOnRL991%2FxD8eN9S5PpQDM2vx%2BEgerBekQt26QbI7XIhceaeU6uxZ4cdAhjzEGc0QSrDEgPRqrYbJc7JxFf%2FVxXuesCyWqN2oUMoulyUWfLfis0dhEUSCoRzOfqDpOc2c7%2F0krg4cSQ4rjfRHA;
+        expires=Fri, 13-Oct-2023 20:57:36 GMT; path=/; domain=.bibles.org
+      - abs_session=n31hVlLXueMog0QkkGEzYz6Qa8r0mKx8AMUmNApbLakziEE3F6HNrke7ZBCLhNzLhQBLZhg3A7J4haoszDMwn9%2F9iGAUDCfGLTD%2FEt7tAVql3kIQdPVQYG8yqDDBMJ1Nx8cO4Q5%2Bn23J1DmzwWQ3jC9LBTXJcXJ0%2FnTwfCHl1Nx5vczZnpSuTrDY7797cfbpb7gsXh5xr3NBEI1tZvYSA%2F3MmbuUfp8kJ5u4kSowpnM1Dj6ZWaH2HNoMFpQz%2Fi4HdhoJU70K%2BMippxuzzlBz4bWtzBwrqGVNxPfFClRWQNw%3D;
+        expires=Fri, 13-Oct-2023 20:57:36 GMT; path=/; domain=.bibles.org
+      - abs_uid=77a3b5108fa08bcdd803a7773e06f4a21fda0d59; expires=Fri, 13-Oct-2023
+        20:57:36 GMT; path=/; domain=.bibles.org
       Vary:
       - Accept-Encoding
     body:
@@ -98,7 +150,7 @@ http_interactions:
         dCBzcmM9Ii9qYXZhc2NyaXB0cy9BQlMuY29tbW9uLmpzIj48L3NjcmlwdD4K
         ICAgICAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmluZSBzZXBhcmF0b3IgLS0g
         PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL3BhZ2VkYXRhLmpzP3Q9MTM4
-        MTg2ODYxNSI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmlu
+        MTg3MDY1NyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmlu
         ZSBzZXBhcmF0b3IgLS0gPC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2ph
         dmFzY3JpcHRzL2xpYnJhcmllcy9qc29uMi5qcyI+PC9zY3JpcHQ+CiAgICA8
         c2NyaXB0IHNyYz0iLy9kMnVlNDlxMG11bTg2eC5jbG91ZGZyb250Lm5ldC9p
@@ -330,108 +382,5 @@ http_interactions:
         PgogIDwvZGl2PjwhLS0gZW5kIG9mIC5jb250YWluZXIgLS0+CiAgPC9ib2R5
         PjwvaHRtbD4K
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 20:23:35 GMT
-- request:
-    method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:GEN.1.f.js?
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.2.6
-      Date:
-      - Tue, 15 Oct 2013 20:28:56 GMT
-      Content-Type:
-      - application/javascript
-      Content-Length:
-      - '1592'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - PHP/5.3.23
-      Set-Cookie:
-      - abs_session=%2FOGJoEj6Uqx2Z%2Bpsah%2BZFcVR72AQWtx0qDyLqdFbKL3PtzAqXv7zhu7Q78xPMG%2B2kBMt%2FTbtYlyQi2K6mSco61APB9EnUU8RWwHuh9WCW2l2h75uj3PqWZL9fVDL02FBoM2Dm%2FnCfnbdCjNJVVCTJuVJuzsDkqAtCbWivAAm5EH50VWxtT4fTFr5LymaCZai7GsHDPwqnoug7VUV5YT7Xfq63yk7yv9onMmh7MyumKlDg0%2BM28SWQpZ5kIZEfceO5bBRr7eOWwiohvUfuJiwg7MmgEIKX32XkIIVqxFWuMOq%2B3%2BWwRZMdcENqKc5LzxuS9Ve1%2F%2Fs7Mr3NKhIlK4md8wNafoOkfz73sEfH83%2BrQxgAfGRfhnYRQhgMzV%2BbK7K;
-        expires=Fri, 13-Oct-2023 20:28:57 GMT; path=/; domain=.bibles.org
-      - abs_session=BLyG%2Fbp69gsyLQuEvKhgZHr2tAIYBBU1npgKfYufl2fy9foe0E%2FhR6utO9O2xwmarJxYFPRufsSor785eaxbxhCdn98mpcLB%2B0%2BDhrYlOD2v4Xuzm6zU1WbxaiguLosfNdgFEZRgWTCwMuOXbY8sRCZCqE9GquOFzONUt24MHU1zyTXEyNq1blvHGsCAhT8xjsGWVNYVmeTArcIvnU9lZstMyISTPsjYl0wBFTWupnohL1RVsKEiGyouO4eStEeui81bPSAlHHgWWU6EFSuDt%2F%2B75dc88ZwQJsxJOtdZm8g%3D;
-        expires=Fri, 13-Oct-2023 20:28:57 GMT; path=/; domain=.bibles.org
-      - abs_uid=09e4efe477d91d40b3e7c54e4e29ade9f5cac430; expires=Fri, 13-Oct-2023
-        20:28:57 GMT; path=/; domain=.bibles.org
-    body:
-      encoding: US-ASCII
-      string: ! '{"response":{"verses":[{"auditid":"0","verse":"1","lastverse":"1","id":"eng-GNTD:Gen.1.1","osis_end":"eng-GNTD:Gen.1.1","label":"","reference":"Genesis
-        1:1","text":"<h3 class=\"s\">The Story of Creation<\/h3>\n<p class=\"p\"><sup
-        id=\"Gen.1.1\" class=\"v\">1<\/sup>In the beginning, when God created the
-        universe, <\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.1","name":"Genesis
-        1","id":"eng-GNTD:Gen.1"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Gen.1.2","name":"Genesis
-        1:2","id":"eng-GNTD:Gen.1.2"}},"copyright":"<p>Good News Translation (Today&#8217;s
-        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
-        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525da589962c00.89140872'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525da589962c00.89140872\"
-        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525da589962c00.89140872","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525da589962c00.89140872'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525da589962c00.89140872\"
-        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/>"}}}'
-    http_version: 
-  recorded_at: Tue, 15 Oct 2013 20:28:57 GMT
-- request:
-    method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:GEN.6.z.js?
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.2.6
-      Date:
-      - Tue, 15 Oct 2013 20:29:47 GMT
-      Content-Type:
-      - application/javascript
-      Content-Length:
-      - '1719'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - PHP/5.3.23
-      Set-Cookie:
-      - abs_session=753BpGHRP29SZ9%2BCmrwkfX2oKJ0nU7Naauj8Ha4VSKzJ2ORTdOUe3hUcquRtDIi%2FD3%2Fi1mG4dqIC6ZGjYK0XHMSEvFouKf3iaGLsYDP%2FwdDtTrBsHGBN0Z1H%2Bp1j9mfepf3IwWMhpA007WDo4SuMqV7Ttcucb8%2FHT89jVygBkeDn6FWNPRcctGJBUa5y%2FbAXcXqQeVe7XLWr0VZbARGHBi%2BFjEzf1N7lo3Oo9pva2UKgyl72yPvcTEwVQsQdBUknL6PF%2BGAa0zTV5536dVHGdeeLLQv8qwuyzwECbsoAobxW8OutWXAqXonohS4IGzBV%2FZ%2FwmofxiUA3UDvphhrvvFPFm5K75PO0mk3SgsdJpGfsFXPR2J3VRfnlnFlFZmVM;
-        expires=Fri, 13-Oct-2023 20:29:48 GMT; path=/; domain=.bibles.org
-      - abs_session=px6dU7NoxNIBh5ZNoN6O3rk2GjJQLouCbU9ea6Jdb7Nmz7E9iDkYWnBDWiq0xiWYrenGBpa3pOaWlLGZbhqQBepmBont46YPm%2FoK0dN0D%2BrpEJy1Gd3VqHyggwqQTvGHp2TiIf6hPJXgcno99FuL6191rgdRrKoJL8tqnsdvkXRWW%2BCV9JlU2InVi%2B3gdcn0pSG3N6xSWsiNAE8hUhMrnCUb5dmgGiXxdmZG%2FBHP5smfqt6NQl%2F6ozaZ24DATX7ZOeXZSvY0su5ktAjzfe%2BvxNtpWleUtOBxttFT1XqWq1s%3D;
-        expires=Fri, 13-Oct-2023 20:29:48 GMT; path=/; domain=.bibles.org
-      - abs_uid=99fcce68f8f13121b068465ef503ca5910e44f40; expires=Fri, 13-Oct-2023
-        20:29:48 GMT; path=/; domain=.bibles.org
-    body:
-      encoding: US-ASCII
-      string: ! '{"response":{"verses":[{"auditid":"0","verse":"1","lastverse":"1","id":"eng-GNTD:Gen.6.1","osis_end":"eng-GNTD:Gen.6.1","label":"","reference":"Genesis
-        6:1","text":"<h3 class=\"s\">Human Wickedness<\/h3>\n<p class=\"p\"><sup id=\"Gen.6.1\"
-        class=\"v\">1<\/sup> When people had spread all over the world, and daughters
-        were being born,<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.6","name":"Genesis
-        6","id":"eng-GNTD:Gen.6"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Gen.6.2","name":"Genesis
-        6:2","id":"eng-GNTD:Gen.6.2"}},"previous":{"verse":{"path":"\/verses\/eng-GNTD:Gen.5.32","name":"Genesis
-        5:32","id":"eng-GNTD:Gen.5.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
-        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
-        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525da5bc073755.92737143'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525da5bc073755.92737143\"
-        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525da5bc073755.92737143","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525da5bc073755.92737143'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525da5bc073755.92737143\"
-        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/>"}}}'
-    http_version: 
-  recorded_at: Tue, 15 Oct 2013 20:29:48 GMT
+  recorded_at: Tue, 15 Oct 2013 20:57:37 GMT
 recorded_with: VCR 2.6.0

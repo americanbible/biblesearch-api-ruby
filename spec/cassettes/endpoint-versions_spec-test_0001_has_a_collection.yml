@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 16:03:29 GMT
+      - Tue, 15 Oct 2013 20:57:40 GMT
       Content-Type:
       - application/javascript
       Transfer-Encoding:
@@ -25,12 +25,12 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=3ZWaqX1krwccq0T5gU5S7JcTCX5BuzW1jlSsxmyPP5XR2McssKaNcVlFJotzPnANeZCmi%2Bt4NFgNtbmwZRcxQDJhNqRlR8FjkPCkmKUhRpsiLGn4Ik3JIaguBY%2FmNmcoskwn9Iwpd4YJAExCP0%2BRvl3A%2FTFKtUTQzk%2BpS5ITTKwK3uEL6zWqzX%2Fuf0d3L7GeMerqrgWkvIEzN7f9UFw%2B9R1ILlXTaT9EOi0hXdwW%2Fh%2BD8cxMPOfxRKj%2FXIk2yKGcOD8cLS6a7sPtVzzOm2FEZhGg%2F4ABbfxGfBVlQgNl4n0tOxTSnt7Md7ZI%2F0%2FqxTlWQfR45zU7061Kyer7ccbo7lUgrItnZz5rtmn8S3MWpMaQZvx85ihzeWp1OGa78NoH;
-        expires=Fri, 13-Oct-2023 16:03:30 GMT; path=/; domain=.bibles.org
-      - abs_session=g2Qx1nyU%2BCVfWeDDF58cGAqvevKVRTb%2BG4YQQEAPxAz7uoxXpf531I%2BqFKv74BLTWWePNn0VAuXvRCkuSNNCdD1rC3%2BJO%2Bd%2By0P%2FJsMHANlHimF%2B%2BaLX054ajwBJV5mvnSWcvtVVPrrDTWXbIBDm0Rqz4W32svM6uGy8UR%2BYEUZ0EWGDXgiatczLeNSHZEvxcrNazWb1zvMYc85yoXUEAdhqvb6GIG3i2f7VKyizOH2LNyyhAwHtxTKqAqTg0526MHSf8arQrrEUUiTeqsCnphsG7D300hveVWluSfjVuvM%3D;
-        expires=Fri, 13-Oct-2023 16:03:30 GMT; path=/; domain=.bibles.org
-      - abs_uid=b2ab0ab5dd0b3014b1e0b116537159b225c49df3; expires=Fri, 13-Oct-2023
-        16:03:30 GMT; path=/; domain=.bibles.org
+      - abs_session=7qMiK0OsM6vi07EUYYEY6CawLltDUsotgC1fuazLGCJVVqeFbjbRbDMmizF1B2fct10whcrQhE7yt50f28h1hWZT2F0dgcNf%2FKQIAW0pgWPg4GyCJO0xlduE2%2B0fE%2FOYa5PAwixLCSbQo%2FGdUda2N%2BWmQYbVI3WQjsoC2w4F5iy5u80TE72MmvS3U0obtSwrcEzIjozm7QdaixpwHkn0mJ0j99wG8vy8sZck9ywV118E%2FPKbQoUuohd6Aeg8krv9LWnoNeCCGtgds6QjQqgzNcvlE9NnP3DJk5hNdi2KiqA%3D;
+        expires=Fri, 13-Oct-2023 20:57:41 GMT; path=/; domain=.bibles.org
+      - abs_session=Jgpwq4f6wb3tpb5E907LEU2sMmW%2B42bKB3ksECtoO9tJZ6TuFgCuLz7hE5yHiNWMf0gVempy1cR3J7yQ0IebtjFoJA0fJ62FvMPK%2BkjNM9st254ntISkvIlvyGm%2FgwOrdJ7sWoeAV3yOoowBJw%2FGmLck6yVR3HJXCzNnPCjz87gZ4KXNRVMDe1BOt0cC1Dp7BdsyqS%2B9kms2Rz7I9hx9mCd1DzDoFNkJPS5ylflwwnLKxedks38xp8F1KtkmnqRWrTBX04xA19Z8hqEdZshl1uwnFeps1CpPZxZs3MsS2FMryXBa8pznKa6xJ3Pax%2BixRlnLJkp%2BYuwfUZaMrJZXpUUm0DAf%2FOoBnIl3lEVrj3iSNrDn6eUIaP1%2BqQjHwD%2BM;
+        expires=Fri, 13-Oct-2023 20:57:41 GMT; path=/; domain=.bibles.org
+      - abs_uid=299ee6855264a42d37b69b0d950a737b39c27eef; expires=Fri, 13-Oct-2023
+        20:57:41 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
       string: ! '{"response":{"versions":[{"id":"cym-BCN","name":"Beibl Cymraeg Newydd","lang":"cym","lang_code":"ISO
@@ -305,16 +305,16 @@ http_interactions:
         visit <a href=\"http:\/\/www.americanbible.org\/\">www.americanbible.org<\/a><\/p>\n<p>To
         purchase a copy of this translation, visit <a href=\"http:\/\/www.bibles.com\/\">www.bibles.com<\/a><\/p>","lang_name":"Espa\u00f1ol","lang_name_eng":"Spanish","abbreviation":"RVR60","updated_at":"2013-04-24T17:30:10-05:00"}],"meta":{"fums":"<script>\nvar
         _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d6752212bc2.75925555'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6752212bc2.75925555\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac458f85c7.91380471'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac458f85c7.91380471\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525d6752212bc2.75925555","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d6752212bc2.75925555'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6752212bc2.75925555\"
+        \/><\/noscript>","fums_tid":"525dac458f85c7.91380471","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac458f85c7.91380471'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac458f85c7.91380471\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 16:03:30 GMT
+  recorded_at: Tue, 15 Oct 2013 20:57:41 GMT
 - request:
     method: get
     uri: http://<%= api_key %>:X@bibles.org/v2/versions.js?language=klingon
@@ -330,7 +330,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 16:03:30 GMT
+      - Tue, 15 Oct 2013 20:57:42 GMT
       Content-Type:
       - application/javascript
       Content-Length:
@@ -340,23 +340,23 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=609BB9DwEvATkpJFNN9WgXnSUbMKAtG9Fp4Brhle9kSXYM8dgnciJ9hvlkXJdIiIgmQmcaFo0LGkZ1ydud1YIMxcdTnW6GPH8waHoxIgwLwBmz%2FY2wzVxWsT4GKQRkPfGY%2B%2FEe6SaPfpzq%2B75gQp9VQQgDY8rY3THrGcgBxehYACxF5Fr0ilIXWx9tdwHsrrvbcx5c1OAziV0OyCH3452xDg86LlZGWxotVpVqpa1Q9ShSAlfqjlZpyvvaEx5c8viVuLeRmSh1LDUlGls5%2FZjHlMQZq3aEruZD1%2FQSqdnUw%3D;
-        expires=Fri, 13-Oct-2023 16:03:30 GMT; path=/; domain=.bibles.org
-      - abs_session=f0m6B8eZ%2FiH%2BnUQQvxW2qUI4jsD4G6CreAEH8R3Retg3qEYk1%2BL3XT%2FugshZpv7dwxxTe%2BwVbFyuVSN1aHTvyf7Oy9gxa8twt%2F0NyXUwtL1D1ZTYLFebahSFzyc2AEDjsrRTK1AVoTI%2BgQeJR3dAjV%2B1FKtPqzArZ94xUL5kPXCVNvPpRsfnS0P8Dfo3MqHD73Abk%2Ff2qO5F366EjuM9fV3PfIeUxb97XPkMTBmxD7qHXNwIt684OOjt9MufvODLG4%2FjYo6p6gUW%2FiAiDfyb4txnU4LTR2JTTswje%2FVCyq6HZ4sXYEJ%2FdcrzhYEv98zClTgT2r0%2FLWK6sxIFi%2B4EZlikDKK7PvLDlFPcGQ%2BFfNlhxWESawu%2FKlsvJtAU3nA9;
-        expires=Fri, 13-Oct-2023 16:03:30 GMT; path=/; domain=.bibles.org
-      - abs_uid=35aa28f24278c49bceb4a7f595ea5a25bdbc3cde; expires=Fri, 13-Oct-2023
-        16:03:30 GMT; path=/; domain=.bibles.org
+      - abs_session=D%2Bv%2Fceza%2BAla%2BW0BQ0tNBvuC4KKjT0zfxeh5sTTBOf7dfakGBYLauhDgogE9xFHVnKmj7AL4N1u2YCDa%2F2pEFi%2FEWwgsBHA1ZBcO4fR4%2Fw%2Fmi%2FY1vkvBL3zEIwAr%2FFZ2TWHZWS8BhlZdq98zMo1P%2FUalJeGxlR5ww8BubBHwCQuu0b%2F5otnrA9%2BmpjYNFKSZij7dBr%2BPTI0fTk1sFlwJEFUs%2FMWWcBSnUNknAgBgZIORUiGlgOKTCKG9EQ3cKK3atMYe%2FeY11d2dXyOiLN05VBb%2F8szAFD2PqGBQDk%2BHQcYo9YWLlaHFdoaGZG5YRfmq9dDba1so7uwBtkAIasCX8kHT%2FYJQcly5HfXPqAyeF9IIpy9hTAwTXEPWB864%2FZIP;
+        expires=Fri, 13-Oct-2023 20:57:42 GMT; path=/; domain=.bibles.org
+      - abs_session=aVOxRLSO0Vzshu1ssCtgWRbxhirwyJNK5yABnYsaroURRQyint8y7QA1itw4OT8ae%2FxG4N%2FoJP51f8GKh9qhVYbkZrRu9Gzbs2FMjFR0Y4BzXMnBYWiPFeR9sqFfle%2F4jzJ9DO4JHvKQKloA5T4L0wi4kGNbSKso8hmK5uTeH3rbCzmAiXJNPjnjdpmUuhnQSyVaemqUdzY250lrUy4G0Xh9aKMrtqRPvRp3OgL9Yvxbcab82Rwwc24w7pDq%2BGUbVF8gBVLE4Qcz%2FYnlH0L5nktUuVZUrUNFC5JOg3M8lKg%3D;
+        expires=Fri, 13-Oct-2023 20:57:42 GMT; path=/; domain=.bibles.org
+      - abs_uid=741179e06ae605a71f7cac2127beb97ece0d2a5f; expires=Fri, 13-Oct-2023
+        20:57:42 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
       string: ! '{"response":{"versions":[],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d6752a26758.12864911'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6752a26758.12864911\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac469dfa81.95685704'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac469dfa81.95685704\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525d6752a26758.12864911","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d6752a26758.12864911'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6752a26758.12864911\"
+        \/><\/noscript>","fums_tid":"525dac469dfa81.95685704","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac469dfa81.95685704'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac469dfa81.95685704\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 16:03:31 GMT
+  recorded_at: Tue, 15 Oct 2013 20:57:43 GMT
 recorded_with: VCR 2.6.0
