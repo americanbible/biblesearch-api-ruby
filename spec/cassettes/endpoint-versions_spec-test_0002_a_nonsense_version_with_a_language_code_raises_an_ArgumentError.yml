@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 14:19:39 GMT
+      - Tue, 15 Oct 2013 16:03:29 GMT
       Content-Type:
       - text/html
       Content-Length:
@@ -25,17 +25,17 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=K%2BbcPyZPSZXu5uJXs0S6wR9DoPgMDB4St8lmpsHkdUsk58Up6137H7gmupDX%2B6tU1y0WYK26eKC6G1kSTkEQSljpoUAWjWxLwmB%2F61Vs4pH%2FbLcd1jk8os83n25AuuUAf8om%2B%2BsI0jH%2F0xqiT2Ti5kt9h3Ka7N44a53teO9%2B0qzkaAG1qZbg28zoq3t6WEljVCEgwlUsN%2F91lBU2Pa8n%2B6VeGVqNNGEnqYCuxBc1E%2BXSz1FpovwLTRmO3wr427fCH5R%2BJ6lf7R9ZTRkKWvjOpfJmT5IKXYXpf8oKDGtVm%2Bg%3D;
-        expires=Fri, 13-Oct-2023 14:19:39 GMT; path=/; domain=.bibles.org
-      - abs_session=LhNOnlOW%2BXSlOWERgN5nWIyF18qd9FoLT7IadC65mPFvwL9gPISwD0MQxD3oKAGJn%2BTB99BxUuMZuG1PiHHgZNv0uIiu4IQorICD8DuT%2FI9IQhzKJeLfQnE1o0U9HuMxkII4Y41eYcL%2BwP7qVGK1zCFthpw%2Bmb%2FIbTL0PLDFMSCPyrzdRtDkrDRaFe747sz4OQTL6xMN7dW3FqqxXYg7f6DdTzYETqx9kMGGVuVMLuldXXXnAAuvps68QB3CJfjtVh4P%2FbOG%2FEqYjuRthSznbBF08wEzJVwqzFBJDQUE%2FiIAx34xqgPqpdBF3m%2BBV0fYfvrRh8M10pU4FFqf0PPqv0JjHo2E20HNQkcUbaGKDb1J1j%2B3dkjRbulhBWnAWjFw;
-        expires=Fri, 13-Oct-2023 14:19:39 GMT; path=/; domain=.bibles.org
-      - abs_uid=ffe96af3a3974a5e62eab0bee249c72828dc466f; expires=Fri, 13-Oct-2023
-        14:19:39 GMT; path=/; domain=.bibles.org
+      - abs_session=D5Q0sy9EAaLLPDOjvgGyDm94mpO3PHTtkDlOSsqQhbwCtt22T8Twh%2FNt%2FVuBmhL8l2jKx1eF2epwAtWBtZfLj95%2FwlXiRuzIlGJWq5j1WKKgyBMAStW%2FBUKRtPpuXhA0UMXi0AbLUvnD1Q0sOq7STNedNPND23wxuxMai09o15yQ5qNjFmiiUBbD9hUN14G29lbe8LA4GuMICUiBXYYFy%2BB6V41wzIv1meVMaA5l0ODq5Wbaj8BvdNyZht%2FlpEU7PfUArtK7DPQRCHVd3GHCBTWeUXsyjzpcvbCgNr0qd5TsAVDtOakKIeu4RwPbJlhLvH82u%2BdEwEqLENcd%2Bu6E5X8I9zf4Fiv7ogydv3vl1MoqZhiDwTzk5N5k2GtTW3wn;
+        expires=Fri, 13-Oct-2023 16:03:30 GMT; path=/; domain=.bibles.org
+      - abs_session=zx7q765Toyq0lije85yu2%2Fi%2BTzATn8t9oiZOdvSaMj8l1rUA%2BcnqhlEQaUOACuWI%2F0kjNqCZYJ38hUr04s9LbBT3w9MdxtIHl4nnhuh4Myw9COZBh0%2B%2BPjvX28ZUQy%2BQ5NqxMKlD1AXzjlKTYszOOJwL8YPlAU2ab%2Bdw01fl%2BCWBp92qsn35A7Ya3Sa92oq3jfqER5aKb%2BgnHyxRInd5g%2Bz1x7J1sMb6gn3AckNdzn01ZuIjF4vC8GjuotirxZ0cs8HWsx4qcdnEc5mGux24ws5C2Ec5zZKECCNbgVh%2Bf9c%3D;
+        expires=Fri, 13-Oct-2023 16:03:29 GMT; path=/; domain=.bibles.org
+      - abs_uid=e3b0116c290cc816bb8c9ac500de757ed693b0ac; expires=Fri, 13-Oct-2023
+        16:03:30 GMT; path=/; domain=.bibles.org
       Vary:
       - Accept-Encoding
     body:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 14:19:39 GMT
+  recorded_at: Tue, 15 Oct 2013 16:03:30 GMT
 recorded_with: VCR 2.6.0

@@ -2,59 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/KJV:John.3/verses.js?end=16&start=16
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.2.6
-      Date:
-      - Fri, 11 Oct 2013 20:57:01 GMT
-      Content-Type:
-      - application/javascript
-      Content-Length:
-      - '1776'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - PHP/5.3.23
-      Set-Cookie:
-      - abs_session=1rxdKNY%2BtRG%2FIiJug4zw6W7k%2FXiZoKapcPFA3TosFQ4EL8xtwgHX%2Fad78iwjZAR6uIed3EOqgrhg10t2yWayyR%2Bs0C8k47cqGXTbMHfgZRS01poc80LRg3O6flZ4H%2F2kOKt743newzVvUQFgRs46WlMHMVdbhVyc5SdRKcUh%2B6rWy3NHUgImzG9ZyFINL7z1V2VyYDV1YATt7egJk3ZRMoT6SW2UtzmiCbrBK6YuphfJuAmeIfCPo56udzF5uixcO84BnkiZLDkYy6bkQ96hXckyt5pKFkcrgd%2BQ91Chr1PGZYCri3hzOGvhvYJcppwjxu0qhmEk1DmaZKfGSsJHIyT2yajCilatWOifHR9pCFCyog%2BCTQgpKdXGM%2Fb7my5O;
-        expires=Mon, 09-Oct-2023 20:57:02 GMT; path=/; domain=.bibles.org
-      - abs_session=UE2sJbUhI1TU%2BrbIf20l9IS%2BAlaYGZXI631RlA%2F8wovogxYSOdDPwfL2S%2FchEIO9WCbvMbzcKBPAqpHiruFtT0dVMRehpkIFVjr5H20%2FfCdoL5TWcYAKN88EMOMVVI5dO%2BAONq7v%2FMsQr5UW1YS00PM3S%2ByYee%2Fk4jdLaEDEBri9gThY%2BeaVGkACIp8EIdMJC9iHw21oRG27MZ5jpuhNWrVFcdllTOjX%2B%2F5IYdZ8%2BwTW8LOIDwLo9ROy4bkKqiyxa3yo2RfaMi%2B04MIgK89OG4tn0%2FdZRPt4ximLOnJIQ1M%3D;
-        expires=Mon, 09-Oct-2023 20:57:02 GMT; path=/; domain=.bibles.org
-      - abs_uid=8efb1e822c3e8c0177209e8f336d1632035225be; expires=Mon, 09-Oct-2023
-        20:57:02 GMT; path=/; domain=.bibles.org
-    body:
-      encoding: US-ASCII
-      string: ! '{"response":{"verses":[{"auditid":"0","verse":"16","lastverse":"16","id":"KJV:John.3.16","osis_end":"KJV:John.3.16","label":"","reference":"John
-        3:16","text":"<span class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
-        For God so loved the world, that he gave his only begotten Son, that whosoever
-        believeth in him should not perish, but have everlasting life.<\/span><\/span>","parent":{"chapter":{"path":"\/chapters\/KJV:John.3","name":"John
-        3","id":"KJV:John.3"}},"next":{"verse":{"path":"\/verses\/KJV:John.3.17","name":"John
-        3:17","id":"KJV:John.3.17"}},"previous":{"verse":{"path":"\/verses\/KJV:John.3.15","name":"John
-        3:15","id":"KJV:John.3.15"}},"copyright":"King James Version 1611 (Authorized
-        Version). Copyright status: UK English with BFBS additions \u00a9 2011 British
-        and Foreign Bible Society; Crown Copyright in UK"}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''5258661e1f2609.85334194'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=5258661e1f2609.85334194\"
-        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"5258661e1f2609.85334194","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''5258661e1f2609.85334194'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=5258661e1f2609.85334194\"
-        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/>"}}}'
-    http_version: 
-  recorded_at: Fri, 11 Oct 2013 20:57:02 GMT
-- request:
-    method: get
     uri: http://<%= api_key %>:X@bibles.org/v2/chapters/eng-KJVA:John.3/verses.js?end=16&start=16
     body:
       encoding: US-ASCII
@@ -68,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 15:39:01 GMT
+      - Tue, 15 Oct 2013 16:03:27 GMT
       Content-Type:
       - application/javascript
       Content-Length:
@@ -78,12 +25,12 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=8r1ICyQOuAfuLrMEJm0UrGd8WToccjS02Akc5CXeS0YbJyLzIZX4PsX7hUhR6Wj4HShJEF5Af3JSJGis9GXixIzIBh7wUp0s7QN%2BKFWl4Ub2Dx3k33Ft503a7upHADexc%2FkKdHXLAXdp0NQyX4wqDTDn2IkAA%2BAMXcmLJznhmHVGHNs13nRbo4rY%2BA5XudjB8ac0%2F7qnxvwrJ0ASkfwWYqZEuxxtfldPY72Rxukvsc6qNKxy6eJOY8647aVVKX6aAFBdDvI5Rz7%2FatE7MSGOgZsUuuqbt56kQu04BAFMOMM%3D;
-        expires=Fri, 13-Oct-2023 15:39:01 GMT; path=/; domain=.bibles.org
-      - abs_session=FoCaQvcKMU0bs8oV%2Bf%2BaJDqPSo1gLmSNeVWG%2BrHkaTQJpQOBEHgQfpEkuqZHYQLBRaIdvOYW2FpLBbnhbcvKLt94T%2BCTQ8R6cjDgx%2FOjsf4u5U9PbUUVeWvMOzE%2Bj1Lc4lZtFFjif6Sqnayb6goo6Pi6y0lRyoo0fxcrSmtiNYYqFZb6z4am6aXW%2BX7h8G%2FEz2Lk3AHu%2BnPtYCZnPz9APhiJQAxBJFOxK975sgdt6eMvfVU4VFyaTOoIYbEaCVK3hlguNvsOy0P5bXY7H46i3rWFVwkXSC7AklJfGcGQsvgU0QFB7SySXWHH2i0jv4MxD1sDO%2FUJ%2BdCULE09OCh87j3aVmQo9%2BOKQEAB%2F3M%2ByU2W4GS6JhPXetHXx2q%2FwQ0d;
-        expires=Fri, 13-Oct-2023 15:39:01 GMT; path=/; domain=.bibles.org
-      - abs_uid=b92bb0490be44be4129c2f32d885cd63476b1cda; expires=Fri, 13-Oct-2023
-        15:39:01 GMT; path=/; domain=.bibles.org
+      - abs_session=p9NuqYxasstikpZZ5fkRwMSagaLLRxmwBYGGraSFE15G2KjO8I1A%2FV1HgQRKid5yQp8r0LJE7WQMR2%2FPtECgCEeJa7maiSfSUzYAFZBYJzYwPos8SWSq6t7ova%2FK%2FjD8naLAdO0FhnY7JfmV1hZjCYJ8u%2B4s2oo31D7888aupSskCfuf01TMgAfNK3SLIfsl0HZhZU2Xlcw0DD%2FNPnWU0a8tSpEUvHx4kI%2BCsP%2BAChnDlsPJCP3qBGC1sL6Epz%2BlGbyBxvDpRWCe1pYPk7B1pgKMhJ6bYmFVaZfsMvls3xxfwLlDlcnLhjLhEQnIcvr%2FiqOInzYU3S1efuE5S6cMFgNi73JMJq4tK4B%2BcsWqmEumOOSM7spLa5CTbhz5tHCY;
+        expires=Fri, 13-Oct-2023 16:03:28 GMT; path=/; domain=.bibles.org
+      - abs_session=skEvIS2vagzhAIBVlth6IAebuYKp%2FFeOD2okrgUFj%2FCjRRCdr92cA%2Bhw5ALN8PQa1aT8wJh7kdKJU2Q0mTOKEkapc5wFtxYTa0wV4c8lZ9t9zEW%2FwvBnnesUPKk4BYe4UyYbCSOSMTOHg1tgsF09qvg7zPuwHOI440NI0HomW8h30QCJgNaGYJE3VRieVOOsfqs6GoYOF5wm5%2BC9CgeUDp7R%2BKFFHTyXE1wiSsaZB97erUy29RKTWOVAvdPUFy0f0J2uiEHnR2SFvHjZpTKoz2VE6DG0I3y49PUkW4BFsjY%3D;
+        expires=Fri, 13-Oct-2023 16:03:28 GMT; path=/; domain=.bibles.org
+      - abs_uid=2a277cdf6cc40dbf4c741245b8a61dc7fe00745a; expires=Fri, 13-Oct-2023
+        16:03:28 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
       string: ! '{"response":{"verses":[{"auditid":"0","verse":"16","lastverse":"16","id":"eng-KJVA:John.3.16","osis_end":"eng-KJVA:John.3.16","label":"","reference":"John
@@ -97,14 +44,14 @@ http_interactions:
         spelling, punctuation and text formatting modernized by ABS in 1962; typesetting
         \u00a9 2010 American Bible Society.<\/p>"}],"meta":{"fums":"<script>\nvar
         _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d6195d597d8.17999745'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6195d597d8.17999745\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d6750137212.22206917'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6750137212.22206917\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525d6195d597d8.17999745","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d6195d597d8.17999745'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6195d597d8.17999745\"
+        \/><\/noscript>","fums_tid":"525d6750137212.22206917","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d6750137212.22206917'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d6750137212.22206917\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 15:39:02 GMT
+  recorded_at: Tue, 15 Oct 2013 16:03:28 GMT
 recorded_with: VCR 2.6.0

@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Fri, 11 Oct 2013 20:56:04 GMT
+      - Tue, 15 Oct 2013 16:02:18 GMT
       Content-Type:
       - text/html
       Content-Length:
@@ -25,12 +25,12 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=SHcRdlftV9xmuT2jFDD%2FEcR9teDt4CkHPB5CAhq%2BNTJUmpf55ydkczkFJuPSVaOxvALMLAMtNH%2FA4iDN9Y81Arc9MEVUm9GIIbwBr5Fax1ztfkoNTlz9v68GNsGPYQSPKP0IjbFahflz%2BnQxAnp2n3A7aCxmhdnJChdO7OOjrD%2Fo%2FLTvo4sOHZ5Usy2vq9IHfPeYAZzByfsfApxCLGEQjCvN2bauVBw3U0DhwFWrhKefbFl5T%2FCtfrFgNQXiWfaPmS03A1F542J%2FKVfN5jZUhqlTThAjn9b7VpxQslRcHP0qVRFAhU3SiOd7rS7E8gW9LbSOBWAUtyeYIYkq%2BIsDjBJYTuT3Y%2F4WuTmcJJQq6o%2Bd012pcyyvA2XeaqKk%2F%2FfV;
-        expires=Mon, 09-Oct-2023 20:56:05 GMT; path=/; domain=.bibles.org
-      - abs_session=ilJW3Lws1MXacNsxzeOX48g05k0Lb%2FFwN%2B1WUGcWPA4nIs0OBn1VfhACZPmDGC8E%2Fx%2FJBtMyE7iWGONXG31pn2MHFQmX3S6vKwVkvVTPfFSrpq%2F63Bn4BDSH%2BNhp6FucMAgox6vWTsNBAac67LYo3N0M5SQ%2FxZ%2BIj%2Bm0Mw%2FGqELvhhaiKwXB8IFLguc8SfKJPHskCT%2B5dFQum0M9tTDT3KKjVxrB%2ByP8o3KtWHTRsaYwyLSxYYLFpJ9p47JCJMRNz%2BP90k3wtYexO0Jty4zDSPJ28Fc9VCCuzfqdk9S0pJ4%3D;
-        expires=Mon, 09-Oct-2023 20:56:05 GMT; path=/; domain=.bibles.org
-      - abs_uid=53c232c27c376b642c7b6f55c552b72011ff9e73; expires=Mon, 09-Oct-2023
-        20:56:05 GMT; path=/; domain=.bibles.org
+      - abs_session=AGRXoJCF1FeQJPguQUx2ZyT%2F9D313LcnUDv4AU1IhsAK9JrrukYpuCzvLUHZreq4mt58Vy2ku3lF41cvfPfwxOU6EVTpJc0rFszvjE2%2F2dXu1RXeFTmAuVmgupwbxrKjeM3lfqGupSShDt6g2j%2BtmR9Xlzr251hLc32o5qt2RIhlL%2FEz6Dbn%2Bb3QGHHBk%2FjlPWunS%2F%2BI%2FsnT50MlSgQRIc3f9%2BydHh7kwW%2BwOAouMU9ukJeP9n3JjZ7CemZxdlaPA4%2BMYlm7u56gBGkl%2FT3dQtuQHP6wyniXQbnaTY6PRhYt3fA2558HIccmUxKobq1QAIGcP%2FKSrMAq7ncAWjAyLb76KqMAAg5icMsxmbNYxe24MXPdVgoIuOEDZibmMPni;
+        expires=Fri, 13-Oct-2023 16:02:19 GMT; path=/; domain=.bibles.org
+      - abs_session=PgEEmik%2FlGMYD%2FEIidit5kJ4tjPz312FIRgF9T64HAQUFV76AaNfghn94rO%2F5ZjT0sk3TIk4A3R2oyy%2BP6dm54MeD3ECFaM3jKzrOypb%2B6TBEwgJEIS6YSeocMxnnM5n4yavkVb5n%2FQX703DlD7%2BiQIojxeoRxoGDAmpwkuA%2B6op4MXbJD5dxS5h91hlXC5C%2FpapnmvIJBVstU1Gr28O3whR3lEFwTaopnowk12cZ2YtujsvOa5dJH9G0cbNwuiDl65d69UAE95Ar84lg1gCSR1RKCDwQ0a7kiyHWXdjuLI%3D;
+        expires=Fri, 13-Oct-2023 16:02:19 GMT; path=/; domain=.bibles.org
+      - abs_uid=c2ebbbc030d3ae97ae5aad448cd160306ee3886d; expires=Fri, 13-Oct-2023
+        16:02:19 GMT; path=/; domain=.bibles.org
       Location:
       - http://bibles.org/v2/KJV,CEV/passages.js?q[]=John+3%3A16
       Vary:
@@ -39,7 +39,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Fri, 11 Oct 2013 20:56:05 GMT
+  recorded_at: Tue, 15 Oct 2013 16:02:19 GMT
 - request:
     method: get
     uri: http://<%= api_key %>:X@bibles.org/v2/KJV,CEV/passages.js?q%5B0%5D=John%203:16
@@ -48,7 +48,8 @@ http_interactions:
       string: ''
     headers:
       Cookie:
-      - abs_session=ilJW3Lws1MXacNsxzeOX48g05k0Lb%2FFwN%2B1WUGcWPA4nIs0OBn1VfhACZPmDGC8E%2Fx%2FJBtMyE7iWGONXG31pn2MHFQmX3S6vKwVkvVTPfFSrpq%2F63Bn4BDSH%2BNhp6FucMAgox6vWTsNBAac67LYo3N0M5SQ%2FxZ%2BIj%2Bm0Mw%2FGqELvhhaiKwXB8IFLguc8SfKJPHskCT%2B5dFQum0M9tTDT3KKjVxrB%2ByP8o3KtWHTRsaYwyLSxYYLFpJ9p47JCJMRNz%2BP90k3wtYexO0Jty4zDSPJ28Fc9VCCuzfqdk9S0pJ4%3D
+      - abs_session=AGRXoJCF1FeQJPguQUx2ZyT%2F9D313LcnUDv4AU1IhsAK9JrrukYpuCzvLUHZreq4mt58Vy2ku3lF41cvfPfwxOU6EVTpJc0rFszvjE2%2F2dXu1RXeFTmAuVmgupwbxrKjeM3lfqGupSShDt6g2j%2BtmR9Xlzr251hLc32o5qt2RIhlL%2FEz6Dbn%2Bb3QGHHBk%2FjlPWunS%2F%2BI%2FsnT50MlSgQRIc3f9%2BydHh7kwW%2BwOAouMU9ukJeP9n3JjZ7CemZxdlaPA4%2BMYlm7u56gBGkl%2FT3dQtuQHP6wyniXQbnaTY6PRhYt3fA2558HIccmUxKobq1QAIGcP%2FKSrMAq7ncAWjAyLb76KqMAAg5icMsxmbNYxe24MXPdVgoIuOEDZibmMPni;
+        abs_uid=c2ebbbc030d3ae97ae5aad448cd160306ee3886d
   response:
     status:
       code: 200
@@ -57,7 +58,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Fri, 11 Oct 2013 20:56:04 GMT
+      - Tue, 15 Oct 2013 16:02:18 GMT
       Content-Type:
       - application/javascript
       Content-Length:
@@ -66,11 +67,6 @@ http_interactions:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
-      Set-Cookie:
-      - abs_session=58HVXnU47JmuBUP9sskiKckxojPLvH1UCCKsRo9W7%2Bmf9LqaLfDKmdXr8KxtNZRKDm4uxzbjN%2Bqx%2FTfylyo%2BBeiFD%2Bm82ccK%2F5zWQJjDmNvf5fwB6MzEJGBE%2B0QviMBggRYOycVZ1zDsT9RTw9%2B%2B77DyCRo5Rfo0JxhJhkcnoefkZ3EH1sX6%2Bz7e5mf4boWr7jIhQ7uo9wnWYMwvTTu7knf3k2a3F64YyYzorvPykCJ4Uqklrv6LMQL%2BPGruxeI9bRo2lqCmSm3nQQtFky75LcrdmK%2FadiF%2B9VBPojKYWT%2FoQzH9BI6bA9R8KwM%2BMNlrG9cjDP6ZReaNod4TgmUGt0UdK8CBjsebrHgOt9JiBYSUQgLf4CD361JQkVqmHS%2FC;
-        expires=Mon, 09-Oct-2023 20:56:05 GMT; path=/; domain=.bibles.org
-      - abs_uid=91b83661a008b4bed4cb071765793d59c67b4f35; expires=Mon, 09-Oct-2023
-        20:56:05 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
       string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
@@ -85,14 +81,14 @@ http_interactions:
         God loved the people of this world so much that he gave his only Son, so that
         everyone who has faith in him will have eternal life and never really die.<\/span><\/span><\/li><\/ul>","copyright":"Copyright
         2006, American Bible Society"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525865e58b2a54.86498784'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525865e58b2a54.86498784\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d670b48ae89.90233389'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d670b48ae89.90233389\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525865e58b2a54.86498784","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525865e58b2a54.86498784'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525865e58b2a54.86498784\"
+        \/><\/noscript>","fums_tid":"525d670b48ae89.90233389","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d670b48ae89.90233389'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d670b48ae89.90233389\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Fri, 11 Oct 2013 20:56:05 GMT
+  recorded_at: Tue, 15 Oct 2013 16:02:19 GMT
 recorded_with: VCR 2.6.0

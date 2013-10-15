@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Fri, 11 Oct 2013 20:56:08 GMT
+      - Tue, 15 Oct 2013 16:02:22 GMT
       Content-Type:
       - text/html
       Content-Length:
@@ -25,12 +25,12 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=7kH0UEl85MrXU5KFX7t%2FC66DcEQeaxnVsl4V%2FiTaE%2F0pwDjaldD5WEpSdX5CeIG7bPCSllUWVjXJL8SRdzFkufwpKYN0KeJtA1isNth4VlT8nUU9T0WJGwKzgricWk64hXOxEJjlL94a8QsARV199%2BKage9FDrvTAI9yN1qD%2F5ONN92L77zpxBYs2aYy4Juxt6QRk3ruWVYmcg4Thr2rw4YIEWf8HPC9yUrcoOmgAasWrrWOQubzAqjcBh8k2a3s5L0b%2B1JLA9BSGOUv9jxO9V4qmkrfVVy2JTSZMSKKkDhRVpdPJRQXshIVgt3nvyjwTdGc9chIb4uHL9LfktVSrlP7YEUif96b55KDZdk0P5s0TZ0SFS3hvJ8wyMFHfrjJ;
-        expires=Mon, 09-Oct-2023 20:56:09 GMT; path=/; domain=.bibles.org
-      - abs_session=Yqel4NkgblUqOT6Cb17WaZxmW68fHu3qbaN1kKugueOJCjF7GT4JJft5ofKT7bBp%2BipxE%2FgF9I4cBkBMCvlCwNvom3IxkQM5Y%2Bj6QVoex3hBN3l%2BRRtYZ%2BPPZbYAjqFFgr1B8mDDi4VlVcLoD0eSF00O2IpkRsjGzQXE%2FVuo3Sb4kYVmulhOYqFcbGHIn0yfSrCO6BRo5qWS%2Br4akmY4gY2MC%2BqdjyealE0Nx9qcBzluNCz3u2ITvsdx7Q7boNduL3WQ7Hz7WyIWMQC7h60coeNfLyE1m7E6z%2BNbjn1keDk%3D;
-        expires=Mon, 09-Oct-2023 20:56:09 GMT; path=/; domain=.bibles.org
-      - abs_uid=7645dd278b9095a016d0b61a7b4b380f07ee8cd1; expires=Mon, 09-Oct-2023
-        20:56:09 GMT; path=/; domain=.bibles.org
+      - abs_session=1Eq%2BQqRbn8cEmfTZHGxW2eRHKKRBQAcwiqVxEWYC%2FvF2C%2Fx0BaBHBgGy2SRNt%2B%2FtfmFoQCgn4OGX6ASnw5DmfqoA7w%2BFwrxqOf7TP8EXfhR%2F7s3ZQzxVcSqToYp8LPM5mtc3lfqjhBFDGdLNC%2BmG1%2BzAuNY42C1320ApOODbLSFLNMS5OILQ%2F66sO%2BEp8cbOSw0eVU9hd9dmZNtAW9dpyktk2OXESnr%2FcMwwKTvoH8mEHnT376rm9hhj8MFec10zEYfYJ30Wz8hI7M3iNX%2F58ZtGug1VXeCFLOh1pQxprx1Pj7%2FsEEk12FpIWSm3qRt8hesFFfyZgg3YBpgR4NZD3msnseo8dFuFgmYqwuQJM317Za6kYaJYVPj6eXse0vAW;
+        expires=Fri, 13-Oct-2023 16:02:23 GMT; path=/; domain=.bibles.org
+      - abs_session=D5DcPo2VByyx67tz6W%2FqPz9IzXYdxu2uctad3SahdTDmFbOKoMbUOIlLAfGGytjmsPRoY8eBkrRG%2FuRJLIMOwIPkjno90kf8UmAaJ7EJMbSr6d5dHFV8zjuRtFoGHZNSiqA8mXolGqS4r%2FSEmvfbMlKZ7cYiwWr%2FsFeWaqum0RBDuGSIEUVtrqYznUtbkv%2FqohbqfkFuukx4KRvP%2Br5tdG3EbYEW880t%2BOXMOl%2BMp1T5ViMfdLUDRmkbF4SXyQNKsnqnECEW8jPwp9%2BkdGyeNFsj3cFjGsf%2FN5wCuaK8bGg%3D;
+        expires=Fri, 13-Oct-2023 16:02:23 GMT; path=/; domain=.bibles.org
+      - abs_uid=eb73a67f11e68ae1e85b83444dd1b253cad46eb6; expires=Fri, 13-Oct-2023
+        16:02:23 GMT; path=/; domain=.bibles.org
       Location:
       - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16-ff
       Vary:
@@ -39,7 +39,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Fri, 11 Oct 2013 20:56:09 GMT
+  recorded_at: Tue, 15 Oct 2013 16:02:23 GMT
 - request:
     method: get
     uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?q%5B0%5D=John%203:16-ff
@@ -48,7 +48,8 @@ http_interactions:
       string: ''
     headers:
       Cookie:
-      - abs_session=Yqel4NkgblUqOT6Cb17WaZxmW68fHu3qbaN1kKugueOJCjF7GT4JJft5ofKT7bBp%2BipxE%2FgF9I4cBkBMCvlCwNvom3IxkQM5Y%2Bj6QVoex3hBN3l%2BRRtYZ%2BPPZbYAjqFFgr1B8mDDi4VlVcLoD0eSF00O2IpkRsjGzQXE%2FVuo3Sb4kYVmulhOYqFcbGHIn0yfSrCO6BRo5qWS%2Br4akmY4gY2MC%2BqdjyealE0Nx9qcBzluNCz3u2ITvsdx7Q7boNduL3WQ7Hz7WyIWMQC7h60coeNfLyE1m7E6z%2BNbjn1keDk%3D
+      - abs_session=1Eq%2BQqRbn8cEmfTZHGxW2eRHKKRBQAcwiqVxEWYC%2FvF2C%2Fx0BaBHBgGy2SRNt%2B%2FtfmFoQCgn4OGX6ASnw5DmfqoA7w%2BFwrxqOf7TP8EXfhR%2F7s3ZQzxVcSqToYp8LPM5mtc3lfqjhBFDGdLNC%2BmG1%2BzAuNY42C1320ApOODbLSFLNMS5OILQ%2F66sO%2BEp8cbOSw0eVU9hd9dmZNtAW9dpyktk2OXESnr%2FcMwwKTvoH8mEHnT376rm9hhj8MFec10zEYfYJ30Wz8hI7M3iNX%2F58ZtGug1VXeCFLOh1pQxprx1Pj7%2FsEEk12FpIWSm3qRt8hesFFfyZgg3YBpgR4NZD3msnseo8dFuFgmYqwuQJM317Za6kYaJYVPj6eXse0vAW;
+        abs_uid=eb73a67f11e68ae1e85b83444dd1b253cad46eb6
   response:
     status:
       code: 200
@@ -57,7 +58,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Fri, 11 Oct 2013 20:56:08 GMT
+      - Tue, 15 Oct 2013 16:02:22 GMT
       Content-Type:
       - application/javascript
       Content-Length:
@@ -66,11 +67,6 @@ http_interactions:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
-      Set-Cookie:
-      - abs_session=4xfIRG7PNBOxqoHh1GekMeHp75rH50sNrI9iIP9Awv781ABDs9axrJtNbcRLmea9Mz6AAOPeM%2BHs6bfGxNhN490BHtXXv7soJ0DfaHR0MIbExSBPOiJbp%2FGyzKAasb%2BPV5Hap%2B9WjE%2FPkylpehNVpWjPGy0JI76Cso%2BFiuOR4k7pdfK8WD8Anshajn7R155xErwq4%2FWbV6KFYQfKUwHQ7FfG%2BrCdGREYvnSm%2FcBatuMAcotubRt2jhkgZoW8Er2RYxc%2F%2FHyadR2nHf0EKdWMJGafqJ5TvZmoEqL2uS0CXzUGLjNiLGsfZYaJnVd%2Bu7cRhRRUiY%2BaI%2BjHXLBj8c1QDMyWY5fwL561xdUWEHd9LWksusm8YtWVq%2FGuiB9NkNiL;
-        expires=Mon, 09-Oct-2023 20:56:09 GMT; path=/; domain=.bibles.org
-      - abs_uid=c68f20513daba42150a78b88b36387ff9ac78e27; expires=Mon, 09-Oct-2023
-        20:56:09 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
       string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
@@ -133,14 +129,14 @@ http_interactions:
         James Version 1611 (Authorized Version). Copyright status: UK English with
         BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
         in UK"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525865e9739a57.72574107'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525865e9739a57.72574107\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d670f929ce1.14436189'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d670f929ce1.14436189\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525865e9739a57.72574107","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525865e9739a57.72574107'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525865e9739a57.72574107\"
+        \/><\/noscript>","fums_tid":"525d670f929ce1.14436189","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d670f929ce1.14436189'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d670f929ce1.14436189\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Fri, 11 Oct 2013 20:56:09 GMT
+  recorded_at: Tue, 15 Oct 2013 16:02:23 GMT
 recorded_with: VCR 2.6.0
