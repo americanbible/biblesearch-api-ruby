@@ -1,0 +1,579 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/books/eng-GNTD:NonexistentBook/chapters.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 15:08:13 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=6GuQEqIM2PobXHilvAQQBUflHjo24XHc3YL1Mfap7TUdd58oVkG6OjGO1kSJSXYRknvbvIlOf0I5gFOayXNgJ27KZzuRP%2BPMwjEwizPmWGEccS3fYVq5py9xD3sonZdAP1CGIL5WwNW7VCwfMtTu9xSrEvXiTv9umOprHHhBVy%2F%2FNE5YUi0I%2BtGpBugJ7E9fJcknCAXZC9TI%2Bf1Cue9Js1rIgM9Wk33uSMTC70htQDL9cHqCiDGln3YKj3WroENCDl3r%2F13gpwYfJK6SXGZC%2BYdesW5NiNPz%2BArUtiHRqpE%3D;
+        expires=Fri, 13-Oct-2023 15:08:13 GMT; path=/; domain=.bibles.org
+      - abs_session=CilxTasz9fnHeFbOklyPGwHsRvvcwA0J8ZDFTOas4R3XP4jWb2UvM2FEeYz5FlKsvO05lozYvqevuzgVtb3%2FJBbGf8Vh2I2P3qXZdWBuvh3WcE3dqCtuZ3wU5jReA8Kzeff8LY9b54uh5DrAI9E%2FPsZk5ZUHnzlGk9zmZNNV6L0HypqE%2FWgownWAVBPNS1k1tYjYiM2H7aFREF%2B3tDCOh57qE72EeqT3LoS1RvErDNTOV%2F1hm%2BjUg4n7Rti3XraW0S6ALF5Lee%2BuzbhJVSXkp0NNJUxz2udty9YzgPQDbZObP%2BktNInNsllgNmBz8JYs%2Fg9kzEU3B7Xow%2FrKipZiCPAED8FaOgf5vqydDbZemLPEcttXutoS%2FNwmEaUDUWwh;
+        expires=Fri, 13-Oct-2023 15:08:13 GMT; path=/; domain=.bibles.org
+      - abs_session=pbSnFBOr2yc1N2g%2BpVMfBiEksQRbJe%2FGsJPl3dW%2BovHm%2BwLP2o05QhUnUQ33xlhsfAE%2FyisKtphAggR%2FtguHdRjKWyIVCewWq%2FwV6LpkHS8IFFYUjP641%2BXsuQ1u34RIvatyUuKfGlJEpgunqvB8YuTOY0ldXikf%2FJro9nu%2BbtWk%2FPnx7ToQJSmcxr2F4rl4lwQMqrtA2hhU08HZEC8mOOPKKzd3QvFOUNLX%2BC6ljg6KndhJHzM3XCN85MCF4z7qRUTH62fqQyk0X5MYL54ULVzH8Sec62oglHK86PJhPN98FReri3UfKoZAKj2E1Zgrcs0ep9%2ByIss0lt9kbLvKEEARL5y5l4k0X7QJBrGp57gcei89GVIP936a5lQIlXxijdswNfjGuyG6cQ5Y9X%2BpW9G2Wpp2%2BywDnYbW2KFSFiIFCumarE8jVhvgr4JK1Pb8EVCpfwc5FHaFaRgNg0ruaQ%3D%3D;
+        expires=Fri, 13-Oct-2023 15:08:13 GMT; path=/; domain=.bibles.org
+      - abs_uid=1c9dc6d767142b59768f682821507d195b7f652d; expires=Fri, 13-Oct-2023
+        15:08:13 GMT; path=/; domain=.bibles.org
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIiB4bWw6bGFuZz0iZW4i
+        IHhtbG5zOmZiPSJodHRwOi8vb2dwLm1lL25zL2ZiIyI+CjxoZWFkPgogICAg
+        PG1ldGEgY2hhcnNldD0idXRmLTgiLz4KICAgIDxtZXRhIGh0dHAtZXF1aXY9
+        IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0
+        Zi04IiAvPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9Indp
+        ZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiLz4KICAgICAg
+        ICAgICAgICAgIDxtZXRhIHByb3BlcnR5PSJmYjphcHBfaWQiIGNvbnRlbnQ9
+        IjIwMTYxNjIyNjUzNjIwNiIgLz4KICAgICAgICA8bWV0YSBwcm9wZXJ0eT0i
+        ZmI6YWRtaW5faWQiIGNvbnRlbnQ9IjUzMzk1MjQwNywxMDAwMDEwOTMyMDk4
+        MjksMTAwMDAwMTkwOTk5ODM0Ii8+CiAgICAgICAgPHRpdGxlPkJpYmxlIFNl
+        YXJjaDwvdGl0bGU+CiAgICA8bWV0YSBuYW1lPSJyb2JvdHMiIGNvbnRlbnQ9
+        ImluZGV4LGZvbGxvdyIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPG1l
+        dGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwOi8vYmlibGVz
+        Lm9yZy9pbWFnZXMvbWFnZ2xhc3NfaWNvbl9zaGFyZXRodW1ibmFpbC5wbmci
+        IC8+CiAgICAgICAgPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50
+        PSJodHRwOi8vYmlibGVzLm9yZy9pbWFnZXMvb2dfaW1hZ2VfMS5qcGciIC8+
+        CiAgICA8bWV0YSBwcm9wZXJ0eT0ib2c6aW1hZ2UiIGNvbnRlbnQ9Imh0dHA6
+        Ly9iaWJsZXMub3JnL2ltYWdlcy9vZ19pbWFnZV8yLmpwZyIgLz4KICAgIDxt
+        ZXRhIHByb3BlcnR5PSJvZzppbWFnZSIgY29udGVudD0iaHR0cDovL2JpYmxl
+        cy5vcmcvaW1hZ2VzL29nX2ltYWdlXzMuanBnIiAvPgogICAgPG1ldGEgcHJv
+        cGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwOi8vYmlibGVzLm9yZy9p
+        bWFnZXMvb2dfaW1hZ2VfNC5qcGciIC8+CiAgICA8bWV0YSBwcm9wZXJ0eT0i
+        b2c6aW1hZ2UiIGNvbnRlbnQ9Imh0dHA6Ly9iaWJsZXMub3JnL2ltYWdlcy9v
+        Z19pbWFnZV81LmpwZyIgLz4KICAgIDxtZXRhIHByb3BlcnR5PSJvZzppbWFn
+        ZSIgY29udGVudD0iaHR0cDovL2JpYmxlcy5vcmcvaW1hZ2VzL29nX2ltYWdl
+        XzYuanBnIiAvPgogICAgPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250
+        ZW50PSJodHRwOi8vYmlibGVzLm9yZy9pbWFnZXMvb2dfaW1hZ2VfNy5qcGci
+        IC8+CiAgICA8bGluayByZWw9ImltYWdlX3NyYyIgaHJlZj0iaHR0cDovL2Jp
+        Ymxlcy5vcmcvaW1hZ2VzL21hZ2dsYXNzX2ljb25fc2hhcmV0aHVtYm5haWwu
+        cG5nIiAvPgogICAgICAgICAgICAgIDxtZXRhIG5hbWU9ImRlc2NyaXB0aW9u
+        IiBjb250ZW50PSJTZWFyY2ggYnkga2V5d29yZCBvciB2ZXJzZS4gRW5nYWdl
+        IHRocm91Z2ggdGhlIG5vdGVib29rIGFuZCBlYXNpbHkgY29tcGFyZSBhY3Jv
+        c3MgbXVsdGlwbGUgdHJhbnNsYXRpb25zLiIgLz4KICAgICAgICAgICAgICAg
+        IDxsaW5rIHJlbD0ic2hvcnRjdXQgaWNvbiIgaHJlZj0iL2ltYWdlcy9ic2Vh
+        cmNoX2Zhdi5wbmciCiAgICAgICAgICB0eXBlPSJpbWFnZS9wbmciLz4KICAg
+        ICAgICAgICAgICAgICAgPGxpbmsgaHJlZj0iL2Nzcy9mb250cy5jc3MiIHJl
+        bD0ic3R5bGVzaGVldCIgLz4KICAgIDxsaW5rIGhyZWY9Ii9jc3MvMTE0MC5j
+        c3MiIHJlbD0ic3R5bGVzaGVldCIgLz4KICAgIDxsaW5rIGhyZWY9Ii9jc3Mv
+        dHlwZWltZy5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4KICAgIDxsaW5rIGhy
+        ZWY9Ii9jc3MvbGF5b3V0LmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPgogICAg
+        PGxpbmsgaHJlZj0iL2Nzcy9iYXNlLmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAv
+        PgogICAgICAgICAgICAgICAgICAgICAgICAgIDwhLS1baWYgbHRlIElFIDld
+        PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2Nzcy9pZS5jc3MiIG1l
+        ZGlhPSJzY3JlZW4iIC8+PCFbZW5kaWZdLS0+CiAgICA8IS0tW2lmIGx0ZSBJ
+        RSA3XT48bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii9jc3MvaWU3LmNz
+        cyIgbWVkaWE9InNjcmVlbiIgLz48IVtlbmRpZl0tLT4KICAgIDxsaW5rIHJl
+        bD0ic3R5bGVzaGVldCIgaHJlZj0iL2phdmFzY3JpcHRzL2xpYnJhcmllcy9m
+        YW5jeWJveC9qcXVlcnkuZmFuY3lib3gtMS4zLjQuY3NzIiAvPgogICAgPGxp
+        bmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIvamF2YXNjcmlwdHMvbGlicmFy
+        aWVzL21lZGlhZWxlbWVudC9tZWRpYWVsZW1lbnRwbGF5ZXIubWluLmNzcyIg
+        Lz4KICAgIDxzY3JpcHQgc3JjPSIvaTE4bi1pbmNsdWRlL3Vpc3RyaW5ncy1p
+        MThuLWVuLTEzMTY1Mjg2NTYuanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBz
+        cmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJpZXMvbW9kZXJuaXpyLTEuNy5taW4u
+        anMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9s
+        aWJyYXJpZXMvdW5kZXJzY29yZS1taW4uanMiPjwvc2NyaXB0PgogICAgPHNj
+        cmlwdCBzcmM9Ii8vYWpheC5nb29nbGVhcGlzLmNvbS9hamF4L2xpYnMvanF1
+        ZXJ5LzEuNS4yL2pxdWVyeS5taW4uanMiPjwvc2NyaXB0PgogICAgPHNjcmlw
+        dCBzcmM9Ii9qYXZhc2NyaXB0cy9BQlMuY29tbW9uLmpzIj48L3NjcmlwdD4K
+        ICAgICAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmluZSBzZXBhcmF0b3IgLS0g
+        PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL3BhZ2VkYXRhLmpzP3Q9MTM4
+        MTg0OTY5NCI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0Pi8vLS0gSlMgY29tYmlu
+        ZSBzZXBhcmF0b3IgLS0gPC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2ph
+        dmFzY3JpcHRzL2xpYnJhcmllcy9qc29uMi5qcyI+PC9zY3JpcHQ+CiAgICA8
+        c2NyaXB0IHNyYz0iLy9kMnVlNDlxMG11bTg2eC5jbG91ZGZyb250Lm5ldC9p
+        bmNsdWRlL3NhLmMuanMiPjwvc2NyaXB0PiA8IS0tIEFCUyBzY3JpcHR1cmUg
+        YW5hbHl0aWNzIC0tPgogICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9s
+        aWJyYXJpZXMvanF1ZXJ5LXVpLTEuOC4yMC5lZGl0ZWQuY3VzdG9tLm1pbi5q
+        cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRzL2xp
+        YnJhcmllcy9iYWNrYm9uZS1taW4uanMiPjwvc2NyaXB0PgogICAgPHNjcmlw
+        dCBzcmM9Ii9qYXZhc2NyaXB0cy9idWlsZC9zaXRlZGF0YS5qcyI+PC9zY3Jp
+        cHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRzL0FCUy5Nb2RlbC5q
+        cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRzL0FC
+        Uy5Db2xsZWN0aW9uLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIv
+        amF2YXNjcmlwdHMvQUJTLlZpZXcuanMiPjwvc2NyaXB0PgogICAgPHNjcmlw
+        dCBzcmM9Ii9qYXZhc2NyaXB0cy9BQlMuUm91dGVyLmpzIj48L3NjcmlwdD4K
+        ICAgIDxzY3JpcHQgc3JjPSIvamF2YXNjcmlwdHMvQUJTLmJpYmxlc2VhcmNo
+        LmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIvamF2YXNjcmlwdHMv
+        QUJTLnZlcnNlU2VsZWN0b3IuanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBz
+        cmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJpZXMvanF1ZXJ5LmhpbnQuanMiPjwv
+        c2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJp
+        ZXMvanF1ZXJ5LnNjcm9sbFRvLTEuNC40LW1pbi5qcyI+PC9zY3JpcHQ+CiAg
+        ICAgICAgPHNjcmlwdCBzcmM9Ii9qYXZhc2NyaXB0cy9saWJyYXJpZXMvanF1
+        ZXJ5LmZvcm0uanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZh
+        c2NyaXB0cy9saWJyYXJpZXMvZmFuY3lib3gvanF1ZXJ5LmZhbmN5Ym94LTEu
+        My40LnBhY2suanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Ii9qYXZh
+        c2NyaXB0cy9saWJyYXJpZXMvZmFuY3lib3gvanF1ZXJ5LmVhc2luZy0xLjMu
+        cGFjay5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iL2phdmFzY3Jp
+        cHRzL2xpYnJhcmllcy9tZWRpYWVsZW1lbnQvbWVkaWFlbGVtZW50LWFuZC1w
+        bGF5ZXIubWluLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSIvamF2
+        YXNjcmlwdHMvbGlicmFyaWVzL3NwaW4ubWluLmpzIj48L3NjcmlwdD4KICAg
+        IDxzY3JpcHQgc3JjPSIvamF2YXNjcmlwdHMvbGlicmFyaWVzL2pxdWVyeS5z
+        cGluLmpzIj48L3NjcmlwdD4KICAgICAgICAgICAgCjwhLS0gdGhpcmQtcGFy
+        dHkgYXN5bmMgc2NyaXB0cyAtLT4KCjwhLS0gR29vZ2xlIEFuYWx5dGljcyBU
+        cmFja2luZyBDb2RlIC0tPgo8c2NyaXB0PgogIHZhciBfZ2FxID0gX2dhcSB8
+        fCBbXTsKICBfZ2FxLnB1c2goWydfc2V0QWNjb3VudCcsICdVQS0yMzQyMTQw
+        LTM0J10pOwogIF9nYXEucHVzaChbJ19zZXRBbGxvd0xpbmtlcicsIHRydWVd
+        KTsKICBfZ2FxLnB1c2goWydfc2V0QWxsb3dIYXNoJywgZmFsc2VdKTsKICBf
+        Z2FxLnB1c2goWydfdHJhY2tQYWdldmlldyddKTsKICBfZ2FxLnB1c2goWydf
+        dHJhY2tQYWdlTG9hZFRpbWUnXSk7CgogIF9nYXEucHVzaChbJ3QyLl9zZXRB
+        Y2NvdW50JywgJ1VBLTIzNDIxNDAtMTQnXSk7CiAgX2dhcS5wdXNoKFsndDIu
+        X3NldERvbWFpbk5hbWUnLCAnbm9uZSddKTsKICBfZ2FxLnB1c2goWyd0Mi5f
+        c2V0QWxsb3dMaW5rZXInLCB0cnVlXSk7CiAgX2dhcS5wdXNoKFsndDIuX3Nl
+        dEFsbG93SGFzaCcsIGZhbHNlXSk7CiAgX2dhcS5wdXNoKFsndDIuX3RyYWNr
+        UGFnZXZpZXcnXSk7CiAgX2dhcS5wdXNoKFsndDIuX3RyYWNrUGFnZUxvYWRU
+        aW1lJ10pOwoKICBfZ2FxLnB1c2goWyd0My5fc2V0QWNjb3VudCcsICdVQS0y
+        MzQyMTQwLTE3J10pOwogIF9nYXEucHVzaChbJ3QzLl9zZXREb21haW5OYW1l
+        JywgJ25vbmUnXSk7CiAgX2dhcS5wdXNoKFsndDMuX3NldEFsbG93TGlua2Vy
+        JywgdHJ1ZV0pOwogIF9nYXEucHVzaChbJ3QzLl9zZXRBbGxvd0hhc2gnLCBm
+        YWxzZV0pOwogIF9nYXEucHVzaChbJ3QzLl90cmFja1BhZ2V2aWV3J10pOwog
+        IF9nYXEucHVzaChbJ3QzLl90cmFja1BhZ2VMb2FkVGltZSddKTsKCiAgKGZ1
+        bmN0aW9uKCkgewogICAgdmFyIGdhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVu
+        dCgnc2NyaXB0Jyk7IGdhLnR5cGUgPSAndGV4dC9qYXZhc2NyaXB0JzsgZ2Eu
+        YXN5bmMgPSB0cnVlOwogICAgZ2Euc3JjID0gKCdodHRwczonID09IGRvY3Vt
+        ZW50LmxvY2F0aW9uLnByb3RvY29sID8gJ2h0dHBzOi8vc3NsJyA6ICdodHRw
+        Oi8vd3d3JykgKyAnLmdvb2dsZS1hbmFseXRpY3MuY29tL2dhLmpzJzsKICAg
+        IHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3Njcmlw
+        dCcpWzBdOyBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGdhLCBzKTsKICB9
+        KSgpOwo8L3NjcmlwdD4KCjwhLS0gR29vZ2xlIEFuYWx5dGljcyBTb2NpYWwg
+        QnV0dG9uIFRyYWNraW5nIC0tPgo8c2NyaXB0IHNyYz0iL2phdmFzY3JpcHRz
+        L2xpYnJhcmllcy9nYV9zb2NpYWxfdHJhY2tpbmcuanMiPjwvc2NyaXB0PgoK
+        CjwhLS1TVkcgU3VwcG9ydC0tPgo8c2NyaXB0PgppZighTW9kZXJuaXpyLnN2
+        ZykgewogICAgJCgnaW1nW3NyYyo9InN2ZyJdJykuYXR0cignc3JjJywgZnVu
+        Y3Rpb24oKSB7CiAgICAgICAgcmV0dXJuICQodGhpcykuYXR0cignc3JjJyku
+        cmVwbGFjZSgnLnN2ZycsICcucG5nJyk7CiAgICB9KTsKfQo8L3NjcmlwdD4K
+        CjxsaW5rIGhyZWY9Imh0dHA6Ly9hc3NldDAuemVuZGVzay5jb20vZXh0ZXJu
+        YWwvemVuYm94L3YyLjEvemVuYm94LmNzcyIgbWVkaWE9InNjcmVlbiwgcHJv
+        amVjdGlvbiIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyI+Cjxz
+        Y3JpcHQ+Ci8vIGxvYWQgemVuYm94IGFzeW5jaHJvbm91c2x5IHdpdGggalF1
+        ZXJ5LCB0aGVuIGF0dGFjaCB0aGUgaW5pdCB0byBET00gcmVhZHkgaW4gY2Fz
+        ZSB6ZW5ib3ggbG9hZHMgYmVmb3JlIERPTSBkb2VzLgpqUXVlcnkuZ2V0U2Ny
+        aXB0KCcvL2Fzc2V0MC56ZW5kZXNrLmNvbS9leHRlcm5hbC96ZW5ib3gvdjIu
+        MS96ZW5ib3guanMnLCBmdW5jdGlvbiAoKSB7CiAgaWYgKHR5cGVvZihaZW5i
+        b3gpICE9PSAndW5kZWZpbmVkJykgewogICAgalF1ZXJ5KGZ1bmN0aW9uICgk
+        KSB7CiAgICAgIFplbmJveC5pbml0KHsiZHJvcGJveElEIjoiMjAwMzA5NzIi
+        LCJ0YWJJRCI6InN1cHBvcnQiLCJoaWRlX3RhYiI6dHJ1ZSwidXJsIjoiaHR0
+        cHM6XC9cL2JpYmxlc2VhcmNoLnplbmRlc2suY29tIiwidGFiQ29sb3IiOiIj
+        M0QzQzNDIiwidGFiUG9zaXRpb24iOiJMZWZ0In0pOwogICAgICAkKCcuY29u
+        dGFjdHVzX3plbmJveCcpLmVhY2goZnVuY3Rpb24gKCkgewogICAgICAgICQo
+        dGhpcykuYXR0cignaHJlZicsICcjJykuY2xpY2soZnVuY3Rpb24gKGUpIHsK
+        ICAgICAgICAgIGUucHJldmVudERlZmF1bHQoKTsgWmVuYm94LnNob3coKTsg
+        cmV0dXJuIGZhbHNlOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwog
+        IH0KfSk7Cjwvc2NyaXB0PgoKPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3Jp
+        cHQiIHNyYz0iLy91c2UudHlwZWtpdC5uZXQvc2dnNWx3aC5qcyI+PC9zY3Jp
+        cHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij50cnl7VHlwZWtp
+        dC5sb2FkKCk7fWNhdGNoKGUpe308L3NjcmlwdD4KCjwvaGVhZD4KPGJvZHkg
+        aWQ9InBnVjJCb29rc0VuZ0dudGROb25leGlzdGVudGJvb2tDaGFwdGVyc0pz
+        IiBjbGFzcz0iZW4tVVMiPgoKPGRpdiBpZD0iZmItcm9vdCI+PC9kaXY+Cjxz
+        Y3JpcHQ+CiAgd2luZG93LmZiQXN5bmNJbml0ID0gZnVuY3Rpb24oKSB7CiAg
+        ICBGQi5pbml0KHsKICAgICAgYXBwSWQgIDogJzIwMTYxNjIyNjUzNjIwNics
+        CiAgICAgIHN0YXR1cyA6IHRydWUsIC8vIGNoZWNrIGxvZ2luIHN0YXR1cwog
+        ICAgICBjb29raWUgOiB0cnVlLCAvLyBlbmFibGUgY29va2llcyB0byBhbGxv
+        dyB0aGUgc2VydmVyIHRvIGFjY2VzcyB0aGUgc2Vzc2lvbgogICAgICB4ZmJt
+        bCAgOiB0cnVlICAvLyBwYXJzZSBYRkJNTAogICAgfSk7CiAgIGlmICgndW5k
+        ZWZpbmVkJyAhPT0gdHlwZW9mIF9nYSkgeyBfZ2EudHJhY2tGYWNlYm9vaygp
+        OyB9CiAgfTsKCiAgLy8gTG9hZCB0aGUgRmFjZWJvb2sgU0RLIEFzeW5jaHJv
+        bm91c2x5CiAgKGZ1bmN0aW9uKGQpewogICAgIHZhciBqcywgaWQgPSAnZmFj
+        ZWJvb2stanNzZGsnLCByZWYgPSBkLmdldEVsZW1lbnRzQnlUYWdOYW1lKCdz
+        Y3JpcHQnKVswXTsKICAgICBpZiAoZC5nZXRFbGVtZW50QnlJZChpZCkpIHty
+        ZXR1cm47fQogICAgIGpzID0gZC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsg
+        anMuaWQgPSBpZDsganMuYXN5bmMgPSB0cnVlOwogICAgIGpzLnNyYyA9ICIv
+        L2Nvbm5lY3QuZmFjZWJvb2submV0L2VuX1VTL2FsbC5qcyI7CiAgICAgcmVm
+        LnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGpzLCByZWYpOwogIH0oZG9jdW1l
+        bnQpKTsKPC9zY3JpcHQ+CiAgPGEgaHJlZj0iI2NvbnRlbnQiIGNsYXNzPSJz
+        a2lwIiB0YWJpbmRleD0iMCIgYWNjZXNza2V5PSJTIj5Ta2lwIHRvIGNvbnRl
+        bnQ8L2E+CgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CgogICAgPGRpdiBj
+        bGFzcz0ibmF2YmFyIj4KICAgIDxkaXYgY2xhc3M9InRvb2xzIj4KICAgIAog
+        ICAgPHVsPgogICAgICA8bGkgY2xhc3M9Imxhbmctc3dpdGNoZXIiPjxhIHRh
+        YmluZGV4PSIwIiBocmVmPSIjIj5MYW5ndWFnZTogRW5nbGlzaDwvYT4KICAg
+        ICAgPHVsPgogICAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibGFu
+        Z1N3aXRjaCIgaHJlZj0iaHR0cDovL2VzLmJpYmxlcy5vcmcvdjIvYm9va3Mv
+        ZW5nLUdOVEQ6Tm9uZXhpc3RlbnRCb29rL2NoYXB0ZXJzLmpzIj5Fc3Bhw7Fv
+        bCAoU3BhbmlzaCk8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICA8bGk+
+        PGEgY2xhc3M9ImxhbmdTd2l0Y2giIGhyZWY9Imh0dHA6Ly9mci5iaWJsZXMu
+        b3JnL3YyL2Jvb2tzL2VuZy1HTlREOk5vbmV4aXN0ZW50Qm9vay9jaGFwdGVy
+        cy5qcyI+RnJhbsOnYWlzIChGcmVuY2gpPC9hPjwvbGk+CiAgICAgICAgICAg
+        ICAgICAgICAgPGxpPjxhIGNsYXNzPSJsYW5nU3dpdGNoIiBocmVmPSJodHRw
+        Oi8vZWwuYmlibGVzLm9yZy92Mi9ib29rcy9lbmctR05URDpOb25leGlzdGVu
+        dEJvb2svY2hhcHRlcnMuanMiPs6VzrvOu863zr3Ouc66zqwgKEdyZWVrOiBN
+        b2Rlcm4pPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGNs
+        YXNzPSJsYW5nU3dpdGNoIiBocmVmPSJodHRwOi8vYWYuYmlibGVzLm9yZy92
+        Mi9ib29rcy9lbmctR05URDpOb25leGlzdGVudEJvb2svY2hhcHRlcnMuanMi
+        PkFmcmlrYWFuczwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaT48
+        YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL2N5LmJpYmxlcy5v
+        cmcvdjIvYm9va3MvZW5nLUdOVEQ6Tm9uZXhpc3RlbnRCb29rL2NoYXB0ZXJz
+        LmpzIj5DeW1yYWVnIChXZWxzaCk8L2E+PC9saT4KICAgICAgICAgICAgICAg
+        ICAgICA8bGk+PGEgY2xhc3M9ImxhbmdTd2l0Y2giIGhyZWY9Imh0dHA6Ly9n
+        YS5iaWJsZXMub3JnL3YyL2Jvb2tzL2VuZy1HTlREOk5vbmV4aXN0ZW50Qm9v
+        ay9jaGFwdGVycy5qcyI+R2FlaWxnZSAoSXJpc2gpPC9hPjwvbGk+CiAgICAg
+        ICAgICAgICAgICAgICAgPGxpPjxhIGNsYXNzPSJsYW5nU3dpdGNoIiBocmVm
+        PSJodHRwOi8va28uYmlibGVzLm9yZy92Mi9ib29rcy9lbmctR05URDpOb25l
+        eGlzdGVudEJvb2svY2hhcHRlcnMuanMiPu2VnOq1reyWtCAoS29yZWFuKTwv
+        YT48L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibGFu
+        Z1N3aXRjaCIgaHJlZj0iaHR0cDovL3B0LmJpYmxlcy5vcmcvdjIvYm9va3Mv
+        ZW5nLUdOVEQ6Tm9uZXhpc3RlbnRCb29rL2NoYXB0ZXJzLmpzIj5Qb3J0dWd1
+        w6pzIChQb3J0dWd1ZXNlKTwvYT48L2xpPgogICAgICAgICAgICAgICAgICAg
+        IDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL3NrLmJp
+        Ymxlcy5vcmcvdjIvYm9va3MvZW5nLUdOVEQ6Tm9uZXhpc3RlbnRCb29rL2No
+        YXB0ZXJzLmpzIj5TbG92ZW7EjWluYSAoU2xvdmFrKTwvYT48L2xpPgogICAg
+        ICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJl
+        Zj0iaHR0cDovL3ZpLmJpYmxlcy5vcmcvdjIvYm9va3MvZW5nLUdOVEQ6Tm9u
+        ZXhpc3RlbnRCb29rL2NoYXB0ZXJzLmpzIj5UaeG6v25nIFZp4buHdCAoVmll
+        dG5hbWVzZSk8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICA8bGk+PGEg
+        Y2xhc3M9ImxhbmdTd2l0Y2giIGhyZWY9Imh0dHA6Ly9zcS5iaWJsZXMub3Jn
+        L3YyL2Jvb2tzL2VuZy1HTlREOk5vbmV4aXN0ZW50Qm9vay9jaGFwdGVycy5q
+        cyI+U2hxaXAgKEFsYmFuaWFuKTwvYT48L2xpPgogICAgICAgICAgICAgICAg
+        ICAgIDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL3B0
+        LWJyLmJpYmxlcy5vcmcvdjIvYm9va3MvZW5nLUdOVEQ6Tm9uZXhpc3RlbnRC
+        b29rL2NoYXB0ZXJzLmpzIj5wb3J0dWd1w6pzIGJyYXNpbGVpcm8gKEJyYXpp
+        bGlhbiBQb3J0dWd1ZXNlKTwvYT48L2xpPgogICAgICAgICAgICAgICAgICAg
+        IDxsaT48YSBjbGFzcz0ibGFuZ1N3aXRjaCIgaHJlZj0iaHR0cDovL21uLmJp
+        Ymxlcy5vcmcvdjIvYm9va3MvZW5nLUdOVEQ6Tm9uZXhpc3RlbnRCb29rL2No
+        YXB0ZXJzLmpzIj7QnNC+0L3Qs9C+0LsgKE1vbmdvbGlhbik8L2E+PC9saT4K
+        ICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9ImFkZC15b3VyLWxhbmci
+        PjxhIGhyZWY9Ii9wYWdlcy9hZGQteW91ci1sYW5ndWFnZSIgdGFyZ2V0PSJi
+        aWJsZXMtZXh0cmEiPkFkZCBZb3VyIExhbmd1YWdlPC9hPjwvbGk+CiAgICAg
+        IDwvdWw+CiAgICAgIDwvbGk+CiAgICAgIDxsaT48YSBocmVmPSJtYWlsdG86
+        c3VwcG9ydEBiaWJsZXMub3JnIiBjbGFzcz0iY29udGFjdHVzX3plbmJveCI+
+        Q29udGFjdCBVczwvYT48L2xpPgogICAgICAgICAgICA8bGk+PGEgdGFyZ2V0
+        PSJiaWJsZXMtZXh0cmEiIGhyZWY9Imh0dHA6Ly9zdXBwb3J0LmJpYmxlcy5v
+        cmcvZm9ydW1zIiB0YWJpbmRleD0iMCI+Q29tbXVuaXR5IFN1cHBvcnQ8L2E+
+        PC9saT4KICAgICAgICAgICAgPGxpPjxhIHRhcmdldD0iX2JsYW5rIiAgaHJl
+        Zj0iaHR0cDovL3Rvb2xzLmJpYmxlcy5vcmcvIiB0YWJpbmRleD0iMCI+VG9v
+        bHM8L2E+PC9saT4KICAgICAgICAgICAgPGxpIGNsYXNzPSJzZXNzaW9uLWxp
+        bmtzIj48dWw+CiAgICAgICAgICAgICAgICAgIDxsaT48YSBjbGFzcz0ibG9n
+        aW4tbGluayIgdGFiaW5kZXg9IjAiIGhyZWY9Imh0dHA6Ly9iaWJsZXMub3Jn
+        L2FjY291bnQvbG9naW4iPkxvZ2luPC9hPjwvbGk+CiAgICAgICAgICAgICAg
+        PC91bD48L2xpPgogICAgPC91bD4KCiAgICA8cCBjbGFzcz0ibW9iaWxlLXN3
+        aXRjaGVyIj48YSBocmVmPSJodHRwOi8vYmlibGVzLm9yZy9zd2FwP3NlbmRU
+        bz0iIHRpdGxlPSJTd2l0Y2ggdG8gbW9iaWxlIHZlcnNpb24iPlN3aXRjaCB0
+        byBtb2JpbGUgdmVyc2lvbjwvYT48L3A+CgogIDwvZGl2Pgo8L2Rpdj4KCgog
+        ICAgPGRpdiBpZD0ibG9nby1zZWFyY2gtaGVhZGVyIiBjbGFzcz0iZGl2aGVh
+        ZGVyIj4KICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICA8ZGl2IGNs
+        YXNzPSJicmFuZGluZyI+CiAgICAgICAgICA8YSBocmVmPSIvIiB0YXJnZXQ9
+        ImJpYmxlcy1ob21lIiB0YWJpbmRleD0iMCIgY2xhc3M9ImxvZ28tbGluayI+
+        CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImxvZ28iPgogICAgICAgICAgICAg
+        ICAgPGltZyBzcmM9Ii9pbWFnZXMvYmlibGVzZWFyY2hfbG9nby5zdmciIGNs
+        YXNzPSJsb2dvLWltZyIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNz
+        PSJ0YWdsaW5lIj5maW5kIGl0LiBzaGFyZSBpdC4gbGl2ZSBpdC48L3NwYW4+
+        CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9hPgogICAgICAgIDwv
+        ZGl2PjwhLS0gcm93IC0tPgoKICAgICAgICA8ZGl2IGlkPSJzZWFyY2gtZm9y
+        bS1ob2xkZXIiPgogICAgICAgICAgICAgICAgICAgIDwhLS0gc2VhcmNoIGZv
+        cm0gLS0+CiAgICAgICAgICA8Zm9ybSBhY3Rpb249Ii9zZWFyY2giIGNsYXNz
+        PSJzZWFyY2gtZm9ybSI+CiAgICAgICAgICAgIDxmaWVsZHNldD4KICAgICAg
+        ICAgICAgICA8bGVnZW5kPlNlYXJjaCBmb3JtPC9sZWdlbmQ+CiAgICAgICAg
+        ICAgICAgPGRpdiBjbGFzcz0iaW5wdXQtaG9sZGVyIj4KICAgICAgICAgICAg
+        ICAgIDxkaXYgY2xhc3M9ImlucHV0LWZyYW1lIj4KICAgICAgICAgICAgICAg
+        ICAgPGlucHV0IHR5cGU9InRleHQiIHRpdGxlPSJQYXNzYWdlICYga2V5d29y
+        ZCBzZWFyY2giIHRhYmluZGV4PSIwIiBhY2Nlc3NrZXk9IjQiIG5hbWU9InF1
+        ZXJ5IiB2YWx1ZT0iIj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAg
+        ICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJoaWRk
+        ZW4iIG5hbWU9InZlcnNpb24iIHZhbHVlPSJlbmctTkxULGVuZy1NU0csZW5n
+        LUdOVEQsZW5nLUNFVixlbmctUlNWLGVuZy1OUlNWLGVuZy1OQVNCLGVuZy1F
+        U1YsZW5nLUtKVkEsZW5nLU5JVixlbmctQU1QIj4KICAgICAgICAgICAgICA8
+        aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU2VhcmNoIiBjbGFzcz0iYnRu
+        LXNlYXJjaCIgdGFiaW5kZXg9IjAiPgogICAgICAgICAgICA8L2ZpZWxkc2V0
+        PgogICAgICAgICAgPC9mb3JtPgogICAgICAgICAgCiAgICAgICAgPC9kaXY+
+        CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CgogIDxkaXYgY2xh
+        c3M9ImNvbnRhaW5lciBzZWNvbmRhcnkiIGlkPSJjb250ZW50Ij4KICAgICAg
+        ICA8ZGl2IGNsYXNzPSJwcmludC1idXR0b24tY29udGFpbmVyIj4KICAgICAg
+        PGJ1dHRvbiBjbGFzcz0iYnRuIGRhcmsiIG9uQ2xpY2s9IndpbmRvdy5wcmlu
+        dCgpOyI+CiAgICAgICAgPGEgaHJlZj0iIyI+UHJpbnQ8L2E+CiAgICAgIDwv
+        YnV0dG9uPgogICAgPC9kaXY+CiAgICAKICAgIDxkaXYgY2xhc3M9InJvdyI+
+        CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImRpdnNlY3Rpb24gdmlld3NlY3Rp
+        b24iPgogICAgICAgIDxkaXYgaWQ9InByaW1hcnktY29udGVudC1ob2xkZXIi
+        IGNsYXNzPSJub2pzb25seSBwYXJhbGxlbC1jbG9zZWQiPgogICAgICAKPGRp
+        diBjbGFzcz0ibm90Rm91bmQiPgogIDxoMT5QYWdlIG5vdCBmb3VuZDwvaDE+
+        CiAgPHA+VGhlIHBhZ2UgeW91IHdlcmUgbG9va2luZyBmb3IgZG9lcyBub3Qg
+        ZXhpc3QuPC9wPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY2xlYXIiPjwvZGl2Pgog
+        ICAgICAgIDwvZGl2PiA8IS0tIGVuZCBvZiAudGVuY29sIC0tPgogICAgICAg
+        IDxkaXYgY2xhc3M9Im9uZWNvbCBub2pzb25seSBsYXN0Ij4mbmJzcDs8L2Rp
+        dj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4gPCEtLSBlbmQgb2YgLnJvdyAt
+        LT4KICA8L2Rpdj4gPCEtLSBlbmQgb2YgI2NvbnRlbnQuY29udGFpbmVyIC0t
+        PgogIDxkaXYgaWQ9ImF1ZGlvcGxheWVyY29udGFpbmVyIj48L2Rpdj4KICAg
+        IDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICA8ZGl2IGNsYXNzPSJyb3ci
+        PgogICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJwYWdlZm9vdGVyIiBjbGFz
+        cz0iZGl2Zm9vdGVyIj4KICAgICAgICA8dWw+CiAgICAgICAgICA8bGk+PGEg
+        dGFiaW5kZXg9IjAiIGhyZWY9Imh0dHA6Ly9hbWVyaWNhbmJpYmxlLm9yZy8i
+        IHRhcmdldD0iX2JsYW5rIiA+JmNvcHk7IDIwMTMgQW1lcmljYW4gQmlibGUg
+        U29jaWV0eTwvYT48L2xpPgogICAgICAgICAgPGxpPjxhIHRhYmluZGV4PSIw
+        IiBocmVmPSJodHRwOi8vYmlibGVzLm9yZy9wYWdlcy9sZWdhbCNwcml2YWN5
+        IiB0YXJnZXQ9ImJpYmxlcy1leHRyYSI+UHJpdmFjeSBQb2xpY3k8L2E+PC9s
+        aT4KICAgICAgICAgIDxsaT48YSB0YWJpbmRleD0iMCIgaHJlZj0iaHR0cDov
+        L2JpYmxlcy5vcmcvcGFnZXMvbGVnYWwjY29weXJpZ2h0IiB0YXJnZXQ9ImJp
+        Ymxlcy1leHRyYSI+Q29weXJpZ2h0czwvYT48L2xpPgogICAgICAgICAgPGxp
+        PjxhIHRhYmluZGV4PSIwIiBocmVmPSJodHRwOi8vYmlibGVzLm9yZy9wYWdl
+        cy9sZWdhbCN0ZXJtcyIgdGFyZ2V0PSJiaWJsZXMtZXh0cmEiPlRlcm1zIGFu
+        ZCBDb25kaXRpb25zPC9hPjwvbGk+CiAgICAgICAgPC91bD4KICAgICAgPC9k
+        aXY+CiAgICAgIDwvZGl2PjwhLS0gZW5kIG9mIC5yb3cgLS0+CiAgPC9kaXY+
+        PCEtLSBlbmQgb2YgLmNvbnRhaW5lciAtLT4KICA8L2JvZHk+PC9odG1sPgo=
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 15:08:14 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/books/eng-GNTD:GEN/chapters.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 15:12:30 GMT
+      Content-Type:
+      - application/javascript
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=XQ51exAv5k2BAhZqWdAWMvFDiuHWyJgUL1xcMohbN0JwhkgePyceqLQ3mVv39sjWchOTDbMz9c9C54kCPla0%2FbgGscu7g9S%2BCGz%2FK7%2F4qO26dwpK6e2iQLgZvzHICyCSMhmQ9dWpaeEf0GNr95sbBGEIO2lrim%2FurnhVHDvmpN5%2BEB7eq%2F6Z%2FX2aW%2Ffu9cRkf3WYIi3p%2BqdyD56cIBhlJ1lGoV5wgyEODzDAlO94jpPBUhqUv5fAcER1rlul91pdaCKMyLY2eKotennjoSXxH%2FQLXUz%2BTJ%2FX5lMPRGF8Z2g%3D;
+        expires=Fri, 13-Oct-2023 15:12:31 GMT; path=/; domain=.bibles.org
+      - abs_session=ZleZemS4PUvdnZmTUvq1FwNFPNGNWHcR6BOnCReyN0wEggXrhaaQ9TUAs1DF4vJIvLlCxvqRl7rVG6158JRmKpfICk524ch%2FXzMlIphU76qq7rzn63ZD6xmeVK0cbvuqYTSQcqI6u%2Bf1E3zS5sy091Gum%2FsIowMWxe4SFkYbqvb3ez67w46B2uZ26SbcnfQ14TQdFVVfJkejfux1g5mdbTdHjEVgsF0aoK%2B1RQ0oNgbpbU%2FjdoO5tyUMD1cv9xTtmePGnELFrjlb9D0snPiezLbZmS1oVHBagfA6yBC%2B19Bg4wgPQAtuA6MgDzcWBQz5Lc30KB2l0cDeeD98XtkDhAMhkE4lZB%2B0qtNNIb2HngeLfNNMhfBvgXLjokUdu3yu;
+        expires=Fri, 13-Oct-2023 15:12:31 GMT; path=/; domain=.bibles.org
+      - abs_uid=7a0bb65bb742595af68f6e138993b24db205134b; expires=Fri, 13-Oct-2023
+        15:12:31 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","chapter":"int","id":"eng-GNTD:Gen.int","osis_end":"eng-GNTD:Gen.int.int","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.1","name":"Genesis
+        1","id":"eng-GNTD:Gen.1"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"1","id":"eng-GNTD:Gen.1","osis_end":"eng-GNTD:Gen.1.31","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.2","name":"Genesis
+        2","id":"eng-GNTD:Gen.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.int","name":"Genesis
+        int","id":"eng-GNTD:Gen.int"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"2","id":"eng-GNTD:Gen.2","osis_end":"eng-GNTD:Gen.2.25","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.3","name":"Genesis
+        3","id":"eng-GNTD:Gen.3"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.1","name":"Genesis
+        1","id":"eng-GNTD:Gen.1"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"3","id":"eng-GNTD:Gen.3","osis_end":"eng-GNTD:Gen.3.24","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.4","name":"Genesis
+        4","id":"eng-GNTD:Gen.4"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.2","name":"Genesis
+        2","id":"eng-GNTD:Gen.2"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"4","id":"eng-GNTD:Gen.4","osis_end":"eng-GNTD:Gen.4.26","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.5","name":"Genesis
+        5","id":"eng-GNTD:Gen.5"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.3","name":"Genesis
+        3","id":"eng-GNTD:Gen.3"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"5","id":"eng-GNTD:Gen.5","osis_end":"eng-GNTD:Gen.5.32","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.6","name":"Genesis
+        6","id":"eng-GNTD:Gen.6"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.4","name":"Genesis
+        4","id":"eng-GNTD:Gen.4"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"6","id":"eng-GNTD:Gen.6","osis_end":"eng-GNTD:Gen.6.22","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.7","name":"Genesis
+        7","id":"eng-GNTD:Gen.7"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.5","name":"Genesis
+        5","id":"eng-GNTD:Gen.5"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"7","id":"eng-GNTD:Gen.7","osis_end":"eng-GNTD:Gen.7.24","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.8","name":"Genesis
+        8","id":"eng-GNTD:Gen.8"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.6","name":"Genesis
+        6","id":"eng-GNTD:Gen.6"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"8","id":"eng-GNTD:Gen.8","osis_end":"eng-GNTD:Gen.8.22","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.9","name":"Genesis
+        9","id":"eng-GNTD:Gen.9"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.7","name":"Genesis
+        7","id":"eng-GNTD:Gen.7"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"9","id":"eng-GNTD:Gen.9","osis_end":"eng-GNTD:Gen.9.29","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.10","name":"Genesis
+        10","id":"eng-GNTD:Gen.10"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.8","name":"Genesis
+        8","id":"eng-GNTD:Gen.8"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"10","id":"eng-GNTD:Gen.10","osis_end":"eng-GNTD:Gen.10.32","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.11","name":"Genesis
+        11","id":"eng-GNTD:Gen.11"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.9","name":"Genesis
+        9","id":"eng-GNTD:Gen.9"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"11","id":"eng-GNTD:Gen.11","osis_end":"eng-GNTD:Gen.11.32","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.12","name":"Genesis
+        12","id":"eng-GNTD:Gen.12"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.10","name":"Genesis
+        10","id":"eng-GNTD:Gen.10"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"12","id":"eng-GNTD:Gen.12","osis_end":"eng-GNTD:Gen.12.20","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.13","name":"Genesis
+        13","id":"eng-GNTD:Gen.13"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.11","name":"Genesis
+        11","id":"eng-GNTD:Gen.11"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"13","id":"eng-GNTD:Gen.13","osis_end":"eng-GNTD:Gen.13.18","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.14","name":"Genesis
+        14","id":"eng-GNTD:Gen.14"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.12","name":"Genesis
+        12","id":"eng-GNTD:Gen.12"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"14","id":"eng-GNTD:Gen.14","osis_end":"eng-GNTD:Gen.14.24","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.15","name":"Genesis
+        15","id":"eng-GNTD:Gen.15"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.13","name":"Genesis
+        13","id":"eng-GNTD:Gen.13"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"15","id":"eng-GNTD:Gen.15","osis_end":"eng-GNTD:Gen.15.21","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.16","name":"Genesis
+        16","id":"eng-GNTD:Gen.16"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.14","name":"Genesis
+        14","id":"eng-GNTD:Gen.14"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"16","id":"eng-GNTD:Gen.16","osis_end":"eng-GNTD:Gen.16.16","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.17","name":"Genesis
+        17","id":"eng-GNTD:Gen.17"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.15","name":"Genesis
+        15","id":"eng-GNTD:Gen.15"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"17","id":"eng-GNTD:Gen.17","osis_end":"eng-GNTD:Gen.17.27","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.18","name":"Genesis
+        18","id":"eng-GNTD:Gen.18"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.16","name":"Genesis
+        16","id":"eng-GNTD:Gen.16"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"18","id":"eng-GNTD:Gen.18","osis_end":"eng-GNTD:Gen.18.33","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.19","name":"Genesis
+        19","id":"eng-GNTD:Gen.19"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.17","name":"Genesis
+        17","id":"eng-GNTD:Gen.17"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"19","id":"eng-GNTD:Gen.19","osis_end":"eng-GNTD:Gen.19.38","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.20","name":"Genesis
+        20","id":"eng-GNTD:Gen.20"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.18","name":"Genesis
+        18","id":"eng-GNTD:Gen.18"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"20","id":"eng-GNTD:Gen.20","osis_end":"eng-GNTD:Gen.20.18","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.21","name":"Genesis
+        21","id":"eng-GNTD:Gen.21"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.19","name":"Genesis
+        19","id":"eng-GNTD:Gen.19"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"21","id":"eng-GNTD:Gen.21","osis_end":"eng-GNTD:Gen.21.34","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.22","name":"Genesis
+        22","id":"eng-GNTD:Gen.22"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.20","name":"Genesis
+        20","id":"eng-GNTD:Gen.20"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"22","id":"eng-GNTD:Gen.22","osis_end":"eng-GNTD:Gen.22.24","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.23","name":"Genesis
+        23","id":"eng-GNTD:Gen.23"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.21","name":"Genesis
+        21","id":"eng-GNTD:Gen.21"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"23","id":"eng-GNTD:Gen.23","osis_end":"eng-GNTD:Gen.23.20","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.24","name":"Genesis
+        24","id":"eng-GNTD:Gen.24"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.22","name":"Genesis
+        22","id":"eng-GNTD:Gen.22"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"24","id":"eng-GNTD:Gen.24","osis_end":"eng-GNTD:Gen.24.67","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.25","name":"Genesis
+        25","id":"eng-GNTD:Gen.25"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.23","name":"Genesis
+        23","id":"eng-GNTD:Gen.23"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"25","id":"eng-GNTD:Gen.25","osis_end":"eng-GNTD:Gen.25.34","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.26","name":"Genesis
+        26","id":"eng-GNTD:Gen.26"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.24","name":"Genesis
+        24","id":"eng-GNTD:Gen.24"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"26","id":"eng-GNTD:Gen.26","osis_end":"eng-GNTD:Gen.26.35","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.27","name":"Genesis
+        27","id":"eng-GNTD:Gen.27"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.25","name":"Genesis
+        25","id":"eng-GNTD:Gen.25"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"27","id":"eng-GNTD:Gen.27","osis_end":"eng-GNTD:Gen.27.46","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.28","name":"Genesis
+        28","id":"eng-GNTD:Gen.28"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.26","name":"Genesis
+        26","id":"eng-GNTD:Gen.26"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"28","id":"eng-GNTD:Gen.28","osis_end":"eng-GNTD:Gen.28.22","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.29","name":"Genesis
+        29","id":"eng-GNTD:Gen.29"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.27","name":"Genesis
+        27","id":"eng-GNTD:Gen.27"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"29","id":"eng-GNTD:Gen.29","osis_end":"eng-GNTD:Gen.29.35","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.30","name":"Genesis
+        30","id":"eng-GNTD:Gen.30"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.28","name":"Genesis
+        28","id":"eng-GNTD:Gen.28"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"30","id":"eng-GNTD:Gen.30","osis_end":"eng-GNTD:Gen.30.43","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.31","name":"Genesis
+        31","id":"eng-GNTD:Gen.31"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.29","name":"Genesis
+        29","id":"eng-GNTD:Gen.29"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"31","id":"eng-GNTD:Gen.31","osis_end":"eng-GNTD:Gen.31.55","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.32","name":"Genesis
+        32","id":"eng-GNTD:Gen.32"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.30","name":"Genesis
+        30","id":"eng-GNTD:Gen.30"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"32","id":"eng-GNTD:Gen.32","osis_end":"eng-GNTD:Gen.32.32","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.33","name":"Genesis
+        33","id":"eng-GNTD:Gen.33"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.31","name":"Genesis
+        31","id":"eng-GNTD:Gen.31"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"33","id":"eng-GNTD:Gen.33","osis_end":"eng-GNTD:Gen.33.20","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.34","name":"Genesis
+        34","id":"eng-GNTD:Gen.34"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.32","name":"Genesis
+        32","id":"eng-GNTD:Gen.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"34","id":"eng-GNTD:Gen.34","osis_end":"eng-GNTD:Gen.34.31","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.35","name":"Genesis
+        35","id":"eng-GNTD:Gen.35"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.33","name":"Genesis
+        33","id":"eng-GNTD:Gen.33"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"35","id":"eng-GNTD:Gen.35","osis_end":"eng-GNTD:Gen.35.29","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.36","name":"Genesis
+        36","id":"eng-GNTD:Gen.36"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.34","name":"Genesis
+        34","id":"eng-GNTD:Gen.34"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"36","id":"eng-GNTD:Gen.36","osis_end":"eng-GNTD:Gen.36.43","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.37","name":"Genesis
+        37","id":"eng-GNTD:Gen.37"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.35","name":"Genesis
+        35","id":"eng-GNTD:Gen.35"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"37","id":"eng-GNTD:Gen.37","osis_end":"eng-GNTD:Gen.37.36","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.38","name":"Genesis
+        38","id":"eng-GNTD:Gen.38"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.36","name":"Genesis
+        36","id":"eng-GNTD:Gen.36"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"38","id":"eng-GNTD:Gen.38","osis_end":"eng-GNTD:Gen.38.30","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.39","name":"Genesis
+        39","id":"eng-GNTD:Gen.39"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.37","name":"Genesis
+        37","id":"eng-GNTD:Gen.37"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"39","id":"eng-GNTD:Gen.39","osis_end":"eng-GNTD:Gen.39.23","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.40","name":"Genesis
+        40","id":"eng-GNTD:Gen.40"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.38","name":"Genesis
+        38","id":"eng-GNTD:Gen.38"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"40","id":"eng-GNTD:Gen.40","osis_end":"eng-GNTD:Gen.40.23","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.41","name":"Genesis
+        41","id":"eng-GNTD:Gen.41"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.39","name":"Genesis
+        39","id":"eng-GNTD:Gen.39"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"41","id":"eng-GNTD:Gen.41","osis_end":"eng-GNTD:Gen.41.57","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.42","name":"Genesis
+        42","id":"eng-GNTD:Gen.42"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.40","name":"Genesis
+        40","id":"eng-GNTD:Gen.40"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"42","id":"eng-GNTD:Gen.42","osis_end":"eng-GNTD:Gen.42.38","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.43","name":"Genesis
+        43","id":"eng-GNTD:Gen.43"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.41","name":"Genesis
+        41","id":"eng-GNTD:Gen.41"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"43","id":"eng-GNTD:Gen.43","osis_end":"eng-GNTD:Gen.43.34","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.44","name":"Genesis
+        44","id":"eng-GNTD:Gen.44"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.42","name":"Genesis
+        42","id":"eng-GNTD:Gen.42"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"44","id":"eng-GNTD:Gen.44","osis_end":"eng-GNTD:Gen.44.34","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.45","name":"Genesis
+        45","id":"eng-GNTD:Gen.45"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.43","name":"Genesis
+        43","id":"eng-GNTD:Gen.43"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"45","id":"eng-GNTD:Gen.45","osis_end":"eng-GNTD:Gen.45.28","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.46","name":"Genesis
+        46","id":"eng-GNTD:Gen.46"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.44","name":"Genesis
+        44","id":"eng-GNTD:Gen.44"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"46","id":"eng-GNTD:Gen.46","osis_end":"eng-GNTD:Gen.46.34","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.47","name":"Genesis
+        47","id":"eng-GNTD:Gen.47"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.45","name":"Genesis
+        45","id":"eng-GNTD:Gen.45"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"47","id":"eng-GNTD:Gen.47","osis_end":"eng-GNTD:Gen.47.31","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.48","name":"Genesis
+        48","id":"eng-GNTD:Gen.48"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.46","name":"Genesis
+        46","id":"eng-GNTD:Gen.46"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"48","id":"eng-GNTD:Gen.48","osis_end":"eng-GNTD:Gen.48.22","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.49","name":"Genesis
+        49","id":"eng-GNTD:Gen.49"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.47","name":"Genesis
+        47","id":"eng-GNTD:Gen.47"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"49","id":"eng-GNTD:Gen.49","osis_end":"eng-GNTD:Gen.49.33","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.50","name":"Genesis
+        50","id":"eng-GNTD:Gen.50"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.48","name":"Genesis
+        48","id":"eng-GNTD:Gen.48"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"auditid":"0","label":"","chapter":"50","id":"eng-GNTD:Gen.50","osis_end":"eng-GNTD:Gen.50.26","parent":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Exod.int","name":"Exodus
+        int","id":"eng-GNTD:Exod.int"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.49","name":"Genesis
+        49","id":"eng-GNTD:Gen.49"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d5b5f0f57b3.06218689'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d5b5f0f57b3.06218689\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525d5b5f0f57b3.06218689","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d5b5f0f57b3.06218689'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d5b5f0f57b3.06218689\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 15:12:31 GMT
+recorded_with: VCR 2.6.0

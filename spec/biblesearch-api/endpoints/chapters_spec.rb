@@ -20,7 +20,7 @@ describe BibleSearch do
         it %{raises an argument error for bad input} do
           bad_book_string = lambda { @biblesearch.chapters('UnknownVersion') }
           bad_book_string.must_raise ArgumentError
-          (bad_book_string.call rescue $!).message.must_equal 'Book signature must be in the form "VERSION_ID:BOOK_ID"'
+          (bad_book_string.call rescue $!).message.match /^Book signature must be in the form/
         end
       end
 
@@ -39,7 +39,7 @@ describe BibleSearch do
               options.delete(key)
               bad_book_hash = lambda { @biblesearch.chapters(options) }
               bad_book_hash.must_raise ArgumentError
-              (bad_book_hash.call rescue $!).message.must_equal "Book signature hash must include :version_id and :book_id"
+              (bad_book_hash.call rescue $!).message.match /^Book signature hash must include/
             end
           end
         end
@@ -80,16 +80,10 @@ describe BibleSearch do
     end
 
     describe %{when I make a bad request} do
-      before do
-        @chapters = @biblesearch.chapters('eng-GNTD:NonexistentBook')
-      end
-
-      it %{has a collection} do
-        @chapters.collection.must_be_instance_of Array
-      end
-
-      it %{contains no items} do
-        @chapters.collection.length.must_equal 0
+      it %{raises an argument error} do
+        ['eng-GNTD:NonexistentBook','CEV:GEN'].each do |sig|
+          lambda {@biblesearch.chapters(sig)}.must_raise ArgumentError
+        end
       end
     end
   end
@@ -164,8 +158,8 @@ describe BibleSearch do
     end
 
     describe %{when I request an invalid chapter} do
-      it %{has a nil value} do
-        @biblesearch.chapter('eng-GNTD:NonexistentBook.1').value.must_be_nil
+      it %{raises an ArgumentError} do
+        lambda {@biblesearch.chapter('eng-GNTD:NonexistentBook.1')}.must_raise ArgumentError
       end
     end
   end

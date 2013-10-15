@@ -12,23 +12,19 @@ describe BibleSearch do
   end
 
   describe %{#verses} do
-    describe %{when returning no verses} do
-      before do
-        @verses = @biblesearch.verses('KJV:NonexistentBook.1', '1', '16')
+    describe %{with bad arguments} do
+      it %{raises an ArgumentError} do
+        [ ['eng-KJVA:NonexistentBook.1', '1', '16']
+        ].each do |verses|
+          lambda {@biblesearch.verses(*verses)}.must_raise ArgumentError
+        end
       end
 
-      it %{has a collection} do
-        @verses.collection.must_be_instance_of Array
-      end
-
-      it %{should contain no verses} do
-        @verses.collection.must_be_empty
-      end
     end
 
     describe %{when returning one verse} do
       before do
-        @verses = @biblesearch.verses('KJV:John.3', '16', '16')
+        @verses = @biblesearch.verses('eng-KJVA:John.3', '16', '16')
       end
 
       it %{has a collection} do
@@ -55,7 +51,7 @@ describe BibleSearch do
       end
 
       it %{can include marginalia} do
-        @verses = @biblesearch.verses('KJV:John.3', '16', '16', include_marginalia: true)
+        @verses = @biblesearch.verses('eng-KJVA:John.3', '16', '16', include_marginalia: true)
         @verses.collection.each do |verse|
           verse.must_include "footnotes"
         end
@@ -67,7 +63,7 @@ describe BibleSearch do
       before do
         @start_verse = 16
         @end_verse = 17
-        @verses = @biblesearch.verses('KJV:John.3', @start_verse, @end_verse)
+        @verses = @biblesearch.verses('eng-KJVA:John.3', @start_verse, @end_verse)
       end
 
       it %{has a collection} do
@@ -94,7 +90,7 @@ describe BibleSearch do
       end
 
       it %{can include marginalia} do
-        @verses = @biblesearch.verses('KJV:John.3', @start_verse, @end_verse, include_marginalia: true)
+        @verses = @biblesearch.verses('eng-KJVA:John.3', @start_verse, @end_verse, include_marginalia: true)
         @verses.collection.each do |verse|
           verse.must_include "footnotes"
         end
@@ -173,8 +169,8 @@ describe BibleSearch do
     end
 
     describe %{when requesting an invalid verse} do
-      it %{has a nil value} do
-        @biblesearch.verse('KJV:NonexistentBook.1.1').value.must_be_nil
+      it %{raises an ArgumentError} do
+        lambda {@biblesearch.verse('eng-KJVA:NonexistentBook.1.1')}.must_raise ArgumentError
       end
     end
   end

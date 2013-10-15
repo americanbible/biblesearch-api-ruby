@@ -19,14 +19,19 @@ class BibleSearch
 
   module Verses
     def verses(chapter_id, start_verse="", end_verse="", options={})
-
-      verses = []
-      api_result = get_mash("/chapters/#{chapter_id}/verses.js", :query => {:start => start_verse, :end => end_verse}.merge(options))
-      if api_result.meta.http_code == 200
-        verses = pluralize_result(api_result.response.verses)
+      unless chapter_id.match(@chapter_re)
+        raise ArgumentError.new('Chapter signature must be in the form "VERSION_ID:BOOK_ID.CHAPTER_NUMBER"')
       end
 
-      fumsify(api_result, verses)
+      api_result = get_mash("/chapters/#{chapter_id}/verses.js", :query => {:start => start_verse, :end => end_verse}.merge(options))
+      if api_result.meta.http_code == 200
+        verses = []
+        verses = pluralize_result(api_result.response.verses)
+        fumsify(api_result, verses)
+      else
+        raise ArgumentError.new("Unrecognized verses request.")
+      end
+
     end
 
     def verse(verse_sig, options={})
@@ -34,13 +39,15 @@ class BibleSearch
       # Validate a signature hash, calling its string sig equivalent if valid
       verse_sig = valid_verse(verse_sig)
 
-      verse = nil
       api_result = get_mash("/verses/#{verse_sig}.js", query: options)
       if api_result.meta.http_code == 200
+        verse = nil
         verse = api_result.response.verses.first
+        return fumsify(api_result, verse)
+      else
+        raise ArgumentError.new("Unrecognized verses request.")
       end
 
-      return fumsify(api_result, verse)
     end
 
   end

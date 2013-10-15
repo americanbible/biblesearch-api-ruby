@@ -3,20 +3,21 @@ class BibleSearch
     def passages(passage, options = {})
       versions = options.delete(:versions)
       unless versions.nil?
-        if versions.is_a?(Array)
-          versions = versions.join(',')
+        if versions.is_a?(String)
+          versions = versions.split(',')
         end
-        options[:version] = versions
+        options[:version] = versions.join(',')
       end
       options = options.merge({"q[]" => passage})
 
-      passages = []
       api_result = get_mash("/passages.js", :query => options)
       if api_result.meta.http_code == 200
+        passages = []
         passages = pluralize_result(api_result.response.search.result.passages)
+        fumsify(api_result, passages)
+      else
+        raise ArgumentError.new("Unrecognized passages signature.")
       end
-
-      fumsify(api_result, passages)
     end
   end
 end
