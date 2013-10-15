@@ -144,8 +144,8 @@ describe BibleSearch do
       end
 
       describe %{when I request an invalid book} do
-        it %{raises an ArgumentError} do
-          lambda {@biblesearch.book('eng-GNTD:NonexistentBook')}.must_raise ArgumentError
+        it %{returns nil} do
+          @biblesearch.book('eng-GNTD:NonexistentBook').must_be_nil
         end
       end
     end

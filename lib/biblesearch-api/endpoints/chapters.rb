@@ -25,7 +25,8 @@ class BibleSearch
         chapters = pluralize_result(api_result.response.chapters)
         fumsify(api_result, chapters)
       else
-        raise ArgumentError.new("Unrecognized book signature.")
+        # raise ArgumentError.new("Unrecognized book signature.")
+        []
       end
 
     end

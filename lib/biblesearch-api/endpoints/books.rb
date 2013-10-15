@@ -40,9 +40,8 @@ class BibleSearch
         books = pluralize_result(api_result.response.books)
         fumsify(api_result, books)
       else
-        raise ArgumentError.new("Unrecognized version_id.")
+        []
       end
-
     end
 
     def book(book_sig)
@@ -54,7 +53,7 @@ class BibleSearch
         book = api_result.response.books.first
         fumsify(api_result, book)
       else
-        raise ArgumentError.new("Unrecognized book signature.")
+        nil
       end
 
     end

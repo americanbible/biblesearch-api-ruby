@@ -79,11 +79,19 @@ describe BibleSearch do
       end
     end
 
-    describe %{when I make a bad request} do
+    describe %{when I leave out the language code prefix} do
       it %{raises an argument error} do
-        ['eng-GNTD:NonexistentBook','CEV:GEN'].each do |sig|
-          lambda {@biblesearch.chapters(sig)}.must_raise ArgumentError
-        end
+        lambda {@biblesearch.chapters('CEV:GEN')}.must_raise ArgumentError
+      end
+    end
+
+    describe %{when I ask for a book the API can't find} do
+      before do
+        @chapters = @biblesearch.chapters('eng-GNTD:NonexistentBook')
+      end
+
+      it %{returns an empty array} do
+        @chapters.must_equal []
       end
     end
   end
