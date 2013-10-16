@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 16:03:19 GMT
+      - Tue, 15 Oct 2013 20:57:29 GMT
       Content-Type:
       - text/html
       Content-Length:
@@ -25,24 +25,24 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=03QWfQ4hdS7gFYtHUW4VDx0IMoq3XV9WmZ%2F92wFZPbe7ODP%2B3fWwAjaZib83I7oQrMu7dxOjU%2BvN4RY4ZAZdjB6Nog2h6TxmrKpJEgs4JAq9rWabM4QW8KNWv9J9GECyJI60LiISX48TOajnkGeJeE3k2o7MQEJ49KxY%2BgeCRtvhg0ogJhU2qvN8loq7d4ZdI%2F6savVia9U5V5K0VhV%2BC6eoPLIqZbC4YoyAIFHkuZeBhPJdC78A5GVW1X0SC9ioVBUPjSdivnOsLJFJ9n5H5Ao1xh1tkjFPg%2Bxt%2BhIr3zbjKCip3rvOHEMGgEXR4SQIRwMCnztulAULfOQz3xGakVeiD6WJLdf2LvXCLmMUsuth752Tm4tf9Sd8Aglwt%2FhaAypb%2FLrL0xk21Dsteqc6Ow7fWEa6GrcOGG7OxEVJgVwuPBMCh%2BfwEVS%2F2FjBefEWwooFG9j9pVmpBuQ9L0gX66E6%2FQ3scwUEqibv9%2BHM6PYKNoEL5%2Fhz%2B8JbvdRgu6el;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_session=0CJAQHfu2Zv6gGlwsW8Wk4k2W8cqJIf00Qsns7xN1%2FBfqpy7keUARfu9KwHQ5CVZMGOKurHKosrXq9sJ7GXp597f%2BBb%2FkbYtiFbxx40%2F78U807EK9JqdLXFcyzBPU0TFOxBhweAyIJcWC61s0NVrirqjlLjvWIjw9pQ4QZpHZ%2Fvf08OsbOP3aQT3hkwf%2FZXg3geWw%2Bvm2JGMoRP8W0p3TM86HdSgli7qWulXGDNEubY%2F3BBOHEceKK%2BP5tzS7eeX8tLPvDq9x1K7X%2BUgngPA2L0rR3wE95x2k%2FgMhZvBJUYHat1KqUEwvV7zFIJ1J8LXrLEZ0%2BPH51U5cO6CGcxzNWLC2IkXpdPVEBAJj%2BoCyhuBMN6Z1BYGnDeHXdH%2FIso9aw72ENouRlNbtIpfooWhiS2iLKWfglfCKD1gXmbZ%2BrrfXFd4yqK2nmursPVfJPClHoacdqUVkK8hYja0xJKP0w%3D%3D;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_session=6CQPTsMAyO5g38updGlnMa8ASqxflrX8z5tk%2Bp%2F%2FrPkYp7BgBeQVHiGPlZUPLveE%2BIVFmVpUpufMxPLVs5y5OCOpRA0T%2BITjFlC1eUSNScW4eP5FSZTHlaBiRQ1PjHuqF31%2FpOen7S56pX4bdhARjm%2BP%2B%2BZ%2B4LC1tgVu0UM768B6i12Tdhz0PbqALA9WY2lN844DIALsDr8IrqMhFoOJ%2BoFHyIx6BD9wcQ%2F03kMiXakupaoU5M5nIrtBIXrpM62vRQ8sk0D%2B5F%2FAdoNQRgNtHM9azRAk44c5gn50O5pPg8VzmaCtPMsVyay0n5puEY7J5Af%2BF21IW83arTYMxPI1X8qkllec1b7Q1%2FdK6azx7FlZjCDFJVM2D3V4RYtsxJQuY8jKG2Tj%2F%2FH5CRoDu2PIvwrTqAyggBCNK64K1YddFR08N6vOd69G%2FumlhMWsc2GPt32dX218wK3r4Jvyz7vjASx7mw8RbQZus%2FQ5uopTBKblQSoDvuDGtGeGqaJvs930ugwdP9B7PShUdAF2rFUh6kMSKZtBZKrPgSnJnQnf84oonFAHvRi2GOopnHbhdais2fSTd0ggkUrY4RcTeskQ8a%2FqTv1UU1TZghwHuXbsmxAWyTbUpNzyU%2F0Jx%2FkyDkjhjEeJGFnWs%2BkLJi%2BvCYCbUvUehK0%2FGfQUtbUmid2lxYNI8H6Eoe9qqz0qIAhI0AWsyyk8HUFNc%2FWKoK66vy2Ptywwp%2BgLtOKWBhbMXfvJb1Re8uLd0wzwVkNGQC9taCn3u1WF1unVUhTDCChQGT4WpJ73%2BRFmbTyakDUz7%2B5lzjTmNtsEJb9IVLIn6jt2ys7xzGK96RIqBfj8TmmBKvxZUa2EIulwYX5TAruGmT%2FheqhOwtSBFXsyuE9qdQcTr5pPXm%2FPsx6xsosn98wKPx7MYlndNjHEbl5e3kvvj%2FQzRnMjDAsTQ%2BDJ%2BRxkj3JoY7KHy7QDLAoqnBRfnLTxroM734rEV2Rs7b2MQAaKHO3clcf6dp2R8P7dCI9McguRkYXEroehNiB1TZX6Bq3dP6uMeF259DCAk7pCQQYk3e%2FLU2J%2BUJ8B3%2B2zaWnU5%2FdAzZYEGAodHnrjpbiZnno5as03Nw%3D%3D;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_session=FoCfPCnoaIwEXZFOR0JzwUOXcJ263%2FlUgkFnNGuKsTnb3evl%2FiqFBW6UA46lVUWQccGiTX2hQ6omPzk7Qm4CtYxoULqKtyE1mx1FRZos5SrTAEzlpwmBvUF8sgnCRkLr%2B3jFOGhz90whwS9DxpdSDHJ7W6nWUHfW3XzMfEKiudk9mlCwyVHuMI%2FZDypH2MYFGEzxvdP2M3MnsufDNw0mEqWE8%2BbywZIvBNlUnj8vEVsO95aWJBYsva1U%2BzigQERQ7juRMeDhMTyWu%2BK6KoGoHNVji6G2JiXxb5X4V5xwfMzNJfJJlgqkDf6JOwBwbPNjATwo3I66wdcGhEr5UhJgG5%2FeYPM7cs3MOCmqUbeXeVmc1QNlI1yF%2FTqBTJFFjnqaXl%2FmL3oH99vKmpAioM9v4OtGvwj185NRXD36V8kzYjjqA2M5U%2BK%2F2Y27Hb%2F0cjbIdTT9bvvc3Bz2%2FUt7xvbUhQ%3D%3D;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_session=NaMHwoEL25qKOWHnivsNSGQX4ad5O6SoenaWRfwdetQ10V0n6oHvluMJNXYJ2GQI2ikUXDgZM%2ByXRoG%2Fvp7ck1OzAWFTlQF0U0sY6puzf5zMZNcztuamDPciNTTnt8NVL9Wcm8oBFpFdSyLIt2tQPuWYCZKwJ9EG00%2BLUqgNLRIsa09Vl3wEuxMnwmEliU6kG79hDOj4pLB6djeLjV7QzbPlf1Oa94Yni%2F63WwJebN18DKnMzLX6UVdwbalUSoxHc6ljMnCT7%2B1v2%2FI%2F4GsKRiw5pDIdqVXofkGvbVJBNrQV2eHjOAp8dU98EnCoxm%2Bs%2BFRAx0ixT8j2IiDCMm%2Fe6Gowviseh%2F9EBM%2FQ71EZlHjSiK2BK%2B9twNutWAmsCFEJ;
-        expires=Fri, 13-Oct-2023 16:03:10 GMT; path=/; domain=.bibles.org
-      - abs_session=jCkeSLcxb6XkyRJx%2BFigvdcGMjcokkBsreFUkMSDFqSbDXhkkxxnU4q2tPSPQNg7FDqG0h4nz4N9H3HZWG6d9cLxSaflath0z8TSzr5lvolqlvY6T1R5%2BYuQNgD6l5VBxdZwO4HQD5fsGHPUFAyLQmM9HEol0dL1hCwA%2F6BMhZagRVBHqdM0eRWJcN2hR6abBKQwC5wO8BsR%2BUcnl2ra5BrtoIRuZcv9Z6Bz5uwbbU85RK4hI8X%2FX1JcMBydzVQ96qgrpWPGguRflKGLTHwjpGOU4Qtjr5TGfrEp2bqMBI4%3D;
-        expires=Fri, 13-Oct-2023 16:03:10 GMT; path=/; domain=.bibles.org
-      - abs_session=wOUN%2FxmZL7lMsxK0Xz2LphTx08zEGxuECkQNmf3%2FjSHTpGbu15J%2ByHiIXgFhltSx1TuSFt02uOBmNdXQbcdgKE3HQ87qdP0Kuj5vfAwwAA1v6FFAjEHPUspEgLhrl4tc2c68cj28ADKGjwwpshwdMglcmNDl3Sybz3c7xkM5%2Bs8xnB74sOiYYlCTLnvRHq6u6jhXI%2FyNGvYUOOSTK4ge57dBJ%2Bsm11tKkbEKHBJf2qdoKtXDAraa%2BOOU6bqGZpYJewghC5xmMz1sCfuSIfGizDAq4%2FUFba7pIhNfQNELFYtfk9BG9RkwRVYm8Y1theLmzi%2FCcHFxOIhYYCvgE1hMnQDz%2BicqbpQkm53N5NSNDQ%2BA8IneTF8MSKTGRo3D7I2sLpM4VdnOe5PfC5QlNc3BZ1F3igBQ7J%2FRBRSt%2B07YgD0%3D;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_session=yz6%2FNtR5WLmgxXpzGsggAtkUJsguf8UKLs3ZDWeim%2FTqX68ZM9WjU3NF0HmJLfMDLwMOZnlz%2BVRFkAQ1PIR7%2FfdALvN%2FPAITj9%2BsYmboOb75aP8rMbH%2Ffvs7CIgWIRIxd4o%2BxT6iZu%2BV%2BiV0nXxW9K9vvX%2BJV5LedrDIZ69yP%2FwgXI6bl5zQqAjq8H6rzR4WvPFrmvlq8%2FhYCfXvbP4CuhRikURgIE1zKgY3eGl4QpRjr2PYh%2F0flN01ckdwXgwqHnPHDmz%2Bci6fRwZOSClncqo31KWP2D2SmyBA3sJgL0nRbMg7ou6Y9kNE5iO9YW1txJUKvL%2FRMtGWyNmOqM43cxgjxqbX2majSP0SgeHSr86ig6Xp5zxCMaEr6UWEjFg1aqjxr339oOWBqGOdx9LE6SLGUWM6UFP4eV02RzevV1G%2FSdHYXUjVGSeJgYnbgMypc8JQMFp7QU33NPxHvEIfQfhdzRWCPjc9VedS1gV3gWGQeuZ2YbFweqMK0R%2B7rclKgkmmLN5W3C74bcKjGvTapwAaKTvoUlGFoXihA2hS7ZQ%3D;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_uid=51a8907d03c52591879308fa8f891829639d8d37; expires=Fri, 13-Oct-2023
-        16:03:10 GMT; path=/; domain=.bibles.org
+      - abs_session=4%2BVX4yrDbhgOXu%2BIdFJ4h75uatq35DvL1j2sSoqh12BPjVGr3rFo7cGizBGqmb6Z5iy6KqAAlBhjJ0yJS0MRTJ%2BN0rK3PZ7Gr1EaKqHTPRp3l%2Bw9%2FVDIbA4lHG3rNzKaMhFEas4d8C9iJoUWNZvHtmbK2SCg4EvK4RL%2Fb8JreVMGFGW%2FE%2B%2F1eNWbIVDoC9RfygAusa6%2BPQlH4xB%2FcfO5dxO0q5pxKQiLCIQrco7tnIS%2FuynEnajcAjKFcX0%2BAYixexpLaaIr4j8HeRvfK9uBT2zJXivCISYgw9q%2FMzVdbztP3YEuhzTdLB0%2FavJmbFvgb6OFhV0E6Yyz%2FEo8y%2BQmOttNY1P3h%2FrXzoXWVIkn4Cn3ezkM9HTn0euEP0DXoZPOTx2juR4lOjEtn7GcOjmb9TAD0dFgb0%2B4wz4Jf5t5k87yiN8CZtLrktoctKAy7KkI%2BtIG1nMFky2wMpx1BNaqpw%3D%3D;
+        expires=Fri, 13-Oct-2023 20:57:30 GMT; path=/; domain=.bibles.org
+      - abs_session=9Y6GDeHDQACYjS1yi%2BCfjyNZVr6sO60pF2xpwUXLukjBKAg9oRa9LcOErMw37gAV8s6eIO7Jf4I4HmzJd9MvwHRgQ%2FtDSXf8QErEH05Mj2lKCEaJwLgrWWo3qomgMu24ihuhlhEI5qreXya%2F2SC%2BV9JIw7w6gL1N%2FTeMY8gDzuBLw2FyIhE%2BffqJZxnms6AeuskoGRWINqNQ0f%2BjCLoNz04fGQAFjA8qnsVrbe18LTeWOA1CaeIOizecXt%2BhlxkNLvvU%2Fj07Ne5Ln5LasbV19F4kXPvZWw%2FChuUKaRj4nMHDeQy3mLBlI5stoEXoTDTjFZs%2BN%2BKwVmBfeBuPVTGGwW3xScDrHLSKInYFNwyJ0MrWf%2FTdbGsWTlRwYoZtI8hG;
+        expires=Fri, 13-Oct-2023 20:57:20 GMT; path=/; domain=.bibles.org
+      - abs_session=F%2FEGQWBBCCg2sAsrHaZ0ZOZ7QuiLpu6MWQWRZOf8ozVpfOcG%2F7oVCRD8IQtZumUYlIuvAxt6gX3ACVu3ZGwrNAOImSke79auwh30i7B9aXwQZlYMSESlGe17SKI1jE5VsUTw1e9vX%2FzPSkInBWNZJ7f2u7kGEFD45ziDNAG8G0XoXwlNy7hSsdPcVhvMj7hbh0B%2F12ejxZjuPyvSnNHY5T3VkwD%2B3ffSf17UYgNW0MT08hEKekVcVsTLI%2Fs98aJ%2B38%2BgdOJnK4xFMzHasghvbmJWE%2BqALun0kHlaFNrevyw%3D;
+        expires=Fri, 13-Oct-2023 20:57:20 GMT; path=/; domain=.bibles.org
+      - abs_session=JMKuc%2BqeX4ggAUkb9WtX4u7lz1N1YkzD5nT8kq9HEhLNR13ri6a2NOsUfIK%2FuW9u8c5tWU4inRvKfQpEHSGw7MfYeqlsqbn6tKY8vqYPU20NjhCpVGhoFvgv3J%2BVUyiji9xF1e8opA%2BW3%2F5rnIkjAXidAJ1N4IDNQ0KMV8W0reBZlz1W4ohh6EnrMoeGikTSG1nIuLlvsCCOisylyWLO0bGw06FacZlT8rgYDZjWZ0L%2Fgjr7Y6s2qSPFXXhG7itia%2FyKfz5JFtglfDwncF7VSg8LS9VPN2CD5kWWBH3ye6tUgKy3cuaRRz8BgIX%2FoMzEOPyvCueJvm5dyr0McRrd3OOYIQ2nJosQ9Q8GDLuVdtcG2DOL1xwhVf8Jjc0%2BNOywxeCL0q8Tz9NQ5ItrgRggfRVG69%2FRQlLiX8NvjlwXP%2BSxUp7VBwdbNXJ6rbDMtFe4BH0gz3RCyKTCctt0ZjopSw%3D%3D;
+        expires=Fri, 13-Oct-2023 20:57:30 GMT; path=/; domain=.bibles.org
+      - abs_session=Qj9Mw7PsdQZAQPxC3tJNm6nONxjiPfOK%2BBwKBDkHJuAw9ZpkoOtt9DpwCY8wwnSSBwAXPNovV4ohhNsTs%2BtychZNDx84k30Btdp2RiL%2B5XLEEmYooGwxGBcrlNpaHtq3ujD7qcgXfUr0gBNgpiVNHqEmU3tbYPOLoATIDvATIXT0VmDHPM6PhW%2BKcafRlF4YGXnofAlAAziOxPBPdtD%2FYVTEi4sSQF05Ga6YwpG59NPxrgnGJVKa32YRhKV2C2fHPeH6moW0Up1wQ1LancON%2BtyhVN7hsQzQBMhQkLJJTAMFcEAFtyuFcMephnoUV%2BFkiBKIxIFR5002g%2BY%2FkLbns01IUvjEhG9ob13VFGt8rk5RUm%2BTFa%2BvrvOUerMGKZhm70GtYMFJPu9gARE43C5dj4gsKwW1u5jQPjJDa1FdtuE%3D;
+        expires=Fri, 13-Oct-2023 20:57:30 GMT; path=/; domain=.bibles.org
+      - abs_session=XUv0RfMhgqaDvXd7xbF%2Fn4sf7ZIyp5gYxIn7V3MO4nnvdk7RUNMV7LO79tzcU9c53txjIH13hBjjhkUgoJgXfAzhcSniB3B1z4Gr6HU062NZJ5%2Bkdk9qUbo2yS3vxuNeUAVOWSFqDf0gYiM2O2iPaW%2BaPUAB2wHDROjQT67sihn2KVf2YZtStbfk4PjtpBtD97embBaCuTcq%2Bu5jgYAbx6sDbSTrP4Y9PV4bI0e3HT2EixzNYH3cqk5qncWQv1ESNlK83Y0THzV8VRWcJHTL0jbnoLS7o1p%2Bn%2BxNtRqtOIStTPAS5GGIGRy%2F1QdGlZQg3a6GESoroXKtyXSKecwa%2FYcOcYCDFrsDOZ3mY1apcV0lCVb4%2F80rGC1eliv1MoVIEiVHo1mwjk2f7M1TS5cn0Ygn7G4ACDPOKbm%2BkYibscYe1Uo5a7hkVyQeKVdepIiNkATJnzvOIS1ZlDS%2FRFaeYmCjPq4Z8GI6Z5JmV366yTtLQI2pGlBtxx0bGRVwm0VOyElkOwp6uB0CqRLARacACDFyXfsJ4RSw%2FzooH5Xbju9kx9OdXDHGvQBZbxdeK4FHQXkjOfvAX%2FJI0UrMa3CasYmg8thMgvq7FRBEmUOStSpmCxkg3gOwgpopPNPxfMuI9JRd%2BwxnkId3H6E0LKFwzv5qGjVsrF0%2FX5yqpyCR%2B8KmCmR03%2Fa%2Bu%2BRYnffGpfrCu73Y7IvmIWlGRqtT2xnT6cU3NuYUYbYfBJY1VzUWrPApV2GuryzxFRZaRZ0LZMj8pQ2o%2FjwuRCREhy8BduEzCLGjgq7bp9yLBk0rlf1Y6XdRK925pQCTgceASOpjovN8y5lPAIEHof97Fl%2FYcgM3gNNBW%2BJJad28mMqgVI%2FAW57GMrzxLHfRhrkkT4wcSjuGoleT%2FCyJ9weIiYO%2BUzT0vrmeNl0wAkiR4tCIRwF2PQhSieKjihu5A6pqGS7yy0jFHGwMcFelFv87Zs%2B4envA9biwa6Qgzdj2PhzqTz%2BRdr12xlYuFrId%2BjeQ%2BjBMHdd%2BpbwRilzm0%2FeT27Uz4zvKR3auKDes16qSJUteP%2FDIC4bQM4CkzZ8zM0es3I3iuX%2Fd4SXrTvwURCdJUX0hu%2BDcvw%3D%3D;
+        expires=Fri, 13-Oct-2023 20:57:30 GMT; path=/; domain=.bibles.org
+      - abs_session=mNWCKl3LCtrW16K%2F%2FaYHpJQXZgyRWdIdCVIPdK86Us4GiIdPP1q16j1hcYPIWvhP8qXC8OaIGq6WYsd53V4WJ1MzEv%2B19U9hEIGp5HzWeFJ1d8MPOj6oaP571IUfNLZRQcIcEJ16DX9GoutT%2BDKP%2Bqx4XqopXS3wnq%2BDP1TYRvRavC3zj1hxqozWhHDPKy5g33qy6eK931HGw5MrRZGZSpeHlqlVwCCqQ%2Fk6rqkjW%2BQhmXoHhznLLaBCgAaBQW4hX%2F%2B%2BhhCqHRJHwg3Ly%2FZTWO6pVdPJD3SqOJcEaxkGnYh6duSAe6ybnaGBnkOlz7rkN6IFhjKUeEFkexy4wTbS2jWnZThw7hLCgvXuUG0zxnbWJPjD94w0e1RfbZ7ujThxk0M3ZiZZdJgC0w9yEObvfoKKGk4Oe5zhCWAyNXseQrgDCs3sNy%2FZvjm9D%2Fd9QoqwWm%2BQvaVdEHaDVCL2mhdWYCSx9aTrQd52GOzjkijxs659WOpUtxiJV9H6ThBpF4nk;
+        expires=Fri, 13-Oct-2023 20:57:30 GMT; path=/; domain=.bibles.org
+      - abs_session=wgH7rtNUZQotKDVViMHr9yWmKoBKdEqkSVX%2BYoAU3XRQ5EMXHN7O3oRqRqyF4g75NiNHYRsbb%2BQ15qfarPlI%2F1d6U28YAAwRTcafwlnVFLYnAZYCHTaJ3BUvq3QIFta4euEDggLcgBLbclsj9we58SDK3bccGXzNt4nE5iI9Hcm9CcVr2whk1kJ86TazQXW%2BN00fWdM1dzgA1WxPbM08UEudmPNSFaab2iWWyLZHxXbkIHfNKMa%2BvXAObpQkPnxDLg8v9WGokDAUCrnFDdB6q9ewUAXw5zGGAQkG20UmtjHQICRhlWiW%2FJyj5082qopaMixFWAq9XMqqrr%2FJmgc5Fs8e8v2LIf%2B6wSMzyO1BAH78wcJNZude%2BO0e%2FzsI1FsaMQnE0fRMVFA4RjXG9WIDQKjPas7ArzfCUisr2GDwY%2BLIOROgDfy9NHaoEovP9Iq2%2FxnWsO6WzhP4j7RoHPpIFuLmvkhY7Ak29P79W64vRXn6UNsFA%2F5nmi4VmX83aO0vwUkpJt4gY1Ln3d7Q2RCmfa5WF%2Fbt69S0GEtfhTrOzSI%3D;
+        expires=Fri, 13-Oct-2023 20:57:30 GMT; path=/; domain=.bibles.org
+      - abs_uid=8935d254ebe74ba98942c1ecd3b72cd683b22028; expires=Fri, 13-Oct-2023
+        20:57:20 GMT; path=/; domain=.bibles.org
       Location:
       - http://bibles.org/v2/ALL/passages.js?q[]=john+3%3A16
       Vary:
@@ -51,7 +51,7 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 16:03:20 GMT
+  recorded_at: Tue, 15 Oct 2013 20:57:30 GMT
 - request:
     method: get
     uri: http://<%= api_key %>:X@bibles.org/v2/ALL/passages.js?q%5B0%5D=john%203:16
@@ -60,8 +60,8 @@ http_interactions:
       string: ''
     headers:
       Cookie:
-      - abs_session=6CQPTsMAyO5g38updGlnMa8ASqxflrX8z5tk%2Bp%2F%2FrPkYp7BgBeQVHiGPlZUPLveE%2BIVFmVpUpufMxPLVs5y5OCOpRA0T%2BITjFlC1eUSNScW4eP5FSZTHlaBiRQ1PjHuqF31%2FpOen7S56pX4bdhARjm%2BP%2B%2BZ%2B4LC1tgVu0UM768B6i12Tdhz0PbqALA9WY2lN844DIALsDr8IrqMhFoOJ%2BoFHyIx6BD9wcQ%2F03kMiXakupaoU5M5nIrtBIXrpM62vRQ8sk0D%2B5F%2FAdoNQRgNtHM9azRAk44c5gn50O5pPg8VzmaCtPMsVyay0n5puEY7J5Af%2BF21IW83arTYMxPI1X8qkllec1b7Q1%2FdK6azx7FlZjCDFJVM2D3V4RYtsxJQuY8jKG2Tj%2F%2FH5CRoDu2PIvwrTqAyggBCNK64K1YddFR08N6vOd69G%2FumlhMWsc2GPt32dX218wK3r4Jvyz7vjASx7mw8RbQZus%2FQ5uopTBKblQSoDvuDGtGeGqaJvs930ugwdP9B7PShUdAF2rFUh6kMSKZtBZKrPgSnJnQnf84oonFAHvRi2GOopnHbhdais2fSTd0ggkUrY4RcTeskQ8a%2FqTv1UU1TZghwHuXbsmxAWyTbUpNzyU%2F0Jx%2FkyDkjhjEeJGFnWs%2BkLJi%2BvCYCbUvUehK0%2FGfQUtbUmid2lxYNI8H6Eoe9qqz0qIAhI0AWsyyk8HUFNc%2FWKoK66vy2Ptywwp%2BgLtOKWBhbMXfvJb1Re8uLd0wzwVkNGQC9taCn3u1WF1unVUhTDCChQGT4WpJ73%2BRFmbTyakDUz7%2B5lzjTmNtsEJb9IVLIn6jt2ys7xzGK96RIqBfj8TmmBKvxZUa2EIulwYX5TAruGmT%2FheqhOwtSBFXsyuE9qdQcTr5pPXm%2FPsx6xsosn98wKPx7MYlndNjHEbl5e3kvvj%2FQzRnMjDAsTQ%2BDJ%2BRxkj3JoY7KHy7QDLAoqnBRfnLTxroM734rEV2Rs7b2MQAaKHO3clcf6dp2R8P7dCI9McguRkYXEroehNiB1TZX6Bq3dP6uMeF259DCAk7pCQQYk3e%2FLU2J%2BUJ8B3%2B2zaWnU5%2FdAzZYEGAodHnrjpbiZnno5as03Nw%3D%3D;
-        abs_uid=51a8907d03c52591879308fa8f891829639d8d37
+      - abs_session=XUv0RfMhgqaDvXd7xbF%2Fn4sf7ZIyp5gYxIn7V3MO4nnvdk7RUNMV7LO79tzcU9c53txjIH13hBjjhkUgoJgXfAzhcSniB3B1z4Gr6HU062NZJ5%2Bkdk9qUbo2yS3vxuNeUAVOWSFqDf0gYiM2O2iPaW%2BaPUAB2wHDROjQT67sihn2KVf2YZtStbfk4PjtpBtD97embBaCuTcq%2Bu5jgYAbx6sDbSTrP4Y9PV4bI0e3HT2EixzNYH3cqk5qncWQv1ESNlK83Y0THzV8VRWcJHTL0jbnoLS7o1p%2Bn%2BxNtRqtOIStTPAS5GGIGRy%2F1QdGlZQg3a6GESoroXKtyXSKecwa%2FYcOcYCDFrsDOZ3mY1apcV0lCVb4%2F80rGC1eliv1MoVIEiVHo1mwjk2f7M1TS5cn0Ygn7G4ACDPOKbm%2BkYibscYe1Uo5a7hkVyQeKVdepIiNkATJnzvOIS1ZlDS%2FRFaeYmCjPq4Z8GI6Z5JmV366yTtLQI2pGlBtxx0bGRVwm0VOyElkOwp6uB0CqRLARacACDFyXfsJ4RSw%2FzooH5Xbju9kx9OdXDHGvQBZbxdeK4FHQXkjOfvAX%2FJI0UrMa3CasYmg8thMgvq7FRBEmUOStSpmCxkg3gOwgpopPNPxfMuI9JRd%2BwxnkId3H6E0LKFwzv5qGjVsrF0%2FX5yqpyCR%2B8KmCmR03%2Fa%2Bu%2BRYnffGpfrCu73Y7IvmIWlGRqtT2xnT6cU3NuYUYbYfBJY1VzUWrPApV2GuryzxFRZaRZ0LZMj8pQ2o%2FjwuRCREhy8BduEzCLGjgq7bp9yLBk0rlf1Y6XdRK925pQCTgceASOpjovN8y5lPAIEHof97Fl%2FYcgM3gNNBW%2BJJad28mMqgVI%2FAW57GMrzxLHfRhrkkT4wcSjuGoleT%2FCyJ9weIiYO%2BUzT0vrmeNl0wAkiR4tCIRwF2PQhSieKjihu5A6pqGS7yy0jFHGwMcFelFv87Zs%2B4envA9biwa6Qgzdj2PhzqTz%2BRdr12xlYuFrId%2BjeQ%2BjBMHdd%2BpbwRilzm0%2FeT27Uz4zvKR3auKDes16qSJUteP%2FDIC4bQM4CkzZ8zM0es3I3iuX%2Fd4SXrTvwURCdJUX0hu%2BDcvw%3D%3D;
+        abs_uid=8935d254ebe74ba98942c1ecd3b72cd683b22028
   response:
     status:
       code: 200
@@ -70,7 +70,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Tue, 15 Oct 2013 16:03:20 GMT
+      - Tue, 15 Oct 2013 20:57:30 GMT
       Content-Type:
       - application/javascript
       Transfer-Encoding:
@@ -80,10 +80,10 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=6TXLzgtVIj5A0S4X%2BgNkr%2FgtWKZ9iWzzdO%2BSW8yEZnu69SfihHRdsSRC99sOfyleiMCg2QWKABqP6ysau5uEZo%2F%2BkGU1%2FKYJonJnF5UbILe6O680NMeAXfUdTdhbf3GS%2FLSaZ%2F9vPO8S7LTRbCKEhHBcyCoqCHNCXQJuTIAmPHnG66mPVL8nf1xyYO1ZES3jfgVR3JxYnXkcrLVvXWlOuggO79v7r5MIWhzz2cZ%2FXKXmU6Z6Gn4J4o4YDFksicmkFOksCLdhoqJTd69tRLOA5Qsx8XUCf7WrUwysVoNWAMw9q3%2Fpr%2BYFJ%2BNx9STnjdPBREbzmptpoEkJiRHITjw3s9MfPt5esepStA%2BpzhuEgV9soBLCSS3ylR3vLD0cLzg81K5QGnavNpm3Hn%2BVCO7LK4e4gcz9pG42dxuY7N%2FnOsfL0KBKpYe1jsjrJCMRzr%2Fp%2B11OTbzSxs6JUte5z%2FKcE9ntaVhjp3gjup%2FkawTaDe7u97BhE%2FzdZnt48MGSPr5xDUl%2BgkKm%2FT69lQHuzhH7IwZYTul%2FHRMi8B6wZP%2FzwsAib5eP5sTbrp9pZtwhmU9%2FLxAitRJO0M8CaTQDIGz540WER2fjppE91yBMBDTThIDX%2Ft%2BNboXpm6LASJ1FEz7VPx6GqT90slFSs1pNk2f6dOdWo0Np5BM1dfuxT9UXSZXf2WyW2ZcIGeH8touwXv61ZAcUvdy%2BrOmdy4Ihmw9o5Dt7H7xqjWEBBjyNZ4GF7ovae%2FH5vVBZ7C%2FvspQklLZ4uWBqsClm6P%2B%2BnTuKE%2FN53OhzpD4g8CTY3iafUogFlgg8XUIQoN4RjEu5w1vZoylpe61DZfxoUkOiKNST5125%2B9m3aagDmNZjzrX9M0ibBBxMiRH9ygWBjpM0zQmiEWq8EWjZinTNuClRC6t0A3RLDQKEHfQhcvbE8ZWXoFJoiHDO1W6OyqyQemcwUmGx2gvSjW5ygMOpdeD34%2FSVEAOa8dFTkkHCbOVnuQ3pigOE3Q%2F2N6TqzmNot%2BVFzW2k0J0NJgRnWbL5YWiXw38fYgpJL2hEgHuywJIZb9Kho%2BRMeQJbKT7g9g5FgruuUqpEKHpxtOG0VHyuHQLPvZyhtc%2Bripf0l21ZXWxMwhH5DDZKTUwdGZJPs3pPgPA5cfjhIna4Sdla17HIJVuyJOkqHXn1wwRl3HGWqGehuEoprcU0PQxe21I%2FUP4PIw6AzPnO9WKAWDcf8m9D%2BxkOx2Z%2FUbygwTyjn1Y25bo7D9GlP%2BT0uekUa%2BxH59mpYag8Mnxk4f1BJ8U5OKEDYWBLjDoq90FF1ivNRShiyXbWG%2FQid3KJq0Hu%2FZP2vFMGR1NhvmNvEI9BuanNi%2BwhcAJ1I3k%2FGSocIHvwg89F3P49Q0jlRJ5XLHfuqhL5Po%2FybDSiN68kGIpJS3Mt25v7w9VScMsSkzx1%2FwIIHvFyQCFYYYwelnbq8cVyQh9sV13saZtS4gww2s%2BCKXj5Ys1Duj7KEBcickaQtd17tGftaEg0lUjQKPcFrxc0TyE8jcFGlRZ0hLLGEbHoQW%2Bc2%2FTnWtcbFeJNKLQw7apehyVBKPqR1R0TuFdEjzfhkzB8fHakjfKZ20joe%2ByYX5MRA%2BtHlSB4V9toe0HKEQVP9XXrLvtzvz3Dzg5KCALIWeD30mutXWahPy%2Bopi6z;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
-      - abs_session=E%2BD6pGLzEfQcSgfhP5nqV%2F9ILVCIYCdISQMJjcODhtB3%2BtmT%2FXBBIS8QYGxbtf04SrNB1dz02JXEyGiOirtFf4lWkppxom06yX9FjMlxWa4Rl%2FcFV2n%2BLxqH8sx31Amc29t9ue%2Bm%2B3nyUMOKFULj5mUB5npHWX%2BJcnTA0B0c6aiDu8MO474AoC9sBXEAB56g4t%2FoKfWE6zvGQ5yCjF0GMH8eSbiAdu4FvUtE3Tskh9S%2BapXJ3foBBLQDCs97%2BI6VYCnlnaPGqVXQSVcruANeqbyuQb7D%2FtnpU5QbinXkRIaCvzXiqleHOZuRTRpup5KWds%2Fs9dA2wV2RtXla1V48BIOxlX%2FrVjQ%2BJNgl0ehnAGXPmFya1Xal0tS4dnaQdO6ITFzi8ap4rLYKvyihy5fqA4Rb75mgrNA4%2FAznzKadlTRsfrtTFALq31FA2Roq4t4tc8%2FMUBuu3JDrhnZd7wuAvT3XPwhoBEo9cggj0Hug93aU8tiNHq%2BfHy9cKLwJZXywaOvhKAQELs38VIKAAoGNrwRueY7wHT7U9VmrhZPbe%2BtvtJJ3mcCC7OavujcuzxplYVhcYUcX8kHLinR%2BSWZ%2Fw5FZGsMBqlQrj64L2NZqermL5XRsZcUYASnPGmniepD%2FHM%2FNv3fBAvK0JhTBctS8ah7HANze0NJYpf2IBcTYrqYfFgkcY9GEY%2B%2Fgju9uKJr%2FPsWfjMSarq5AShTDry7av1PIZgtMlqamRqGL9WZ4vDaY8pTzWhVDPriihJfNkSBPXFcK%2Bknu7NGLfHiUgqQCJ%2BMNLHfB8lqIb5SBSHBbXRF0Z29vOD7ltuUl5FC%2FgSxXz%2Bgucfw02xrWE8Ui0JvLgrnpbl84yK%2FWRvbo9KJJqR7FPcrwIQLP3UYc2uBKtNfw8WHFD2d%2FZRFIi3VuX9D3xueexlAjAjFRSoZolYwLFZ0SIp3AYbmm73MNhwnX4f9PVNbWrZ7LdWuC6dJm5u%2FX6jcYrgeONlUdCm6ZD88Q2ZinAKp%2BEJBe4Mr2hk%2B4%2F%2FyQ%2FqV2IP8sU2algjiCjQtZ6M3GVke8F7SZI2nYxuiuHpoaKf0NPT6RojqGGQ3wapMi1vCWIs2dk%2FOW2waQATisEA%3D%3D;
-        expires=Fri, 13-Oct-2023 16:03:20 GMT; path=/; domain=.bibles.org
+      - abs_session=2hz2urGlm%2F8NFXJB5fnKSPRtlN%2BFdBkP4cPVvov6rIAjM27Sir1%2FnyhT6Evo4nR2ikXziQuxwEqXMYdHvEq%2BA4E%2FLucV7yTN%2FOBvQ31p8IrJZzqbynKHG%2FKfzcmDp%2FoJpdmSV7%2Fsxyoyf6XUyzn5hEewre%2FxmEPN4TYFwKHuQGoEZiKWr6ipGilZlvG9QWPsYOz8dF81vsdrWmOXsUuOYC7E7lW42DuVvVCt7wCTNe3QOxCqyXOOyQHH7%2FpelQg9ic%2BH6C%2BUA2VMb5BLPN4RqjHpQLPsTXKLHhoRfAOSyyCoEgerLNsTbK52svFRKEPj8ij9OcInVaBrwd3p2kYAChj0NY1DIsiriFM2FcPgEA%2FbGoX13oBo2idN0nLIooc7%2F0QdnQdo%2BdRtPsQlnXb%2B%2F0wM6etO1Knk7rCo%2FeGCdtWRI6FgeFrdNpYoeI%2B18HN%2FvNPH%2Ffe4VWVoJNxh5DL1dnGH6enIOF%2FbVJe5PvIV%2B1i59EgcNm8lb99Pli3yoCWamPebCFCb1oF4TEfJVIcej0AeNt7pTx%2BUUqmeWLXooReon2mjXbUdQj6ZSFmLjuXBtusWwfreiG%2B8w6BqfiZyHaajs4PON36tZg0zXXo8kbuUg5%2BZWEmdE96pJHKqBzZUpNW7h8Nm7%2BhVxgA0944jfXoGbS%2FstoYCuC8cmJYJTCFjgEAg6%2Bu5teRylOdH2kl3duaK%2F9H71o6fVECEy1j5xiRmKzWmdwdi%2BeNPsVQEuLLaAy4qFUD0xVf5b%2FCfgik3CKVwkbCtx6n9VM9SdhuxFRCkwDGTb6u6V4tDU072BbsXBpN4p0WbXbUccgbOBBtdbI6Ai3iTOYy8avgMarZT4VHND2YaWcl70Ch60imnkbYED4XWKehWxdxRPZkVDfYOYlnTNss%2Bg2tg0XN9XpHpBb01qkze0pBkm9WLRO6onTbieYeoAnOGf2KWFbdJwcwx67ZfuimxXGOz9cqt%2BbQRBILnZkJVvxPIvt3Lv1NlWGatJNwovPm%2BJLjlO0SF1gbGUwXKuWjXqU2j4fm00NNcL%2FsVxoMuy2HTD8rmr0bpNflGsreVqkDwdbGxnp4YhTFQX48EnsHnhyROm3PAjK1P%2Bf0fSaBQdl%2BzorOHRhSSFwyIQfMZBWF4Dw5XwzjgPepWMuATpUVw8f9icgrdXIfNkHsJtiwJ2EGmpDW8y%2B6twXod5300dIZaHLwhiNcjb%2FedtOvodtO4NXlTwUNqhxjM%2Fn2l61a9RqhYqdJuXkSF1fdySXERedRhbTswjHFLLIa2zC5voF%2F0x9C337w7uSxV6nfGJN9O5UfhdJ0mBP3rELD4uCxnDxZhQx33oS6npfxqKi7iRA0abp%2FZnXtPL7uAitQGgY%2FT8fu8ONH2tg046Ru%2FjwcK0t9biQZWioCkLKYyfhSURHOttBcGuxbRngkjesNNvntZReeZneFGRBKBYqeLFbcGZCf5yRZ68DzIT9sSGJLWrf8gv8SA8QGECiIKWUW8hlFuaY3kRkZK4CRSL5Tb%2F1ZozT6%2FFmC21MiKww8C1%2B8KhwA6%2BD67MINtScnrbwHcB0fOF0lUiPY%2FBJDvhPuG6gkYD1W9Epz5fqaUdRy14hSXIfMevbgVG%2FnUl%2Fg1uAREFAEvaYPiuD6u5fk7v6wa0V6Uz2tvJMRPLiTpFdbX;
+        expires=Fri, 13-Oct-2023 20:57:31 GMT; path=/; domain=.bibles.org
+      - abs_session=YWjof%2Fj6wJ9%2BqzqA04hHwgOvMbvzJFd6B0eNLZky40JB5yXW8UM%2BG4yW%2FqyycReEdufRpA3bw7A3EI63%2FlaqqohJm7HbATa1BmJ%2Fx8e%2BdAvR4uOKHwFZRfFZlA%2BwoqDaqM2gfT%2FR6Bg8H6SLUCf25MVkIAcvcflRRPtcaeqOuJdX7ccAQkKoQdzWXSQ%2BtSUAkYe87Xdw6JyImUgP3uTBtks%2FMmnhhh4iv7hTTiBb2N0lMiIT8hEa9W8V4pZPGbfvCH4ON9cFFkMkeS7TIYkrMTkG5yc7IsuBWteFpe96Krmbbl0yYAg1YRoH56lYyjHl3V1t8i9LB9Lj0%2BTq2oNd4lGVgbFlGWvWUnOkDpgcXBchy5p7oEozVYnODe7qf1QhT7innf4B14fdeo%2FuBlit%2FmUlBxVtj%2B2WXNZQ51B00WfNvSPLhbogMxzF4BHouhvdzeYFRusOZG1WJm8Tcw8ZDJ2sJdXfqajjVzjn%2BQrsuZshkDktSnHUK1B%2FsDpd9HEBavO5Xa8IrgCXb1h5Y0KchS9XT4jW%2BI4LqFhhuyEx68ghCI0ggE2MWnLeHPgRZufZPz2%2FYpUmuThZzjx5qcZDpQBkAQtQWZuq9sfMBbZpFdoavd0MO2VIO1DL8d%2Bl%2BKPyGRtjNdswCL9uSxyd2q6KExaJNTMeuFRcyzsBqL1HgJm7SSq%2FYlGnQ5IROygtMnJricd3w0qncle6%2BiXKkJE9bJyQ7xoxGxIX4jcIi1GUhiZT135wiKUuQW22cY%2F%2FsmQsIqrI2aX46JXMIOSr4l1I9DZH2fEJSFQp%2B88N%2BZFDc681CBfZB1vAA8xytt5KDdAaHu6CyeY9MtOpTBlpZGaALDPN0%2BKNM%2FjMRcEhLOEEcmrcHCb2Gg8J9isnoVmZngvAk0dGLp6KQxWfzHzxN2%2Bw0IOuRN5v1dqFRsmhbDIUh9gMCxmRaxSHRfTIZ3UfX8EzeQQ3luTzGb%2B236fZUw7vJ94Up%2FiNrlmsiBEJFrU06fjei2TgSkWsP0uCZNlUd8jhU2lqivD8sOSYXAXJxgvX0BotqdS6q8UuWiOmAyzVv6ft2xl%2FkzD7Dh4gK5CtuXFwg1WvZD4QAT5%2F73R3g%2Biw7A%3D%3D;
+        expires=Fri, 13-Oct-2023 20:57:31 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
       string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
@@ -179,14 +179,14 @@ http_interactions:
         B\u00edblicas Unidas.  Utilizado con permiso.<\/p>\n<p>Reina-Valera 1960\u00ae
         es una marca registrada de American Bible Society, y se puede usar solamente
         bajo licencia.<\/p>"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525d674891a317.09105470'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d674891a317.09105470\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac3b01fdc1.13442871'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3b01fdc1.13442871\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"525d674891a317.09105470","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525d674891a317.09105470'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525d674891a317.09105470\"
+        \/><\/noscript>","fums_tid":"525dac3b01fdc1.13442871","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac3b01fdc1.13442871'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3b01fdc1.13442871\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Tue, 15 Oct 2013 16:03:21 GMT
+  recorded_at: Tue, 15 Oct 2013 20:57:32 GMT
 recorded_with: VCR 2.6.0

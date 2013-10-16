@@ -29,7 +29,8 @@ class BibleSearch
         verses = pluralize_result(api_result.response.verses)
         fumsify(api_result, verses)
       else
-        raise ArgumentError.new("Unrecognized verses request.")
+        # raise ArgumentError.new("Unrecognized verses request.")
+        []
       end
 
     end
@@ -45,7 +46,8 @@ class BibleSearch
         verse = api_result.response.verses.first
         return fumsify(api_result, verse)
       else
-        raise ArgumentError.new("Unrecognized verses request.")
+        # raise ArgumentError.new("Unrecognized verses request.")
+        nil
       end
 
     end

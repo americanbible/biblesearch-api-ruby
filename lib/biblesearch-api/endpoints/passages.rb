@@ -16,7 +16,7 @@ class BibleSearch
         passages = pluralize_result(api_result.response.search.result.passages)
         fumsify(api_result, passages)
       else
-        raise ArgumentError.new("Unrecognized passages signature.")
+        []
       end
     end
   end

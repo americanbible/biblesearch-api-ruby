@@ -83,13 +83,9 @@ describe BibleSearch do
     end
 
     describe %{with an invalid version id} do
-      it %{a nonsense versions raises an ArgumentError} do
+      it %{a nonexistent version with a language code returns nil} do
         # skip "refactoring"
-        lambda {@biblesearch.version('JIMBOB')}.must_raise ArgumentError
-      end
-      it %{a nonsense version with a language code raises an ArgumentError} do
-        # skip "refactoring"
-        lambda {@biblesearch.version('eng-JIMBOB')}.must_raise ArgumentError
+        @biblesearch.version('eng-NONEXISTENTVERSION').must_be_nil
       end
       it %{a real version without a language code raises an ArgumentError} do
         # skip "refactoring"
