@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+*.log
 .bundle
 .config
 .yardoc
@@ -19,3 +20,4 @@ tmp
 *~
 *.swp
 .idea
+API_KEY

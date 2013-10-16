@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/versions/GNT/books.js?testament=OT
+    uri: http://<%= api_key %>:X@bibles.org/v2/versions/eng-GNTD/books.js?testament=OT
     body:
       encoding: US-ASCII
       string: ''
@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 16:05:17 GMT
+      - Tue, 15 Oct 2013 20:57:45 GMT
       Content-Type:
       - application/javascript
       Transfer-Encoding:
@@ -25,160 +25,158 @@ http_interactions:
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=P5pDOD%2FGOSwd25JPR6RlC4n2Q%2Bc6RPmC9ZF0KGOUxGhBnqUWJLCHYGzu6IKdxvU6FD1dVe3QCwJerZhFDDyJZExCjfWLif%2FNOsJkZdem6jOtVEKoy2ucwVJ3OUuGfUFlQtPouIip6yfACcNEMMvHPOrdUKrQOmzWjfVPDvlVYNyEOEHqN2LtFpVCqMVjc23UQZ2d51dCcT%2FVAcarVWK9Sdl3a7YCDqjp%2FwipoPgrchZrCdf6pYfbzdBZZDaSNLnmLszOJ%2B%2BGsCmj5z7ASi5%2F8YdrYU8Y%2B9WoZ3x86nbiL%2BmD%2FTwMg26qnHZkTLvDJ2JerNauUF4lLYoJG540fBd9ECN%2BDfdi7K2G1GoJJackF%2FIODdF5plzSJfbOeOrw6Wu0;
-        expires=Sat, 07-Oct-2023 16:05:17 GMT; path=/; domain=.bibles.org
-      - abs_session=xaw3dN3tz9HJUCJrfNADofReHR21zTwDYUjuYwFLkbGV948c1TYgsQU0en4PmKNn%2BdLNxJqBBpp4aaAnfIcMI%2BEAHWWDlqj4fKodMLmmSaW6Tk7g7o%2BO2pHHeKHKCsxp%2BVuqSW8lgzBplE%2FXj0OOQrhiCcouSG8AyvID%2Fb9PQkPPuZH6t8lvftsw1EJYytasz5WG9WqSbJWfn1mdBabT6p1UAlUfotLEkp%2BWQnEtInMZaE41T5D7nkkT64l0QqFG16CBUlauwszTmvbKu1q2Ru9rcUERDjqG8ftdPCgQNU0%3D;
-        expires=Sat, 07-Oct-2023 16:05:17 GMT; path=/; domain=.bibles.org
-      - abs_uid=8f214da036d481054aa0c034a47dab62ee13b3a0; expires=Sat, 07-Oct-2023
-        16:05:17 GMT; path=/; domain=.bibles.org
+      - abs_session=CSp7BYNIlRWg%2BWvaFt%2BYlKEFSzJ%2BdpuO3OQAKxamdmWP4AwFExXk6RipirP6JpxpELxD%2BnRZrUqCzmk4N5jvqpQgXbDFhgeBGX2lEPMJCGBghv%2BaI9sp6RwVzRk510HZjp0QUAvZRB%2BFbBsVVFXu72ZhRxjwYwsT820UJtPADk7rtELZ6zqokusKY7hRATCVzxnyoXR%2B%2BQvUZa%2FRzctVpyBzPbvWciEaXqnBhCMIq9z6aM%2FOyNGKdE%2Fn%2B2kZjelroALW98iW7gNQNAgep7Mdhcy0Q2EswYcm%2Fqu6cSajR2M%3D;
+        expires=Fri, 13-Oct-2023 20:57:46 GMT; path=/; domain=.bibles.org
+      - abs_session=xawalQweU2nQmgi9LnOLhL4MJiikgQ7Xa%2FxqElPtnZCQRV8LD%2BhlUXhCuOt5vltUKwimNwuzTSJ5op0RoSj8gVO66iFqvlK0UHAa%2Bzs6hXcx9krlhoSwfycQDNVwpjqsLUvynK8gZ4H2cFQpCIdoWPA3pNN99cL2JW3K5UOQtzFA8hXHEmMkoAiJvC7Do7vCNWvWA0dslsq%2FDWTPuceVdHUtJSTOFGwi2nZh6UA%2FNIqGEnQvQrlTzdgnDR8UAcPKd6eQkmOn6hyvA5KJJwNfAio7j2RKnWXtMJlrln2gHF0FH5QA8eO3e1Uf2YqWCzMyGw8O2mju%2BhSKdiztBIru8%2By%2Bv%2FJKroU%2Bdi3%2BcPpIJvrG4jm7AVBuH3lkCk0rPWIg;
+        expires=Fri, 13-Oct-2023 20:57:46 GMT; path=/; domain=.bibles.org
+      - abs_uid=205f4bac6ac893f55575a92b4b56750c3e7b01a6; expires=Fri, 13-Oct-2023
+        20:57:46 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"books":[{"version_id":"1","name":"Genesis","abbr":"Gen","ord":"1","book_group_id":"1","testament":"OT","id":"GNT:Gen","osis_end":"GNT:Gen.50.26","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Exod","name":"Exodus","id":"GNT:Exod"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Exodus","abbr":"Exod","ord":"2","book_group_id":"1","testament":"OT","id":"GNT:Exod","osis_end":"GNT:Exod.40.38","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Lev","name":"Leviticus","id":"GNT:Lev"}},"previous":{"book":{"path":"\/books\/GNT:Gen","name":"Genesis","id":"GNT:Gen"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Leviticus","abbr":"Lev","ord":"3","book_group_id":"1","testament":"OT","id":"GNT:Lev","osis_end":"GNT:Lev.27.34","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Num","name":"Numbers","id":"GNT:Num"}},"previous":{"book":{"path":"\/books\/GNT:Exod","name":"Exodus","id":"GNT:Exod"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Numbers","abbr":"Num","ord":"4","book_group_id":"1","testament":"OT","id":"GNT:Num","osis_end":"GNT:Num.36.13","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Deut","name":"Deuteronomy","id":"GNT:Deut"}},"previous":{"book":{"path":"\/books\/GNT:Lev","name":"Leviticus","id":"GNT:Lev"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Deuteronomy","abbr":"Deut","ord":"5","book_group_id":"1","testament":"OT","id":"GNT:Deut","osis_end":"GNT:Deut.34.12","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Josh","name":"Joshua","id":"GNT:Josh"}},"previous":{"book":{"path":"\/books\/GNT:Num","name":"Numbers","id":"GNT:Num"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Joshua","abbr":"Josh","ord":"6","book_group_id":"2","testament":"OT","id":"GNT:Josh","osis_end":"GNT:Josh.24.33","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Judg","name":"Judges","id":"GNT:Judg"}},"previous":{"book":{"path":"\/books\/GNT:Deut","name":"Deuteronomy","id":"GNT:Deut"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Judges","abbr":"Judg","ord":"7","book_group_id":"2","testament":"OT","id":"GNT:Judg","osis_end":"GNT:Judg.21.25","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Ruth","name":"Ruth","id":"GNT:Ruth"}},"previous":{"book":{"path":"\/books\/GNT:Josh","name":"Joshua","id":"GNT:Josh"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Ruth","abbr":"Ruth","ord":"8","book_group_id":"2","testament":"OT","id":"GNT:Ruth","osis_end":"GNT:Ruth.4.22","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:1Sam","name":"1
-        Samuel","id":"GNT:1Sam"}},"previous":{"book":{"path":"\/books\/GNT:Judg","name":"Judges","id":"GNT:Judg"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"1
-        Samuel","abbr":"1Sam","ord":"9","book_group_id":"2","testament":"OT","id":"GNT:1Sam","osis_end":"GNT:1Sam.31.13","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:2Sam","name":"2
-        Samuel","id":"GNT:2Sam"}},"previous":{"book":{"path":"\/books\/GNT:Ruth","name":"Ruth","id":"GNT:Ruth"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"2
-        Samuel","abbr":"2Sam","ord":"10","book_group_id":"2","testament":"OT","id":"GNT:2Sam","osis_end":"GNT:2Sam.24.25","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:1Kgs","name":"1
-        Kings","id":"GNT:1Kgs"}},"previous":{"book":{"path":"\/books\/GNT:1Sam","name":"1
-        Samuel","id":"GNT:1Sam"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."},{"version_id":"1","name":"1
-        Kings","abbr":"1Kgs","ord":"11","book_group_id":"2","testament":"OT","id":"GNT:1Kgs","osis_end":"GNT:1Kgs.22.53","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:2Kgs","name":"2
-        Kings","id":"GNT:2Kgs"}},"previous":{"book":{"path":"\/books\/GNT:2Sam","name":"2
-        Samuel","id":"GNT:2Sam"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."},{"version_id":"1","name":"2
-        Kings","abbr":"2Kgs","ord":"12","book_group_id":"2","testament":"OT","id":"GNT:2Kgs","osis_end":"GNT:2Kgs.25.30","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:1Chr","name":"1
-        Chronicles","id":"GNT:1Chr"}},"previous":{"book":{"path":"\/books\/GNT:1Kgs","name":"1
-        Kings","id":"GNT:1Kgs"}},"copyright":"Scripture taken from the Good News Translation
-        in Today''s English Version- Second Edition Copyright &copy; 1992 by American
-        Bible Society. Used by Permission."},{"version_id":"1","name":"1 Chronicles","abbr":"1Chr","ord":"13","book_group_id":"2","testament":"OT","id":"GNT:1Chr","osis_end":"GNT:1Chr.29.30","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:2Chr","name":"2
-        Chronicles","id":"GNT:2Chr"}},"previous":{"book":{"path":"\/books\/GNT:2Kgs","name":"2
-        Kings","id":"GNT:2Kgs"}},"copyright":"Scripture taken from the Good News Translation
-        in Today''s English Version- Second Edition Copyright &copy; 1992 by American
-        Bible Society. Used by Permission."},{"version_id":"1","name":"2 Chronicles","abbr":"2Chr","ord":"14","book_group_id":"2","testament":"OT","id":"GNT:2Chr","osis_end":"GNT:2Chr.36.23","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Ezra","name":"Ezra","id":"GNT:Ezra"}},"previous":{"book":{"path":"\/books\/GNT:1Chr","name":"1
-        Chronicles","id":"GNT:1Chr"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."},{"version_id":"1","name":"Ezra","abbr":"Ezra","ord":"15","book_group_id":"2","testament":"OT","id":"GNT:Ezra","osis_end":"GNT:Ezra.10.44","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Neh","name":"Nehemiah","id":"GNT:Neh"}},"previous":{"book":{"path":"\/books\/GNT:2Chr","name":"2
-        Chronicles","id":"GNT:2Chr"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."},{"version_id":"1","name":"Nehemiah","abbr":"Neh","ord":"16","book_group_id":"2","testament":"OT","id":"GNT:Neh","osis_end":"GNT:Neh.13.31","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Esth","name":"Esther","id":"GNT:Esth"}},"previous":{"book":{"path":"\/books\/GNT:Ezra","name":"Ezra","id":"GNT:Ezra"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Esther","abbr":"Esth","ord":"17","book_group_id":"2","testament":"OT","id":"GNT:Esth","osis_end":"GNT:Esth.10.3","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Job","name":"Job","id":"GNT:Job"}},"previous":{"book":{"path":"\/books\/GNT:Neh","name":"Nehemiah","id":"GNT:Neh"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Job","abbr":"Job","ord":"18","book_group_id":"3","testament":"OT","id":"GNT:Job","osis_end":"GNT:Job.42.17","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Ps","name":"Psalms","id":"GNT:Ps"}},"previous":{"book":{"path":"\/books\/GNT:Esth","name":"Esther","id":"GNT:Esth"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Psalms","abbr":"Ps","ord":"19","book_group_id":"3","testament":"OT","id":"GNT:Ps","osis_end":"GNT:Ps.150.6","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Prov","name":"Proverbs","id":"GNT:Prov"}},"previous":{"book":{"path":"\/books\/GNT:Job","name":"Job","id":"GNT:Job"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Proverbs","abbr":"Prov","ord":"20","book_group_id":"3","testament":"OT","id":"GNT:Prov","osis_end":"GNT:Prov.31.31","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Eccl","name":"Ecclesiastes","id":"GNT:Eccl"}},"previous":{"book":{"path":"\/books\/GNT:Ps","name":"Psalms","id":"GNT:Ps"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Ecclesiastes","abbr":"Eccl","ord":"21","book_group_id":"3","testament":"OT","id":"GNT:Eccl","osis_end":"GNT:Eccl.12.14","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Song","name":"Song
-        of Solomon","id":"GNT:Song"}},"previous":{"book":{"path":"\/books\/GNT:Prov","name":"Proverbs","id":"GNT:Prov"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Song
-        of Solomon","abbr":"Song","ord":"22","book_group_id":"3","testament":"OT","id":"GNT:Song","osis_end":"GNT:Song.8.14","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Isa","name":"Isaiah","id":"GNT:Isa"}},"previous":{"book":{"path":"\/books\/GNT:Eccl","name":"Ecclesiastes","id":"GNT:Eccl"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Isaiah","abbr":"Isa","ord":"23","book_group_id":"4","testament":"OT","id":"GNT:Isa","osis_end":"GNT:Isa.66.24","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Jer","name":"Jeremiah","id":"GNT:Jer"}},"previous":{"book":{"path":"\/books\/GNT:Song","name":"Song
-        of Solomon","id":"GNT:Song"}},"copyright":"Scripture taken from the Good News
-        Translation in Today''s English Version- Second Edition Copyright &copy; 1992
-        by American Bible Society. Used by Permission."},{"version_id":"1","name":"Jeremiah","abbr":"Jer","ord":"24","book_group_id":"4","testament":"OT","id":"GNT:Jer","osis_end":"GNT:Jer.52.34","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Lam","name":"Lamentations","id":"GNT:Lam"}},"previous":{"book":{"path":"\/books\/GNT:Isa","name":"Isaiah","id":"GNT:Isa"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Lamentations","abbr":"Lam","ord":"25","book_group_id":"4","testament":"OT","id":"GNT:Lam","osis_end":"GNT:Lam.5.22","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Ezek","name":"Ezekiel","id":"GNT:Ezek"}},"previous":{"book":{"path":"\/books\/GNT:Jer","name":"Jeremiah","id":"GNT:Jer"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Ezekiel","abbr":"Ezek","ord":"26","book_group_id":"4","testament":"OT","id":"GNT:Ezek","osis_end":"GNT:Ezek.48.35","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Dan","name":"Daniel","id":"GNT:Dan"}},"previous":{"book":{"path":"\/books\/GNT:Lam","name":"Lamentations","id":"GNT:Lam"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Daniel","abbr":"Dan","ord":"27","book_group_id":"4","testament":"OT","id":"GNT:Dan","osis_end":"GNT:Dan.12.13","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Hos","name":"Hosea","id":"GNT:Hos"}},"previous":{"book":{"path":"\/books\/GNT:Ezek","name":"Ezekiel","id":"GNT:Ezek"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Hosea","abbr":"Hos","ord":"28","book_group_id":"5","testament":"OT","id":"GNT:Hos","osis_end":"GNT:Hos.14.9","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Joel","name":"Joel","id":"GNT:Joel"}},"previous":{"book":{"path":"\/books\/GNT:Dan","name":"Daniel","id":"GNT:Dan"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Joel","abbr":"Joel","ord":"29","book_group_id":"5","testament":"OT","id":"GNT:Joel","osis_end":"GNT:Joel.3.21","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Amos","name":"Amos","id":"GNT:Amos"}},"previous":{"book":{"path":"\/books\/GNT:Hos","name":"Hosea","id":"GNT:Hos"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Amos","abbr":"Amos","ord":"30","book_group_id":"5","testament":"OT","id":"GNT:Amos","osis_end":"GNT:Amos.9.15","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Obad","name":"Obadiah","id":"GNT:Obad"}},"previous":{"book":{"path":"\/books\/GNT:Joel","name":"Joel","id":"GNT:Joel"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Obadiah","abbr":"Obad","ord":"31","book_group_id":"5","testament":"OT","id":"GNT:Obad","osis_end":"GNT:Obad.1.21","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Jonah","name":"Jonah","id":"GNT:Jonah"}},"previous":{"book":{"path":"\/books\/GNT:Amos","name":"Amos","id":"GNT:Amos"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Jonah","abbr":"Jonah","ord":"32","book_group_id":"5","testament":"OT","id":"GNT:Jonah","osis_end":"GNT:Jonah.4.11","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Mic","name":"Micah","id":"GNT:Mic"}},"previous":{"book":{"path":"\/books\/GNT:Obad","name":"Obadiah","id":"GNT:Obad"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Micah","abbr":"Mic","ord":"33","book_group_id":"5","testament":"OT","id":"GNT:Mic","osis_end":"GNT:Mic.7.20","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Nah","name":"Nahum","id":"GNT:Nah"}},"previous":{"book":{"path":"\/books\/GNT:Jonah","name":"Jonah","id":"GNT:Jonah"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Nahum","abbr":"Nah","ord":"34","book_group_id":"5","testament":"OT","id":"GNT:Nah","osis_end":"GNT:Nah.3.19","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Hab","name":"Habakkuk","id":"GNT:Hab"}},"previous":{"book":{"path":"\/books\/GNT:Mic","name":"Micah","id":"GNT:Mic"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Habakkuk","abbr":"Hab","ord":"35","book_group_id":"5","testament":"OT","id":"GNT:Hab","osis_end":"GNT:Hab.3.19","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Zeph","name":"Zephaniah","id":"GNT:Zeph"}},"previous":{"book":{"path":"\/books\/GNT:Nah","name":"Nahum","id":"GNT:Nah"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Zephaniah","abbr":"Zeph","ord":"36","book_group_id":"5","testament":"OT","id":"GNT:Zeph","osis_end":"GNT:Zeph.3.20","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Hag","name":"Haggai","id":"GNT:Hag"}},"previous":{"book":{"path":"\/books\/GNT:Hab","name":"Habakkuk","id":"GNT:Hab"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Haggai","abbr":"Hag","ord":"37","book_group_id":"5","testament":"OT","id":"GNT:Hag","osis_end":"GNT:Hag.2.23","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Zech","name":"Zechariah","id":"GNT:Zech"}},"previous":{"book":{"path":"\/books\/GNT:Zeph","name":"Zephaniah","id":"GNT:Zeph"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Zechariah","abbr":"Zech","ord":"38","book_group_id":"5","testament":"OT","id":"GNT:Zech","osis_end":"GNT:Zech.14.21","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Mal","name":"Malachi","id":"GNT:Mal"}},"previous":{"book":{"path":"\/books\/GNT:Hag","name":"Haggai","id":"GNT:Hag"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."},{"version_id":"1","name":"Malachi","abbr":"Mal","ord":"39","book_group_id":"5","testament":"OT","id":"GNT:Mal","osis_end":"GNT:Mal.4.6","parent":{"version":{"path":"\/versions\/GNT","name":"Good
-        News Translation","id":"GNT"}},"next":{"book":{"path":"\/books\/GNT:Matt","name":"Matthew","id":"GNT:Matt"}},"previous":{"book":{"path":"\/books\/GNT:Zech","name":"Zechariah","id":"GNT:Zech"}},"copyright":"Scripture
-        taken from the Good News Translation in Today''s English Version- Second Edition
-        Copyright &copy; 1992 by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
+      string: ! '{"response":{"books":[{"version_id":"135","name":"Genesis","abbr":"Gen","ord":"1","book_group_id":"0","testament":"OT","id":"eng-GNTD:Gen","osis_end":"eng-GNTD:Gen.50.26","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Exod","name":"Exodus","id":"eng-GNTD:Exod"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Exodus","abbr":"Exod","ord":"2","book_group_id":"0","testament":"OT","id":"eng-GNTD:Exod","osis_end":"eng-GNTD:Exod.40.38","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Lev","name":"Leviticus","id":"eng-GNTD:Lev"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Gen","name":"Genesis","id":"eng-GNTD:Gen"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Leviticus","abbr":"Lev","ord":"3","book_group_id":"0","testament":"OT","id":"eng-GNTD:Lev","osis_end":"eng-GNTD:Lev.27.34","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Num","name":"Numbers","id":"eng-GNTD:Num"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Exod","name":"Exodus","id":"eng-GNTD:Exod"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Numbers","abbr":"Num","ord":"4","book_group_id":"0","testament":"OT","id":"eng-GNTD:Num","osis_end":"eng-GNTD:Num.36.13","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Deut","name":"Deuteronomy","id":"eng-GNTD:Deut"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Lev","name":"Leviticus","id":"eng-GNTD:Lev"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Deuteronomy","abbr":"Deut","ord":"5","book_group_id":"0","testament":"OT","id":"eng-GNTD:Deut","osis_end":"eng-GNTD:Deut.34.12","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Josh","name":"Joshua","id":"eng-GNTD:Josh"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Num","name":"Numbers","id":"eng-GNTD:Num"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Joshua","abbr":"Josh","ord":"6","book_group_id":"0","testament":"OT","id":"eng-GNTD:Josh","osis_end":"eng-GNTD:Josh.24.33","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Judg","name":"Judges","id":"eng-GNTD:Judg"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Deut","name":"Deuteronomy","id":"eng-GNTD:Deut"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Judges","abbr":"Judg","ord":"7","book_group_id":"0","testament":"OT","id":"eng-GNTD:Judg","osis_end":"eng-GNTD:Judg.21.25","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Ruth","name":"Ruth","id":"eng-GNTD:Ruth"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Josh","name":"Joshua","id":"eng-GNTD:Josh"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Ruth","abbr":"Ruth","ord":"8","book_group_id":"0","testament":"OT","id":"eng-GNTD:Ruth","osis_end":"eng-GNTD:Ruth.4.22","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:1Sam","name":"1
+        Samuel","id":"eng-GNTD:1Sam"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Judg","name":"Judges","id":"eng-GNTD:Judg"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"1
+        Samuel","abbr":"1Sam","ord":"9","book_group_id":"0","testament":"OT","id":"eng-GNTD:1Sam","osis_end":"eng-GNTD:1Sam.31.13","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:2Sam","name":"2
+        Samuel","id":"eng-GNTD:2Sam"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Ruth","name":"Ruth","id":"eng-GNTD:Ruth"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"2
+        Samuel","abbr":"2Sam","ord":"10","book_group_id":"0","testament":"OT","id":"eng-GNTD:2Sam","osis_end":"eng-GNTD:2Sam.24.25","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:1Kgs","name":"1
+        Kings","id":"eng-GNTD:1Kgs"}},"previous":{"book":{"path":"\/books\/eng-GNTD:1Sam","name":"1
+        Samuel","id":"eng-GNTD:1Sam"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"1 Kings","abbr":"1Kgs","ord":"11","book_group_id":"0","testament":"OT","id":"eng-GNTD:1Kgs","osis_end":"eng-GNTD:1Kgs.22.53","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:2Kgs","name":"2
+        Kings","id":"eng-GNTD:2Kgs"}},"previous":{"book":{"path":"\/books\/eng-GNTD:2Sam","name":"2
+        Samuel","id":"eng-GNTD:2Sam"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"2 Kings","abbr":"2Kgs","ord":"12","book_group_id":"0","testament":"OT","id":"eng-GNTD:2Kgs","osis_end":"eng-GNTD:2Kgs.25.30","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:1Chr","name":"1
+        Chronicles","id":"eng-GNTD:1Chr"}},"previous":{"book":{"path":"\/books\/eng-GNTD:1Kgs","name":"1
+        Kings","id":"eng-GNTD:1Kgs"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"1 Chronicles","abbr":"1Chr","ord":"13","book_group_id":"0","testament":"OT","id":"eng-GNTD:1Chr","osis_end":"eng-GNTD:1Chr.29.30","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:2Chr","name":"2
+        Chronicles","id":"eng-GNTD:2Chr"}},"previous":{"book":{"path":"\/books\/eng-GNTD:2Kgs","name":"2
+        Kings","id":"eng-GNTD:2Kgs"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"2 Chronicles","abbr":"2Chr","ord":"14","book_group_id":"0","testament":"OT","id":"eng-GNTD:2Chr","osis_end":"eng-GNTD:2Chr.36.23","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Ezra","name":"Ezra","id":"eng-GNTD:Ezra"}},"previous":{"book":{"path":"\/books\/eng-GNTD:1Chr","name":"1
+        Chronicles","id":"eng-GNTD:1Chr"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"Ezra","abbr":"Ezra","ord":"15","book_group_id":"0","testament":"OT","id":"eng-GNTD:Ezra","osis_end":"eng-GNTD:Ezra.10.44","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Neh","name":"Nehemiah","id":"eng-GNTD:Neh"}},"previous":{"book":{"path":"\/books\/eng-GNTD:2Chr","name":"2
+        Chronicles","id":"eng-GNTD:2Chr"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"Nehemiah","abbr":"Neh","ord":"16","book_group_id":"0","testament":"OT","id":"eng-GNTD:Neh","osis_end":"eng-GNTD:Neh.13.31","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Esth","name":"Esther","id":"eng-GNTD:Esth"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Ezra","name":"Ezra","id":"eng-GNTD:Ezra"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Esther","abbr":"Esth","ord":"17","book_group_id":"0","testament":"OT","id":"eng-GNTD:Esth","osis_end":"eng-GNTD:Esth.10.3","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Job","name":"Job","id":"eng-GNTD:Job"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Neh","name":"Nehemiah","id":"eng-GNTD:Neh"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Job","abbr":"Job","ord":"18","book_group_id":"0","testament":"OT","id":"eng-GNTD:Job","osis_end":"eng-GNTD:Job.42.17","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Ps","name":"Psalm","id":"eng-GNTD:Ps"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Esth","name":"Esther","id":"eng-GNTD:Esth"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Psalm","abbr":"Ps","ord":"19","book_group_id":"0","testament":"OT","id":"eng-GNTD:Ps","osis_end":"eng-GNTD:Ps.150.6","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Prov","name":"Proverbs","id":"eng-GNTD:Prov"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Job","name":"Job","id":"eng-GNTD:Job"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Proverbs","abbr":"Prov","ord":"20","book_group_id":"0","testament":"OT","id":"eng-GNTD:Prov","osis_end":"eng-GNTD:Prov.31.31","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Eccl","name":"Ecclesiastes","id":"eng-GNTD:Eccl"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Ps","name":"Psalm","id":"eng-GNTD:Ps"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Ecclesiastes","abbr":"Eccl","ord":"21","book_group_id":"0","testament":"OT","id":"eng-GNTD:Eccl","osis_end":"eng-GNTD:Eccl.12.14","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Song","name":"Song
+        of Songs","id":"eng-GNTD:Song"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Prov","name":"Proverbs","id":"eng-GNTD:Prov"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Song
+        of Songs","abbr":"Song","ord":"22","book_group_id":"0","testament":"OT","id":"eng-GNTD:Song","osis_end":"eng-GNTD:Song.8.14","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Isa","name":"Isaiah","id":"eng-GNTD:Isa"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Eccl","name":"Ecclesiastes","id":"eng-GNTD:Eccl"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Isaiah","abbr":"Isa","ord":"23","book_group_id":"0","testament":"OT","id":"eng-GNTD:Isa","osis_end":"eng-GNTD:Isa.66.24","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Jer","name":"Jeremiah","id":"eng-GNTD:Jer"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Song","name":"Song
+        of Songs","id":"eng-GNTD:Song"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"},{"version_id":"135","name":"Jeremiah","abbr":"Jer","ord":"24","book_group_id":"0","testament":"OT","id":"eng-GNTD:Jer","osis_end":"eng-GNTD:Jer.52.34","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Lam","name":"Lamentations","id":"eng-GNTD:Lam"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Isa","name":"Isaiah","id":"eng-GNTD:Isa"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Lamentations","abbr":"Lam","ord":"25","book_group_id":"0","testament":"OT","id":"eng-GNTD:Lam","osis_end":"eng-GNTD:Lam.5.22","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Ezek","name":"Ezekiel","id":"eng-GNTD:Ezek"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Jer","name":"Jeremiah","id":"eng-GNTD:Jer"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Ezekiel","abbr":"Ezek","ord":"26","book_group_id":"0","testament":"OT","id":"eng-GNTD:Ezek","osis_end":"eng-GNTD:Ezek.48.35","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Dan","name":"Daniel","id":"eng-GNTD:Dan"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Lam","name":"Lamentations","id":"eng-GNTD:Lam"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Daniel","abbr":"Dan","ord":"27","book_group_id":"0","testament":"OT","id":"eng-GNTD:Dan","osis_end":"eng-GNTD:Dan.12.13","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Hos","name":"Hosea","id":"eng-GNTD:Hos"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Ezek","name":"Ezekiel","id":"eng-GNTD:Ezek"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Hosea","abbr":"Hos","ord":"28","book_group_id":"0","testament":"OT","id":"eng-GNTD:Hos","osis_end":"eng-GNTD:Hos.14.9","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Joel","name":"Joel","id":"eng-GNTD:Joel"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Dan","name":"Daniel","id":"eng-GNTD:Dan"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Joel","abbr":"Joel","ord":"29","book_group_id":"0","testament":"OT","id":"eng-GNTD:Joel","osis_end":"eng-GNTD:Joel.3.21","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Amos","name":"Amos","id":"eng-GNTD:Amos"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Hos","name":"Hosea","id":"eng-GNTD:Hos"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Amos","abbr":"Amos","ord":"30","book_group_id":"0","testament":"OT","id":"eng-GNTD:Amos","osis_end":"eng-GNTD:Amos.9.15","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Obad","name":"Obadiah","id":"eng-GNTD:Obad"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Joel","name":"Joel","id":"eng-GNTD:Joel"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Obadiah","abbr":"Obad","ord":"31","book_group_id":"0","testament":"OT","id":"eng-GNTD:Obad","osis_end":"eng-GNTD:Obad.1.21","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Jonah","name":"Jonah","id":"eng-GNTD:Jonah"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Amos","name":"Amos","id":"eng-GNTD:Amos"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Jonah","abbr":"Jonah","ord":"32","book_group_id":"0","testament":"OT","id":"eng-GNTD:Jonah","osis_end":"eng-GNTD:Jonah.4.11","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Mic","name":"Micah","id":"eng-GNTD:Mic"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Obad","name":"Obadiah","id":"eng-GNTD:Obad"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Micah","abbr":"Mic","ord":"33","book_group_id":"0","testament":"OT","id":"eng-GNTD:Mic","osis_end":"eng-GNTD:Mic.7.20","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Nah","name":"Nahum","id":"eng-GNTD:Nah"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Jonah","name":"Jonah","id":"eng-GNTD:Jonah"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Nahum","abbr":"Nah","ord":"34","book_group_id":"0","testament":"OT","id":"eng-GNTD:Nah","osis_end":"eng-GNTD:Nah.3.19","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Hab","name":"Habakkuk","id":"eng-GNTD:Hab"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Mic","name":"Micah","id":"eng-GNTD:Mic"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Habakkuk","abbr":"Hab","ord":"35","book_group_id":"0","testament":"OT","id":"eng-GNTD:Hab","osis_end":"eng-GNTD:Hab.3.19","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Zeph","name":"Zephaniah","id":"eng-GNTD:Zeph"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Nah","name":"Nahum","id":"eng-GNTD:Nah"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Zephaniah","abbr":"Zeph","ord":"36","book_group_id":"0","testament":"OT","id":"eng-GNTD:Zeph","osis_end":"eng-GNTD:Zeph.3.20","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Hag","name":"Haggai","id":"eng-GNTD:Hag"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Hab","name":"Habakkuk","id":"eng-GNTD:Hab"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Haggai","abbr":"Hag","ord":"37","book_group_id":"0","testament":"OT","id":"eng-GNTD:Hag","osis_end":"eng-GNTD:Hag.2.23","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Zech","name":"Zechariah","id":"eng-GNTD:Zech"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Zeph","name":"Zephaniah","id":"eng-GNTD:Zeph"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Zechariah","abbr":"Zech","ord":"38","book_group_id":"0","testament":"OT","id":"eng-GNTD:Zech","osis_end":"eng-GNTD:Zech.14.21","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Mal","name":"Malachi","id":"eng-GNTD:Mal"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Hag","name":"Haggai","id":"eng-GNTD:Hag"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"},{"version_id":"135","name":"Malachi","abbr":"Mal","ord":"39","book_group_id":"0","testament":"OT","id":"eng-GNTD:Mal","osis_end":"eng-GNTD:Mal.4.6","parent":{"version":{"path":"\/versions\/eng-GNTD","name":"Good
+        News Translation (US Version)","id":"eng-GNTD"}},"next":{"book":{"path":"\/books\/eng-GNTD:Tob","name":"Tobit","id":"eng-GNTD:Tob"}},"previous":{"book":{"path":"\/books\/eng-GNTD:Zech","name":"Zechariah","id":"eng-GNTD:Zech"}},"copyright":"<p>Good
+        News Translation (Today&#8217;s English Version, Second Edition) &#169; 1992
+        American Bible Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar
         _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557ebddbe8f7.74609671'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ebddbe8f7.74609671\"
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac4a13e378.76459256'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac4a13e378.76459256\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"52557ebddbe8f7.74609671","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557ebddbe8f7.74609671'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557ebddbe8f7.74609671\"
+        \/><\/noscript>","fums_tid":"525dac4a13e378.76459256","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac4a13e378.76459256'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac4a13e378.76459256\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 16:05:18 GMT
+  recorded_at: Tue, 15 Oct 2013 20:57:46 GMT
 recorded_with: VCR 2.6.0

@@ -1,16 +1,24 @@
 require 'rubygems'
 require 'minitest/autorun'
+require 'minitest/reporters'
 require 'vcr'
+
+# Better reporters
+Minitest::Reporters.use! #for status bar
+# Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new #for understanding
+# Minitest::Reporters.use! Minitest::Reporters::RubyMineReporter.new #for IDE
 
 DUMMY_API_KEY = 'DUMMY_API_KEY'
 BIBLESEARCH_API_KEY = ENV.fetch('BIBLESEARCH_API_KEY', DUMMY_API_KEY)
 API_KEY_TEMPLATE='<%= api_key %>'
 CASSETTE_VARS = {api_key: BIBLESEARCH_API_KEY}
+VCR_LOG_FILE='VCR.LOG'
 
 VCR.configure do |c|
   # BASIC CONFIGURATION
   c.cassette_library_dir = 'spec/cassettes'
   c.hook_into :webmock
+  c.debug_logger = File.open(VCR_LOG_FILE, 'w')
 
   # DISABLE RECORDING UNLESS THERE'S API KEY IN THE ENV
   if BIBLESEARCH_API_KEY == DUMMY_API_KEY
@@ -19,7 +27,6 @@ VCR.configure do |c|
   else
     # we have an API key, might want to record
     c.default_cassette_options = {:record => :new_episodes}
-    # c.default_cassette_options = {:record => :none, erb: CASSETTE_VARS} #DEBUG_CLEANUP
   end
 
   #EXPUNGE SECRET KEYS

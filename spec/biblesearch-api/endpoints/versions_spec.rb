@@ -68,7 +68,7 @@ describe BibleSearch do
 
     describe %{with a valid version id} do
       it %{has a version value} do
-        result = @biblesearch.version('GNT').value
+        result = @biblesearch.version('eng-GNTD').value
         result.must_be_instance_of Hashie::Mash
         result.must_respond_to(:id)
         result.must_respond_to(:name)
@@ -83,9 +83,15 @@ describe BibleSearch do
     end
 
     describe %{with an invalid version id} do
-      it %{has a nil value} do
-        @biblesearch.version('JIMBOB').value.must_be_nil
+      it %{a nonexistent version with a language code returns nil} do
+        # skip "refactoring"
+        @biblesearch.version('eng-NONEXISTENTVERSION').must_be_nil
       end
+      it %{a real version without a language code raises an ArgumentError} do
+        # skip "refactoring"
+        lambda {@biblesearch.version('CEV')}.must_raise ArgumentError
+      end
+
     end
   end
 end

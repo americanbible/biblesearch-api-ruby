@@ -12,23 +12,21 @@ describe BibleSearch do
   end
 
   describe %{#verses} do
-    describe %{when returning no verses} do
-      before do
-        @verses = @biblesearch.verses('KJV:Batman.1', '1', '16')
+    describe %{referencing a non-existent book} do
+      it %{returns an empty array} do
+        @biblesearch.verses('eng-KJVA:NonexistentBook.1', '1', '16').must_equal []
       end
+    end
 
-      it %{has a collection} do
-        @verses.collection.must_be_instance_of Array
-      end
-
-      it %{should contain no verses} do
-        @verses.collection.size.must_equal 0
+    describe %{when requesting a chapter designated by a letter} do
+      it %{doesn't raise an ArgumentError} do
+        @biblesearch.verses('eng-GNTD:GEN.h', '5', '5').must_equal []
       end
     end
 
     describe %{when returning one verse} do
       before do
-        @verses = @biblesearch.verses('KJV:John.3', '16', '16')
+        @verses = @biblesearch.verses('eng-KJVA:John.3', '16', '16')
       end
 
       it %{has a collection} do
@@ -50,15 +48,24 @@ describe BibleSearch do
           verse.must_respond_to(:reference)
           verse.must_respond_to(:text)
           verse.must_respond_to(:verse)
+          verse.wont_respond_to :footnotes
         end
       end
+
+      it %{can include marginalia} do
+        @verses = @biblesearch.verses('eng-KJVA:John.3', '16', '16', include_marginalia: true)
+        @verses.collection.each do |verse|
+          verse.must_include "footnotes"
+        end
+      end
+
     end
 
     describe %{when returning multiple verses} do
       before do
         @start_verse = 16
         @end_verse = 17
-        @verses = @biblesearch.verses('KJV:John.3', @start_verse, @end_verse)
+        @verses = @biblesearch.verses('eng-KJVA:John.3', @start_verse, @end_verse)
       end
 
       it %{has a collection} do
@@ -80,8 +87,17 @@ describe BibleSearch do
           verse.must_respond_to(:reference)
           verse.must_respond_to(:text)
           verse.must_respond_to(:verse)
+          verse.wont_respond_to :footnotes
         end
       end
+
+      it %{can include marginalia} do
+        @verses = @biblesearch.verses('eng-KJVA:John.3', @start_verse, @end_verse, include_marginalia: true)
+        @verses.collection.each do |verse|
+          verse.must_include "footnotes"
+        end
+      end
+
     end
   end
 
@@ -89,7 +105,7 @@ describe BibleSearch do
     describe %{given verse signature} do
       describe %{as a string} do
         it %{raises an argument error for bad input} do
-          bad_verse_string = lambda { @biblesearch.verse('SupDawg') }
+          bad_verse_string = lambda { @biblesearch.verse('UnknownVersion') }
           bad_verse_string.must_raise ArgumentError
           (bad_verse_string.call rescue $!).message.must_equal 'Verse signature must be in the form "VERSION_ID:BOOK_ID.CHAPTER_NUMBER.VERSE_NUMBER"'
         end
@@ -98,7 +114,7 @@ describe BibleSearch do
       describe %{as a hash} do
         before do
           @options = {
-            :version_id => 'GNT',
+            :version_id => 'eng-GNTD',
             :book_id => 'Acts',
             :chapter => '8',
             :verse => '34'
@@ -118,7 +134,11 @@ describe BibleSearch do
 
         describe %{with a complete hash} do
           it %{returns the same thing as the equivalent string sig} do
-            @biblesearch.verse(@options).value.must_equal @biblesearch.verse('GNT:Acts.8.34').value
+            @biblesearch.verse(@options).value.must_equal @biblesearch.verse('eng-GNTD:Acts.8.34').value
+          end
+
+          it %{can include marginalia} do
+            @biblesearch.verse(@options, include_marginalia: :true).value.must_equal @biblesearch.verse('eng-GNTD:Acts.8.34', include_marginalia: true).value
           end
         end
       end
@@ -126,7 +146,7 @@ describe BibleSearch do
 
     describe %{when requesting a valid verse} do
       it %{has a verse value} do
-        result = @biblesearch.verse('GNT:Acts.8.34').value
+        result = @biblesearch.verse('eng-GNTD:Acts.8.34').value
         result.must_be_instance_of Hashie::Mash
         result.must_respond_to(:auditid)
         result.must_respond_to(:copyright)
@@ -140,12 +160,26 @@ describe BibleSearch do
         result.must_respond_to(:reference)
         result.must_respond_to(:text)
         result.must_respond_to(:verse)
+        result.wont_respond_to :footnotes
+      end
+
+      it %{can include marginalia} do
+        result = @biblesearch.verse('eng-GNTD:Acts.8.34', include_marginalia: true).value
+        result.must_include "footnotes"
+      end
+
+    end
+
+    describe %{when requesting a verse designated by a letter} do
+      it %{doesn't raise an ArgumentError} do
+        #surprisingly, the API returns data for this verse
+        @biblesearch.verse('eng-GNTD:GEN.6.z').wont_be_nil
       end
     end
 
     describe %{when requesting an invalid verse} do
-      it %{has a nil value} do
-        @biblesearch.verse('KJV:Batman.1.1').value.must_be_nil
+      it %{returns nil} do
+        @biblesearch.verse('eng-KJVA:NonexistentBook.1.1').must_be_nil
       end
     end
   end

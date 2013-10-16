@@ -1,42 +1,56 @@
 class BibleSearch
-  module Verses
-    def verses(chapter_id, start_verse="", end_verse="")
 
-      verses = []
-      api_result = get_mash("/chapters/#{chapter_id}/verses.js", :query => {:start => start_verse, :end => end_verse})
-      if api_result.meta.http_code == 200
-        verses = pluralize_result(api_result.response.verses)
+  def valid_verse(verse_sig)
+    if verse_sig.is_a?(Hash)
+      begin
+        verse_sig = "#{valid_chapter(verse_sig)}.#{verse_sig[:verse]}"
+      rescue
+        raise ArgumentError.new('Verse signature hash must include :version_id, :book_id, :chapter, and :verse')
       end
-
-      fumsify(api_result, verses)
     end
 
-    def verse(verse_sig)
+    # Validate a signature string, returning a verse Mash if valid and the
+    # remote request succeeds
+    unless verse_sig.match(@verse_re)
+      raise ArgumentError.new('Verse signature must be in the form "VERSION_ID:BOOK_ID.CHAPTER_NUMBER.VERSE_NUMBER"')
+    end
+    verse_sig
+  end
+
+  module Verses
+    def verses(chapter_id, start_verse="", end_verse="", options={})
+      unless chapter_id.match(@chapter_re)
+        raise ArgumentError.new('Chapter signature must be in the form "VERSION_ID:BOOK_ID.CHAPTER_NUMBER"')
+      end
+
+      api_result = get_mash("/chapters/#{chapter_id}/verses.js", :query => {:start => start_verse, :end => end_verse}.merge(options))
+      if api_result.meta.http_code == 200
+        verses = []
+        verses = pluralize_result(api_result.response.verses)
+        fumsify(api_result, verses)
+      else
+        # raise ArgumentError.new("Unrecognized verses request.")
+        []
+      end
+
+    end
+
+    def verse(verse_sig, options={})
 
       # Validate a signature hash, calling its string sig equivalent if valid
-      if verse_sig.is_a?(Hash)
-        unless required_keys_present?(verse_sig, [:version_id, :book_id, :chapter, :verse])
-          raise ArgumentError.new('Verse signature hash must include :version_id, :book_id, :chapter, and :verse')
-        end
+      verse_sig = valid_verse(verse_sig)
 
-        return verse("#{verse_sig[:version_id]}:#{verse_sig[:book_id]}.#{verse_sig[:chapter]}.#{verse_sig[:verse]}")
-      end
-
-      # Validate a signature string, returning a verse Mash if valid and the
-      # remote request succeeds
-      if verse_sig.is_a?(String)
-        unless verse_sig.match(/([A-Za-z0-9]+-)?[A-Za-z0-9]+:[A-Za-z0-9]+\.[0-9]+\.[0-9]+/)
-          raise ArgumentError.new('Verse signature must be in the form "VERSION_ID:BOOK_ID.CHAPTER_NUMBER.VERSE_NUMBER"')
-        end
-
+      api_result = get_mash("/verses/#{verse_sig}.js", query: options)
+      if api_result.meta.http_code == 200
         verse = nil
-        api_result = get_mash("/verses/#{verse_sig}.js")
-        if api_result.meta.http_code == 200
-          verse = api_result.response.verses.first
-        end
-
+        verse = api_result.response.verses.first
         return fumsify(api_result, verse)
+      else
+        # raise ArgumentError.new("Unrecognized verses request.")
+        nil
       end
+
     end
+
   end
 end

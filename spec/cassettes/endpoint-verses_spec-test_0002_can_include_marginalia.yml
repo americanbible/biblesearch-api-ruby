@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:Acts.8.34.js?include_marginalia=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:57:32 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1762'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=iclCc2xh7LDnF69qMRKbiYzNqj138MIga7tJkoR9WncJJUVCXX6n3PhHB9ZVljSQGFHK9KB22SupgedOse75XG%2BCeUTmxWzOaO0X%2FVAFOB%2BSLpeCCa5YqRgdk70h%2FLGAzuaJQlXC%2F1vrTEpWCscqcmPEHSk3g977WWultw3y4Sr%2FB1Y4H2l4g9k5ZOrTMamrdCB9tCf6hNm28tpoNz0Mm7MdXIji4Oa9jYbMML1w2iozV7adZxvOQyOz4b9dYYIC3np4OCMyp4ZDnMSGzQu38RNmNQFXmiXfHECrEImg%2Fi68%2BcMomBSpjY1RaC8iY2I7XBrgR17vQOSTSUlp8ypsqp0wA5Fr9jHzOcyl2jT6n0VQUy94QAnP2UXZBRa6t9A%2F;
+        expires=Fri, 13-Oct-2023 20:57:33 GMT; path=/; domain=.bibles.org
+      - abs_session=xw%2B%2BHa9lNn8b%2FwfX6C4ZT48aqrzsbAQPazTCdel%2BGAnKw4TQ3gENFw1k48Am1Ln6WncVk4LY%2FKOF%2FI3GLfU%2BHkAqiEQnnPnWlkG3J5ypNzab9psnVGDrB6S8ZehngxTOh3nKhiXPd1XDGwM5CwS7geMYZqh6sIe8Z7VV5AfiikMno45nIDqRzbLcxkgbIyRe%2B%2FXbQP4vRV1%2BSagZYIkvxWpD3FPa%2FMs5PhP5EdDP4KGPrfQUOtP%2B2Gh11TF1s%2FHiTIo1R916t%2FQZiDcuZ5osDKGwbzczvrz1v%2BwnkfLxPvg%3D;
+        expires=Fri, 13-Oct-2023 20:57:33 GMT; path=/; domain=.bibles.org
+      - abs_uid=5e9263e9396861d2aa7925933a06d3064c39d1bf; expires=Fri, 13-Oct-2023
+        20:57:33 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"verses":[{"auditid":"0","verse":"34","lastverse":"34","id":"eng-GNTD:Acts.8.34","osis_end":"eng-GNTD:Acts.8.34","label":"","reference":"Acts
+        8:34","text":"<p class=\"p\"><sup id=\"Acts.8.34\" class=\"v\">34<\/sup>The
+        official asked Philip, \u201cTell me, of whom is the prophet saying this?
+        Of himself or of someone else?\u201d<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Acts.8","name":"Acts
+        8","id":"eng-GNTD:Acts.8"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Acts.8.35","name":"Acts
+        8:35","id":"eng-GNTD:Acts.8.35"}},"previous":{"verse":{"path":"\/verses\/eng-GNTD:Acts.8.32","name":"Acts
+        8:32","id":"eng-GNTD:Acts.8.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>","footnotes":[],"crossreferences":[]}],"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac3d06cd52.15558924'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3d06cd52.15558924\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac3d06cd52.15558924","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac3d06cd52.15558924'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3d06cd52.15558924\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:57:33 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:Acts.8.34.js?include_marginalia=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:57:32 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1762'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=9j1u8%2BEPbwKO%2B5qCSqFMUDuJBoEQRS%2BuzyuFvQCW9WPWrpBh%2BHl0QkPwc2s9sFtu6lkDSh%2FklzilZAVUcd3I0UhB681FsJd01xrdY4rmvk86Q%2FdwNFb%2BXI9rFpLkpNnxOxM25%2BHOftGwqRUyX2newiIbBJQJjjb8OuN6xEuYoFef2FYIysCYXYVL%2Fn39Td%2BargR4odNkERs2234q5uFmEdzAi%2FHJthQghKApNgx1Rzo%2Boi%2Fe5wepxxCU0X5fKjc82U7EYdWy30S4sgVziCW6wodjgKI6ajMf0HmVca6YNAy7Ji3xpmib%2BOR7CobTsNwNIgGbpb5X36hfL5Y565IP27efIuzYNLv8sOFqevZZs60U8h6TgcJk716fQ4UJhLMK;
+        expires=Fri, 13-Oct-2023 20:57:33 GMT; path=/; domain=.bibles.org
+      - abs_session=xoy8QLcCnQ7nW28oxyOEubEhgsjdaFdHXVdSBQKcB%2BbrIADy8nnq%2BNAbotheHkFYfE5h%2B0%2FKvUYtg1I4RQiOAvww3mKFAkMHE97PHc9V2aBu9DKi5z65wJ5c6OCw8A5DeDxvFBX6YnaxseE9HD7bnSeldJdtntj1fVBz2peVL4g3SKR6qtAKlYhlyTExs2snrUj3hPwdMykGR74w3xzpjGCI8k2zCyjW3Wgwt7fLa%2BL9bV7CbouZpoXNE4wC5CBwBGa4HR8DN%2BIGi0LMx7Oub6nLILtJ31GLC%2FfFaLe0TcI%3D;
+        expires=Fri, 13-Oct-2023 20:57:33 GMT; path=/; domain=.bibles.org
+      - abs_uid=49e428b4eb5afbbd1fd88504b2889b8cf3938229; expires=Fri, 13-Oct-2023
+        20:57:33 GMT; path=/; domain=.bibles.org
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"verses":[{"auditid":"0","verse":"34","lastverse":"34","id":"eng-GNTD:Acts.8.34","osis_end":"eng-GNTD:Acts.8.34","label":"","reference":"Acts
+        8:34","text":"<p class=\"p\"><sup id=\"Acts.8.34\" class=\"v\">34<\/sup>The
+        official asked Philip, \u201cTell me, of whom is the prophet saying this?
+        Of himself or of someone else?\u201d<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Acts.8","name":"Acts
+        8","id":"eng-GNTD:Acts.8"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Acts.8.35","name":"Acts
+        8:35","id":"eng-GNTD:Acts.8.35"}},"previous":{"verse":{"path":"\/verses\/eng-GNTD:Acts.8.32","name":"Acts
+        8:32","id":"eng-GNTD:Acts.8.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>","footnotes":[],"crossreferences":[]}],"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac3d8538e9.74105514'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3d8538e9.74105514\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac3d8538e9.74105514","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac3d8538e9.74105514'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac3d8538e9.74105514\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:57:33 GMT
+recorded_with: VCR 2.6.0

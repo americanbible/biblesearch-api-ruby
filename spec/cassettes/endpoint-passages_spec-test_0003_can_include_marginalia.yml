@@ -1,0 +1,457 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=John%203:16&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:46 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=4yBlulMBIZwr3sB4bcNAAhSfkg%2F4kl0xiC%2FsiZAl5onfF9dJsHrmQ0aAXb8YkRM0KhJiWpDOGEaFudh3NuqBnyABbOcASTzyIFnmq%2Fc%2B4%2FLtOP0Pi0uwIQxWr8BiwE9glKg2IDHsE6TDa9qEqj4Q%2BQqVfbZ4JVqomAvweyYzXG3dHyQXxYMxPfq9RrrAsFJrrCwUQpaTJO%2F3VZU0jBTJQfPRvQVgxM%2B1AaGgi1GUQilu69eYDFCLMK14COyZLdlPYEMSh5zOFbub5bp2uMS%2Fc8wT9Q5WKTPi8LicnME6KXAJTkowLq5dG%2B9XM1TPshIpoG5W0XR49Kg0Ap%2F2%2Fm%2B%2FmnU6jJVotROebZbXmd%2Fzynav48Xu0MaPNK%2F0bdTTjT15;
+        expires=Fri, 13-Oct-2023 20:56:47 GMT; path=/; domain=.bibles.org
+      - abs_session=OJLRFwrSELamX3GaEAGrA99g4yxxknM10y8sbx%2BIGIIVYIyBdlarF79G3vu%2FtPMFqMWSObP5SaHVuLw%2F6xqSwuIK9iMbwZha8n0LoQGjIRp20jbEcU9atvRGnFr50fbeOiPxHoi79MTHaFovDOCvlNvI55l7PTX%2FOxuGHSFTiloH6BooA%2Be5f5rjDUSCcIKxJdkAr4296YZu1wV46uefcxoXwVaXkdbs79wrchtuwdTP90Pe3SeAQJdV%2FLon%2Fs0TG0GWoGoKakEuihzeuJVn%2BI0qJ3lfOrsKpnQlPbNj72M%3D;
+        expires=Fri, 13-Oct-2023 20:56:47 GMT; path=/; domain=.bibles.org
+      - abs_uid=f727da8c9c24136245013ace91cf8dc87c486550; expires=Fri, 13-Oct-2023
+        20:56:47 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:47 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?q%5B0%5D=John%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=4yBlulMBIZwr3sB4bcNAAhSfkg%2F4kl0xiC%2FsiZAl5onfF9dJsHrmQ0aAXb8YkRM0KhJiWpDOGEaFudh3NuqBnyABbOcASTzyIFnmq%2Fc%2B4%2FLtOP0Pi0uwIQxWr8BiwE9glKg2IDHsE6TDa9qEqj4Q%2BQqVfbZ4JVqomAvweyYzXG3dHyQXxYMxPfq9RrrAsFJrrCwUQpaTJO%2F3VZU0jBTJQfPRvQVgxM%2B1AaGgi1GUQilu69eYDFCLMK14COyZLdlPYEMSh5zOFbub5bp2uMS%2Fc8wT9Q5WKTPi8LicnME6KXAJTkowLq5dG%2B9XM1TPshIpoG5W0XR49Kg0Ap%2F2%2Fm%2B%2FmnU6jJVotROebZbXmd%2Fzynav48Xu0MaPNK%2F0bdTTjT15;
+        abs_uid=f727da8c9c24136245013ace91cf8dc87c486550
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:47 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1604'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"KJV","version_abbreviation":"KJV","path":"\/chapters\/KJV:John.3\/verses.js?start=16&end=16","start_verse_id":"KJV:John.3.16","end_verse_id":"KJV:John.3.16","text":"<span
+        class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span>","copyright":"King
+        James Version 1611 (Authorized Version). Copyright status: UK English with
+        BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
+        in UK"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac0fed3cc2.83878962'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac0fed3cc2.83878962\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac0fed3cc2.83878962","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac0fed3cc2.83878962'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac0fed3cc2.83878962\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:48 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?include_marginalia=true&q%5B0%5D=John%203:16&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:47 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=XD4O%2FjBZMvxWi85PWOlvH22DfjM%2FtGGJ1xmU%2FceKf78UA4SZaYBBZx2bLpMIcTtL%2Bi4dF94v%2FYK0Gho4K0QPtnlJR3fjVh5J06oqzVLnpf4efsYFk3zoHh1XPTjcVNYudR%2B8Y9vxTu6XJ27YTaN0HT7Pc6kovO7bBpQtEJZka%2B0CIuZeIrXFdbaGMJhcZZ1YiCnth2GqcNrw0JTVr%2FqZmSO9Nx2U0Qqsio7d3cAC79ysTczjd7uQ2dOSHR8MSWVgccmyXrGKkdsVU%2BoXY%2Bh4CDb3gwEVD%2BtjqjfB%2BVDSCKErS1vZEoeTWaXt9AviJfFQpQtIUTcfhtuRQT9DLfIbFvyySILjfadvmXTKDgWNPqJePf6OaOZoCZCLmhAun0uk;
+        expires=Fri, 13-Oct-2023 20:56:48 GMT; path=/; domain=.bibles.org
+      - abs_session=d%2BIElTk3YwloSBdn3k7cOH0pAhtFrCEQhXMIcUfQG0ELZDqCTHk%2Bo7FInDWkeYtofRgIlQQONWELyf0KMYi0fYE62lPx7jh%2BADmVjORqffka70x7ENqcpRJYDK0ECc8kU2Sgrol2Ln5%2FhKj1n5ZaClfjLOPPiojix9X2HOOEP501Nqyui8j3vIniW%2FW5tcG%2FR61DZf1YMYvjbKhF%2ByZdhdjVOLar1dWtMr5LcYQixGK4QDO8xozDa28GtkR91%2BcNg9mhL1zD5fk0rfJfTDpYVkt%2BFMxbiU9ulw%2BNBaPgyP0%3D;
+        expires=Fri, 13-Oct-2023 20:56:48 GMT; path=/; domain=.bibles.org
+      - abs_uid=71f22227a94f0508b838bc0dc5d80595a47590e5; expires=Fri, 13-Oct-2023
+        20:56:48 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16&include_marginalia=true
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:48 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?include_marginalia=true&q%5B0%5D=John%203:16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=XD4O%2FjBZMvxWi85PWOlvH22DfjM%2FtGGJ1xmU%2FceKf78UA4SZaYBBZx2bLpMIcTtL%2Bi4dF94v%2FYK0Gho4K0QPtnlJR3fjVh5J06oqzVLnpf4efsYFk3zoHh1XPTjcVNYudR%2B8Y9vxTu6XJ27YTaN0HT7Pc6kovO7bBpQtEJZka%2B0CIuZeIrXFdbaGMJhcZZ1YiCnth2GqcNrw0JTVr%2FqZmSO9Nx2U0Qqsio7d3cAC79ysTczjd7uQ2dOSHR8MSWVgccmyXrGKkdsVU%2BoXY%2Bh4CDb3gwEVD%2BtjqjfB%2BVDSCKErS1vZEoeTWaXt9AviJfFQpQtIUTcfhtuRQT9DLfIbFvyySILjfadvmXTKDgWNPqJePf6OaOZoCZCLmhAun0uk;
+        abs_uid=71f22227a94f0508b838bc0dc5d80595a47590e5
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:47 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1640'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16","version":"KJV","version_abbreviation":"KJV","path":"\/chapters\/KJV:John.3\/verses.js?start=16&end=16","start_verse_id":"KJV:John.3.16","end_verse_id":"KJV:John.3.16","text":"<span
+        class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span>","copyright":"King
+        James Version 1611 (Authorized Version). Copyright status: UK English with
+        BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
+        in UK","footnotes":[],"crossreferences":[]}]}},"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac1066ada6.08024518'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac1066ada6.08024518\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac1066ada6.08024518","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac1066ada6.08024518'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac1066ada6.08024518\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:48 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?q%5B0%5D=John%203:16-ff&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:48 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=Usuo77tKI1YTON%2B8Ed0APrazcIYsT1xg7byNlPF0zcNkqJRN79uvVYjLagJ9311ZBbRDnNQlaziqF8L9S31sQPq%2Bxpk%2FYPIR4UKJV3E8BSTtvu13tXU3IcK2sQ9PDNO800U1iWbbJkiUU2LlXy1CN2GzhDBu0IkeVK9dB6q3CUs7WVCA6MGWWaciH12%2FaErU73%2BZJjwPs54MdZs7%2FLyTX2RARIxwqTAdqRA%2FW61zziteY8ENMWgkSEr%2BusuHrzoojOA0bVxgFgKqZSLvyiGbj40%2Fl7sOjUta9rOhawtjVbvL6zMfYvdYCQ2iasY8GJlWQ7O0piV7Al8td1ZWUXytv95lSavAj%2BRHjC6Qp6kzKxUe0w2GGN%2BdlSmAz9y2O9vT;
+        expires=Fri, 13-Oct-2023 20:56:49 GMT; path=/; domain=.bibles.org
+      - abs_session=eowExmx6rFpbZvQDiK4HLr%2BCWjHIBAGP%2FoFQlix1HxODL%2BW04waWJzMyoHbhsyy0VTzT4lYdmDBgvpGnKhI4LJhjnKzy8YWGd209oTSyC4PPh3nNoP2PAQH1QpTCdohwI7Vv2Xdq7Q2akbdZ%2BHnBYF6zxQn1K71Tkllkn0bqEmXNUy8nlEiqxvH52ygmkD9QV%2BL4oxfOdvaA5ex7T1CGRrryXCzT04gC2%2B%2BHirDDQAiAXk3NUXhh%2BkJ%2B6UZffWHmvPxQ3Q%2BccHkDh8ZKY8bl0RYIF4tZ%2Bo4xha943yJCW8s%3D;
+        expires=Fri, 13-Oct-2023 20:56:49 GMT; path=/; domain=.bibles.org
+      - abs_uid=8dd754ce7bac4c2f39be5998a2da9017e59d876d; expires=Fri, 13-Oct-2023
+        20:56:49 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16-ff
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:49 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?q%5B0%5D=John%203:16-ff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=Usuo77tKI1YTON%2B8Ed0APrazcIYsT1xg7byNlPF0zcNkqJRN79uvVYjLagJ9311ZBbRDnNQlaziqF8L9S31sQPq%2Bxpk%2FYPIR4UKJV3E8BSTtvu13tXU3IcK2sQ9PDNO800U1iWbbJkiUU2LlXy1CN2GzhDBu0IkeVK9dB6q3CUs7WVCA6MGWWaciH12%2FaErU73%2BZJjwPs54MdZs7%2FLyTX2RARIxwqTAdqRA%2FW61zziteY8ENMWgkSEr%2BusuHrzoojOA0bVxgFgKqZSLvyiGbj40%2Fl7sOjUta9rOhawtjVbvL6zMfYvdYCQ2iasY8GJlWQ7O0piV7Al8td1ZWUXytv95lSavAj%2BRHjC6Qp6kzKxUe0w2GGN%2BdlSmAz9y2O9vT;
+        abs_uid=8dd754ce7bac4c2f39be5998a2da9017e59d876d
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:49 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '5754'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16-36","version":"KJV","version_abbreviation":"KJV","path":"\/chapters\/KJV:John.3\/verses.js?start=16&end=36","start_verse_id":"KJV:John.3.16","end_verse_id":"KJV:John.3.36","text":"<span
+        class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_17\"> <sup class=\"v43_3_17\">17<\/sup>
+        For God sent not his Son into the world to condemn the world; but that the
+        world through him might be saved.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_18\"> <sup class=\"v43_3_18\">18<\/sup> He that believeth on
+        him is not condemned: but he that believeth not is condemned already, because
+        he hath not believed in the name of the only begotten Son of God.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_19\"> <sup class=\"v43_3_19\">19<\/sup>
+        And this is the condemnation, that light is come into the world, and men loved
+        darkness rather than light, because their deeds were evil.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_20\"> <sup class=\"v43_3_20\">20<\/sup>
+        For every one that doeth evil hateth the light, neither cometh to the light,
+        lest his deeds should be reproved.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_21\"> <sup class=\"v43_3_21\">21<\/sup> But he that doeth truth
+        cometh to the light, that his deeds may be made manifest, that they are wrought
+        in God.<\/span><\/span><span class=\"para\"><span class=\"v43_3_22\"> <sup
+        class=\"v43_3_22\">22<\/sup> After these things came Jesus and his disciples
+        into the land of Jud\u00e6a; and there he tarried with them, and baptized.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_23\"> <sup class=\"v43_3_23\">23<\/sup>
+        And John also was baptizing in \u00c6non near to Salim, because there was
+        much water there: and they came, and were baptized.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_24\"> <sup class=\"v43_3_24\">24<\/sup> For John was not yet
+        cast into prison.<\/span><\/span><span class=\"para\"><span class=\"v43_3_25\">
+        <sup class=\"v43_3_25\">25<\/sup> Then there arose a question between some
+        of John''s disciples and the Jews about purifying.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_26\"> <sup class=\"v43_3_26\">26<\/sup> And they came unto John,
+        and said unto him, Rabbi, he that was with thee beyond Jordan, to whom thou
+        barest witness, behold, the same baptizeth, and all men come to him.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_27\"> <sup class=\"v43_3_27\">27<\/sup>
+        John answered and said, A man can receive nothing, except it be given him
+        from heaven.<\/span><\/span><span class=\"para\"><span class=\"v43_3_28\">
+        <sup class=\"v43_3_28\">28<\/sup> Ye yourselves bear me witness, that I said,
+        I am not the Christ, but that I am sent before him.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_29\"> <sup class=\"v43_3_29\">29<\/sup> He that hath the bride
+        is the bridegroom: but the friend of the bridegroom, which standeth and heareth
+        him, rejoiceth greatly because of the bridegroom''s voice: this my joy therefore
+        is fulfilled.<\/span><\/span><span class=\"para\"><span class=\"v43_3_30\">
+        <sup class=\"v43_3_30\">30<\/sup> He must increase, but I must decrease.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_31\"> <sup class=\"v43_3_31\">31<\/sup>
+        He that cometh from above is above all: he that is of the earth is earthly,
+        and speaketh of the earth: he that cometh from heaven is above all.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_32\"> <sup class=\"v43_3_32\">32<\/sup>
+        And what he hath seen and heard, that he testifieth; and no man receiveth
+        his testimony.<\/span><\/span><span class=\"para\"><span class=\"v43_3_33\">
+        <sup class=\"v43_3_33\">33<\/sup> He that hath received his testimony hath
+        set to his seal that God is true.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_34\"> <sup class=\"v43_3_34\">34<\/sup> For he whom God hath
+        sent speaketh the words of God: for God giveth not the Spirit by measure unto
+        him.<\/span><\/span><span class=\"para\"><span class=\"v43_3_35\"> <sup class=\"v43_3_35\">35<\/sup>
+        The Father loveth the Son, and hath given all things into his hand.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_36\"> <sup class=\"v43_3_36\">36<\/sup>
+        He that believeth on the Son hath everlasting life: and he that believeth
+        not the Son shall not see life; but the wrath of God abideth on him.<\/span><\/span>","copyright":"King
+        James Version 1611 (Authorized Version). Copyright status: UK English with
+        BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
+        in UK"}]}},"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac12010273.08843690'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac12010273.08843690\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac12010273.08843690","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac12010273.08843690'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac12010273.08843690\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:50 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/passages.js?include_marginalia=true&q%5B0%5D=John%203:16-ff&version=KJV
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:49 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=%2FfJVzkHRAsfdUB%2FUiva6qH26VZM7OY1%2FYeTsusXyYY%2BdE%2FnhEOQG2kAu9nF4rolKIL2pKe%2B9k63qZpkFx6FfbZVxxuk8TcKATh4nSeOGQwzxKF%2B7pGNmK77rP1ydqA0t0AUOePUkBWoxhp96XEGVjCgv83RNizvA7RHa5KGmzdvVjq9w9G%2Fz7gvJQAh1xd2tszYUUYNzc3cW3UhQtdau4l%2FE%2BIeNXMnKxjIy6zSC2XomJbMGcSBJfYJcQgvHaHGEGudcyxSYOObLF74md4hJaeOQQMA2SV3JUXoTzAaInkr5h7GhPdmQjir%2BCoHxC1%2FrUaNjwVBLKIgqehPoBuUKPPRV2%2B6PCRvnBZ3onpYq6QLOqSJMI4Vs2h9SvoB9B%2BRU;
+        expires=Fri, 13-Oct-2023 20:56:50 GMT; path=/; domain=.bibles.org
+      - abs_session=HLIE2ilA3Qr8jVIR2mKN6bh9NiE%2FDb%2FeUWLjngnh66KXmVqcuEuPtUQEGkCA8v%2BB894XkiO%2FbZZ26bLzTIApAWZnT%2BX%2BC5TQpwk6pcOAhT6hhgbekZJbce46qFR8gcTTXitq6WkiG47mKhA0aq5IJrXONFoyiEAPqwQcOwXBk01RMKlLVlIYmdvcBnfbcVlnpfbwiaSkKXDluY5InbsbueH0WHGf5GcGqttszb1JX9EBIh0iQIfp7B0Ak%2FcHxBy0XSRxn4VXaXVu0Qod%2F2fa3B%2BsjNM8cHINwgAiXErOLPs%3D;
+        expires=Fri, 13-Oct-2023 20:56:50 GMT; path=/; domain=.bibles.org
+      - abs_uid=63e723c19063b235cd5321b532c5e67f31b6e8f3; expires=Fri, 13-Oct-2023
+        20:56:50 GMT; path=/; domain=.bibles.org
+      Location:
+      - http://bibles.org/v2/KJV/passages.js?q[]=John+3%3A16-ff&include_marginalia=true
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:50 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/KJV/passages.js?include_marginalia=true&q%5B0%5D=John%203:16-ff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - abs_session=%2FfJVzkHRAsfdUB%2FUiva6qH26VZM7OY1%2FYeTsusXyYY%2BdE%2FnhEOQG2kAu9nF4rolKIL2pKe%2B9k63qZpkFx6FfbZVxxuk8TcKATh4nSeOGQwzxKF%2B7pGNmK77rP1ydqA0t0AUOePUkBWoxhp96XEGVjCgv83RNizvA7RHa5KGmzdvVjq9w9G%2Fz7gvJQAh1xd2tszYUUYNzc3cW3UhQtdau4l%2FE%2BIeNXMnKxjIy6zSC2XomJbMGcSBJfYJcQgvHaHGEGudcyxSYOObLF74md4hJaeOQQMA2SV3JUXoTzAaInkr5h7GhPdmQjir%2BCoHxC1%2FrUaNjwVBLKIgqehPoBuUKPPRV2%2B6PCRvnBZ3onpYq6QLOqSJMI4Vs2h9SvoB9B%2BRU;
+        abs_uid=63e723c19063b235cd5321b532c5e67f31b6e8f3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.6
+      Date:
+      - Tue, 15 Oct 2013 20:56:49 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '5790'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"search":{"result":{"type":"passages","passages":[{"display":"John
+        3:16-36","version":"KJV","version_abbreviation":"KJV","path":"\/chapters\/KJV:John.3\/verses.js?start=16&end=36","start_verse_id":"KJV:John.3.16","end_verse_id":"KJV:John.3.36","text":"<span
+        class=\"para\"><span class=\"v43_3_16\"> <sup class=\"v43_3_16\">16<\/sup>
+        For God so loved the world, that he gave his only begotten Son, that whosoever
+        believeth in him should not perish, but have everlasting life.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_17\"> <sup class=\"v43_3_17\">17<\/sup>
+        For God sent not his Son into the world to condemn the world; but that the
+        world through him might be saved.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_18\"> <sup class=\"v43_3_18\">18<\/sup> He that believeth on
+        him is not condemned: but he that believeth not is condemned already, because
+        he hath not believed in the name of the only begotten Son of God.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_19\"> <sup class=\"v43_3_19\">19<\/sup>
+        And this is the condemnation, that light is come into the world, and men loved
+        darkness rather than light, because their deeds were evil.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_20\"> <sup class=\"v43_3_20\">20<\/sup>
+        For every one that doeth evil hateth the light, neither cometh to the light,
+        lest his deeds should be reproved.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_21\"> <sup class=\"v43_3_21\">21<\/sup> But he that doeth truth
+        cometh to the light, that his deeds may be made manifest, that they are wrought
+        in God.<\/span><\/span><span class=\"para\"><span class=\"v43_3_22\"> <sup
+        class=\"v43_3_22\">22<\/sup> After these things came Jesus and his disciples
+        into the land of Jud\u00e6a; and there he tarried with them, and baptized.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_23\"> <sup class=\"v43_3_23\">23<\/sup>
+        And John also was baptizing in \u00c6non near to Salim, because there was
+        much water there: and they came, and were baptized.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_24\"> <sup class=\"v43_3_24\">24<\/sup> For John was not yet
+        cast into prison.<\/span><\/span><span class=\"para\"><span class=\"v43_3_25\">
+        <sup class=\"v43_3_25\">25<\/sup> Then there arose a question between some
+        of John''s disciples and the Jews about purifying.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_26\"> <sup class=\"v43_3_26\">26<\/sup> And they came unto John,
+        and said unto him, Rabbi, he that was with thee beyond Jordan, to whom thou
+        barest witness, behold, the same baptizeth, and all men come to him.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_27\"> <sup class=\"v43_3_27\">27<\/sup>
+        John answered and said, A man can receive nothing, except it be given him
+        from heaven.<\/span><\/span><span class=\"para\"><span class=\"v43_3_28\">
+        <sup class=\"v43_3_28\">28<\/sup> Ye yourselves bear me witness, that I said,
+        I am not the Christ, but that I am sent before him.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_29\"> <sup class=\"v43_3_29\">29<\/sup> He that hath the bride
+        is the bridegroom: but the friend of the bridegroom, which standeth and heareth
+        him, rejoiceth greatly because of the bridegroom''s voice: this my joy therefore
+        is fulfilled.<\/span><\/span><span class=\"para\"><span class=\"v43_3_30\">
+        <sup class=\"v43_3_30\">30<\/sup> He must increase, but I must decrease.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_31\"> <sup class=\"v43_3_31\">31<\/sup>
+        He that cometh from above is above all: he that is of the earth is earthly,
+        and speaketh of the earth: he that cometh from heaven is above all.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_32\"> <sup class=\"v43_3_32\">32<\/sup>
+        And what he hath seen and heard, that he testifieth; and no man receiveth
+        his testimony.<\/span><\/span><span class=\"para\"><span class=\"v43_3_33\">
+        <sup class=\"v43_3_33\">33<\/sup> He that hath received his testimony hath
+        set to his seal that God is true.<\/span><\/span><span class=\"para\"><span
+        class=\"v43_3_34\"> <sup class=\"v43_3_34\">34<\/sup> For he whom God hath
+        sent speaketh the words of God: for God giveth not the Spirit by measure unto
+        him.<\/span><\/span><span class=\"para\"><span class=\"v43_3_35\"> <sup class=\"v43_3_35\">35<\/sup>
+        The Father loveth the Son, and hath given all things into his hand.<\/span><\/span><span
+        class=\"para\"><span class=\"v43_3_36\"> <sup class=\"v43_3_36\">36<\/sup>
+        He that believeth on the Son hath everlasting life: and he that believeth
+        not the Son shall not see life; but the wrath of God abideth on him.<\/span><\/span>","copyright":"King
+        James Version 1611 (Authorized Version). Copyright status: UK English with
+        BFBS additions \u00a9 2011 British and Foreign Bible Society; Crown Copyright
+        in UK","footnotes":[],"crossreferences":[]}]}},"meta":{"fums":"<script>\nvar
+        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac12850214.74892571'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac12850214.74892571\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"525dac12850214.74892571","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac12850214.74892571'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac12850214.74892571\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2013 20:56:50 GMT
+recorded_with: VCR 2.6.0

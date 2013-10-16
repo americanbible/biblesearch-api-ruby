@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/GNT:2Tim.1.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/eng-GNTD:2Tim.1.js?
     body:
       encoding: US-ASCII
       string: ''
@@ -15,95 +15,94 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 16:04:20 GMT
+      - Tue, 15 Oct 2013 20:56:31 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '5643'
+      - '5639'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=E4RUGJ2UubbG4IrJ9SLy%2BpCnZZqwGLyLa4JZZNyC3FpUZNCif5Mlmgczc%2FmIskc2Ick7MPmQhT%2BP1Xss0ru%2FY0IRKqqXyIdwySuey9f26BrhnubISPCt2PycQoHxYaSGXci8esrEDhzpneDk0qrp%2FWrkH6cjF9XhLSoea6wyluF1riWv7GaBY8aD2mOLYdUlLrv3u%2FMmulI2%2FXWPjaqdwqI8yNjaJY%2FsRZt%2FEvUCbz1MyBM7NBmap%2BE7bCcnedToBbPkCsrRN421GFkke7aMCiNiHgw%2B%2B1gvXH6NH0KnqNFQIdLsP%2BDkaeFWTiHo4zVih%2FSeH4G%2B9NvQeEzKkhsvp3o7u%2B3VQyZLmiuJmp6v12IqVvyVqVdIhm%2FebWQRTFmG;
-        expires=Sat, 07-Oct-2023 16:04:21 GMT; path=/; domain=.bibles.org
-      - abs_session=Ue%2BXSANpYv4fyg4q9KzP9C%2BtDosUnl492UAS6WQgI2oFZrxRJJ4NYRiFKekMUgZwXqtQUPuXKhhcuggQZaVfzXXhB%2BS6v7YLXMW3YhtrroVbO9hRRZOeNzXaBov93P8XzcSGYS%2FifH1SqLdkXQoFo0gLUM2Bgn4EMEOGdrOyq3TCzCW%2Fy%2BvhX4i21C5uTxymEcT0YDNpo%2FS9KdCyWA3hQmllKG5Cbo9ncO%2Bis8wLy6w0mJWDedg5QRxqqxtijxWcEO%2BW0LWw2saSwHrKhk7WnfyOWiBk5BMjx1mHAZzzH3s%3D;
-        expires=Sat, 07-Oct-2023 16:04:21 GMT; path=/; domain=.bibles.org
-      - abs_uid=144d92b81b07e72bd95f38218cee24502ccf725d; expires=Sat, 07-Oct-2023
-        16:04:21 GMT; path=/; domain=.bibles.org
+      - abs_session=YP346fQ9U3JdktO64XkafFJHJPKHodblGb%2BujvXE0dhKzZh7pcWMyYUlIeoERl5vYKYNLSx9%2BteIy05u3H4dsPU6yf2EtfSaKdxof3xXqZuElixL9mGYleyluxkMuXyPm%2BBx73svxVvq9ff%2B6hloP1jmwmZgY3sKHojHpi04%2BxcNpWg1xSPNwgYNq9y9oRat9XpyFLjWmvap9p5jMHi2Q2Cha4LdfTnI%2FZ8jRJ76Sqt7KLl7NM0kuLnwPc97iBo1K0B25J5BdQKG1LKlKJdNRtEX4i4WY7sJM%2Fz7HJR%2F7CxWBizj3mffBBUtcGsLLUQ1SHnjZGdxCQ5i3ydM1%2BPNz5iIQaEo3xbXMKBpcXUbwEwwGxyPyY8UpUqZbn6Di32u;
+        expires=Fri, 13-Oct-2023 20:56:31 GMT; path=/; domain=.bibles.org
+      - abs_session=c%2BjO5BVQ1KbmvdeUhzSRYPjkTQfue2XC%2FFJGhoQba%2B9l2WiDO3aE4Jq9C%2FQsoBZpoc3b1Jb5ipltDg1ReTDfq2%2FzXTJLz6wa3NrWoL6bTlExAkcvBp3%2FkVxe2%2FfBm2sHnk8qe2Qsi34cf78tLhaOL5AcloELvWSdDusSseOwXXftZfw7xeatjhwP8GOb6vrXR8H5oVeAt5vSYnOjd%2BR1QgseghvZ7kCLQGMtaU8EO8Mx%2BrcLKF5AEICCFQyBaasQatuROTg53xHeMqRsJbF6BHgm1BdtGnsoOqKCCGsFRBs%3D;
+        expires=Fri, 13-Oct-2023 20:56:31 GMT; path=/; domain=.bibles.org
+      - abs_uid=798da1f5fe3e54339b6c92723a4a4d0203ca2a75; expires=Fri, 13-Oct-2023
+        20:56:31 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","text":"<span
-        class=\"para\"><span class=\"v55_1_1\"> <sup class=\"v55_1_1\">1<\/sup> From
-        Paul, an apostle of Christ Jesus by God''s will, sent to proclaim the promised
-        life which we have in union with Christ Jesus\u2014\n          <\/span><\/span><span
-        class=\"para\"><span class=\"v55_1_2\">\n           <sup class=\"v55_1_2\">2<\/sup>
-        To Timothy, my dear son:\n        <\/span><\/span>  \n        <span class=\"para\"><span
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","text":"<div id=\"2Tim.1\"
+        class=\"chapter\">\n<p class=\"p\"><span class=\"v55_1_1\"><sup id=\"2Tim.1.1\"
+        class=\"v55_1_1\">1<\/sup>From Paul, an apostle of Christ Jesus by God''s
+        will, sent to proclaim the promised life which we have in union with Christ
+        Jesus\u2014<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_2\"><sup id=\"2Tim.1.2\"
+        class=\"v55_1_2\">2<\/sup> To Timothy, my dear son:<\/span><\/p>\n<p class=\"p\"><span
         class=\"v55_1_2\">May God the Father and Christ Jesus our Lord give you grace,
-        mercy, and peace.\n          <\/span><\/span><span class=\"title-passage\"><span>Thanksgiving
-        and Encouragement<\/span><\/span><span class=\"para\"><span class=\"v55_1_3\">
-        <sup class=\"v55_1_3\">3<\/sup> I give thanks to God, whom I serve with a
-        clear conscience, as my ancestors did. I thank him as I remember you always
-        in my prayers night and day.\n          <\/span><span class=\"v55_1_4\"> <sup
-        class=\"v55_1_4\">4<\/sup> I remember your tears, and I want to see you very
-        much, so that I may be filled with joy.\n          <\/span><span class=\"v55_1_5\">\n           <sup
-        class=\"v55_1_5\">5<\/sup> I remember the sincere faith you have, the kind
-        of faith that your grandmother Lois and your mother Eunice also had. I am
-        sure that you have it also.\n          <\/span><span class=\"v55_1_6\"> <sup
-        class=\"v55_1_6\">6<\/sup> For this reason I remind you to keep alive the
-        gift that God gave you when I laid my hands on you.\n          <\/span><span
-        class=\"v55_1_7\"> <sup class=\"v55_1_7\">7<\/sup> For the Spirit that God
-        has given us does not make us timid; instead, his Spirit fills us with power,
-        love, and self-control.\n          <\/span><\/span><span class=\"para\"><span
-        class=\"v55_1_8\"> <sup class=\"v55_1_8\">8<\/sup> Do not be ashamed, then,
-        of witnessing for our Lord; neither be ashamed of me, a prisoner for Christ''s
-        sake. Instead, take your part in suffering for the Good News, as God gives
-        you the strength for it.\n          <\/span><span class=\"v55_1_9\"> <sup
-        class=\"v55_1_9\">9<\/sup> He saved us and called us to be his own people,
-        not because of what we have done, but because of his own purpose and grace.
-        He gave us this grace by means of Christ Jesus before the beginning of time,\n          <\/span><span
-        class=\"v55_1_10\"> <sup class=\"v55_1_10\">10<\/sup> but now it has been
-        revealed to us through the coming of our Savior, Christ Jesus. He has ended
-        the power of death and through the gospel has revealed immortal life.\n          <\/span><\/span><span
-        class=\"para\"><span class=\"v55_1_11\">\n           <sup class=\"v55_1_11\">11<\/sup>
-        God has appointed me as an apostle and teacher to proclaim the Good News,\n          <\/span><span
-        class=\"v55_1_12\"> <sup class=\"v55_1_12\">12<\/sup> and it is for this reason
-        that I suffer these things. But I am still full of confidence, because I know
-        whom I have trusted, and I am sure that he is able to keep safe until that
-        Day what he has entrusted to me.\n          <\/span><span class=\"v55_1_13\">
-        <sup class=\"v55_1_13\">13<\/sup> Hold firmly to the true words that I taught
-        you, as the example for you to follow, and remain in the faith and love that
-        are ours in union with Christ Jesus.\n          <\/span><span class=\"v55_1_14\">
-        <sup class=\"v55_1_14\">14<\/sup> Through the power of the Holy Spirit, who
-        lives in us, keep the good things that have been entrusted to you.\n          <\/span><\/span><span
-        class=\"para\"><span class=\"v55_1_15\"> <sup class=\"v55_1_15\">15<\/sup>
-        You know that everyone in the province of Asia, including Phygelus and Hermogenes,
-        has deserted me.\n          <\/span><span class=\"v55_1_16\"> <sup class=\"v55_1_16\">16<\/sup>
-        May the Lord show mercy to the family of Onesiphorus, because he cheered me
-        up many times. He was not ashamed that I am in prison,\n          <\/span><span
-        class=\"v55_1_17\"> <sup class=\"v55_1_17\">17<\/sup> but as soon as he arrived
-        in Rome, he started looking for me until he found me.\n          <\/span><span
-        class=\"v55_1_18\"> <sup class=\"v55_1_18\">18<\/sup> May the Lord grant him
-        his mercy on that Day! And you know very well how much he did for me in Ephesus.\n          <\/span><\/span>","chapter":"1","id":"GNT:2Tim.1","osis_end":"GNT:2Tim.1.18","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.2","name":"2
-        Timothy 2","id":"GNT:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/GNT:1Tim.6","name":"1
-        Timothy 6","id":"GNT:1Tim.6"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557e850b06f9.65161268'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e850b06f9.65161268\"
+        mercy, and peace.<\/span><\/p>\n<h3 class=\"s\">Thanksgiving and Encouragement<\/h3>\n<p
+        class=\"p\"><span class=\"v55_1_3\"><sup id=\"2Tim.1.3\" class=\"v55_1_3\">3<\/sup>I
+        give thanks to God, whom I serve with a clear conscience, as my ancestors
+        did. I thank him as I remember you always in my prayers night and day. <\/span><span
+        class=\"v55_1_4\"><sup id=\"2Tim.1.4\" class=\"v55_1_4\">4<\/sup>I remember
+        your tears, and I want to see you very much, so that I may be filled with
+        joy. <\/span><span class=\"v55_1_5\"><sup id=\"2Tim.1.5\" class=\"v55_1_5\">5<\/sup>
+        I remember the sincere faith you have, the kind of faith that your grandmother
+        Lois and your mother Eunice also had. I am sure that you have it also. <\/span><span
+        class=\"v55_1_6\"><sup id=\"2Tim.1.6\" class=\"v55_1_6\">6<\/sup>For this
+        reason I remind you to keep alive the gift that God gave you when I laid my
+        hands on you. <\/span><span class=\"v55_1_7\"><sup id=\"2Tim.1.7\" class=\"v55_1_7\">7<\/sup>For
+        the Spirit that God has given us does not make us timid; instead, his Spirit
+        fills us with power, love, and self-control.<\/span><\/p>\n<p class=\"p\"><span
+        class=\"v55_1_8\"><sup id=\"2Tim.1.8\" class=\"v55_1_8\">8<\/sup>Do not be
+        ashamed, then, of witnessing for our Lord; neither be ashamed of me, a prisoner
+        for Christ''s sake. Instead, take your part in suffering for the Good News,
+        as God gives you the strength for it. <\/span><span class=\"v55_1_9\"><sup
+        id=\"2Tim.1.9\" class=\"v55_1_9\">9<\/sup>He saved us and called us to be
+        his own people, not because of what we have done, but because of his own purpose
+        and grace. He gave us this grace by means of Christ Jesus before the beginning
+        of time, <\/span><span class=\"v55_1_10\"><sup id=\"2Tim.1.10\" class=\"v55_1_10\">10<\/sup>but
+        now it has been revealed to us through the coming of our Savior, Christ Jesus.
+        He has ended the power of death and through the gospel has revealed immortal
+        life.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_11\"><sup id=\"2Tim.1.11\"
+        class=\"v55_1_11\">11<\/sup> God has appointed me as an apostle and teacher
+        to proclaim the Good News, <\/span><span class=\"v55_1_12\"><sup id=\"2Tim.1.12\"
+        class=\"v55_1_12\">12<\/sup>and it is for this reason that I suffer these
+        things. But I am still full of confidence, because I know whom I have trusted,
+        and I am sure that he is able to keep safe until that Day what he has entrusted
+        to me.  <\/span><span class=\"v55_1_13\"><sup id=\"2Tim.1.13\" class=\"v55_1_13\">13<\/sup>Hold
+        firmly to the true words that I taught you, as the example for you to follow,
+        and remain in the faith and love that are ours in union with Christ Jesus.
+        <\/span><span class=\"v55_1_14\"><sup id=\"2Tim.1.14\" class=\"v55_1_14\">14<\/sup>Through
+        the power of the Holy Spirit, who lives in us, keep the good things that have
+        been entrusted to you.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_15\"><sup
+        id=\"2Tim.1.15\" class=\"v55_1_15\">15<\/sup>You know that everyone in the
+        province of Asia, including Phygelus and Hermogenes, has deserted me. <\/span><span
+        class=\"v55_1_16\"><sup id=\"2Tim.1.16\" class=\"v55_1_16\">16<\/sup>May the
+        Lord show mercy to the family of Onesiphorus, because he cheered me up many
+        times. He was not ashamed that I am in prison, <\/span><span class=\"v55_1_17\"><sup
+        id=\"2Tim.1.17\" class=\"v55_1_17\">17<\/sup>but as soon as he arrived in
+        Rome, he started looking for me until he found me. <\/span><span class=\"v55_1_18\"><sup
+        id=\"2Tim.1.18\" class=\"v55_1_18\">18<\/sup>May the Lord grant him his mercy
+        on that Day! And you know very well how much he did for me in Ephesus.<\/span><\/p>\n<\/div>\n","chapter":"1","id":"eng-GNTD:2Tim.1","osis_end":"eng-GNTD:2Tim.1.18","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.int","name":"2
+        Timothy int","id":"eng-GNTD:2Tim.int"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dabffcd0e22.85587459'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dabffcd0e22.85587459\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"52557e850b06f9.65161268","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557e850b06f9.65161268'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e850b06f9.65161268\"
+        \/><\/noscript>","fums_tid":"525dabffcd0e22.85587459","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dabffcd0e22.85587459'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dabffcd0e22.85587459\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 16:04:21 GMT
+  recorded_at: Tue, 15 Oct 2013 20:56:32 GMT
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/GNT:2Tim.1.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/eng-GNTD:2Tim.1.js?
     body:
       encoding: US-ASCII
       string: ''
@@ -116,95 +115,94 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 16:04:21 GMT
+      - Tue, 15 Oct 2013 20:56:31 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '5643'
+      - '5639'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=PgMvNoOXzC7F6U02lOPxGEMfLHFCLk5mzAzemGGXHGhZQBr4%2BR2GzkBXANmsF2%2FNQTkZ0YWaMyWg7LiPe5UVTRNxPoDx9K3lvet5H7wtdL%2FsVDFooIuIVwX8DNm9ZyrekGXr3SBHEXACchyglHDFDilZvC%2BD6nFh3SkVFIfgHyF7yC9JfE%2BHRyql3HAhmF9AiI4eFKJJdlsKlbmWRvPM%2BooqUmd4KhdUiTZLbiYwNdkseh51J72YHvnWpbzMGXCezCIBaOX9GoJAdjHhHLuAn8X6z0WO5ke7XXf8LVsObx4%3D;
-        expires=Sat, 07-Oct-2023 16:04:21 GMT; path=/; domain=.bibles.org
-      - abs_session=Wo0tz7lY2OMK0E3eQcfJO5RHhHs8xH4w6rQPuhtsZ%2BsZgODqGWmzc4%2F8fhqfP0QMmh8xvV0HWWD5AldPemA%2FPynzHNyRYafEIf3FUIVFvlkvI4RUHbDeuHiY8hOy7uaMjAV2cf8zJXQ%2BTx55hJWrMjP7shVsErjopfTstezJGN1dmBoY%2B55EdnRASwkfv3cbtp1Cpkh5z9EuPwdcxZtOmwcK%2FIAQ7t62%2FgyyX7WsnajoJKkAu7NOsvxIaSqwks6PtXfjxI6IdEKgeKDcaYYF5oCd78Qr5EVEqeV4PcsR7828g2cVmfjPfYNZn7AYFDspHL1u49HZb1dcVuGK7ieSLOQFpznZRt6k1mWGLTn5aIaJ7ZfpsxDxeUCzOPajvALE;
-        expires=Sat, 07-Oct-2023 16:04:21 GMT; path=/; domain=.bibles.org
-      - abs_uid=67f156840d42e8208f30c8c233148560e6fece79; expires=Sat, 07-Oct-2023
-        16:04:21 GMT; path=/; domain=.bibles.org
+      - abs_session=e2pQJ1gNrGQ2AIBnBdlkH2BWLJQgAJO3hcehA2rJw7RCR%2FEQo1fmHKttLw%2BrnTISPctUU4o102OTGn91cIwxB4qi5Vv%2FYb7Hnc%2F9CdofbD3Yn2ojey%2FvvPx30mGSaDQ1CFnoy0zhlWIfZMufzhS7rOlzthHFrmW9PnziVyUS%2BdvDxFhrhXKfTg79MkmU0jM11UGfOC08vj9EtrI2U5PCaxJe7tQMKlFPtZ1fqD3RiOxxZmGG9xEaYu0cXcNThwLFFa0gt1E9eUeVnbvCKXIKi%2FAbIj1PmFGfsf18%2BLiKOk9ubArTEDFKQOOALdPcPf5dhM%2BnqZa0zzBqtFWXSToUA%2FpT0chDsWIr7TUFnldlZaPXNd9U2m%2Bs4NmUlAqGgrRY;
+        expires=Fri, 13-Oct-2023 20:56:32 GMT; path=/; domain=.bibles.org
+      - abs_session=fHGzVAw6GNEwCjsU2W8tzG6NMdDiL0S4kT%2FKHYCGYYeqH7NJvenD61ooUdgMZgC7emYgcO04qNS%2FefLxBhH4xb4wASWpfk8cadcJbQnfYk3%2FErP00vFoyuRPSQUtrbhe3Caz6mhoUE16JpZ7SYYAlCqA%2BYuQARcYgGuf8k1OE2tJFIJ9vbaSzhUatOr4ZJ8Dc%2FhofuUG8N1dYqwk3StF19puWz40hX6vCW2WqS8oWs7cLnCzDGCZIaOc6hO%2B%2FjFbKb2sjhfeiKfLV3sbqVgmrBDFLnSdSKL7srjlltdf%2F%2FA%3D;
+        expires=Fri, 13-Oct-2023 20:56:32 GMT; path=/; domain=.bibles.org
+      - abs_uid=dd309d3e727ea92cd1d145f409fa506d6fda07f7; expires=Fri, 13-Oct-2023
+        20:56:32 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","text":"<span
-        class=\"para\"><span class=\"v55_1_1\"> <sup class=\"v55_1_1\">1<\/sup> From
-        Paul, an apostle of Christ Jesus by God''s will, sent to proclaim the promised
-        life which we have in union with Christ Jesus\u2014\n          <\/span><\/span><span
-        class=\"para\"><span class=\"v55_1_2\">\n           <sup class=\"v55_1_2\">2<\/sup>
-        To Timothy, my dear son:\n        <\/span><\/span>  \n        <span class=\"para\"><span
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","text":"<div id=\"2Tim.1\"
+        class=\"chapter\">\n<p class=\"p\"><span class=\"v55_1_1\"><sup id=\"2Tim.1.1\"
+        class=\"v55_1_1\">1<\/sup>From Paul, an apostle of Christ Jesus by God''s
+        will, sent to proclaim the promised life which we have in union with Christ
+        Jesus\u2014<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_2\"><sup id=\"2Tim.1.2\"
+        class=\"v55_1_2\">2<\/sup> To Timothy, my dear son:<\/span><\/p>\n<p class=\"p\"><span
         class=\"v55_1_2\">May God the Father and Christ Jesus our Lord give you grace,
-        mercy, and peace.\n          <\/span><\/span><span class=\"title-passage\"><span>Thanksgiving
-        and Encouragement<\/span><\/span><span class=\"para\"><span class=\"v55_1_3\">
-        <sup class=\"v55_1_3\">3<\/sup> I give thanks to God, whom I serve with a
-        clear conscience, as my ancestors did. I thank him as I remember you always
-        in my prayers night and day.\n          <\/span><span class=\"v55_1_4\"> <sup
-        class=\"v55_1_4\">4<\/sup> I remember your tears, and I want to see you very
-        much, so that I may be filled with joy.\n          <\/span><span class=\"v55_1_5\">\n           <sup
-        class=\"v55_1_5\">5<\/sup> I remember the sincere faith you have, the kind
-        of faith that your grandmother Lois and your mother Eunice also had. I am
-        sure that you have it also.\n          <\/span><span class=\"v55_1_6\"> <sup
-        class=\"v55_1_6\">6<\/sup> For this reason I remind you to keep alive the
-        gift that God gave you when I laid my hands on you.\n          <\/span><span
-        class=\"v55_1_7\"> <sup class=\"v55_1_7\">7<\/sup> For the Spirit that God
-        has given us does not make us timid; instead, his Spirit fills us with power,
-        love, and self-control.\n          <\/span><\/span><span class=\"para\"><span
-        class=\"v55_1_8\"> <sup class=\"v55_1_8\">8<\/sup> Do not be ashamed, then,
-        of witnessing for our Lord; neither be ashamed of me, a prisoner for Christ''s
-        sake. Instead, take your part in suffering for the Good News, as God gives
-        you the strength for it.\n          <\/span><span class=\"v55_1_9\"> <sup
-        class=\"v55_1_9\">9<\/sup> He saved us and called us to be his own people,
-        not because of what we have done, but because of his own purpose and grace.
-        He gave us this grace by means of Christ Jesus before the beginning of time,\n          <\/span><span
-        class=\"v55_1_10\"> <sup class=\"v55_1_10\">10<\/sup> but now it has been
-        revealed to us through the coming of our Savior, Christ Jesus. He has ended
-        the power of death and through the gospel has revealed immortal life.\n          <\/span><\/span><span
-        class=\"para\"><span class=\"v55_1_11\">\n           <sup class=\"v55_1_11\">11<\/sup>
-        God has appointed me as an apostle and teacher to proclaim the Good News,\n          <\/span><span
-        class=\"v55_1_12\"> <sup class=\"v55_1_12\">12<\/sup> and it is for this reason
-        that I suffer these things. But I am still full of confidence, because I know
-        whom I have trusted, and I am sure that he is able to keep safe until that
-        Day what he has entrusted to me.\n          <\/span><span class=\"v55_1_13\">
-        <sup class=\"v55_1_13\">13<\/sup> Hold firmly to the true words that I taught
-        you, as the example for you to follow, and remain in the faith and love that
-        are ours in union with Christ Jesus.\n          <\/span><span class=\"v55_1_14\">
-        <sup class=\"v55_1_14\">14<\/sup> Through the power of the Holy Spirit, who
-        lives in us, keep the good things that have been entrusted to you.\n          <\/span><\/span><span
-        class=\"para\"><span class=\"v55_1_15\"> <sup class=\"v55_1_15\">15<\/sup>
-        You know that everyone in the province of Asia, including Phygelus and Hermogenes,
-        has deserted me.\n          <\/span><span class=\"v55_1_16\"> <sup class=\"v55_1_16\">16<\/sup>
-        May the Lord show mercy to the family of Onesiphorus, because he cheered me
-        up many times. He was not ashamed that I am in prison,\n          <\/span><span
-        class=\"v55_1_17\"> <sup class=\"v55_1_17\">17<\/sup> but as soon as he arrived
-        in Rome, he started looking for me until he found me.\n          <\/span><span
-        class=\"v55_1_18\"> <sup class=\"v55_1_18\">18<\/sup> May the Lord grant him
-        his mercy on that Day! And you know very well how much he did for me in Ephesus.\n          <\/span><\/span>","chapter":"1","id":"GNT:2Tim.1","osis_end":"GNT:2Tim.1.18","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.2","name":"2
-        Timothy 2","id":"GNT:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/GNT:1Tim.6","name":"1
-        Timothy 6","id":"GNT:1Tim.6"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557e8579cdb3.68116921'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e8579cdb3.68116921\"
+        mercy, and peace.<\/span><\/p>\n<h3 class=\"s\">Thanksgiving and Encouragement<\/h3>\n<p
+        class=\"p\"><span class=\"v55_1_3\"><sup id=\"2Tim.1.3\" class=\"v55_1_3\">3<\/sup>I
+        give thanks to God, whom I serve with a clear conscience, as my ancestors
+        did. I thank him as I remember you always in my prayers night and day. <\/span><span
+        class=\"v55_1_4\"><sup id=\"2Tim.1.4\" class=\"v55_1_4\">4<\/sup>I remember
+        your tears, and I want to see you very much, so that I may be filled with
+        joy. <\/span><span class=\"v55_1_5\"><sup id=\"2Tim.1.5\" class=\"v55_1_5\">5<\/sup>
+        I remember the sincere faith you have, the kind of faith that your grandmother
+        Lois and your mother Eunice also had. I am sure that you have it also. <\/span><span
+        class=\"v55_1_6\"><sup id=\"2Tim.1.6\" class=\"v55_1_6\">6<\/sup>For this
+        reason I remind you to keep alive the gift that God gave you when I laid my
+        hands on you. <\/span><span class=\"v55_1_7\"><sup id=\"2Tim.1.7\" class=\"v55_1_7\">7<\/sup>For
+        the Spirit that God has given us does not make us timid; instead, his Spirit
+        fills us with power, love, and self-control.<\/span><\/p>\n<p class=\"p\"><span
+        class=\"v55_1_8\"><sup id=\"2Tim.1.8\" class=\"v55_1_8\">8<\/sup>Do not be
+        ashamed, then, of witnessing for our Lord; neither be ashamed of me, a prisoner
+        for Christ''s sake. Instead, take your part in suffering for the Good News,
+        as God gives you the strength for it. <\/span><span class=\"v55_1_9\"><sup
+        id=\"2Tim.1.9\" class=\"v55_1_9\">9<\/sup>He saved us and called us to be
+        his own people, not because of what we have done, but because of his own purpose
+        and grace. He gave us this grace by means of Christ Jesus before the beginning
+        of time, <\/span><span class=\"v55_1_10\"><sup id=\"2Tim.1.10\" class=\"v55_1_10\">10<\/sup>but
+        now it has been revealed to us through the coming of our Savior, Christ Jesus.
+        He has ended the power of death and through the gospel has revealed immortal
+        life.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_11\"><sup id=\"2Tim.1.11\"
+        class=\"v55_1_11\">11<\/sup> God has appointed me as an apostle and teacher
+        to proclaim the Good News, <\/span><span class=\"v55_1_12\"><sup id=\"2Tim.1.12\"
+        class=\"v55_1_12\">12<\/sup>and it is for this reason that I suffer these
+        things. But I am still full of confidence, because I know whom I have trusted,
+        and I am sure that he is able to keep safe until that Day what he has entrusted
+        to me.  <\/span><span class=\"v55_1_13\"><sup id=\"2Tim.1.13\" class=\"v55_1_13\">13<\/sup>Hold
+        firmly to the true words that I taught you, as the example for you to follow,
+        and remain in the faith and love that are ours in union with Christ Jesus.
+        <\/span><span class=\"v55_1_14\"><sup id=\"2Tim.1.14\" class=\"v55_1_14\">14<\/sup>Through
+        the power of the Holy Spirit, who lives in us, keep the good things that have
+        been entrusted to you.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_15\"><sup
+        id=\"2Tim.1.15\" class=\"v55_1_15\">15<\/sup>You know that everyone in the
+        province of Asia, including Phygelus and Hermogenes, has deserted me. <\/span><span
+        class=\"v55_1_16\"><sup id=\"2Tim.1.16\" class=\"v55_1_16\">16<\/sup>May the
+        Lord show mercy to the family of Onesiphorus, because he cheered me up many
+        times. He was not ashamed that I am in prison, <\/span><span class=\"v55_1_17\"><sup
+        id=\"2Tim.1.17\" class=\"v55_1_17\">17<\/sup>but as soon as he arrived in
+        Rome, he started looking for me until he found me. <\/span><span class=\"v55_1_18\"><sup
+        id=\"2Tim.1.18\" class=\"v55_1_18\">18<\/sup>May the Lord grant him his mercy
+        on that Day! And you know very well how much he did for me in Ephesus.<\/span><\/p>\n<\/div>\n","chapter":"1","id":"eng-GNTD:2Tim.1","osis_end":"eng-GNTD:2Tim.1.18","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.int","name":"2
+        Timothy int","id":"eng-GNTD:2Tim.int"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac004e60d3.85037927'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac004e60d3.85037927\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"52557e8579cdb3.68116921","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557e8579cdb3.68116921'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e8579cdb3.68116921\"
+        \/><\/noscript>","fums_tid":"525dac004e60d3.85037927","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac004e60d3.85037927'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac004e60d3.85037927\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 16:04:21 GMT
+  recorded_at: Tue, 15 Oct 2013 20:56:32 GMT
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/books/GNT:2Tim/chapters.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/books/eng-GNTD:2Tim/chapters.js
     body:
       encoding: US-ASCII
       string: ''
@@ -217,59 +215,63 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 16:04:22 GMT
+      - Tue, 15 Oct 2013 20:56:35 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '3060'
+      - '3688'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=FURWh2VJUwZwqtE0W7p9icaxrrjFyL0QPunk7tr%2Bpu5hbIArgQthtAvodgBZeugcC6nZ8H36XxUjI%2BWy81tATKHeALOCQ9llIiNCpPuYZpfx6EE4KxDEq5j%2F4gH3gkHMJFPYX%2FIEtymRPB49jyVaj3QSDAGW3e%2BlBJNSyN4PyBYI0EExJPjC9FaNxlm1dQG754rZkeQAqSpq602AGhx04RNPi0Dvtq5sdh3M7LUzU3ZTkmXoK9jwZPt71YcakgWfHcfMph%2Br1ZnzPolSZaPARJpPqcMxWLFZAJeba0pffouX%2Bb0wxl%2Bjcbz7LE7C4l357pRiST4nO9ENdi%2FxEm%2FChihrAvw73l%2Frcstjd1qiRDOVLNO0j3awwjhOQIcOiB%2Bb;
-        expires=Sat, 07-Oct-2023 16:04:23 GMT; path=/; domain=.bibles.org
-      - abs_session=STxsvw43az%2BFeu8BVi0UDCNFKhrxOVqHQU3SVOid4%2BqgIbQmwBKp2JDQtHCJebHaKt8xMu1PbxxgrGPBBz3DHk%2BuJy1RdRSTM4gqwJB16r4kBRuPtljqXXIF3aSw1wLuilcoVZjEASlfyOs%2FeSRuv6Fgauj%2FJ7hS8GXlFS%2Fx19rHuMMGcnGVZjeB15T7r4D4j0UnGf3OwsTLPS7k3UEA%2BgbhyDa%2BXQn%2BXbS8ZDPciPqTF0NJGvIZDBahxAXrBVXsqjhnxUjqBTG2MKKqco7MeWbB0hvsrBIYfwEsEzTN6TA%3D;
-        expires=Sat, 07-Oct-2023 16:04:23 GMT; path=/; domain=.bibles.org
-      - abs_uid=c78722cbbb8f170882db964b69dd913d379fa8a6; expires=Sat, 07-Oct-2023
-        16:04:23 GMT; path=/; domain=.bibles.org
+      - abs_session=pspFzitT8IstCpYEV%2FJg1ElcfUb7u3I4am03bBjI3jh%2BxyqEIEUHlz5CtI8mMkKxYqrDImn5wt9Vn4iduyUbBir%2FYqKkggq94%2F%2BZN%2FMl2EAblnUMfFPCCunPZJWTeWyX%2BaxMVB8tCM61UxWIIBE1wj4SSO2cJ4bUPolJyuPSNwFTn5CRPeq2nFsNr%2F8TcH4gMBoFUEEiPpdjWtReCpfC8vlsukU297HKVzivvdiAP2I7bsjXrOuz%2BK5aV0dbwASt%2BPsKHEL6Nb2WpYTv6yrCQegM5dEExdIDyYP7tXY4%2FZY%3D;
+        expires=Fri, 13-Oct-2023 20:56:36 GMT; path=/; domain=.bibles.org
+      - abs_session=ynjQZz0zWc89lRS0nG5XxnjFoKO0pFbVD%2F6QDMiMX8RB%2F1WDeowLlwP8Qmhr9ZuaLqNuGnF8GjZT1KdgKsiVqGveULCT7S8DjgijaclJU3fi6Vit11%2BB7W83DewPK3fsyyWZJNdoe0%2FOk5b1uRe7ooh6uyBHthFOS8CpbMkY6RrGJ9d%2BprqeEGTzyPlI3YeB1bxOta0lZQtSNR1PRo3Ji4%2BrZpk1zsBnVQo2fhaRDraXXLNWEnZf1uFM8WpYL6IG2FBarRPtlEQ%2Fs6tbHizCxfphuV2zT67rhRo2hy3tuEVkV18UgdEVEkeil6jHT34BGOgj31snj%2BDamHqbLTQnwE1QFpY%2BqHVzhJBgGPcBP1BKoM%2BsFqk5wZ7M0%2BiHXfAh;
+        expires=Fri, 13-Oct-2023 20:56:36 GMT; path=/; domain=.bibles.org
+      - abs_uid=a2cc5c4c511a19e1a19585cdd42c4818deb684b7; expires=Fri, 13-Oct-2023
+        20:56:36 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","chapter":"1","id":"GNT:2Tim.1","osis_end":"GNT:2Tim.1.18","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.2","name":"2
-        Timothy 2","id":"GNT:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/GNT:1Tim.6","name":"1
-        Timothy 6","id":"GNT:1Tim.6"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."},{"auditid":"0","label":"","chapter":"2","id":"GNT:2Tim.2","osis_end":"GNT:2Tim.2.26","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.3","name":"2
-        Timothy 3","id":"GNT:2Tim.3"}},"previous":{"chapter":{"path":"\/chapters\/GNT:2Tim.1","name":"2
-        Timothy 1","id":"GNT:2Tim.1"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."},{"auditid":"0","label":"","chapter":"3","id":"GNT:2Tim.3","osis_end":"GNT:2Tim.3.17","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.4","name":"2
-        Timothy 4","id":"GNT:2Tim.4"}},"previous":{"chapter":{"path":"\/chapters\/GNT:2Tim.2","name":"2
-        Timothy 2","id":"GNT:2Tim.2"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."},{"auditid":"0","label":"","chapter":"4","id":"GNT:2Tim.4","osis_end":"GNT:2Tim.4.22","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:Titus.1","name":"Titus
-        1","id":"GNT:Titus.1"}},"previous":{"chapter":{"path":"\/chapters\/GNT:2Tim.3","name":"2
-        Timothy 3","id":"GNT:2Tim.3"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557e871a07f2.73920241'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e871a07f2.73920241\"
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","chapter":"int","id":"eng-GNTD:2Tim.int","osis_end":"eng-GNTD:2Tim.int.int","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.1","name":"2
+        Timothy 1","id":"eng-GNTD:2Tim.1"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:1Tim.6","name":"1
+        Timothy 6","id":"eng-GNTD:1Tim.6"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"1","id":"eng-GNTD:2Tim.1","osis_end":"eng-GNTD:2Tim.1.18","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.int","name":"2
+        Timothy int","id":"eng-GNTD:2Tim.int"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"2","id":"eng-GNTD:2Tim.2","osis_end":"eng-GNTD:2Tim.2.26","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.3","name":"2
+        Timothy 3","id":"eng-GNTD:2Tim.3"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.1","name":"2
+        Timothy 1","id":"eng-GNTD:2Tim.1"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"3","id":"eng-GNTD:2Tim.3","osis_end":"eng-GNTD:2Tim.3.17","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.4","name":"2
+        Timothy 4","id":"eng-GNTD:2Tim.4"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"4","id":"eng-GNTD:2Tim.4","osis_end":"eng-GNTD:2Tim.4.22","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Titus.int","name":"Titus
+        int","id":"eng-GNTD:Titus.int"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.3","name":"2
+        Timothy 3","id":"eng-GNTD:2Tim.3"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac045b1332.01774552'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac045b1332.01774552\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"52557e871a07f2.73920241","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557e871a07f2.73920241'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e871a07f2.73920241\"
+        \/><\/noscript>","fums_tid":"525dac045b1332.01774552","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac045b1332.01774552'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac045b1332.01774552\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 16:04:23 GMT
+  recorded_at: Tue, 15 Oct 2013 20:56:36 GMT
 - request:
     method: get
-    uri: http://<%= api_key %>:X@bibles.org/v2/books/GNT:2Tim/chapters.js
+    uri: http://<%= api_key %>:X@bibles.org/v2/books/eng-GNTD:2Tim/chapters.js
     body:
       encoding: US-ASCII
       string: ''
@@ -282,54 +284,58 @@ http_interactions:
       Server:
       - nginx/1.2.6
       Date:
-      - Wed, 09 Oct 2013 16:04:22 GMT
+      - Tue, 15 Oct 2013 20:56:35 GMT
       Content-Type:
       - application/javascript
       Content-Length:
-      - '3060'
+      - '3688'
       Connection:
       - keep-alive
       X-Powered-By:
       - PHP/5.3.23
       Set-Cookie:
-      - abs_session=pdHn%2BoklHmHoXzPbTJ8RXqheKXnS6BVEvlUNHXQ9rgtI%2F9frnl3wC3iGMEyyTuZSNgBzNx6TahRNiaiUWnOX2sZRGP69CyRAmiyWcfF0tpsMsHPtNGnx8TUHzMTC0D23S3qzc3crhWtRRxF6o9A7bqcx9pRHWAaSrTKLFncSO5NDUXDaSb1rXvpsvPsGwvqwWHcjTO9%2Fsj9ba%2BpDCeZz0cdtg6QFAJfh726wIQdpbMPm0gfqWFUTEFvbcSzUyNg4tKE57ae3XhYZP%2BJJHfWhmIpchPTnYYDWJsbwcBMfmajD1rYsoWAolZKmf3TfJeZskpbcGKtdhEmuzmr0CX0zEOaGH73Swayrgl7naWvxGfbLDGWXt%2FYksiI4NOUirQGs;
-        expires=Sat, 07-Oct-2023 16:04:23 GMT; path=/; domain=.bibles.org
-      - abs_session=su8UinNNYg5J%2BAEcWBNvLsWik%2FSRJGTXFDf50b%2FxVolufUx994D7z5zshkgxQZP6P7R6z5p6B9EpH8k1hEzg6ArKPkaKm%2B79SZRORYid%2FwLTAGGh06hUK6xOwGoZKAwrinSdkUjX3xE51K4LyYB5dt7zYCitW8SURJnl3ZJ3YUx%2FV0PuYl84yzY5cgV%2Fn8llvcscXFKqzE0lHAp096CaVwFfacmaLPJ%2FyZULo1Z%2BECPDr1OJb0uyWZXdcLT6P31qU7tBcAMF2%2FYw2%2BueIGHIZ0TgpXHmqG4wvXKoiI0ebNI%3D;
-        expires=Sat, 07-Oct-2023 16:04:23 GMT; path=/; domain=.bibles.org
-      - abs_uid=44572aa02503b8fd8c6a692b93400d965123580d; expires=Sat, 07-Oct-2023
-        16:04:23 GMT; path=/; domain=.bibles.org
+      - abs_session=QZy5LzurMju3EXZYeTRE2Q%2FyNZiIkG8Na%2Bt7FMFy03MZMCg5lTrbp07Fl61aucTg8GUL1DpU8CV7dM9ly66uN%2FkrY3MRwmbwo6DZlCAwHEHspwLD753ZCPo9sBMIsJLsmDtb7mj%2F%2FF%2B6kcOSym60PYZbRjdr%2BN2h%2B8R4IGp1NgbfUg7nks67gRYdueb0VSy8zafX1F07hVN9Ya%2BDWJJ%2FzKlBMyVzldaovar6w%2BgCZit9xFnmu6nkEPtGFgPxRNuG1dCyb4Cz0PRE%2BNkS6i7UEc3%2BcjjcshYFUM73%2B4XBhe7uAtFHhW656dLKp1Ql8T2oyqdDvQad4zzhjX%2BBlTYT8J0t2Q%2BrrI3DmgW%2FgWeFB3o9HoPx8cNKCpMylU0BGj82;
+        expires=Fri, 13-Oct-2023 20:56:36 GMT; path=/; domain=.bibles.org
+      - abs_session=yz01Yiix%2BWLNpU3Ph7PedqIEWeGN6MCNXXLLttnKnsrZL4tn%2BcfAhjHQxxodsX%2BYOujY6Cu20lHsUk1Z0NEriQnDST3crvDoRB5JxRSf3Pizwn0UYATSUmy%2Fd5fUzmu6ZKjpZRy0EKH3Z0WATuF2Im%2BUTpn7z0V3C4E6p785XX78VF3VuFCiiXM4QocNDpWHZ9FJIudimbqz%2BMe9tItKzaakZ%2B3y0pGGU08y6gHRcz1TucJnQTmRCbqTYTQON%2F604gX%2FIBKZAQRKSUgmCVVbUbCoXft0QKR4JFo6tUvcx%2FY%3D;
+        expires=Fri, 13-Oct-2023 20:56:36 GMT; path=/; domain=.bibles.org
+      - abs_uid=305fa9cb3d6b00477c779b67941cd4e57f961956; expires=Fri, 13-Oct-2023
+        20:56:36 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","chapter":"1","id":"GNT:2Tim.1","osis_end":"GNT:2Tim.1.18","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.2","name":"2
-        Timothy 2","id":"GNT:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/GNT:1Tim.6","name":"1
-        Timothy 6","id":"GNT:1Tim.6"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."},{"auditid":"0","label":"","chapter":"2","id":"GNT:2Tim.2","osis_end":"GNT:2Tim.2.26","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.3","name":"2
-        Timothy 3","id":"GNT:2Tim.3"}},"previous":{"chapter":{"path":"\/chapters\/GNT:2Tim.1","name":"2
-        Timothy 1","id":"GNT:2Tim.1"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."},{"auditid":"0","label":"","chapter":"3","id":"GNT:2Tim.3","osis_end":"GNT:2Tim.3.17","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:2Tim.4","name":"2
-        Timothy 4","id":"GNT:2Tim.4"}},"previous":{"chapter":{"path":"\/chapters\/GNT:2Tim.2","name":"2
-        Timothy 2","id":"GNT:2Tim.2"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."},{"auditid":"0","label":"","chapter":"4","id":"GNT:2Tim.4","osis_end":"GNT:2Tim.4.22","parent":{"book":{"path":"\/books\/GNT:2Tim","name":"2
-        Timothy","id":"GNT:2Tim"}},"next":{"chapter":{"path":"\/chapters\/GNT:Titus.1","name":"Titus
-        1","id":"GNT:Titus.1"}},"previous":{"chapter":{"path":"\/chapters\/GNT:2Tim.3","name":"2
-        Timothy 3","id":"GNT:2Tim.3"}},"copyright":"Scripture taken from the Good
-        News Translation in Today''s English Version- Second Edition Copyright &copy;
-        1992 by American Bible Society. Used by Permission."}],"meta":{"fums":"<script>\nvar
-        _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
-        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''52557e875a7366.93368149'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
-        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e875a7366.93368149\"
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","chapter":"int","id":"eng-GNTD:2Tim.int","osis_end":"eng-GNTD:2Tim.int.int","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.1","name":"2
+        Timothy 1","id":"eng-GNTD:2Tim.1"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:1Tim.6","name":"1
+        Timothy 6","id":"eng-GNTD:1Tim.6"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"1","id":"eng-GNTD:2Tim.1","osis_end":"eng-GNTD:2Tim.1.18","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.int","name":"2
+        Timothy int","id":"eng-GNTD:2Tim.int"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"2","id":"eng-GNTD:2Tim.2","osis_end":"eng-GNTD:2Tim.2.26","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.3","name":"2
+        Timothy 3","id":"eng-GNTD:2Tim.3"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.1","name":"2
+        Timothy 1","id":"eng-GNTD:2Tim.1"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"3","id":"eng-GNTD:2Tim.3","osis_end":"eng-GNTD:2Tim.3.17","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.4","name":"2
+        Timothy 4","id":"eng-GNTD:2Tim.4"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"},{"auditid":"0","label":"","chapter":"4","id":"eng-GNTD:2Tim.4","osis_end":"eng-GNTD:2Tim.4.22","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:Titus.int","name":"Titus
+        int","id":"eng-GNTD:Titus.int"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.3","name":"2
+        Timothy 3","id":"eng-GNTD:2Tim.3"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''525dac04cf6599.50341069'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac04cf6599.50341069\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
-        \/><\/noscript>","fums_tid":"52557e875a7366.93368149","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
-        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''52557e875a7366.93368149'');
-        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=52557e875a7366.93368149\"
+        \/><\/noscript>","fums_tid":"525dac04cf6599.50341069","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''525dac04cf6599.50341069'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=525dac04cf6599.50341069\"
         height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
         \/>"}}}'
     http_version: 
-  recorded_at: Wed, 09 Oct 2013 16:04:23 GMT
+  recorded_at: Tue, 15 Oct 2013 20:56:36 GMT
 recorded_with: VCR 2.6.0

@@ -1,4 +1,10 @@
 language: ruby
 rvm:
-  - "1.9.3"
-  - "2.0.0"
+- 1.9.3
+- 2.0.0
+notifications:
+  hipchat:
+    rooms:
+      secure: WfUu7pViMsCPwe/eGKViF0y37PnqiyLWzxr+OAn4GHWmSKpbdBtzBy/QbPVuxzERMjAQFljt+U7f9Ix8PjQHN3tuDJuLxVhv+8yYiQf1yvFbSuMV9Sk/hJdSUu6itW6tb5sm75fHxe//UuJT03qS0N1vRXbZwPu6hrt6UOsmie4=
+    template:
+      - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}'
