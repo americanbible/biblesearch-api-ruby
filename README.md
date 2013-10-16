@@ -54,7 +54,7 @@ chapter = biblesearch.chapter(:version_id => 'spa-TLA', :book_id => '2Tim', :cha
 chatper = biblesearch.chapter('spa-TLA:2Tim.1')
 
 # Let's get some verses
-verses = biblesearch.verses("CEV:John.1","16","17")
+verses = biblesearch.verses("eng-CEV:John.1","16","17")
 # A single verse can be specified as a hash ...
 verse = biblesearch.verse(:version_id => 'spa-TLA', :book_id => 'Acts', :chapter => '8', :verse => '34')
 # ... or as a string
