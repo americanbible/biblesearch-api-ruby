@@ -20,11 +20,15 @@ For development document #TODO:
 
 ### Cassettes
 
-If you're working on a set of tests and want them to always hit the API, put this in their before
+If you're working on a set of tests and want them to always hit the API, put this in their before. Don't forget to remove it when done.
 
     VCR.insert_cassette %{endpoint-#{File.basename(__FILE__, '.rb')}-#{__name__}}, record: :all
 
 ### Focus and xDescribe
+
+`xdescribe` lets you omit example groups.
+
+The `rake test:focus` task lets you filter the minitests runs during development.
 
 ### Guard
 
