@@ -1,13 +1,13 @@
 # BibleSearch::API
 
-Ruby wrapper for [BibleSearch API (bibles.org)](http://bibles.org).
+Ruby wrapper for [BibleSearch API](http://tools.bibles.org). An example Rails application is at [biblesearch-example-rails](https://github.com/americanbible/biblesearch-example-rails).
 
 ## Status
 
 Gem hosted at [RubyGems](http://rubygems.org/gems/biblesearch-api), API docs at [RubyDoc](http://rubydoc.info/gems/biblesearch-api).
 
-* Stable Version (1.1.0): [![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png?branch=master)](https://travis-ci.org/americanbible/biblesearch-api-ruby)
-* Development Version: [![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png?branch=develop)](https://travis-ci.org/americanbible/biblesearch-api-ruby)
+* [![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png?branch=master)](https://travis-ci.org/americanbible/biblesearch-api-ruby): Stable Version
+* [![Build Status](https://travis-ci.org/americanbible/biblesearch-api-ruby.png?branch=develop)](https://travis-ci.org/americanbible/biblesearch-api-ruby): Development Version
 
 ## Installation
 
