@@ -72,7 +72,7 @@ passages = biblesearch.passages('john 3:16', :versions => ['eng-KJVA', 'eng-CEV'
 
 ### Return values
 
-All methods return a Hashie::Mash, and all of these mashes respond to #fums, which contains a string describing the FUMS for the call that was made.
+All methods return a [Hashie::Mash](https://github.com/intridea/hashie#mash), and all of these mashes respond to #fums, which contains a string describing the FUMS for the call that was made.
 
 Plural calls (#passages, #versions, #search, etc) respond to #collection with an array of mashes.
 
