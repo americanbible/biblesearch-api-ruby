@@ -111,5 +111,6 @@ As of this release, the following MRI versions are verified as supported:
 
 * 1.9.3
 * 2.0.0
+* 2.1.3
 
 In order to test against all of them, an "test:overtest" rake task is supplied that uses RVM to test against each of the supported versions. You will, however, have to bundle against each of them independently.

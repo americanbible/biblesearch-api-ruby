@@ -10,10 +10,12 @@ require 'rake/clean'
 CLOBBER.include('spec/cassettes/*.yml')
 
 RUBY_TEST_VERSIONS = [
-  '1.8.7',
-  '1.9.2-p180',
-  '1.9.3'
+  '1.9.3',
+  '2.0.0',
+  '2.1.3'
 ]
+
+task default: "test:all"
 
 namespace "test" do
 
@@ -36,8 +38,5 @@ namespace "test" do
     system "rvm #{RUBY_TEST_VERSIONS.map{|x| "#{x}@biblesearch-api"}.join(',')} do bundle exec rake test"
   end
 
-
 end
-
-task :default => "test:all"
 

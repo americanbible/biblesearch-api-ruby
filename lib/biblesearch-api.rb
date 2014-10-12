@@ -12,7 +12,7 @@ require 'httparty'
 
 directory = File.expand_path(File.dirname(__FILE__))
 
-Hash.send :include, Hashie::HashExtensions
+Hash.send :include, Hashie::Extensions
 
 class BibleSearchError < StandardError
   attr_reader :data
