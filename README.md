@@ -97,7 +97,7 @@ export BIBLESEARCH_API_KEY=YOUR_API_KEY
 
 with `YOUR_API_KEY` replaced by your actual API key.  Without exporting the key, some of the tests will fail.
 
-This environment variable is imported by the [spec_helper.rb](/americanbible/biblesearch-api-ruby/blob/master/spec/spec_helper.rb) file and used by several of the tests.
+This environment variable is imported by the `spec_helper.rb` file and used by several of the tests.
 
 ### Running Tests
 
