@@ -338,4 +338,208 @@ http_interactions:
         \/>"}}}'
     http_version: 
   recorded_at: Tue, 15 Oct 2013 20:56:36 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/eng-GNTD:2Tim.1.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.7
+      Date:
+      - Sun, 12 Oct 2014 22:16:19 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '5639'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.29
+      Set-Cookie:
+      - abs_session=5gJi7IGrTTnIu9bw9g5wk7knhnmYVzt01kNWKkydKFnwjl%2FBlwBa4G%2Bspz%2F3Z3hw8Ht5I2DKjvEFok%2FdxtD%2FcHjAuFR3ZBk0ZTp70x85maoTRqkHst9nBIjdV5c0B%2FHmfBAaJj1pKahOkmwpnlpkxiaTN1GCd8esOsreuhZ1MCp1iPWHtnfBfeL4p6xC7EGfia8hkQROuWbC8Gsl5hxC%2FY6YsOzXWSjl3NGbsg3zICSB%2Fw%2BBF8r702R4TlyS%2FRRKoor%2B5oWA4DzMS9cFCb7PbHv55DLg6M%2Bdnsqh6eaIaa1fq9pTD%2BfEUrvlAceo3iQJwDCYATQdmRXb5lOzSJzk9K6k6MX6lH8O8yHOzmJKnupSnJu9eQ4Br62tQmjKOBhQ;
+        expires=Wed, 09-Oct-2024 22:16:21 GMT; path=/; domain=.bibles.org
+      - abs_session=7ObYqRchl9r6K7iStqlHQMeQbovnW0riKyKMWuN24qN2mwYs5HLqwJs%2BrU5NreEodEYrpDEvQqdZFFq1vh6L7C9wjI1jnzYfWsPgivADQbkOIge73L2WgHyt0cQkUUk32WxkWb8E0HcZXv%2BeN047ep698p%2Fmoux5LJuNaV6F2fWvk2E%2BVj%2BTmCj5zcb%2FxNtDtTf42qRyNIdwg9BPcQOXmrulvgLTwuqH8s91ocZ7fIfIQgVfoemzg49thVzS0087jUVc8BHW%2BvFXYUcyVeXXOR5T%2FiJv6xM8UZfHZ1mKHPI%3D;
+        expires=Wed, 09-Oct-2024 22:16:21 GMT; path=/; domain=.bibles.org
+      - abs_uid=a8f661bd66244c01bf946c8d9636cfa407930e88; expires=Wed, 09-Oct-2024
+        22:16:21 GMT; path=/; domain=.bibles.org
+      P3p:
+      - CP="IEFIX"
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","text":"<div id=\"2Tim.1\"
+        class=\"chapter\">\n<p class=\"p\"><span class=\"v55_1_1\"><sup id=\"2Tim.1.1\"
+        class=\"v55_1_1\">1<\/sup>From Paul, an apostle of Christ Jesus by God''s
+        will, sent to proclaim the promised life which we have in union with Christ
+        Jesus\u2014<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_2\"><sup id=\"2Tim.1.2\"
+        class=\"v55_1_2\">2<\/sup> To Timothy, my dear son:<\/span><\/p>\n<p class=\"p\"><span
+        class=\"v55_1_2\">May God the Father and Christ Jesus our Lord give you grace,
+        mercy, and peace.<\/span><\/p>\n<h3 class=\"s\">Thanksgiving and Encouragement<\/h3>\n<p
+        class=\"p\"><span class=\"v55_1_3\"><sup id=\"2Tim.1.3\" class=\"v55_1_3\">3<\/sup>I
+        give thanks to God, whom I serve with a clear conscience, as my ancestors
+        did. I thank him as I remember you always in my prayers night and day. <\/span><span
+        class=\"v55_1_4\"><sup id=\"2Tim.1.4\" class=\"v55_1_4\">4<\/sup>I remember
+        your tears, and I want to see you very much, so that I may be filled with
+        joy. <\/span><span class=\"v55_1_5\"><sup id=\"2Tim.1.5\" class=\"v55_1_5\">5<\/sup>
+        I remember the sincere faith you have, the kind of faith that your grandmother
+        Lois and your mother Eunice also had. I am sure that you have it also. <\/span><span
+        class=\"v55_1_6\"><sup id=\"2Tim.1.6\" class=\"v55_1_6\">6<\/sup>For this
+        reason I remind you to keep alive the gift that God gave you when I laid my
+        hands on you. <\/span><span class=\"v55_1_7\"><sup id=\"2Tim.1.7\" class=\"v55_1_7\">7<\/sup>For
+        the Spirit that God has given us does not make us timid; instead, his Spirit
+        fills us with power, love, and self-control.<\/span><\/p>\n<p class=\"p\"><span
+        class=\"v55_1_8\"><sup id=\"2Tim.1.8\" class=\"v55_1_8\">8<\/sup>Do not be
+        ashamed, then, of witnessing for our Lord; neither be ashamed of me, a prisoner
+        for Christ''s sake. Instead, take your part in suffering for the Good News,
+        as God gives you the strength for it. <\/span><span class=\"v55_1_9\"><sup
+        id=\"2Tim.1.9\" class=\"v55_1_9\">9<\/sup>He saved us and called us to be
+        his own people, not because of what we have done, but because of his own purpose
+        and grace. He gave us this grace by means of Christ Jesus before the beginning
+        of time, <\/span><span class=\"v55_1_10\"><sup id=\"2Tim.1.10\" class=\"v55_1_10\">10<\/sup>but
+        now it has been revealed to us through the coming of our Savior, Christ Jesus.
+        He has ended the power of death and through the gospel has revealed immortal
+        life.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_11\"><sup id=\"2Tim.1.11\"
+        class=\"v55_1_11\">11<\/sup> God has appointed me as an apostle and teacher
+        to proclaim the Good News, <\/span><span class=\"v55_1_12\"><sup id=\"2Tim.1.12\"
+        class=\"v55_1_12\">12<\/sup>and it is for this reason that I suffer these
+        things. But I am still full of confidence, because I know whom I have trusted,
+        and I am sure that he is able to keep safe until that Day what he has entrusted
+        to me.  <\/span><span class=\"v55_1_13\"><sup id=\"2Tim.1.13\" class=\"v55_1_13\">13<\/sup>Hold
+        firmly to the true words that I taught you, as the example for you to follow,
+        and remain in the faith and love that are ours in union with Christ Jesus.
+        <\/span><span class=\"v55_1_14\"><sup id=\"2Tim.1.14\" class=\"v55_1_14\">14<\/sup>Through
+        the power of the Holy Spirit, who lives in us, keep the good things that have
+        been entrusted to you.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_15\"><sup
+        id=\"2Tim.1.15\" class=\"v55_1_15\">15<\/sup>You know that everyone in the
+        province of Asia, including Phygelus and Hermogenes, has deserted me. <\/span><span
+        class=\"v55_1_16\"><sup id=\"2Tim.1.16\" class=\"v55_1_16\">16<\/sup>May the
+        Lord show mercy to the family of Onesiphorus, because he cheered me up many
+        times. He was not ashamed that I am in prison, <\/span><span class=\"v55_1_17\"><sup
+        id=\"2Tim.1.17\" class=\"v55_1_17\">17<\/sup>but as soon as he arrived in
+        Rome, he started looking for me until he found me. <\/span><span class=\"v55_1_18\"><sup
+        id=\"2Tim.1.18\" class=\"v55_1_18\">18<\/sup>May the Lord grant him his mercy
+        on that Day! And you know very well how much he did for me in Ephesus.<\/span><\/p>\n<\/div>\n","chapter":"1","id":"eng-GNTD:2Tim.1","osis_end":"eng-GNTD:2Tim.1.18","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.int","name":"2
+        Timothy int","id":"eng-GNTD:2Tim.int"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''543afdb519b5b4.85408113'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=543afdb519b5b4.85408113\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"543afdb519b5b4.85408113","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''543afdb519b5b4.85408113'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=543afdb519b5b4.85408113\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Sun, 12 Oct 2014 22:16:22 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/chapters/eng-GNTD:2Tim.1.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.7
+      Date:
+      - Sun, 12 Oct 2014 22:16:20 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '5639'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.29
+      Set-Cookie:
+      - abs_session=7FeZWjBP27ptYypZxov5S5llnxmKWqz8RvwsSekj3vLQFg2IXVyIpCfe0JSVomEG6tIHcxf3mXNeo4nhly8eSeMOVK%2BF8RxU%2BPq67jjMlNqMnr9bQ1SF5Q%2FLbpEr%2FHzM6aNs%2FeW2V7jR1Dluv%2BWl8Mim4sVc%2Fp2zzks6o2dbi9E6xUD8mtMXR8V5W8FnSQZ8blFVVXIy9yldNEfK8aNdyX5oQqf4RSGgO8HHoHhYrfu4BlylLqRYeZ%2BXdlomMohK8%2F1rVsgZdt6r2qWuvZvMlTMA%2BDZrtEg%2F4UhrkFWaorw%3D;
+        expires=Wed, 09-Oct-2024 22:16:22 GMT; path=/; domain=.bibles.org
+      - abs_session=zUHBFr6ZtsSe9h7lvh%2FzlbvJ1m9o0gC1rws26feiRhY44o2ciaMyOld8%2F4xmZ%2FeOWFi0KdJHDMwFBDue1gLle2bEsqGuXzPYugonpoDHixgAUfT8w68yoUVW5rdWSIbsYvr6Wu5Kyntt74U9%2F1rtzPNb2ekX8FKy1I80VgekfTLDKAsBNhX22msHZfLD%2BKTleIuxbHSoUGN3%2FebOnIao6NbEO%2B%2B0Wx%2F7qCt%2FVwF7tBvBxiW6%2FQgaVjIcOOnJg%2FEgLevJ6i3qkViwUQ4464p6Mw1ZmD9b3sVlIuXdHbKJGRhEHCFYbVZ8Xx7KWyWhjdGgdJQ3KXSA6PW09ODLj2%2FdRM2vbKH6Ql23Oa9imhxag3IHWFgFBP7uNfdZD6PQpUbA;
+        expires=Wed, 09-Oct-2024 22:16:22 GMT; path=/; domain=.bibles.org
+      - abs_uid=4c37f3b04f2c5c813ba6b33052d9fb4ff75d54ef; expires=Wed, 09-Oct-2024
+        22:16:22 GMT; path=/; domain=.bibles.org
+      P3p:
+      - CP="IEFIX"
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"chapters":[{"auditid":"0","label":"","text":"<div id=\"2Tim.1\"
+        class=\"chapter\">\n<p class=\"p\"><span class=\"v55_1_1\"><sup id=\"2Tim.1.1\"
+        class=\"v55_1_1\">1<\/sup>From Paul, an apostle of Christ Jesus by God''s
+        will, sent to proclaim the promised life which we have in union with Christ
+        Jesus\u2014<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_2\"><sup id=\"2Tim.1.2\"
+        class=\"v55_1_2\">2<\/sup> To Timothy, my dear son:<\/span><\/p>\n<p class=\"p\"><span
+        class=\"v55_1_2\">May God the Father and Christ Jesus our Lord give you grace,
+        mercy, and peace.<\/span><\/p>\n<h3 class=\"s\">Thanksgiving and Encouragement<\/h3>\n<p
+        class=\"p\"><span class=\"v55_1_3\"><sup id=\"2Tim.1.3\" class=\"v55_1_3\">3<\/sup>I
+        give thanks to God, whom I serve with a clear conscience, as my ancestors
+        did. I thank him as I remember you always in my prayers night and day. <\/span><span
+        class=\"v55_1_4\"><sup id=\"2Tim.1.4\" class=\"v55_1_4\">4<\/sup>I remember
+        your tears, and I want to see you very much, so that I may be filled with
+        joy. <\/span><span class=\"v55_1_5\"><sup id=\"2Tim.1.5\" class=\"v55_1_5\">5<\/sup>
+        I remember the sincere faith you have, the kind of faith that your grandmother
+        Lois and your mother Eunice also had. I am sure that you have it also. <\/span><span
+        class=\"v55_1_6\"><sup id=\"2Tim.1.6\" class=\"v55_1_6\">6<\/sup>For this
+        reason I remind you to keep alive the gift that God gave you when I laid my
+        hands on you. <\/span><span class=\"v55_1_7\"><sup id=\"2Tim.1.7\" class=\"v55_1_7\">7<\/sup>For
+        the Spirit that God has given us does not make us timid; instead, his Spirit
+        fills us with power, love, and self-control.<\/span><\/p>\n<p class=\"p\"><span
+        class=\"v55_1_8\"><sup id=\"2Tim.1.8\" class=\"v55_1_8\">8<\/sup>Do not be
+        ashamed, then, of witnessing for our Lord; neither be ashamed of me, a prisoner
+        for Christ''s sake. Instead, take your part in suffering for the Good News,
+        as God gives you the strength for it. <\/span><span class=\"v55_1_9\"><sup
+        id=\"2Tim.1.9\" class=\"v55_1_9\">9<\/sup>He saved us and called us to be
+        his own people, not because of what we have done, but because of his own purpose
+        and grace. He gave us this grace by means of Christ Jesus before the beginning
+        of time, <\/span><span class=\"v55_1_10\"><sup id=\"2Tim.1.10\" class=\"v55_1_10\">10<\/sup>but
+        now it has been revealed to us through the coming of our Savior, Christ Jesus.
+        He has ended the power of death and through the gospel has revealed immortal
+        life.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_11\"><sup id=\"2Tim.1.11\"
+        class=\"v55_1_11\">11<\/sup> God has appointed me as an apostle and teacher
+        to proclaim the Good News, <\/span><span class=\"v55_1_12\"><sup id=\"2Tim.1.12\"
+        class=\"v55_1_12\">12<\/sup>and it is for this reason that I suffer these
+        things. But I am still full of confidence, because I know whom I have trusted,
+        and I am sure that he is able to keep safe until that Day what he has entrusted
+        to me.  <\/span><span class=\"v55_1_13\"><sup id=\"2Tim.1.13\" class=\"v55_1_13\">13<\/sup>Hold
+        firmly to the true words that I taught you, as the example for you to follow,
+        and remain in the faith and love that are ours in union with Christ Jesus.
+        <\/span><span class=\"v55_1_14\"><sup id=\"2Tim.1.14\" class=\"v55_1_14\">14<\/sup>Through
+        the power of the Holy Spirit, who lives in us, keep the good things that have
+        been entrusted to you.<\/span><\/p>\n<p class=\"p\"><span class=\"v55_1_15\"><sup
+        id=\"2Tim.1.15\" class=\"v55_1_15\">15<\/sup>You know that everyone in the
+        province of Asia, including Phygelus and Hermogenes, has deserted me. <\/span><span
+        class=\"v55_1_16\"><sup id=\"2Tim.1.16\" class=\"v55_1_16\">16<\/sup>May the
+        Lord show mercy to the family of Onesiphorus, because he cheered me up many
+        times. He was not ashamed that I am in prison, <\/span><span class=\"v55_1_17\"><sup
+        id=\"2Tim.1.17\" class=\"v55_1_17\">17<\/sup>but as soon as he arrived in
+        Rome, he started looking for me until he found me. <\/span><span class=\"v55_1_18\"><sup
+        id=\"2Tim.1.18\" class=\"v55_1_18\">18<\/sup>May the Lord grant him his mercy
+        on that Day! And you know very well how much he did for me in Ephesus.<\/span><\/p>\n<\/div>\n","chapter":"1","id":"eng-GNTD:2Tim.1","osis_end":"eng-GNTD:2Tim.1.18","parent":{"book":{"path":"\/books\/eng-GNTD:2Tim","name":"2
+        Timothy","id":"eng-GNTD:2Tim"}},"next":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.2","name":"2
+        Timothy 2","id":"eng-GNTD:2Tim.2"}},"previous":{"chapter":{"path":"\/chapters\/eng-GNTD:2Tim.int","name":"2
+        Timothy int","id":"eng-GNTD:2Tim.int"}},"copyright":"<p>Good News Translation
+        (Today&#8217;s English Version, Second Edition) &#169; 1992 American Bible
+        Society. All rights reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''543afdb60a9346.10471695'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=543afdb60a9346.10471695\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"543afdb60a9346.10471695","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''543afdb60a9346.10471695'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=543afdb60a9346.10471695\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Sun, 12 Oct 2014 22:16:23 GMT
 recorded_with: VCR 2.6.0
