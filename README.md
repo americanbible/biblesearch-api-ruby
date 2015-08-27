@@ -72,7 +72,7 @@ passages = biblesearch.passages('john 3:16', :versions => ['eng-KJVA', 'eng-CEV'
 
 ### Return values
 
-All methods return a Hashie::Mash, and all of these mashes respond to #fums, which contains a string describing the FUMS for the call that was made.
+All methods return a [Hashie::Mash](https://github.com/intridea/hashie#mash), and all of these mashes respond to #fums, which contains a string describing the FUMS for the call that was made.
 
 Plural calls (#passages, #versions, #search, etc) respond to #collection with an array of mashes.
 
@@ -82,11 +82,28 @@ Singular calls (#version, #verse, etc) respond to #value with a mash.
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
-1. Frequently test your code with `rake test:all`, adding tests for your new features. (*Note* that this Gem uses the `minitest` framework, not `RSpec`, despite the `spec/` directory name.)
-1. Test against all supported rubies (`rake test:overtest` (see below))
+1. Run tests and verify they pass
 1. Commit your changes (`git commit -am 'Added some feature'`)
 1. Push to the branch (`git push origin my-new-feature`)
-1. Create new Pull Request
+1. Create new [Pull Request](https://help.github.com/articles/using-pull-requests/)
+
+### Configure Environment for Tests
+
+To successfully run the tests, you first need to export your Bible API key for availability in the tests.  To do this on Mac OS X or Linux based shells, type the following in your shell (or put it in your `.bashrc`, `.zshrc` file):
+
+```shell
+export BIBLESEARCH_API_KEY=YOUR_API_KEY
+```
+
+with `YOUR_API_KEY` replaced by your actual API key.  Without exporting the key, some of the tests will fail.
+
+This environment variable is imported by the `spec_helper.rb` file and used by several of the tests.
+
+### Running Tests
+
+1. Test your code with `rake test:all` frequently.
+1. Add tests for your new features. (*Note*  this Gem uses the `minitest` framework, not `RSpec`, despite the `spec/` directory name.)
+1. Test against all supported rubies (`rake test:overtest` (see below)).
 
 ### Supported Rubies
 
@@ -94,5 +111,6 @@ As of this release, the following MRI versions are verified as supported:
 
 * 1.9.3
 * 2.0.0
+* 2.1.3
 
 In order to test against all of them, an "test:overtest" rake task is supplied that uses RVM to test against each of the supported versions. You will, however, have to bundle against each of them independently.

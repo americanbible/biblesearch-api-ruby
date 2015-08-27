@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = BibleSearch::VERSION
 
   gem.add_dependency "oj"
-  gem.add_dependency "hashie"
+  gem.add_dependency "hashie", ">= 3.3.1", "< 3.4.0"
   gem.add_dependency "httparty"
   gem.add_development_dependency 'vcr', '= 2.6.0'
   gem.add_development_dependency 'webmock' , '>= 1.8.0', '< 1.14'
